@@ -173,5 +173,33 @@
     "type": "enables",
     "note": "Stablecoin legitimation supplies the programmable-money pillar without requiring a formal CBDC.",
     "added": "2026-05-27T14:08:02Z"
+  },
+  {
+    "source": "wifi-bfi-identification",
+    "target": "friction-collapse",
+    "type": "accelerates",
+    "note": "Removes the last refuge — being deviceless. Identification with zero user action collapses the friction of evading recognition.",
+    "added": "2026-05-27T14:40:49Z"
+  },
+  {
+    "source": "wifi-bfi-identification",
+    "target": "facial-rec-airports",
+    "type": "accelerates",
+    "note": "Complements facial recognition as a second biometric channel; works where cameras can't, e.g., interiors, around corners, in the dark.",
+    "added": "2026-05-27T14:40:49Z"
+  },
+  {
+    "source": "wifi-bfi-identification",
+    "target": "control-grid",
+    "type": "enables",
+    "note": "Adds an ambient, invisible identification layer to the synthesis grid — every router a sensor, indoors and out.",
+    "added": "2026-05-27T14:40:49Z"
+  },
+  {
+    "source": "palantir-gotham",
+    "target": "wifi-bfi-identification",
+    "type": "enables",
+    "note": "Synthesis platforms turn raw BFI identification events into persistent, joinable identity trails across locations.",
+    "added": "2026-05-27T14:40:49Z"
   }
 ]

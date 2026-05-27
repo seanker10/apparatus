@@ -381,5 +381,27 @@
     ],
     "added": "2026-05-27T14:08:02Z",
     "updated": "2026-05-27T14:08:02Z"
+  },
+  {
+    "id": "wifi-bfi-identification",
+    "title": "WiFi BFI Person Identification",
+    "type": "technology",
+    "domain": "identity",
+    "function": "capability",
+    "phase": "precondition",
+    "desc": "KIT researchers demonstrated identifying individuals with near-100% accuracy using unencrypted beamforming feedback information (BFI) from ordinary WiFi routers. No device needed on the target; works through reflected radio waves. Turns every router into a passive biometric sensor — invisible, ubiquitous, raising no suspicion.",
+    "tags": [
+      "biometrics",
+      "ambient-surveillance",
+      "wifi",
+      "deviceless-tracking",
+      "research"
+    ],
+    "date": "2026-05",
+    "sources": [
+      "https://www.sciencedaily.com/releases/2026/05/260522023127.htm"
+    ],
+    "added": "2026-05-27T14:40:49Z",
+    "updated": "2026-05-27T14:40:49Z"
   }
 ]
