@@ -257,5 +257,33 @@
     "type": "enables",
     "note": "Cloud-capital concentration produces the CEO-sovereign archetype Yarvin's monarchism rhetorically formalizes.",
     "added": "2026-05-27T21:20:16Z"
+  },
+  {
+    "source": "dark-enlightenment",
+    "target": "yarvin",
+    "type": "legitimizes",
+    "note": "Land's essay systematized Yarvin/Moldbug's writings into a named doctrine, elevating him from blogger to movement theorist.",
+    "added": "2026-05-27T21:22:20Z"
+  },
+  {
+    "source": "dark-enlightenment",
+    "target": "criminality-expansion",
+    "type": "legitimizes",
+    "note": "Framing democratic opposition as decadent or illegitimate underwrites the expanding definition of internal enemies.",
+    "added": "2026-05-27T21:22:20Z"
+  },
+  {
+    "source": "dark-enlightenment",
+    "target": "technofeudalism",
+    "type": "legitimizes",
+    "note": "CEO-monarch governance ideal provides ideological cover for cloud-capital concentration as a feature, not a bug.",
+    "added": "2026-05-27T21:22:20Z"
+  },
+  {
+    "source": "dark-enlightenment",
+    "target": "post-totalitarian",
+    "type": "contradicts",
+    "note": "Pressure point: NRx openly rejects the egalitarian 'ritual' Havel described, but in doing so still requires its own coercive ideological conformity — the same post-totalitarian dynamic in reverse drag.",
+    "added": "2026-05-27T21:22:20Z"
   }
 ]

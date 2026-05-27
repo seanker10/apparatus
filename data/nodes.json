@@ -447,5 +447,27 @@
     ],
     "added": "2026-05-27T21:20:16Z",
     "updated": "2026-05-27T21:20:16Z"
+  },
+  {
+    "id": "dark-enlightenment",
+    "title": "The Dark Enlightenment",
+    "type": "concept",
+    "domain": "narrative",
+    "function": "legitimation",
+    "phase": "capture",
+    "desc": "Nick Land's 2012 synthesis of Yarvin's neoreactionary writings into a doctrine rejecting democratic egalitarianism as a failure mode of Enlightenment liberalism. Frames democracy as decadent, proposes CEO-monarch governance, and supplies the intellectual scaffolding now operative in Thiel-adjacent Silicon Valley right and elements of the current administration.",
+    "tags": [
+      "neoreaction",
+      "nrx",
+      "anti-democracy",
+      "ideology",
+      "silicon-valley-right"
+    ],
+    "date": "2012",
+    "sources": [
+      "https://time.com/7269166/dark-enlightenment-history-essay/"
+    ],
+    "added": "2026-05-27T21:22:20Z",
+    "updated": "2026-05-27T21:22:20Z"
   }
 ]
