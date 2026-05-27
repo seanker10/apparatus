@@ -37,6 +37,23 @@ function fmtYear(date) {
   return date ? date.getFullYear().toString() : '';
 }
 
+function useIsMobile(query = '(max-width: 768px)') {
+  const [matches, setMatches] = useState(() =>
+    typeof window !== 'undefined' && window.matchMedia(query).matches
+  );
+  useEffect(() => {
+    const mq = window.matchMedia(query);
+    const handler = () => setMatches(mq.matches);
+    if (mq.addEventListener) mq.addEventListener('change', handler);
+    else mq.addListener(handler);
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener('change', handler);
+      else mq.removeListener(handler);
+    };
+  }, [query]);
+  return matches;
+}
+
 export default function ApparatusMap({
   nodes,
   edges,
@@ -45,10 +62,13 @@ export default function ApparatusMap({
   error,
   selectedId,
   onSelect,
+  sidebarOpen,
+  onCloseSidebar,
 }) {
   const svgRef = useRef(null);
   const containerRef = useRef(null);
   const simRef = useRef(null);
+  const isMobile = useIsMobile();
 
   // --- Filter state ---
   const [enabledTypes, setEnabledTypes] = useState(() => new Set(NODE_TYPES));
@@ -105,6 +125,19 @@ export default function ApparatusMap({
     const container = containerRef.current;
     const width = container.clientWidth;
     const height = container.clientHeight;
+    const compact = isMobile || width < 700;
+
+    // Responsive tuning — denser, thinner, calmer on mobile.
+    const linkDistance = compact ? 55 : 90;
+    const chargeStrength = compact ? -150 : -260;
+    const collideRadius = compact ? 18 : 28;
+    const nodeR = compact ? 5 : 8;
+    const nodeRSel = compact ? 8 : 12;
+    const edgeWidth = compact ? 0.9 : 1.4;
+    const edgeOpacity = compact ? 0.45 : 0.6;
+    const arrowSize = compact ? 5 : 7;
+    const arrowRefX = compact ? 11 : 16;
+    const showLabels = !compact;
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
@@ -116,10 +149,10 @@ export default function ApparatusMap({
         .append('marker')
         .attr('id', `arrow-${type}`)
         .attr('viewBox', '0 -5 10 10')
-        .attr('refX', 16)
+        .attr('refX', arrowRefX)
         .attr('refY', 0)
-        .attr('markerWidth', 7)
-        .attr('markerHeight', 7)
+        .attr('markerWidth', arrowSize)
+        .attr('markerHeight', arrowSize)
         .attr('orient', 'auto')
         .append('path')
         .attr('d', 'M0,-5L10,0L0,5')
@@ -148,9 +181,9 @@ export default function ApparatusMap({
 
     const sim = d3
       .forceSimulation(nodeData)
-      .force('link', d3.forceLink(linkData).id((d) => d.id).distance(90).strength(0.6))
-      .force('charge', d3.forceManyBody().strength(-260))
-      .force('collide', d3.forceCollide().radius(28))
+      .force('link', d3.forceLink(linkData).id((d) => d.id).distance(linkDistance).strength(0.6))
+      .force('charge', d3.forceManyBody().strength(chargeStrength))
+      .force('collide', d3.forceCollide().radius(collideRadius))
       .force(
         'x',
         d3.forceX((d) => {
@@ -174,7 +207,7 @@ export default function ApparatusMap({
       .zoom()
       .scaleExtent([0.3, 4])
       .on('zoom', (event) => root.attr('transform', event.transform));
-    svg.call(zoom);
+    svg.call(zoom).on('dblclick.zoom', null);
 
     // Cluster labels (faint)
     const labelG = root.append('g').attr('class', 'cluster-labels');
@@ -186,7 +219,7 @@ export default function ApparatusMap({
         .attr('y', p.y - radius * 0.4)
         .attr('text-anchor', 'middle')
         .attr('fill', '#5a4a3a')
-        .attr('font-size', 11)
+        .attr('font-size', compact ? 9 : 11)
         .attr('letter-spacing', '0.18em')
         .attr('text-transform', 'uppercase')
         .text(v.toUpperCase());
@@ -199,13 +232,14 @@ export default function ApparatusMap({
       .data(linkData)
       .join('line')
       .attr('stroke', (d) => EDGE_STYLES[d.type]?.color || '#666')
-      .attr('stroke-width', 1.5)
+      .attr('stroke-width', edgeWidth)
+      .attr('stroke-linecap', 'round')
       .attr('stroke-dasharray', (d) => {
         const dash = EDGE_STYLES[d.type]?.dash;
         return dash && dash !== 'none' ? dash : null;
       })
       .attr('marker-end', (d) => `url(#arrow-${d.type})`)
-      .attr('opacity', 0.65);
+      .attr('opacity', edgeOpacity);
 
     const nodeG = root
       .append('g')
@@ -238,18 +272,33 @@ export default function ApparatusMap({
         onSelect(d.id);
       });
 
+    // Larger invisible tap target on mobile for easier finger taps
+    if (compact) {
+      nodeG
+        .append('circle')
+        .attr('r', 16)
+        .attr('fill', 'transparent')
+        .attr('pointer-events', 'all');
+    }
+
     nodeG
       .append('circle')
-      .attr('r', (d) => (d.id === selectedId ? 12 : 8))
+      .attr('class', 'node-dot')
+      .attr('r', (d) => (d.id === selectedId ? nodeRSel : nodeR))
       .attr('fill', (d) => TYPE_COLORS[d.type] || '#888')
       .attr('stroke', (d) => (d.id === selectedId ? '#e8dfc8' : 'rgba(21,17,13,0.5)'))
-      .attr('stroke-width', (d) => (d.id === selectedId ? 2 : 1));
+      .attr('stroke-width', (d) => (d.id === selectedId ? 2 : 1))
+      .attr('pointer-events', 'none');
 
     nodeG
       .append('text')
       .attr('class', 'node-label')
       .attr('x', 12)
       .attr('y', 4)
+      .attr('pointer-events', 'none')
+      .style('display', (d) =>
+        showLabels || d.id === selectedId ? null : 'none'
+      )
       .text((d) => d.title);
 
     svg.on('click', () => onSelect(null));
@@ -264,7 +313,7 @@ export default function ApparatusMap({
     });
 
     return () => sim.stop();
-  }, [fNodes, fEdges, dimension, selectedId, onSelect]);
+  }, [fNodes, fEdges, dimension, selectedId, onSelect, isMobile]);
 
   const selectedNode = useMemo(
     () => nodes.find((n) => n.id === selectedId) || null,
@@ -283,7 +332,26 @@ export default function ApparatusMap({
   // === Render ===
   return (
     <>
-      <aside className="sidebar">
+      {sidebarOpen && (
+        <div
+          className="drawer-backdrop"
+          onClick={onCloseSidebar}
+          aria-hidden="true"
+        />
+      )}
+
+      <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
+        <div className="sidebar-head">
+          <span>Filters</span>
+          <button
+            className="sidebar-close"
+            onClick={onCloseSidebar}
+            aria-label="Close filters"
+          >
+            ×
+          </button>
+        </div>
+
         <h3>Node types</h3>
         {NODE_TYPES.map((t) => (
           <label key={t} className="chk">
@@ -321,7 +389,7 @@ export default function ApparatusMap({
 
         <h3>Edges</h3>
         {Object.entries(EDGE_STYLES).map(([t, s]) => (
-          <div key={t} style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 13, padding: '3px 0' }}>
+          <div key={t} className="edge-legend">
             <svg width="32" height="6">
               <line x1="0" y1="3" x2="32" y2="3" stroke={s.color} strokeWidth="1.5"
                 strokeDasharray={s.dash === 'none' ? null : s.dash} />
@@ -342,7 +410,20 @@ export default function ApparatusMap({
 
       {selectedNode && (
         <aside className="detail">
-          <button className="close" onClick={() => onSelect(null)}>×</button>
+          <button
+            className="back"
+            onClick={() => onSelect(null)}
+            aria-label="Back to map"
+          >
+            <span aria-hidden="true">‹</span> Back to map
+          </button>
+          <button
+            className="close"
+            onClick={() => onSelect(null)}
+            aria-label="Close"
+          >
+            ×
+          </button>
           <div className="type-line" style={{ color: TYPE_COLORS[selectedNode.type] }}>
             {selectedNode.type}
           </div>

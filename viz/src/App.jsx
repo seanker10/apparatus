@@ -8,10 +8,21 @@ export default function App() {
   const { nodes, edges, loading, error } = useGraphData();
   const [dimension, setDimension] = useState('domain');
   const [selectedId, setSelectedId] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className={`app ${selectedId ? 'has-detail' : ''}`}>
+    <div
+      className={`app ${selectedId ? 'has-detail' : ''} ${sidebarOpen ? 'sidebar-open' : ''}`}
+    >
       <header className="topbar">
+        <button
+          className="menu-toggle"
+          aria-label="Toggle filters"
+          aria-expanded={sidebarOpen}
+          onClick={() => setSidebarOpen((v) => !v)}
+        >
+          <span /><span /><span />
+        </button>
         <div className="title">
           The Apparatus
           <span className="sub">a map of authoritarian architecture</span>
@@ -27,7 +38,7 @@ export default function App() {
             </button>
           ))}
         </div>
-        <div style={{ fontSize: 12, color: 'var(--fg-dim)', letterSpacing: '0.1em' }}>
+        <div className="count">
           {loading ? 'loading…' : `${nodes.length} nodes · ${edges.length} edges`}
         </div>
       </header>
@@ -40,6 +51,8 @@ export default function App() {
         error={error}
         selectedId={selectedId}
         onSelect={setSelectedId}
+        sidebarOpen={sidebarOpen}
+        onCloseSidebar={() => setSidebarOpen(false)}
       />
     </div>
   );
