@@ -285,5 +285,33 @@
     "type": "contradicts",
     "note": "Pressure point: NRx openly rejects the egalitarian 'ritual' Havel described, but in doing so still requires its own coercive ideological conformity — the same post-totalitarian dynamic in reverse drag.",
     "added": "2026-05-27T21:22:20Z"
+  },
+  {
+    "source": "magnifica-humanitas",
+    "target": "dark-enlightenment",
+    "type": "counters",
+    "note": "Directly opposes the transhumanist/posthumanist vision of 'second-class' humans and elite technological dominance Leo names as ideology.",
+    "added": "2026-05-27T22:26:58Z"
+  },
+  {
+    "source": "magnifica-humanitas",
+    "target": "technofeudalism",
+    "type": "counters",
+    "note": "Names concentration of data/algorithms/platforms in private hands as contrary to universal destination of goods; calls for data as common good.",
+    "added": "2026-05-27T22:26:58Z"
+  },
+  {
+    "source": "magnifica-humanitas",
+    "target": "control-grid",
+    "type": "counters",
+    "note": "Explicitly identifies algorithmic profiling, social control via data collection, and 'new colonialism' of health/genetic data as grave moral violations.",
+    "added": "2026-05-27T22:26:58Z"
+  },
+  {
+    "source": "magnifica-humanitas",
+    "target": "data-centers",
+    "type": "contradicts",
+    "note": "Notes AI's enormous energy/water demands and ecological cost as incompatible with care for common home — internal tension for any Catholic-affiliated infrastructure buildout.",
+    "added": "2026-05-27T22:26:58Z"
   }
 ]

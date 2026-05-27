@@ -469,5 +469,27 @@
     ],
     "added": "2026-05-27T21:22:20Z",
     "updated": "2026-05-27T21:22:20Z"
+  },
+  {
+    "id": "magnifica-humanitas",
+    "title": "Magnifica Humanitas (Leo XIV)",
+    "type": "action",
+    "domain": "narrative",
+    "function": "resistance",
+    "phase": "consolidation",
+    "desc": "Leo XIV's 2026 encyclical on safeguarding the human person in the age of AI. Names the technocratic paradigm, transhumanism/posthumanism, autonomous weapons, and data extraction as 'new colonialism.' Calls to 'disarm AI' and subordinate it to human dignity, common good, subsidiarity, solidarity. A load-bearing counter-narrative from the Catholic moral tradition.",
+    "tags": [
+      "catholic-social-teaching",
+      "ai-ethics",
+      "counter-narrative",
+      "dignity",
+      "disarm-ai"
+    ],
+    "date": "2026-05",
+    "sources": [
+      "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html"
+    ],
+    "added": "2026-05-27T22:26:58Z",
+    "updated": "2026-05-27T22:26:58Z"
   }
 ]
