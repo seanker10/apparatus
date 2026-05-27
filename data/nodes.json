@@ -425,5 +425,27 @@
     ],
     "added": "2026-05-27T15:40:08Z",
     "updated": "2026-05-27T15:40:08Z"
+  },
+  {
+    "id": "yarvin",
+    "title": "Curtis Yarvin",
+    "type": "figure",
+    "domain": "narrative",
+    "function": "legitimation",
+    "phase": "capture",
+    "desc": "Neoreactionary theorist (Mencius Moldbug) arguing democracy should be replaced by a CEO-monarch (\"RAGE\": Retire All Government Employees). Provides the intellectual scaffolding for unitary-executive maximalism and bureaucratic purge, cited as influence by Vance, Thiel, and the post-liberal right.",
+    "tags": [
+      "neoreaction",
+      "monarchism",
+      "intellectual-right",
+      "anti-democracy",
+      "post-liberal"
+    ],
+    "date": "2025-06",
+    "sources": [
+      "https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile"
+    ],
+    "added": "2026-05-27T21:20:16Z",
+    "updated": "2026-05-27T21:20:16Z"
   }
 ]

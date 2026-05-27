@@ -229,5 +229,33 @@
     "type": "enables",
     "note": "AI data center buildout is the physical substrate of cloud capital; without it, the rent-extracting fiefs do not function at scale.",
     "added": "2026-05-27T15:40:08Z"
+  },
+  {
+    "source": "yarvin",
+    "target": "criminality-expansion",
+    "type": "legitimizes",
+    "note": "RAGE doctrine reframes career civil servants as an illegitimate 'Cathedral' to be purged, legitimizing definition-of-enemy expansion to bureaucracy itself.",
+    "added": "2026-05-27T21:20:16Z"
+  },
+  {
+    "source": "yarvin",
+    "target": "hstf",
+    "type": "legitimizes",
+    "note": "Provides intellectual cover for consolidating coercive authority under a unitary executive bypassing inter-agency norms.",
+    "added": "2026-05-27T21:20:16Z"
+  },
+  {
+    "source": "yarvin",
+    "target": "post-totalitarian",
+    "type": "contradicts",
+    "note": "Pressure point: Yarvin openly names what Havel's system relies on obscuring — that the ritual of democratic legitimacy is the target, not an incidental cost.",
+    "added": "2026-05-27T21:20:16Z"
+  },
+  {
+    "source": "technofeudalism",
+    "target": "yarvin",
+    "type": "enables",
+    "note": "Cloud-capital concentration produces the CEO-sovereign archetype Yarvin's monarchism rhetorically formalizes.",
+    "added": "2026-05-27T21:20:16Z"
   }
 ]
