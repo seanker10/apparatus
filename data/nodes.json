@@ -403,5 +403,27 @@
     ],
     "added": "2026-05-27T14:40:49Z",
     "updated": "2026-05-27T14:40:49Z"
+  },
+  {
+    "id": "technofeudalism",
+    "title": "Technofeudalism / Cloud Capital",
+    "type": "concept",
+    "domain": "economic",
+    "function": "legitimation",
+    "phase": "consolidation",
+    "desc": "Varoufakis's thesis that capitalism has been succeeded by a feudal order in which 'cloud capital' — networked algorithmic platforms — extracts rent and modifies behavior. Owners (tech lords) function as digital fief-holders; users and vassal-capitalists pay tribute. 'Techlordism' is its emerging legitimating ideology, succeeding neoliberalism.",
+    "tags": [
+      "technofeudalism",
+      "cloud-capital",
+      "rent-extraction",
+      "platform-power",
+      "varoufakis"
+    ],
+    "date": "2023-09",
+    "sources": [
+      "https://www.yanisvaroufakis.eu/category/technofeudalism/"
+    ],
+    "added": "2026-05-27T15:40:08Z",
+    "updated": "2026-05-27T15:40:08Z"
   }
 ]

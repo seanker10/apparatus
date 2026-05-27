@@ -201,5 +201,33 @@
     "type": "enables",
     "note": "Synthesis platforms turn raw BFI identification events into persistent, joinable identity trails across locations.",
     "added": "2026-05-27T14:40:49Z"
+  },
+  {
+    "source": "technofeudalism",
+    "target": "palantir-gotham",
+    "type": "legitimizes",
+    "note": "Palantir is paradigmatic cloud-capital: a fief that rents algorithmic governance to states and firms; technofeudalism names and frames what it is.",
+    "added": "2026-05-27T15:40:08Z"
+  },
+  {
+    "source": "technofeudalism",
+    "target": "control-grid",
+    "type": "contradicts",
+    "note": "Both name a synthesis-layer power structure but from opposed political camps (Varoufakis left / Fitts right) — convergence on diagnosis, divergence on remedy is a pressure point worth tracking.",
+    "added": "2026-05-27T15:40:08Z"
+  },
+  {
+    "source": "technofeudalism",
+    "target": "genius-act",
+    "type": "legitimizes",
+    "note": "Frames stablecoin legislation as privatization of the dollar by cloud-capital owners — the monetary arm of techlordism.",
+    "added": "2026-05-27T15:40:08Z"
+  },
+  {
+    "source": "data-centers",
+    "target": "technofeudalism",
+    "type": "enables",
+    "note": "AI data center buildout is the physical substrate of cloud capital; without it, the rent-extracting fiefs do not function at scale.",
+    "added": "2026-05-27T15:40:08Z"
   }
 ]
