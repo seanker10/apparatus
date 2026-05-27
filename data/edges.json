@@ -1,23 +1,177 @@
 [
-  { "source": "real-id", "target": "palantir-gotham", "type": "enables", "note": "Unique key joins disparate databases", "added": "2026-05-27T02:55:19Z" },
-  { "source": "mdl", "target": "palantir-gotham", "type": "enables", "note": "Phone-resident ID enables continuous attestation", "added": "2026-05-27T02:55:19Z" },
-  { "source": "eu-digital-id", "target": "mdl", "type": "precedent", "note": "International model normalizes the pattern", "added": "2026-05-27T02:55:19Z" },
-  { "source": "flock", "target": "palantir-gotham", "type": "enables", "note": "Location-time data joinable to all else", "added": "2026-05-27T02:55:19Z" },
-  { "source": "facial-rec-airports", "target": "palantir-gotham", "type": "enables", "note": "Biometric identity at chokepoints", "added": "2026-05-27T02:55:19Z" },
-  { "source": "cell-geo", "target": "palantir-gotham", "type": "enables", "note": "Pattern-of-life data without warrant", "added": "2026-05-27T02:55:19Z" },
-  { "source": "flock", "target": "hstf", "type": "enables", "note": "National Lookup routes municipal data federally", "added": "2026-05-27T02:55:19Z" },
-  { "source": "trucker-freeze", "target": "debanking", "type": "precedent", "note": "Proved the mechanism works at scale", "added": "2026-05-27T02:55:19Z" },
-  { "source": "debanking", "target": "usdc", "type": "accelerates", "note": "Drives migration to programmable rails", "added": "2026-05-27T02:55:19Z" },
-  { "source": "genius-act", "target": "usdc", "type": "legitimizes", "note": "Federal regulatory framework", "added": "2026-05-27T02:55:19Z" },
-  { "source": "cbdc-ban", "target": "usdc", "type": "obscures", "note": "Public defeat of CBDC obscures private equivalent", "added": "2026-05-27T02:55:19Z" },
-  { "source": "usdc", "target": "palantir-gotham", "type": "enables", "note": "Transaction-level data joinable", "added": "2026-05-27T02:55:19Z" },
-  { "source": "fusion-centers", "target": "hstf", "type": "precedent", "note": "Institutional template", "added": "2026-05-27T02:55:19Z" },
-  { "source": "palantir-gotham", "target": "hstf", "type": "enables", "note": "Query layer for enforcement", "added": "2026-05-27T02:55:19Z" },
-  { "source": "criminality-expansion", "target": "hstf", "type": "legitimizes", "note": "Frames whoever is in scope", "added": "2026-05-27T02:55:19Z" },
-  { "source": "friction-collapse", "target": "palantir-gotham", "type": "legitimizes", "note": "Makes mass query feel routine", "added": "2026-05-27T02:55:19Z" },
-  { "source": "post-totalitarian", "target": "friction-collapse", "type": "precedent", "note": "Theoretical lineage", "added": "2026-05-27T02:55:19Z" },
-  { "source": "flock-cancellations", "target": "flock", "type": "counters", "note": "Civic friction reasserted", "added": "2026-05-27T02:55:19Z" },
-  { "source": "port-washington", "target": "data-centers", "type": "counters", "note": "Local veto on infrastructure", "added": "2026-05-27T02:55:19Z" },
-  { "source": "data-centers", "target": "palantir-gotham", "type": "requires", "note": "Compute substrate for synthesis", "added": "2026-05-27T02:55:19Z" },
-  { "source": "cisa-aa26-097a", "target": "data-centers", "type": "accelerates", "note": "Threat justifies more centralization", "added": "2026-05-27T02:55:19Z" }
+  {
+    "source": "real-id",
+    "target": "palantir-gotham",
+    "type": "enables",
+    "note": "Unique key joins disparate databases",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "mdl",
+    "target": "palantir-gotham",
+    "type": "enables",
+    "note": "Phone-resident ID enables continuous attestation",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "eu-digital-id",
+    "target": "mdl",
+    "type": "precedent",
+    "note": "International model normalizes the pattern",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "flock",
+    "target": "palantir-gotham",
+    "type": "enables",
+    "note": "Location-time data joinable to all else",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "facial-rec-airports",
+    "target": "palantir-gotham",
+    "type": "enables",
+    "note": "Biometric identity at chokepoints",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "cell-geo",
+    "target": "palantir-gotham",
+    "type": "enables",
+    "note": "Pattern-of-life data without warrant",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "flock",
+    "target": "hstf",
+    "type": "enables",
+    "note": "National Lookup routes municipal data federally",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "trucker-freeze",
+    "target": "debanking",
+    "type": "precedent",
+    "note": "Proved the mechanism works at scale",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "debanking",
+    "target": "usdc",
+    "type": "accelerates",
+    "note": "Drives migration to programmable rails",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "genius-act",
+    "target": "usdc",
+    "type": "legitimizes",
+    "note": "Federal regulatory framework",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "cbdc-ban",
+    "target": "usdc",
+    "type": "obscures",
+    "note": "Public defeat of CBDC obscures private equivalent",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "usdc",
+    "target": "palantir-gotham",
+    "type": "enables",
+    "note": "Transaction-level data joinable",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "fusion-centers",
+    "target": "hstf",
+    "type": "precedent",
+    "note": "Institutional template",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "palantir-gotham",
+    "target": "hstf",
+    "type": "enables",
+    "note": "Query layer for enforcement",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "criminality-expansion",
+    "target": "hstf",
+    "type": "legitimizes",
+    "note": "Frames whoever is in scope",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "friction-collapse",
+    "target": "palantir-gotham",
+    "type": "legitimizes",
+    "note": "Makes mass query feel routine",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "post-totalitarian",
+    "target": "friction-collapse",
+    "type": "precedent",
+    "note": "Theoretical lineage",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "flock-cancellations",
+    "target": "flock",
+    "type": "counters",
+    "note": "Civic friction reasserted",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "port-washington",
+    "target": "data-centers",
+    "type": "counters",
+    "note": "Local veto on infrastructure",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "data-centers",
+    "target": "palantir-gotham",
+    "type": "requires",
+    "note": "Compute substrate for synthesis",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "cisa-aa26-097a",
+    "target": "data-centers",
+    "type": "accelerates",
+    "note": "Threat justifies more centralization",
+    "added": "2026-05-27T02:55:19Z"
+  },
+  {
+    "source": "control-grid",
+    "target": "friction-collapse",
+    "type": "enables",
+    "note": "The control grid is the mechanism by which friction between identity, payment, and movement domains collapses into a single addressable surface.",
+    "added": "2026-05-27T14:08:02Z"
+  },
+  {
+    "source": "real-id",
+    "target": "control-grid",
+    "type": "enables",
+    "note": "Federal identity standard supplies the digital-ID pillar Fitts identifies.",
+    "added": "2026-05-27T14:08:02Z"
+  },
+  {
+    "source": "flock",
+    "target": "control-grid",
+    "type": "enables",
+    "note": "Local ALPR hardware is the third pillar — taxpayer-funded community-level capture nodes Fitts explicitly names.",
+    "added": "2026-05-27T14:08:02Z"
+  },
+  {
+    "source": "genius-act",
+    "target": "control-grid",
+    "type": "enables",
+    "note": "Stablecoin legitimation supplies the programmable-money pillar without requiring a formal CBDC.",
+    "added": "2026-05-27T14:08:02Z"
+  }
 ]

@@ -7,7 +7,10 @@
     "function": "capability",
     "phase": "operation",
     "desc": "Federal ID standard enforced for domestic air travel. The unique key joining most other databases.",
-    "tags": ["federal", "biometric-adjacent"],
+    "tags": [
+      "federal",
+      "biometric-adjacent"
+    ],
     "date": "2025-05",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -21,7 +24,10 @@
     "function": "normalization",
     "phase": "consolidation",
     "desc": "State-issued digital IDs in Apple/Google wallets. Normalizes presenting ID as a phone-tap.",
-    "tags": ["biometric", "state"],
+    "tags": [
+      "biometric",
+      "state"
+    ],
     "date": "2024-01",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -35,7 +41,10 @@
     "function": "precedent",
     "phase": "consolidation",
     "desc": "Mandated rollout 2026. Cross-border digital ID precedent watched by US policymakers.",
-    "tags": ["international", "regulatory"],
+    "tags": [
+      "international",
+      "regulatory"
+    ],
     "date": "2026-01",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -49,7 +58,11 @@
     "function": "capability",
     "phase": "operation",
     "desc": "License plate readers deployed by 5000+ municipalities. National Lookup shares data federally without local consent.",
-    "tags": ["surveillance", "municipal", "private-vendor"],
+    "tags": [
+      "surveillance",
+      "municipal",
+      "private-vendor"
+    ],
     "date": "2020",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -63,7 +76,11 @@
     "function": "normalization",
     "phase": "operation",
     "desc": "Biometric boarding at 80+ US airports. Opt-out exists but is friction-loaded.",
-    "tags": ["surveillance", "biometric", "federal"],
+    "tags": [
+      "surveillance",
+      "biometric",
+      "federal"
+    ],
     "date": "2023",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -77,7 +94,10 @@
     "function": "capability",
     "phase": "operation",
     "desc": "Bulk location data purchased by federal agencies from data brokers, sidestepping warrant requirements.",
-    "tags": ["surveillance", "data-broker"],
+    "tags": [
+      "surveillance",
+      "data-broker"
+    ],
     "date": "2018",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -91,7 +111,10 @@
     "function": "resistance",
     "phase": "operation",
     "desc": "30+ localities deactivated cameras since early 2025 (Mountain View, Santa Cruz, Cambridge, Eugene, Flagstaff). Civic counter-move.",
-    "tags": ["resistance", "municipal"],
+    "tags": [
+      "resistance",
+      "municipal"
+    ],
     "date": "2025-03",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -105,7 +128,10 @@
     "function": "legitimation",
     "phase": "capture",
     "desc": "Federal framework for payment stablecoins. The regulatory rail through which programmable money arrives.",
-    "tags": ["financial-rails", "federal"],
+    "tags": [
+      "financial-rails",
+      "federal"
+    ],
     "date": "2025",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -119,7 +145,11 @@
     "function": "legitimation",
     "phase": "capture",
     "desc": "House 219-217, Senate ban until 2031. Removes the obvious threat — but private programmable rails proceed.",
-    "tags": ["financial-rails", "federal", "counter-move"],
+    "tags": [
+      "financial-rails",
+      "federal",
+      "counter-move"
+    ],
     "date": "2025-05",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -133,7 +163,11 @@
     "function": "capability",
     "phase": "operation",
     "desc": "February 2022. Hundreds of accounts frozen without court order under invoked emergency powers. Proof-of-concept.",
-    "tags": ["precedent", "international", "debanking"],
+    "tags": [
+      "precedent",
+      "international",
+      "debanking"
+    ],
     "date": "2022-02",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -147,7 +181,10 @@
     "function": "capability",
     "phase": "operation",
     "desc": "Treasury-backed stablecoin. Rules enforceable by issuer or court order at the contract level.",
-    "tags": ["financial-rails", "private-vendor"],
+    "tags": [
+      "financial-rails",
+      "private-vendor"
+    ],
     "date": "2018",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -161,7 +198,11 @@
     "function": "coercion",
     "phase": "operation",
     "desc": "Pattern of regulator pressure causing banks to drop disfavored customers (crypto firms, gun dealers, others). No paper trail.",
-    "tags": ["debanking", "federal", "precedent"],
+    "tags": [
+      "debanking",
+      "federal",
+      "precedent"
+    ],
     "date": "2023",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -175,7 +216,11 @@
     "function": "capability",
     "phase": "operation",
     "desc": "Joins previously unjoinable datasets at scale. The query layer that makes the other layers actionable.",
-    "tags": ["integration", "private-vendor", "federal"],
+    "tags": [
+      "integration",
+      "private-vendor",
+      "federal"
+    ],
     "date": "2008",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -189,7 +234,10 @@
     "function": "coercion",
     "phase": "capture",
     "desc": "Fuses foreign intel with domestic enforcement. Dissolves prior oversight architecture (OCDETF). Institutional buyer.",
-    "tags": ["federal", "enforcement"],
+    "tags": [
+      "federal",
+      "enforcement"
+    ],
     "date": "2026-04",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -203,7 +251,10 @@
     "function": "capability",
     "phase": "operation",
     "desc": "80+ state/local fusion centers. The pre-existing nervous system HSTF inherits and amplifies.",
-    "tags": ["federal", "state"],
+    "tags": [
+      "federal",
+      "state"
+    ],
     "date": "2003",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -217,7 +268,10 @@
     "function": "legitimation",
     "phase": "capture",
     "desc": "Arendt: enemy categories expand to absorb dissidents. The label 'criminal' applied to peaceful protest.",
-    "tags": ["rhetoric", "precedent"],
+    "tags": [
+      "rhetoric",
+      "precedent"
+    ],
     "date": null,
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -231,7 +285,9 @@
     "function": "capability",
     "phase": "precondition",
     "desc": "Tyranny used to be expensive because watching cost labor. Removing friction is the qualitative change.",
-    "tags": ["theory"],
+    "tags": [
+      "theory"
+    ],
     "date": null,
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -245,7 +301,9 @@
     "function": "legitimation",
     "phase": "operation",
     "desc": "Compliance built into architecture of daily life. No coercion needed — you just want lunch.",
-    "tags": ["theory"],
+    "tags": [
+      "theory"
+    ],
     "date": null,
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -259,7 +317,10 @@
     "function": "capability",
     "phase": "consolidation",
     "desc": "Compute capacity is the physical substrate. Local zoning fights are the new civic terrain.",
-    "tags": ["infrastructure", "municipal"],
+    "tags": [
+      "infrastructure",
+      "municipal"
+    ],
     "date": "2023",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -273,7 +334,10 @@
     "function": "resistance",
     "phase": "consolidation",
     "desc": "Wisconsin voters 2-to-1 required voter approval for data center tax incentives. Replicable civic template.",
-    "tags": ["resistance", "municipal"],
+    "tags": [
+      "resistance",
+      "municipal"
+    ],
     "date": "2025",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
@@ -287,10 +351,35 @@
     "function": "legitimation",
     "phase": "consolidation",
     "desc": "April 2026 joint alert: Iranian APTs targeting US water/energy PLCs. Infrastructure fragility as control-stack exposure.",
-    "tags": ["infrastructure", "cyber"],
+    "tags": [
+      "infrastructure",
+      "cyber"
+    ],
     "date": "2026-04",
     "sources": [],
     "added": "2026-05-27T02:55:19Z",
     "updated": "2026-05-27T02:55:19Z"
+  },
+  {
+    "id": "control-grid",
+    "title": "The Control Grid (Fitts)",
+    "type": "concept",
+    "domain": "synthesis",
+    "function": "legitimation",
+    "phase": "consolidation",
+    "desc": "Catherine Austin Fitts's framework naming the integration of three pillars — programmable money, digital ID/biometrics, and local hardware (ALPRs, cameras, sensors) — bound together by AI into a single real-time surveillance and behavioral-control system. Names what 'synthesis' looks like from the inside: the joining is the threat.",
+    "tags": [
+      "control-grid",
+      "fitts",
+      "programmable-money",
+      "synthesis",
+      "social-credit"
+    ],
+    "date": "2026-03",
+    "sources": [
+      "https://cryptobriefing.com/catherine-austin-fitts-the-control-grid-enforces-surveillance-and-fiscal-control-ai-is-central-to-managing-financial-data-and-the-push-towards-a-cashless-economy-raises-privacy-concerns-tucker-ca/"
+    ],
+    "added": "2026-05-27T14:08:02Z",
+    "updated": "2026-05-27T14:08:02Z"
   }
 ]
