@@ -313,5 +313,26 @@
     "type": "contradicts",
     "note": "Notes AI's enormous energy/water demands and ecological cost as incompatible with care for common home — internal tension for any Catholic-affiliated infrastructure buildout.",
     "added": "2026-05-27T22:26:58Z"
+  },
+  {
+    "source": "brockovich-datacenter-map",
+    "target": "data-centers",
+    "type": "counters",
+    "note": "Makes the opaque hyperscale buildout publicly legible and aggregates dispersed local opposition into a visible national pattern.",
+    "added": "2026-05-31T14:39:44Z"
+  },
+  {
+    "source": "brockovich-datacenter-map",
+    "target": "port-washington",
+    "type": "enables",
+    "note": "Provides national infrastructure (map, reporting form, news aggregation) that local fights like Port Washington can plug into and learn from.",
+    "added": "2026-05-31T14:39:44Z"
+  },
+  {
+    "source": "friction-collapse",
+    "target": "brockovich-datacenter-map",
+    "type": "contradicts",
+    "note": "Reintroduces friction — siting hearings, water permits, noise complaints — into a buildout whose economics assume frictionless permitting.",
+    "added": "2026-05-31T14:39:44Z"
   }
 ]

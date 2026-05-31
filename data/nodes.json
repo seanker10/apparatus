@@ -491,5 +491,27 @@
     ],
     "added": "2026-05-27T22:26:58Z",
     "updated": "2026-05-27T22:26:58Z"
+  },
+  {
+    "id": "brockovich-datacenter-map",
+    "title": "Brockovich AI Data Center Reporting Map",
+    "type": "system",
+    "domain": "infrastructure",
+    "function": "resistance",
+    "phase": "consolidation",
+    "desc": "Erin Brockovich-led civic mapping platform tracking operational, under-construction, and proposed AI data centers across the US, overlaid with community-submitted reports of harms (water, energy, noise, e-waste). Self-reporting infrastructure that makes the buildout legible and links isolated local fights into a national pattern.",
+    "tags": [
+      "civic-mapping",
+      "environmental",
+      "self-reporting",
+      "data-centers",
+      "community-organizing"
+    ],
+    "date": "2026-05",
+    "sources": [
+      "https://www.brockovichdatacenter.com"
+    ],
+    "added": "2026-05-31T14:39:44Z",
+    "updated": "2026-05-31T14:39:44Z"
   }
 ]
