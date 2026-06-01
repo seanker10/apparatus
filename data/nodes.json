@@ -513,5 +513,27 @@
     ],
     "added": "2026-05-31T14:39:44Z",
     "updated": "2026-05-31T14:39:44Z"
+  },
+  {
+    "id": "connected-car-telematics",
+    "title": "Connected Car Telematics Data Brokerage",
+    "type": "system",
+    "domain": "movement",
+    "function": "capability",
+    "phase": "operation",
+    "desc": "Automakers (GM, Honda, Hyundai, others) collect granular driving telemetry — location, speed, hard braking, trip times — via connected-car services and sell it to data brokers (LexisNexis, Verisk) who resell to insurers. Consent is buried in app flows; drivers discover the surveillance only after premiums spike. Builds a private behavioral dossier on tens of millions.",
+    "tags": [
+      "telematics",
+      "data-brokers",
+      "automakers",
+      "insurance",
+      "consent"
+    ],
+    "date": "2024-03",
+    "sources": [
+      "https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html"
+    ],
+    "added": "2026-06-01T04:12:57Z",
+    "updated": "2026-06-01T04:12:57Z"
   }
 ]

@@ -334,5 +334,33 @@
     "type": "contradicts",
     "note": "Reintroduces friction — siting hearings, water permits, noise complaints — into a buildout whose economics assume frictionless permitting.",
     "added": "2026-05-31T14:39:44Z"
+  },
+  {
+    "source": "connected-car-telematics",
+    "target": "friction-collapse",
+    "type": "enables",
+    "note": "Driving behavior, once ephemeral and unobservable, becomes a permanent queryable record sold across markets — classic friction collapse via commercial rails.",
+    "added": "2026-06-01T04:12:57Z"
+  },
+  {
+    "source": "connected-car-telematics",
+    "target": "control-grid",
+    "type": "enables",
+    "note": "Provides a private-sector movement layer to the broader control grid; commercially gathered data is reachable by law enforcement via subpoena or purchase.",
+    "added": "2026-06-01T04:12:57Z"
+  },
+  {
+    "source": "flock",
+    "target": "connected-car-telematics",
+    "type": "precedent",
+    "note": "ALPR normalization of automotive surveillance softens public resistance to in-vehicle behavioral tracking by carmakers.",
+    "added": "2026-06-01T04:12:57Z"
+  },
+  {
+    "source": "connected-car-telematics",
+    "target": "debanking",
+    "type": "precedent",
+    "note": "Establishes pattern of private intermediaries (brokers, insurers) using opaque scoring to impose financial consequences without due process — the same logic as financial deplatforming.",
+    "added": "2026-06-01T04:12:57Z"
   }
 ]
