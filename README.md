@@ -29,6 +29,19 @@ Three components, one data layer:
 
 ---
 
+## The Grid (`/grid`)
+
+A second page on the same Vercel project: a geographic field map of the digital control grid across the United States. Where the main page maps the conceptual architecture, The Grid maps its physical footprint — and the counterweight rising against it.
+
+- **Six layers**, toggle/solo-able: Data Centers, Surveillance Infrastructure, Corporate Expansion, Federal Actions, Restrictive Legislation, Civic Resistance.
+- **Three views**: United States, Data Center Alley (Northern Virginia), and Washington DC — federal actions anchored to the same building fan out automatically when zoomed.
+- **Connection arcs** link resistance to its targets and policy to the infrastructure it unlocks (e.g. the Stargate White House announcement radiating to its seven sites; Flock-camera removal campaigns converging on Flock's Atlanta HQ).
+- **Timeline** with per-year histogram, status filter (existing vs. planned), search, and a detail panel with primary sources for every point.
+
+Data lives in [`data/grid/sites.json`](data/grid/sites.json) and [`data/grid/links.json`](data/grid/links.json) (schema: [`data/grid/schema.md`](data/grid/schema.md)), fetched from `main` at runtime just like the graph data — commits go live without a redeploy. The main Apparatus page and the Telegram intake loop are unchanged.
+
+---
+
 ## Project structure
 
 ```
@@ -38,7 +51,11 @@ apparatus/
 ├── data/
 │   ├── nodes.json       # typed nodes
 │   ├── edges.json       # typed directed edges
-│   └── schema.md        # full schema reference
+│   ├── schema.md        # full schema reference
+│   └── grid/
+│       ├── sites.json   # geocoded sites for The Grid (/grid)
+│       ├── links.json   # connections between sites
+│       └── schema.md    # grid schema reference
 ├── skill/
 │   ├── SKILL.md         # categorization instructions for the model
 │   ├── handlers.py      # intent routing
@@ -60,7 +77,13 @@ apparatus/
         ├── App.jsx
         ├── ApparatusMap.jsx
         ├── hooks/useGraphData.js
-        └── styles.css
+        ├── styles.css
+        └── grid/            # The Grid (/grid) — US map page
+            ├── GridPage.jsx
+            ├── USGridMap.jsx
+            ├── gridConfig.js
+            ├── useGridData.js
+            └── grid.css
 ```
 
 ---

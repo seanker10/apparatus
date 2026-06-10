@@ -1,0 +1,68 @@
+[
+  { "source": "stargate-white-house-announcement", "target": "stargate-i-abilene", "type": "enables", "note": "flagship site of the $500B venture announced at the White House" },
+  { "source": "stargate-white-house-announcement", "target": "vantage-frontier-shackelford", "type": "enables", "note": "Sept 2025 Stargate expansion site" },
+  { "source": "stargate-white-house-announcement", "target": "stargate-milam-county", "type": "enables", "note": "Sept 2025 Stargate expansion site" },
+  { "source": "stargate-white-house-announcement", "target": "stargate-jupiter-santa-teresa", "type": "enables", "note": "Sept 2025 Stargate expansion site" },
+  { "source": "stargate-white-house-announcement", "target": "stargate-lordstown", "type": "enables", "note": "Sept 2025 Stargate expansion site" },
+  { "source": "stargate-white-house-announcement", "target": "stargate-the-barn-saline", "type": "enables", "note": "Oct 2025 Stargate expansion site" },
+  { "source": "stargate-white-house-announcement", "target": "stargate-lighthouse-port-washington", "type": "enables", "note": "Dec 2025 Stargate expansion site" },
+
+  { "source": "eo-14179-removing-barriers-american-ai", "target": "americas-ai-action-plan", "type": "enables", "note": "ordered the AI Action Plan within 180 days" },
+  { "source": "americas-ai-action-plan", "target": "eo-14318-data-center-permitting", "type": "enables", "note": "implemented via same-day executive orders" },
+  { "source": "americas-ai-action-plan", "target": "eo-14319-preventing-woke-ai", "type": "enables", "note": "implemented via same-day executive orders" },
+  { "source": "eo-14318-data-center-permitting", "target": "sb-energy-ports-piketon", "type": "enables", "note": "opens federal land for data center siting — DOE Portsmouth site" },
+  { "source": "eo-14156-national-energy-emergency", "target": "sb-energy-ports-piketon", "type": "enables", "note": "emergency permitting for 9.2 GW of new gas generation" },
+  { "source": "genesis-mission-eo", "target": "sb-energy-ports-piketon", "type": "enables", "note": "DOE-industry compute buildout on national lab land" },
+
+  { "source": "eo-14158-establishing-doge", "target": "doge-palantir-cross-agency-database", "type": "enables", "note": "DOGE teams embedded across agencies" },
+  { "source": "eo-14158-establishing-doge", "target": "doge-ssa-numident-cloud-upload", "type": "enables", "note": "DOGE access to SSA systems" },
+  { "source": "eo-14243-eliminating-information-silos", "target": "doge-palantir-cross-agency-database", "type": "enables", "note": "cited as legal basis for cross-agency consolidation" },
+  { "source": "eo-14243-eliminating-information-silos", "target": "irs-ice-data-sharing-mou", "type": "enables", "note": "directive to dismantle inter-agency data barriers" },
+  { "source": "palantir-irs-mega-api", "target": "doge-palantir-cross-agency-database", "type": "supplies", "note": "Foundry engineers embedded at the IRS" },
+  { "source": "babel-street-ice-monitoring", "target": "ice-surveillance-contract-expansion-2026", "type": "supplies", "note": "Locate X warrantless phone tracking" },
+
+  { "source": "real-id-full-enforcement", "target": "tsa-facial-recognition-cat2-expansion", "type": "enables", "note": "identity standardization underpins biometric checkpoints" },
+  { "source": "tsa-facial-recognition-cat2-expansion", "target": "tsa-facial-recognition-atl", "type": "enables", "note": "CAT-2 rollout site" },
+  { "source": "tsa-facial-recognition-cat2-expansion", "target": "tsa-facial-recognition-lax", "type": "enables", "note": "CAT-2 rollout site" },
+  { "source": "tsa-facial-recognition-cat2-expansion", "target": "tsa-facial-recognition-dfw", "type": "enables", "note": "CAT-2 rollout site" },
+
+  { "source": "cbp-anduril-tower-expansion", "target": "anduril-sentry-towers-border", "type": "enables", "note": "$363M order more than doubles the tower network" },
+  { "source": "anduril-costa-mesa-expansion", "target": "anduril-sentry-towers-border", "type": "operates", "note": "Lattice towers built and run from SoCal HQ" },
+  { "source": "anduril-costa-mesa-expansion", "target": "anduril-arsenal-1-ohio", "type": "operates", "note": "hyperscale manufacturing arm" },
+  { "source": "openai-anduril-partnership", "target": "anduril-sentry-towers-border", "type": "supplies", "note": "frontier models integrated into Lattice" },
+
+  { "source": "flock-safety-hq-alpr-network", "target": "atlanta-operation-shield-vic", "type": "supplies", "note": "ALPR feeds into the Video Integration Center" },
+  { "source": "flock-safety-hq-alpr-network", "target": "las-vegas-fusion-watch", "type": "supplies", "note": "ALPR feeds into Fusion Watch" },
+  { "source": "flock-dfr-smyrna-manufacturing", "target": "flock-safety-hq-alpr-network", "type": "supplies", "note": "drone hardware for the national network" },
+  { "source": "microsoft-fairwater-mount-pleasant", "target": "microsoft-fairwater-atlanta", "type": "supplies", "note": "dedicated AI-WAN fiber link forms a distributed superfactory" },
+
+  { "source": "memphis-mcap-vs-xai", "target": "xai-colossus-1-memphis", "type": "opposes", "note": "unpermitted gas turbines in Boxtown" },
+  { "source": "naacp-xai-clean-air-lawsuit", "target": "xai-colossus-2-memphis", "type": "opposes", "note": "Clean Air Act suit seeks shutdown until permitted" },
+  { "source": "digital-gateway-court-victory", "target": "data-center-alley-loudoun", "type": "opposes", "note": "voided rezoning of the corridor's planned expansion" },
+  { "source": "new-york-data-center-moratorium", "target": "terawulf-lake-mariner-anthropic", "type": "restricts", "note": "would pause permits for new 20MW+ facilities statewide" },
+  { "source": "virginia-hb1601-vetoed", "target": "data-center-alley-loudoun", "type": "restricts", "note": "vetoed impact-assessment requirements for the world's largest market" },
+
+  { "source": "austin-ends-flock-contract", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "ended city ALPR contract" },
+  { "source": "evanston-flock-termination", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "terminated after illegal CBP data sharing" },
+  { "source": "oak-park-flock-termination", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "cut ties after state-law violations" },
+  { "source": "denver-flock-removal", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "removed all 110 cameras" },
+  { "source": "san-marcos-flock-ended", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "discontinued contract" },
+  { "source": "sedona-flock-removal", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "removed all 11 readers" },
+  { "source": "norfolk-flock-fourth-amendment-suit", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "Fourth Amendment challenge to 172-camera network" },
+  { "source": "illinois-flock-audit-enforcement", "target": "flock-safety-hq-alpr-network", "type": "restricts", "note": "audit forced nationwide pause of federal pilots" },
+  { "source": "virginia-alpr-restrictions-law", "target": "flock-safety-hq-alpr-network", "type": "restricts", "note": "limits ALPR use and mandates 21-day purges" },
+
+  { "source": "purge-palantir-day-of-action", "target": "palantir-immigrationos-ice", "type": "opposes", "note": "coordinated protests at four Palantir offices" },
+  { "source": "no-tech-for-ice-campaign", "target": "palantir-immigrationos-ice", "type": "opposes", "note": "#NoTechForICE pressure campaign" },
+  { "source": "no-tech-for-ice-campaign", "target": "lexisnexis-ice-accurint", "type": "opposes", "note": "FOIA exposed 1.2M ICE queries in seven months" },
+  { "source": "no-tech-for-ice-campaign", "target": "thomson-reuters-clear-ice", "type": "opposes", "note": "campaign against CLEAR data pipeline" },
+  { "source": "chicago-ends-shotspotter", "target": "soundthinking-shotspotter-expansion", "type": "opposes", "note": "largest city to drop the system" },
+  { "source": "new-orleans-facial-recognition-withdrawn", "target": "project-nola-new-orleans", "type": "opposes", "note": "blocked ordinance authorizing expanded live face matching" },
+  { "source": "clearview-bipa-settlement", "target": "clearview-ai-ice-contract", "type": "restricts", "note": "BIPA settlement curbed commercial sales" },
+  { "source": "colorado-sb276-data-protections", "target": "geo-group-bi-isap", "type": "restricts", "note": "limits state data flowing to immigration enforcement" },
+  { "source": "memphis-mcap-vs-xai", "target": "memphis-connect-2", "type": "opposes", "note": "same neighborhoods organizing against compute and camera buildout" },
+
+  { "source": "ice-surveillance-contract-expansion-2026", "target": "clearview-ai-ice-contract", "type": "targets", "note": "part of the 2025-26 surveillance procurement wave" },
+  { "source": "ice-surveillance-contract-expansion-2026", "target": "geo-group-bi-isap", "type": "targets", "note": "digital detention growth under the same wave" },
+  { "source": "eo-national-ai-policy-framework-preemption", "target": "virginia-alpr-restrictions-law", "type": "targets", "note": "federal effort to preempt state tech regulation" }
+]
