@@ -12,6 +12,12 @@ export const LAYERS = {
     color: '#ef5350',
     desc: 'ALPR networks, fusion centers, biometric checkpoints, border towers',
   },
+  detention: {
+    label: 'ICE Detention',
+    short: 'cage',
+    color: '#f06292',
+    desc: 'Detention centers, processing facilities, and enforcement camps',
+  },
   corporate: {
     label: 'Corporate Expansion',
     short: 'capital',
@@ -39,7 +45,7 @@ export const LAYERS = {
 };
 
 export const LAYER_GROUPS = [
-  { name: 'Infrastructure', layers: ['datacenter', 'surveillance'] },
+  { name: 'Infrastructure', layers: ['datacenter', 'surveillance', 'detention'] },
   { name: 'Power', layers: ['corporate', 'federal'] },
   { name: 'Counterweight', layers: ['legislation', 'resistance'] },
 ];

@@ -29,12 +29,13 @@ Where the Apparatus graph maps concepts, The Grid maps **places**: every site is
 }
 ```
 
-### Layers (6)
+### Layers (7)
 
 | layer          | meaning                                                        |
 |----------------|----------------------------------------------------------------|
 | `datacenter`   | hyperscale/AI compute build-out, current and planned           |
 | `surveillance` | deployed surveillance infrastructure (ALPR, fusion centers, biometric checkpoints, border towers, crime centers) |
+| `detention`    | ICE detention centers, processing facilities, and enforcement camps |
 | `corporate`    | corporate expansion of control-grid firms (contracts, HQs, factories, funding) |
 | `federal`      | executive orders, federal programs, contracts, enforcement — DC-anchored points use the issuing institution's coordinates |
 | `legislation`  | state & local laws restraining surveillance / data center growth (statewide laws sit at the capital) |
@@ -43,9 +44,10 @@ Where the Apparatus graph maps concepts, The Grid maps **places**: every site is
 ### Status vocabulary
 
 - Infrastructure/corporate: `operational` · `under-construction` · `planned` · `proposed` · `active` · `expanding`
+- Detention: `operational` · `expanding` · `planned` · `reopened`
 - Federal: `signed` · `active` · `proposed` · `rescinded`
 - Legislation: `passed` · `proposed` · `failed`
-- Resistance: `ongoing` · `victory`
+- Resistance: `ongoing` · `victory` · `ended`
 
 Statuses `planned`, `proposed`, `under-construction`, `expanding`, and `ongoing` render with a pulsing ring ("in motion"); the Existing/Planned filter treats `planned`, `proposed`, and `under-construction` as planned.
 

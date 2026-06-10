@@ -33,7 +33,7 @@ Three components, one data layer:
 
 A second page on the same Vercel project: a geographic field map of the digital control grid across the United States. Where the main page maps the conceptual architecture, The Grid maps its physical footprint — and the counterweight rising against it.
 
-- **Six layers**, toggle/solo-able: Data Centers, Surveillance Infrastructure, Corporate Expansion, Federal Actions, Restrictive Legislation, Civic Resistance.
+- **Seven layers**, toggle/solo-able: Data Centers, Surveillance Infrastructure, ICE Detention, Corporate Expansion, Federal Actions, Restrictive Legislation, Civic Resistance.
 - **Three views**: United States, Data Center Alley (Northern Virginia), and Washington DC — federal actions anchored to the same building fan out automatically when zoomed.
 - **Connection arcs** link resistance to its targets and policy to the infrastructure it unlocks (e.g. the Stargate White House announcement radiating to its seven sites; Flock-camera removal campaigns converging on Flock's Atlanta HQ).
 - **Timeline** with per-year histogram, status filter (existing vs. planned), search, and a detail panel with primary sources for every point.
