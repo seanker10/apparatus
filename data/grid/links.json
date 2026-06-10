@@ -62,6 +62,17 @@
   { "source": "colorado-sb276-data-protections", "target": "geo-group-bi-isap", "type": "restricts", "note": "limits state data flowing to immigration enforcement" },
   { "source": "memphis-mcap-vs-xai", "target": "memphis-connect-2", "type": "opposes", "note": "same neighborhoods organizing against compute and camera buildout" },
 
+  { "source": "broadview-ice-facility-protests", "target": "broadview-ice-processing-facility", "type": "opposes", "note": "near-daily protests at the facility gates since September 2025" },
+  { "source": "chicago-whistle-networks-rapid-response", "target": "broadview-ice-processing-facility", "type": "opposes", "note": "Midway Blitz detainees taken to Broadview" },
+  { "source": "chicago-whistle-networks-rapid-response", "target": "north-lake-processing-center", "type": "opposes", "note": "Chicago-area arrestees transferred to North Lake" },
+  { "source": "portland-ice-facility-oregon-v-trump", "target": "eo-14333-dc-crime-emergency-national-guard", "type": "opposes", "note": "courts permanently blocked the Guard deployment model" },
+  { "source": "la-june-2025-anti-ice-uprising", "target": "eo-14333-dc-crime-emergency-national-guard", "type": "opposes", "note": "Posse Comitatus ruling against militarized response" },
+  { "source": "union-del-barrio-community-patrols", "target": "otay-mesa-detention-center", "type": "opposes", "note": "patrols track ICE staging across San Diego" },
+  { "source": "geo-group-bi-isap", "target": "delaney-hall-newark", "type": "operates", "note": "GEO Group runs both digital and physical detention" },
+  { "source": "geo-group-bi-isap", "target": "north-lake-processing-center", "type": "operates", "note": "GEO Group reopened the shuttered prison for ICE" },
+  { "source": "palantir-immigrationos-ice", "target": "broadview-ice-processing-facility", "type": "supplies", "note": "targeting platform feeds enforcement operations" },
+  { "source": "ice-surveillance-contract-expansion-2026", "target": "camp-east-montana-fort-bliss", "type": "targets", "note": "detention buildout under the same enforcement wave" },
+
   { "source": "ice-surveillance-contract-expansion-2026", "target": "clearview-ai-ice-contract", "type": "targets", "note": "part of the 2025-26 surveillance procurement wave" },
   { "source": "ice-surveillance-contract-expansion-2026", "target": "geo-group-bi-isap", "type": "targets", "note": "digital detention growth under the same wave" },
   { "source": "eo-national-ai-policy-framework-preemption", "target": "virginia-alpr-restrictions-law", "type": "targets", "note": "federal effort to preempt state tech regulation" }

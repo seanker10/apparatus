@@ -54,6 +54,7 @@ Statuses `planned`, `proposed`, `under-construction`, `expanding`, and `ongoing`
 ### Conventions
 
 - Multiple federal actions at the same building (e.g. White House EOs) may share coordinates — the map fans them out automatically when zoomed.
+- Sites outside the Albers USA projection (e.g. Guantanamo Bay) don't plot on the map but remain reachable via search and keep their detail panel and connections.
 - Null is honest, but for this dataset `date`, `city`, `state`, `lat`, `lon`, and at least one source are effectively required: a point with no place or no source doesn't belong on a map.
 - `desc` hard limit: 480 chars.
 
