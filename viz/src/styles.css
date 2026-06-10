@@ -118,6 +118,22 @@ a:hover { text-decoration: underline; }
   white-space: nowrap;
 }
 
+.grid-link {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+.grid-link:hover {
+  text-decoration: none;
+  background: rgba(212, 165, 116, 0.1);
+  border-color: var(--accent);
+}
+
 .sidebar {
   border-right: 1px solid var(--border);
   background: var(--panel);

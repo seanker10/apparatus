@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import useGraphData from './hooks/useGraphData';
 import ApparatusMap from './ApparatusMap';
 
@@ -41,6 +42,9 @@ export default function App() {
         <div className="count">
           {loading ? 'loading…' : `${nodes.length} nodes · ${edges.length} edges`}
         </div>
+        <Link className="grid-link" to="/grid" title="The Grid — US map">
+          US Grid →
+        </Link>
       </header>
 
       <ApparatusMap

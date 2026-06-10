@@ -1,0 +1,4953 @@
+[
+  {
+    "id": "equinix-ashburn-campus",
+    "title": "Equinix Ashburn Campus (DC Metro)",
+    "layer": "datacenter",
+    "category": "colocation",
+    "status": "operational",
+    "lat": 39.04,
+    "lon": -77.49,
+    "city": "Ashburn",
+    "state": "VA",
+    "date": "1999",
+    "desc": "Equinix's flagship Ashburn IBX campus is the densest interconnection hub in the US and home to North America's largest internet peering point, serving 850+ networks. It anchors 'Data Center Alley' and keeps expanding with multi-story builds on adjacent land.",
+    "actors": [
+      "equinix"
+    ],
+    "sources": [
+      "https://blog.equinix.com/blog/2020/11/17/strengthening-the-heart-of-digital-infrastructure/",
+      "https://www.datacenterfrontier.com/colocation/article/11428579/equinix-expands-in-ashburn-plans-fleet-of-four-story-data-centers"
+    ],
+    "tags": [
+      "interconnection",
+      "peering",
+      "data-center-alley",
+      "virginia"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "google-council-bluffs",
+    "title": "Google Council Bluffs",
+    "layer": "datacenter",
+    "category": "cloud",
+    "status": "operational",
+    "lat": 41.26,
+    "lon": -95.86,
+    "city": "Council Bluffs",
+    "state": "IA",
+    "date": "2009",
+    "desc": "One of Google's oldest and largest US data center campuses, operating since 2009 with cumulative Iowa investment in the billions and continued AI-era expansion. A backbone site for Search, Cloud, and AI services in the central US, drawing on Iowa wind power.",
+    "actors": [
+      "google"
+    ],
+    "sources": [
+      "https://datacenters.google/locations/iowa/"
+    ],
+    "tags": [
+      "iowa",
+      "google-cloud",
+      "legacy-campus",
+      "wind-power"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "switch-citadel-tahoe-reno",
+    "title": "Switch Citadel Campus — Tahoe Reno",
+    "layer": "datacenter",
+    "category": "colocation",
+    "status": "operational",
+    "lat": 39.55,
+    "lon": -119.44,
+    "city": "McCarran",
+    "state": "NV",
+    "date": "2017",
+    "desc": "Switch's 2,000-acre Citadel Campus in the Tahoe Reno Industrial Center, planned for up to 17.4M sq ft and ~850 MW, making it among the largest colocation campuses in the world. Runs on 100% renewable energy and continues expanding for cloud and AI tenants.",
+    "actors": [
+      "switch"
+    ],
+    "sources": [
+      "https://www.switch.com/switch-tahoe-reno-data-center-now-open/",
+      "https://baxtel.com/data-center/switch-tahoe-reno-the-citadel-campus"
+    ],
+    "tags": [
+      "nevada",
+      "colocation",
+      "renewable-energy",
+      "mega-campus"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "qts-fayetteville",
+    "title": "QTS Fayetteville Campus",
+    "layer": "datacenter",
+    "category": "colocation",
+    "status": "under-construction",
+    "lat": 33.45,
+    "lon": -84.46,
+    "city": "Fayetteville",
+    "state": "GA",
+    "date": "2023",
+    "desc": "Blackstone-owned QTS is building one of the world's largest data center campuses on 615 acres south of Atlanta: up to 16 buildings and ~7M sq ft for hyperscale tenants including Microsoft. A $4.6B green bond launched in 2026 funds the buildout, which runs to ~2032 amid local water concerns.",
+    "actors": [
+      "qts",
+      "blackstone",
+      "microsoft"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/blackstone-owned-qts-data-centers-looks-to-raise-46bn-starting-with-10-year-investment-grade-green-bond-sale/",
+      "https://baxtel.com/data-center/qts-fayetteville"
+    ],
+    "tags": [
+      "georgia",
+      "hyperscale-colocation",
+      "blackstone",
+      "atlanta-market"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "google-lincoln",
+    "title": "Google Lincoln & Omaha Metro",
+    "layer": "datacenter",
+    "category": "cloud",
+    "status": "under-construction",
+    "lat": 40.81,
+    "lon": -96.68,
+    "city": "Lincoln",
+    "state": "NE",
+    "date": "2023",
+    "desc": "Google has invested over $4.4B in Nebraska data centers in Papillion (2019), Omaha (2022), and a Lincoln campus announced in 2023, with $1.2B more committed across the three sites. A proposed Lincoln expansion would require more power than the entire city currently uses.",
+    "actors": [
+      "google"
+    ],
+    "sources": [
+      "https://nebraskaexaminer.com/2024/11/25/google-2024-capital-investment-in-ne-is-930m-for-a-five-year-tally-of-4-4b/",
+      "https://flatwaterfreepress.org/google-proposes-nebraska-data-center-requiring-more-power-than-all-of-lincoln/"
+    ],
+    "tags": [
+      "nebraska",
+      "google-cloud",
+      "grid-strain",
+      "expansion"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "xai-colossus-1-memphis",
+    "title": "xAI Colossus 1 — Memphis",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "operational",
+    "lat": 35.06,
+    "lon": -90.01,
+    "city": "Memphis",
+    "state": "TN",
+    "date": "2024-09",
+    "desc": "xAI's first supercomputer, built in ~122 days in a former Electrolux factory in southwest Memphis, came online in 2024 with 100,000 Nvidia GPUs and later doubled. Its on-site gas turbines made it a flashpoint for air-quality and environmental-justice complaints.",
+    "actors": [
+      "xai",
+      "nvidia"
+    ],
+    "sources": [
+      "https://introl.com/blog/xai-memphis-colossus-100000-gpu-supercomputer-infrastructure",
+      "https://www.gem.wiki/Colossus_I_power_station"
+    ],
+    "tags": [
+      "ai-training",
+      "gas-turbines",
+      "air-quality",
+      "memphis",
+      "grok"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "meta-hyperion-richland-parish",
+    "title": "Meta Hyperion — Richland Parish",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 32.46,
+    "lon": -91.65,
+    "city": "Holly Ridge",
+    "state": "LA",
+    "date": "2024-12",
+    "desc": "Meta's largest data center, a ~4,000-acre, 5 GW AI campus in rural northeast Louisiana with $27B+ committed via off-balance-sheet financing. Entergy is building multiple gas-fired plants to serve it, drawing scrutiny over ratepayer costs and emissions; buildout runs to ~2030.",
+    "actors": [
+      "meta",
+      "entergy"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyperion_(data_center)",
+      "https://www.enr.com/articles/62766-27b-meta-data-center-pushes-louisiana-toward-massive-power-expansion"
+    ],
+    "tags": [
+      "gigawatt-scale",
+      "gas-power",
+      "louisiana",
+      "ai-training",
+      "superintelligence"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "data-center-alley-loudoun",
+    "title": "Data Center Alley — Loudoun County",
+    "layer": "datacenter",
+    "category": "colocation",
+    "status": "operational",
+    "lat": 39.02,
+    "lon": -77.45,
+    "city": "Ashburn",
+    "state": "VA",
+    "date": "2025",
+    "desc": "The world's largest data center cluster: ~200 facilities and ~50M sq ft in Loudoun County, with Northern Virginia topping 4,900 MW in 2025 and ~5,500 MW more planned. A large share of global internet traffic transits its infrastructure; growth now strains Dominion's grid.",
+    "actors": [
+      "equinix",
+      "digital-realty",
+      "vantage",
+      "qts",
+      "amazon",
+      "microsoft",
+      "google"
+    ],
+    "sources": [
+      "https://www.loudoun.gov/6188/Data-Centers-in-Loudoun-County",
+      "https://www.datacentermap.com/content/nova/",
+      "https://broadbandbreakfast.com/dateline-ashburn-data-centers-drive-new-energy-disputes-in-northern-virginia/"
+    ],
+    "tags": [
+      "cluster",
+      "internet-backbone",
+      "grid-strain",
+      "virginia",
+      "colocation"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-i-abilene",
+    "title": "Stargate I — Abilene",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "operational",
+    "lat": 32.45,
+    "lon": -99.73,
+    "city": "Abilene",
+    "state": "TX",
+    "date": "2025-01",
+    "desc": "Flagship site of the $500B OpenAI/Oracle/SoftBank Stargate program, built by Crusoe with ~$15B in project financing. The 1.2 GW, eight-building campus began serving Oracle Cloud/Nvidia racks for OpenAI in mid-2025, with roughly half the buildings operational by late 2025.",
+    "actors": [
+      "openai",
+      "oracle",
+      "crusoe",
+      "softbank"
+    ],
+    "sources": [
+      "https://www.cnbc.com/2025/09/23/openai-first-data-center-in-500-billion-stargate-project-up-in-texas.html",
+      "https://openai.com/index/five-new-stargate-sites/"
+    ],
+    "tags": [
+      "stargate",
+      "ai-training",
+      "gigawatt-scale",
+      "texas",
+      "crusoe-built"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "xai-colossus-2-memphis",
+    "title": "xAI Colossus 2 — Memphis",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 35.03,
+    "lon": -90.05,
+    "city": "Memphis",
+    "state": "TN",
+    "date": "2025-03",
+    "desc": "xAI's second Memphis site, billed as the world's first gigawatt-class AI training center, with ~$18B of GPUs (550k+) planned. A third building announced Dec 2025 pushes the complex toward 2 GW, supported by a gigawatt-scale turbine energy hub across the line in Southaven, MS.",
+    "actors": [
+      "xai",
+      "nvidia",
+      "solaris-energy"
+    ],
+    "sources": [
+      "https://newsletter.semianalysis.com/p/xais-colossus-2-first-gigawatt-datacenter",
+      "https://siliconangle.com/2025/12/30/elon-musk-reveals-plan-expand-xais-colossus-data-center-2-gigawatts/"
+    ],
+    "tags": [
+      "ai-training",
+      "gigawatt-scale",
+      "memphis",
+      "grid-strain"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "aws-salem-township-nuclear",
+    "title": "AWS Susquehanna Nuclear Campus — Salem Township",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 41.09,
+    "lon": -76.15,
+    "city": "Salem Township",
+    "state": "PA",
+    "date": "2025-06",
+    "desc": "AWS bought the former Cumulus campus next to the Susquehanna nuclear plant for $650M and secured a 1,920 MW PPA with Talen Energy. Rezoning approved for a 15-building campus on ~1,600 acres, part of Amazon's $20B+ Pennsylvania commitment and a test case for nuclear-colocated AI load.",
+    "actors": [
+      "amazon",
+      "talen-energy"
+    ],
+    "sources": [
+      "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-centert/750440/",
+      "https://www.datacenterdynamics.com/en/news/aws-granted-1600-acre-rezoning-request-plans-15-building-campus-at-pennsylvania-nuclear-site/"
+    ],
+    "tags": [
+      "nuclear-power",
+      "pennsylvania",
+      "behind-the-meter",
+      "ai-training"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "fermi-america-hypergrid-amarillo",
+    "title": "Fermi America HyperGrid — Amarillo",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 35.32,
+    "lon": -101.56,
+    "city": "Amarillo",
+    "state": "TX",
+    "date": "2025-06",
+    "desc": "Rick Perry-cofounded Fermi America is building an 11 GW 'HyperGrid' energy-and-AI campus on ~5,800 acres of Texas Tech land near the Pantex plant, mixing gas, grid, solar, and proposed AP1000 nuclear reactors. Targets first AI load in 2026; 18M sq ft of data center space planned.",
+    "actors": [
+      "fermi-america",
+      "texas-tech"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/fermi-america-acquires-600mw-of-gas-turbines-for-11gw-ai-mega-campus-in-amarillo-texas/",
+      "https://interestingengineering.com/energy/nuclear-grid-power-us-ai-centers"
+    ],
+    "tags": [
+      "nuclear-power",
+      "texas-panhandle",
+      "energy-campus",
+      "mega-project"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "meta-prometheus-new-albany",
+    "title": "Meta Prometheus — New Albany",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 40.08,
+    "lon": -82.81,
+    "city": "New Albany",
+    "state": "OH",
+    "date": "2025-07",
+    "desc": "Meta's first gigawatt-scale AI 'supercluster,' built across multiple buildings at its New Albany, Ohio campus and slated to come online in 2026. Investment exceeds $10B, with nuclear power agreements (Vistra, Oklo, TerraPower) lined up to supply the campus.",
+    "actors": [
+      "meta",
+      "vistra",
+      "oklo",
+      "terrapower"
+    ],
+    "sources": [
+      "https://www.nbc4i.com/news/local-news/new-albany/meet-prometheus-worlds-highest-capacity-data-center-slated-to-open-in-ohio-in-2026/",
+      "https://spectrumnews1.com/oh/columbus/news/2025/11/13/meta-gigawatt-data-center-new-albany-"
+    ],
+    "tags": [
+      "gigawatt-scale",
+      "nuclear-power",
+      "ohio",
+      "ai-training"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "google-mesa",
+    "title": "Google Mesa Campus",
+    "layer": "datacenter",
+    "category": "cloud",
+    "status": "operational",
+    "lat": 33.35,
+    "lon": -111.64,
+    "city": "Mesa",
+    "state": "AZ",
+    "date": "2025-07",
+    "desc": "Google's ~$1B, 187-acre Mesa campus brought its first ~288,000 sq ft phase online in July 2025, supporting cloud and AI services, with three phases planned through 2030. A key node in the fast-growing, water-stressed Phoenix data center market.",
+    "actors": [
+      "google"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/google-breaks-ground-on-mesa-data-center-campus-in-arizona/",
+      "https://www.datacentermap.com/usa/arizona/phoenix/google-mesa-campus/"
+    ],
+    "tags": [
+      "arizona",
+      "google-cloud",
+      "phoenix-market",
+      "water-use"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "google-oklahoma-pryor-stillwater",
+    "title": "Google Oklahoma — Pryor & Stillwater",
+    "layer": "datacenter",
+    "category": "cloud",
+    "status": "under-construction",
+    "lat": 36.31,
+    "lon": -95.32,
+    "city": "Pryor",
+    "state": "OK",
+    "date": "2025-08",
+    "desc": "Google announced a $9B, two-year Oklahoma expansion in Aug 2025: accelerating its long-running Pryor campus and building a new Stillwater data center (phase one by 2027), backed by 700+ MW of new clean-power PPAs and workforce programs for AI and grid trades.",
+    "actors": [
+      "google"
+    ],
+    "sources": [
+      "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-oklahoma/",
+      "https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-cloud-and-ai-infrastructure-in-oklahoma/"
+    ],
+    "tags": [
+      "oklahoma",
+      "google-cloud",
+      "clean-power",
+      "expansion"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "vantage-frontier-shackelford",
+    "title": "Stargate — Frontier, Shackelford County",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 32.72,
+    "lon": -99.3,
+    "city": "Albany",
+    "state": "TX",
+    "date": "2025-09",
+    "desc": "Vantage Data Centers' 1.4 GW Frontier campus in Shackelford County, one of five Stargate expansion sites announced Sept 2025 for OpenAI/Oracle. Ten single-story buildings totaling 3.7M sq ft; first building due in H2 2026, with 5,000+ construction and operations jobs.",
+    "actors": [
+      "vantage",
+      "openai",
+      "oracle"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/vantage-breaks-ground-on-texas-gigawatt-data-center-campus-for-openai/",
+      "https://openai.com/index/five-new-stargate-sites/"
+    ],
+    "tags": [
+      "stargate",
+      "gigawatt-scale",
+      "ai-training",
+      "texas"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-milam-county",
+    "title": "Stargate — Milam County",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 30.65,
+    "lon": -97,
+    "city": "Rockdale",
+    "state": "TX",
+    "date": "2025-09",
+    "desc": "Stargate expansion site in Milam County, Texas, developed with SB Energy, SoftBank's energy arm, which provides powered 'fast-build' infrastructure for OpenAI/Oracle compute. Part of the Sept 2025 five-site announcement that pushed Stargate toward ~7 GW of planned capacity.",
+    "actors": [
+      "openai",
+      "oracle",
+      "sb-energy",
+      "softbank"
+    ],
+    "sources": [
+      "https://openai.com/index/five-new-stargate-sites/",
+      "https://www.datacenterdynamics.com/en/news/openai-announces-five-more-us-stargate-data-centers-with-oracle-and-softbank/"
+    ],
+    "tags": [
+      "stargate",
+      "sb-energy",
+      "ai-training",
+      "texas"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-jupiter-santa-teresa",
+    "title": "Stargate — Project Jupiter, Santa Teresa",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 31.86,
+    "lon": -106.64,
+    "city": "Santa Teresa",
+    "state": "NM",
+    "date": "2025-09",
+    "desc": "Four-building Stargate campus in Doña Ana County developed by BorderPlex Digital Assets and Stack Infrastructure for OpenAI/Oracle. Plans call for ~$50B in five years and up to $165B over 30 years; the project has drawn local opposition over water use in the arid borderland.",
+    "actors": [
+      "openai",
+      "oracle",
+      "borderplex-digital",
+      "stack-infrastructure"
+    ],
+    "sources": [
+      "https://elpasomatters.org/2025/09/25/stargate-open-ai-oracle-project-jupiter-data-center-dona-ana-new-mexico-el-paso-texas/",
+      "https://openai.com/index/five-new-stargate-sites/"
+    ],
+    "tags": [
+      "stargate",
+      "new-mexico",
+      "water-concerns",
+      "ai-training"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-lordstown",
+    "title": "Stargate — Lordstown",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 41.16,
+    "lon": -80.86,
+    "city": "Lordstown",
+    "state": "OH",
+    "date": "2025-09",
+    "desc": "SoftBank broke ground in 2025 on an advanced fast-build Stargate data center in Lordstown, Ohio, on former auto-industry land, targeted to be operational in 2026. One of five expansion sites announced Sept 2025 in the OpenAI/Oracle/SoftBank $400B+ buildout.",
+    "actors": [
+      "softbank",
+      "openai"
+    ],
+    "sources": [
+      "https://openai.com/index/five-new-stargate-sites/",
+      "https://group.softbank/en/news/press/20250924"
+    ],
+    "tags": [
+      "stargate",
+      "softbank",
+      "rust-belt",
+      "ai-training"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "cipher-barber-lake",
+    "title": "Cipher Mining Barber Lake — Colorado City",
+    "layer": "datacenter",
+    "category": "crypto-converted",
+    "status": "under-construction",
+    "lat": 32.39,
+    "lon": -100.86,
+    "city": "Colorado City",
+    "state": "TX",
+    "date": "2025-09",
+    "desc": "Bitcoin miner Cipher's 587-acre West Texas site pivoting to AI hosting: 300 MW fully leased to Fluidstack (Google backstopping $1.4B), plus a ~$5.5B, 15-year AWS lease for 300 MW of AI capacity starting 2026. Site can reach ~800 MW at full buildout.",
+    "actors": [
+      "cipher-mining",
+      "fluidstack",
+      "google",
+      "amazon"
+    ],
+    "sources": [
+      "https://investors.ciphermining.com/news-releases/news-release-details/cipher-mining-signs-168-mw-10-year-ai-hosting-agreement",
+      "https://www.datacentermap.com/usa/texas/colorado-city/cipher-barber-lake/"
+    ],
+    "tags": [
+      "crypto-to-ai",
+      "west-texas",
+      "fluidstack",
+      "aws-lease"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-the-barn-saline",
+    "title": "Stargate — The Barn, Saline Township",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 42.12,
+    "lon": -83.85,
+    "city": "Saline Township",
+    "state": "MI",
+    "date": "2025-10",
+    "desc": "Related Digital's 1+ GW 'The Barn' campus southwest of Detroit, part of OpenAI/Oracle's Stargate. Roughly $16B in construction plus ~$40B of Oracle equipment (~$56B total); DTE Energy supplies power with project-financed battery storage. Operations expected from early 2028.",
+    "actors": [
+      "openai",
+      "oracle",
+      "related-digital",
+      "dte-energy"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/related-digitals-michigan-1gw-data-center-project-to-serve-openai-oracle/",
+      "https://bridgemi.com/business-watch/saline-data-center-brings-out-bigwigs-big-day-for-michigan-or-big-betrayal/"
+    ],
+    "tags": [
+      "stargate",
+      "michigan",
+      "gigawatt-scale",
+      "ai-training"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "meta-el-paso",
+    "title": "Meta El Paso AI Data Center",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 31.76,
+    "lon": -106.49,
+    "city": "El Paso",
+    "state": "TX",
+    "date": "2025-10",
+    "desc": "Meta broke ground Oct 2025 on its 29th data center, an AI-optimized campus in El Paso scalable to 1 GW. In March 2026 Meta raised the investment from $1.5B to over $10B; plans to power it partly with natural gas have drawn local concern despite renewable-matching pledges.",
+    "actors": [
+      "meta"
+    ],
+    "sources": [
+      "https://about.fb.com/news/2025/10/metas-new-ai-optimized-data-center-el-paso/",
+      "https://kvia.com/news/top-stories/2026/03/26/meta-data-center-expansion/"
+    ],
+    "tags": [
+      "gigawatt-scale",
+      "texas",
+      "gas-power",
+      "ai-training"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "microsoft-fairwater-atlanta",
+    "title": "Microsoft Fairwater — Atlanta",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "operational",
+    "lat": 33.75,
+    "lon": -84.39,
+    "city": "Atlanta",
+    "state": "GA",
+    "date": "2025-10",
+    "desc": "Microsoft's second Fairwater AI datacenter began operating in Oct 2025: a two-story, closed-loop liquid-cooled design supporting ~140 kW racks of Nvidia GB200/GB300 GPUs. A dedicated 'AI WAN' fiber link to the Wisconsin Fairwater forms Microsoft's first distributed AI superfactory.",
+    "actors": [
+      "microsoft",
+      "nvidia"
+    ],
+    "sources": [
+      "https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/",
+      "https://www.datacenterdynamics.com/en/news/microsoft-launches-atlanta-fairwater-data-center-two-stories-no-ups-or-gen-sets/"
+    ],
+    "tags": [
+      "fairwater",
+      "ai-superfactory",
+      "georgia",
+      "liquid-cooling"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "aws-project-rainier-new-carlisle",
+    "title": "AWS Project Rainier — New Carlisle",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "operational",
+    "lat": 41.7,
+    "lon": -86.51,
+    "city": "New Carlisle",
+    "state": "IN",
+    "date": "2025-10",
+    "desc": "Amazon's $11B, 1,200-acre AI campus dedicated to training and serving Anthropic's Claude models, fully operational Oct 2025 with ~500,000 Trainium2 chips across the first 7 of up to 30 buildings. Will ultimately draw ~2.2 GW; the largest capital project in Indiana history.",
+    "actors": [
+      "amazon",
+      "anthropic"
+    ],
+    "sources": [
+      "https://www.cnbc.com/2025/10/29/amazon-opens-11-billion-ai-data-center-project-rainier-in-indiana.html",
+      "https://www.datacenterknowledge.com/supercomputers/project-rainer-aws-anthropic-complete-massive-ai-supercomputing-cluster"
+    ],
+    "tags": [
+      "trainium",
+      "ai-training",
+      "indiana",
+      "anthropic-compute",
+      "gigawatt-scale"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "google-west-memphis",
+    "title": "Google West Memphis Campus",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 35.15,
+    "lon": -90.18,
+    "city": "West Memphis",
+    "state": "AR",
+    "date": "2025-10",
+    "desc": "Google broke ground Oct 2025 on a 1,100-acre cloud and AI data center campus in West Memphis — a $4B first phase within a ~$10B total project, the largest private capital investment in Arkansas history, with hundreds of operations jobs planned.",
+    "actors": [
+      "google"
+    ],
+    "sources": [
+      "https://www.ualrpublicradio.org/local-regional-news/2025-10-03/google-state-and-local-officials-mark-start-of-4-billion-ai-data-center-in-west-memphis",
+      "https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment"
+    ],
+    "tags": [
+      "arkansas",
+      "cloud-ai",
+      "google-cloud",
+      "economic-development"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "terawulf-lake-mariner-anthropic",
+    "title": "Lake Mariner (TeraWulf) — Anthropic/Fluidstack",
+    "layer": "datacenter",
+    "category": "crypto-converted",
+    "status": "under-construction",
+    "lat": 43.33,
+    "lon": -78.55,
+    "city": "Barker",
+    "state": "NY",
+    "date": "2025-11",
+    "desc": "Former coal-plant-site bitcoin mine on Lake Ontario converting to ~360 MW of AI compute leased to Fluidstack, with Google backstopping ~$3.2B of obligations for ~14% of TeraWulf. The campus anchors Anthropic's $50B US infrastructure program announced Nov 2025 (NY and TX sites).",
+    "actors": [
+      "terawulf",
+      "fluidstack",
+      "anthropic",
+      "google"
+    ],
+    "sources": [
+      "https://www.cnbc.com/2025/11/12/anthropic-ai-data-centers-texas-new-york.html",
+      "https://www.datacenterdynamics.com/en/news/fluidstack-to-lease-another-160mw-of-capacity-from-terawulf-at-new-york-campus-google-to-increase-stake-in-cryptominer/",
+      "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+    ],
+    "tags": [
+      "crypto-to-ai",
+      "new-york",
+      "anthropic-compute",
+      "google-backstop"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "applied-digital-polaris-forge-ellendale",
+    "title": "Applied Digital Polaris Forge 1 — Ellendale",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "operational",
+    "lat": 46,
+    "lon": -98.53,
+    "city": "Ellendale",
+    "state": "ND",
+    "date": "2025-11",
+    "desc": "Applied Digital's liquid-cooled AI factory campus in North Dakota, with 400 MW fully leased to CoreWeave (~$11B contracted revenue) and designed to scale to 1 GW. Building 1 reached its full 100 MW load in Nov 2025, exploiting cheap power and a cold climate with near-zero water use.",
+    "actors": [
+      "applied-digital",
+      "coreweave"
+    ],
+    "sources": [
+      "https://ir.applieddigital.com/news-events/press-releases/detail/137/applied-digital-completes-phase-ii-ready-for-service-at",
+      "https://www.datacenterdynamics.com/en/news/first-50mw-ready-for-service-at-applied-digital-data-center-in-ellendale-north-dakota/"
+    ],
+    "tags": [
+      "north-dakota",
+      "ai-factory",
+      "coreweave-lease",
+      "liquid-cooling"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-lighthouse-port-washington",
+    "title": "Stargate — Lighthouse, Port Washington",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 43.39,
+    "lon": -87.88,
+    "city": "Port Washington",
+    "state": "WI",
+    "date": "2025-12",
+    "desc": "Vantage Data Centers broke ground in Dec 2025 on the $15B+ 'Lighthouse' campus on 672 acres north of Milwaukee, part of OpenAI and Oracle's Stargate program. Four buildings planned, with 4,000+ construction jobs and ~1,000 permanent OpenAI/Oracle/Vantage roles.",
+    "actors": [
+      "vantage",
+      "openai",
+      "oracle"
+    ],
+    "sources": [
+      "https://www.wpr.org/news/port-washington-data-center-campus-openai-oracle-stargate-chatgpt",
+      "https://www.datacenterknowledge.com/data-center-construction/vantage-breaks-ground-on-15b-stargate-campus-in-wisconsin"
+    ],
+    "tags": [
+      "stargate",
+      "wisconsin",
+      "ai-training",
+      "vantage"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "microsoft-fairwater-mount-pleasant",
+    "title": "Microsoft Fairwater — Mount Pleasant",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "operational",
+    "lat": 42.71,
+    "lon": -87.89,
+    "city": "Mount Pleasant",
+    "state": "WI",
+    "date": "2026",
+    "desc": "Microsoft's first Fairwater AI datacenter, a 315-acre, 1.2M sq ft liquid-cooled facility on the former Foxconn site, linking hundreds of thousands of Nvidia GB200/GB300 GPUs into one cluster. Initial $3.3B pledge grew past $7B with a second Wisconsin Fairwater planned.",
+    "actors": [
+      "microsoft",
+      "nvidia",
+      "we-energies"
+    ],
+    "sources": [
+      "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
+      "https://dailyreporter.com/2025/09/18/microsoft-4b-ai-data-center-wisconsin-mount-pleasant/"
+    ],
+    "tags": [
+      "fairwater",
+      "ai-training",
+      "wisconsin",
+      "liquid-cooling",
+      "gpu-cluster"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "coreweave-core-scientific-denton",
+    "title": "CoreWeave/Core Scientific — Denton",
+    "layer": "datacenter",
+    "category": "crypto-converted",
+    "status": "operational",
+    "lat": 33.21,
+    "lon": -97.13,
+    "city": "Denton",
+    "state": "TX",
+    "date": "2026-01",
+    "desc": "Core Scientific's former bitcoin mining campus converted in a ~$6.1B program into a ~260 MW AI site for CoreWeave, which serves OpenAI under contracts worth up to $22.4B. Over 16,000 GPUs were online by Jan 2026 after weather delays; a marquee crypto-to-AI conversion.",
+    "actors": [
+      "coreweave",
+      "core-scientific",
+      "openai"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/coreweave-deploys-16000-gpus-at-delayed-data-center-in-denton-texas/",
+      "https://investors.corescientific.com/news-events/press-releases/detail/110/core-scientific-and-coreweave-announce-1-2-billion-expansion-at-denton-tx-site"
+    ],
+    "tags": [
+      "crypto-to-ai",
+      "texas",
+      "gpu-cloud",
+      "openai-compute"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "meta-lebanon-leap",
+    "title": "Meta Lebanon — LEAP District",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "under-construction",
+    "lat": 40.05,
+    "lon": -86.47,
+    "city": "Lebanon",
+    "state": "IN",
+    "date": "2026-02",
+    "desc": "Meta broke ground Feb 2026 on a $10B, 1,500-acre campus in Indiana's LEAP Innovation District with 13 buildings (10 data centers) and up to ~1 GW of capacity. First buildings due online by end of 2027, with ~300 permanent and 4,000+ peak construction jobs.",
+    "actors": [
+      "meta"
+    ],
+    "sources": [
+      "https://lebanon.in.gov/2026/02/11/meta-makes-lebanon-data-center-announcement-official/",
+      "https://www.datacenterdynamics.com/en/news/meta-set-to-develop-1500-acre-data-center-campus-outside-indianapolis-indiana/"
+    ],
+    "tags": [
+      "gigawatt-scale",
+      "indiana",
+      "ai-training",
+      "leap-district"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "sb-energy-ports-piketon",
+    "title": "PORTS Technology Campus — Piketon",
+    "layer": "datacenter",
+    "category": "hyperscale-ai",
+    "status": "planned",
+    "lat": 39.07,
+    "lon": -83.01,
+    "city": "Piketon",
+    "state": "OH",
+    "date": "2026-04",
+    "desc": "SB Energy (SoftBank) and DOE announced in April 2026 a public-private plan for a 10 GW AI data center with 9.2 GW of new gas generation on federal land at the former Portsmouth uranium enrichment site, billed as the world's largest, with $33.3B in Japanese funding tied to the US-Japan trade deal.",
+    "actors": [
+      "sb-energy",
+      "softbank",
+      "doe",
+      "aep"
+    ],
+    "sources": [
+      "https://www.energy.gov/em/articles/special-report-details-worlds-largest-ai-data-center-portsmouth-site",
+      "https://sciotovalleyguardian.com/2026/03/20/piketon-set-to-become-ground-zero-for-new-energy-megasite/"
+    ],
+    "tags": [
+      "doe-land",
+      "gas-power",
+      "ohio",
+      "mega-project",
+      "10-gigawatt"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "memphis-connect-2",
+    "title": "Connect 2 Memphis Camera Integration",
+    "layer": "surveillance",
+    "category": "crime-center",
+    "status": "expanding",
+    "lat": 35.15,
+    "lon": -90.05,
+    "city": "Memphis",
+    "state": "TN",
+    "date": "2023-12",
+    "desc": "Memphis PD's Real Time Crime Center links 3,000+ cameras and, via the Connect 2 Memphis program, lets businesses and residents plug private camera feeds directly into police monitoring with CORE devices. MPD has stated goals to triple or quadruple integrated cameras, alongside a growing drone program.",
+    "actors": [
+      "memphis-pd"
+    ],
+    "sources": [
+      "https://www.actionnews5.com/2023/12/19/how-connect-2-memphis-works-look-inside-mpds-real-time-crime-center/",
+      "https://www.memphispolice.org/divisions/information-technology/real-time-crime-center/"
+    ],
+    "tags": [
+      "crime-center",
+      "camera-integration",
+      "private-cameras",
+      "real-time-monitoring"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "cbp-ift-nogales",
+    "title": "CBP Integrated Fixed Towers (Nogales)",
+    "layer": "surveillance",
+    "category": "border-tower",
+    "status": "operational",
+    "lat": 31.36,
+    "lon": -110.93,
+    "city": "Nogales",
+    "state": "AZ",
+    "date": "2024",
+    "desc": "Elbit Systems of America's Integrated Fixed Towers — radar, day/night cameras and command software detecting people up to 7.5 miles away — cover roughly 200 miles of the Arizona-Mexico border. The IFT network forms the backbone of the 'virtual wall' mapped by EFF across southern Arizona.",
+    "actors": [
+      "cbp",
+      "elbit-systems",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.elbitamerica.com/news/elbit-systems-of-america-achieves-significant-milestones-for-the-nogales-integrated-fixed-towers-system",
+      "https://www.eff.org/nb/deeplinks/2023/03/cbp-expanding-its-surveillance-tower-program-us-mexico-border-and-were-mapping-it",
+      "https://www.tucsonsentinel.com/nationworld/report/050123_surveillance_towers/map-border-surveillance-towers-shows-growing-virtual-wall-along-us-southern-border/"
+    ],
+    "tags": [
+      "border-tower",
+      "virtual-wall",
+      "radar",
+      "elbit"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "anduril-sentry-towers-border",
+    "title": "Anduril Sentry Tower Network",
+    "layer": "surveillance",
+    "category": "border-tower",
+    "status": "expanding",
+    "lat": 32.57,
+    "lon": -116.97,
+    "city": "San Diego",
+    "state": "CA",
+    "date": "2024",
+    "desc": "CBP surpassed 300 Anduril Sentry autonomous surveillance towers across the Southwest border by late 2024, with budgets funding 100 more through FY2025. The AI-driven Lattice towers autonomously detect and track people and vehicles; new XRST towers extend range to 5+ miles.",
+    "actors": [
+      "anduril",
+      "cbp",
+      "dhs"
+    ],
+    "sources": [
+      "https://fedscoop.com/anduril-sentry-towers-cbp/",
+      "https://www.cbp.gov/document/foia-record/anduril-surveillance-towers",
+      "https://www.eff.org/deeplinks/2026/04/california-coastal-community-must-reject-cbps-ai-powered-surveillance-tower"
+    ],
+    "tags": [
+      "border-tower",
+      "ai-surveillance",
+      "autonomous-detection",
+      "virtual-wall"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "chicago-pod-camera-network",
+    "title": "Chicago POD Camera Network",
+    "layer": "surveillance",
+    "category": "alpr-network",
+    "status": "operational",
+    "lat": 41.878,
+    "lon": -87.63,
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2024",
+    "desc": "Chicago police can access live views from a federated network of 35,000-40,000+ cameras — including ~4,400 core blue-light Police Observation Devices plus CTA, school and private feeds routed through the OEMC. A 2024 investigation found the spending helped solve at best 3.5% of 2023 homicides.",
+    "actors": [
+      "chicago-pd",
+      "oemc"
+    ],
+    "sources": [
+      "https://www.chicagopolice.org/police-observation-device-pod-cameras/",
+      "https://illinoisanswers.org/2024/09/29/chicago-police-camera-surveillance-fail-deliver-promise-fight-crime/"
+    ],
+    "tags": [
+      "camera-network",
+      "pod-cameras",
+      "video-surveillance",
+      "effectiveness"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "las-vegas-fusion-watch",
+    "title": "LVMPD Fusion Watch Crime Center",
+    "layer": "surveillance",
+    "category": "crime-center",
+    "status": "operational",
+    "lat": 36.17,
+    "lon": -115.16,
+    "city": "Las Vegas",
+    "state": "NV",
+    "date": "2024",
+    "desc": "Las Vegas Metro's Fusion Watch real-time crime center monitors live feeds from cameras across the valley, integrating Flock ALPRs, the Vegas SafeCam private-camera registry and a drone-as-first-responder program with rooftop skyports launched in 2024.",
+    "actors": [
+      "lvmpd",
+      "flock-safety",
+      "axon"
+    ],
+    "sources": [
+      "https://www.police1.com/real-time-crime-center/photos-lvmpd-unveils-new-fusion-watch-center-drone-skyports",
+      "https://www.reviewjournal.com/local/modern-monitoring-civil-liberties-advocates-raise-concerns-about-metro-license-plate-cameras-3228273/"
+    ],
+    "tags": [
+      "crime-center",
+      "alpr",
+      "drones",
+      "camera-registry"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "atlanta-operation-shield-vic",
+    "title": "Atlanta Operation Shield VIC",
+    "layer": "surveillance",
+    "category": "crime-center",
+    "status": "operational",
+    "lat": 33.755,
+    "lon": -84.39,
+    "city": "Atlanta",
+    "state": "GA",
+    "date": "2024",
+    "desc": "Atlanta's Operation Shield network exceeds 20,000 public and private cameras, with ~7,500 integrated into APD's Loudermilk Video Integration Center for real-time analytics-driven monitoring. Run with the Atlanta Police Foundation, the VIC also folds in Flock ALPRs and a renewed Clearview AI contract.",
+    "actors": [
+      "atlanta-pd",
+      "atlanta-police-foundation",
+      "flock-safety",
+      "clearview-ai"
+    ],
+    "sources": [
+      "https://atlantapolicefoundation.org/programs/operation-shield/",
+      "https://www.sassisouth.org/atlantaprimer"
+    ],
+    "tags": [
+      "crime-center",
+      "camera-network",
+      "public-private",
+      "video-integration"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "actic-fusion-center-phoenix",
+    "title": "Arizona Counter Terrorism Info Center",
+    "layer": "surveillance",
+    "category": "fusion-center",
+    "status": "operational",
+    "lat": 33.46,
+    "lon": -112.07,
+    "city": "Phoenix",
+    "state": "AZ",
+    "date": "2024-12",
+    "desc": "ACTIC, Arizona's state fusion center in Phoenix, marked 20 years of 24/7 operations in December 2024. Jointly run by Arizona DPS, the state homeland security department and the FBI, it pairs an unclassified multi-agency suite with a classified JTTF floor, channeling border-region intelligence across agencies.",
+    "actors": [
+      "actic",
+      "arizona-dps",
+      "fbi",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.azdps.gov/news/releases/1063",
+      "https://azactic.gov/about"
+    ],
+    "tags": [
+      "fusion-center",
+      "counterterrorism",
+      "border-region",
+      "intelligence-sharing"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "ncric-fusion-center-sf",
+    "title": "Northern California Fusion Center (NCRIC)",
+    "layer": "surveillance",
+    "category": "fusion-center",
+    "status": "operational",
+    "lat": 37.781,
+    "lon": -122.414,
+    "city": "San Francisco",
+    "state": "CA",
+    "date": "2025",
+    "desc": "The Northern California Regional Intelligence Center, housed in San Francisco's Phillip Burton Federal Building, is one of ~80 DHS-recognized fusion centers. It pools suspicious activity reports, ALPR and intelligence across 15 counties covering 10M+ residents, linking local police data with FBI and DHS.",
+    "actors": [
+      "ncric",
+      "dhs",
+      "fbi"
+    ],
+    "sources": [
+      "https://ncric.ca.gov/ncric/",
+      "https://atlasofsurveillance.org/a/aos004309-northern-california-regional-intelligence-center-fusion-center"
+    ],
+    "tags": [
+      "fusion-center",
+      "intelligence-sharing",
+      "dhs",
+      "suspicious-activity-reports"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "jric-fusion-center-norwalk",
+    "title": "LA Joint Regional Intelligence Center",
+    "layer": "surveillance",
+    "category": "fusion-center",
+    "status": "operational",
+    "lat": 33.916,
+    "lon": -118.07,
+    "city": "Norwalk",
+    "state": "CA",
+    "date": "2025",
+    "desc": "The Joint Regional Intelligence Center in Norwalk fuses terrorism, drug and all-crimes intelligence for the greater Los Angeles region, merging FBI, LAPD, LASD and HIDTA data streams since 2006. Activist groups like Stop LAPD Spying have campaigned to shut it down over surveillance of protest movements.",
+    "actors": [
+      "jric",
+      "fbi",
+      "lapd",
+      "dhs"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joint_Regional_Intelligence_Center",
+      "https://stoplapdspying.org/shut-down-the-spy-centers/"
+    ],
+    "tags": [
+      "fusion-center",
+      "los-angeles",
+      "intelligence-sharing",
+      "counterterrorism"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "bric-fusion-center-boston",
+    "title": "Boston Regional Intelligence Center",
+    "layer": "surveillance",
+    "category": "fusion-center",
+    "status": "operational",
+    "lat": 42.331,
+    "lon": -71.092,
+    "city": "Boston",
+    "state": "MA",
+    "date": "2025",
+    "desc": "The BRIC, run by Boston Police since 2005 and largely DHS-funded, covers nine metro communities. Records show its gang database is 97.7% people of color and it surveilled activists and Muslims' social media; advocates warn its data networks create pathways to ICE during federal immigration crackdowns.",
+    "actors": [
+      "boston-pd",
+      "bric",
+      "dhs"
+    ],
+    "sources": [
+      "https://boltsmag.org/boston-police-bric-dhs-immigration-enforcement/",
+      "https://www.wbur.org/news/2023/10/04/boston-police-gang-database-funding"
+    ],
+    "tags": [
+      "fusion-center",
+      "gang-database",
+      "protest-surveillance",
+      "data-sharing"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "tsa-facial-recognition-atl",
+    "title": "TSA Facial Recognition at ATL",
+    "layer": "surveillance",
+    "category": "biometric-checkpoint",
+    "status": "expanding",
+    "lat": 33.64,
+    "lon": -84.43,
+    "city": "Atlanta",
+    "state": "GA",
+    "date": "2025",
+    "desc": "Hartsfield-Jackson Atlanta, the world's busiest airport, is a flagship site for TSA's CAT-2 facial comparison units, which photograph travelers and match them to ID documents at checkpoints. TSA has deployed the technology to hundreds of airports with 400+ installations planned by late 2026.",
+    "actors": [
+      "tsa",
+      "dhs"
+    ],
+    "sources": [
+      "https://idtechwire.com/tsa-expands-facial-recognition-to-80-u-s-airports-plans-nationwide-rollout-ahead-of-2025-real-id-deadline/",
+      "https://www.tsa.gov/news/press/factsheets/facial-comparison-technology"
+    ],
+    "tags": [
+      "facial-recognition",
+      "biometric-checkpoint",
+      "airport",
+      "tsa"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "tsa-facial-recognition-lax",
+    "title": "TSA Facial Recognition at LAX",
+    "layer": "surveillance",
+    "category": "biometric-checkpoint",
+    "status": "expanding",
+    "lat": 33.942,
+    "lon": -118.408,
+    "city": "Los Angeles",
+    "state": "CA",
+    "date": "2025",
+    "desc": "LAX is among the major hubs running TSA CAT-2 facial recognition at security checkpoints, matching live photos against ID documents. TSA's PreCheck Touchless ID, launched at 15 airports in Jan 2026, is expanding hands-free face-based identity verification to ~65 airports by spring 2026.",
+    "actors": [
+      "tsa",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.tsa.gov/biometrics-technology",
+      "https://aviationweek.com/air-transport/airports-networks/tsa-expanding-touchless-facial-recognition-65-airports"
+    ],
+    "tags": [
+      "facial-recognition",
+      "biometric-checkpoint",
+      "airport",
+      "touchless-id"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "tsa-facial-recognition-dfw",
+    "title": "TSA Facial Recognition at DFW",
+    "layer": "surveillance",
+    "category": "biometric-checkpoint",
+    "status": "expanding",
+    "lat": 32.897,
+    "lon": -97.038,
+    "city": "Dallas-Fort Worth",
+    "state": "TX",
+    "date": "2025",
+    "desc": "Dallas-Fort Worth International is one of the flagship hubs in TSA's nationwide rollout of CAT-2 facial comparison units, part of a deployment reaching hundreds of US airports ahead of the 2025 REAL ID deadline. A bipartisan Senate effort to restrict airport facial recognition stalled in 2025.",
+    "actors": [
+      "tsa",
+      "dhs"
+    ],
+    "sources": [
+      "https://idtechwire.com/tsa-expands-facial-recognition-to-80-u-s-airports-plans-nationwide-rollout-ahead-of-2025-real-id-deadline/",
+      "https://adept.travel/news/2025-08-04-tsa-facial-recognition-bill-stalls"
+    ],
+    "tags": [
+      "facial-recognition",
+      "biometric-checkpoint",
+      "airport",
+      "real-id"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "project-nola-new-orleans",
+    "title": "Project NOLA Live Facial Recognition",
+    "layer": "surveillance",
+    "category": "facial-recognition",
+    "status": "operational",
+    "lat": 29.95,
+    "lon": -90.07,
+    "city": "New Orleans",
+    "state": "LA",
+    "date": "2025-05",
+    "desc": "Project NOLA, a private nonprofit, runs 5,000+ cameras in New Orleans with ~200 performing live facial recognition against watchlists — the first known live face-matching network in a US city. A May 2025 expose revealed NOPD quietly received automated alerts despite city law; alerts were suspended, then access resumed.",
+    "actors": [
+      "project-nola",
+      "nopd"
+    ],
+    "sources": [
+      "https://www.washingtonpost.com/business/2025/05/19/live-facial-recognition-police-new-orleans/",
+      "https://www.npr.org/2025/12/16/nx-s1-5616681/new-orleans-live-facial-recognition-surveillance",
+      "https://veritenews.org/2025/12/02/project-nola-video-surveillance/"
+    ],
+    "tags": [
+      "facial-recognition",
+      "private-surveillance",
+      "camera-network",
+      "watchlists"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "nyc-domain-awareness-system",
+    "title": "NYPD Domain Awareness System",
+    "layer": "surveillance",
+    "category": "alpr-network",
+    "status": "expanding",
+    "lat": 40.712,
+    "lon": -74.006,
+    "city": "New York",
+    "state": "NY",
+    "date": "2025-10",
+    "desc": "The NYPD-Microsoft Domain Awareness System fuses tens of thousands of cameras, ~500 city ALPRs plus a national commercial plate database, sensors and biometric records into one interface. In Oct 2025 a federal lawsuit challenged it as warrantless citywide surveillance.",
+    "actors": [
+      "nypd",
+      "microsoft"
+    ],
+    "sources": [
+      "https://www.biometricupdate.com/202510/nypd-faces-federal-lawsuit-over-alleged-unconstitutional-citywide-surveillance",
+      "https://gothamist.com/news/the-nypd-is-tracking-drivers-across-the-country-using-license-plate-readers",
+      "https://en.wikipedia.org/wiki/Domain_Awareness_System"
+    ],
+    "tags": [
+      "alpr-network",
+      "camera-network",
+      "data-fusion",
+      "lawsuit"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "port-isabel-detention-center",
+    "title": "Port Isabel Detention Center",
+    "layer": "detention",
+    "category": "processing-center",
+    "status": "operational",
+    "lat": 26.16,
+    "lon": -97.341,
+    "city": "Los Fresnos",
+    "state": "TX",
+    "date": "1961",
+    "desc": "ICE-owned service processing center in the Rio Grande Valley with capacity for about 1,200 detainees and roughly 9,500 intakes per year. A longstanding hub for border-region detention and deportation flights, it was a central site for family separation reunifications in 2018 and remains one of ICE's major government-owned facilities.",
+    "actors": [
+      "ice",
+      "dhs",
+      "ahtna"
+    ],
+    "sources": [
+      "https://www.ice.gov/detain/detention-facilities/port-isabel-service-processing-center",
+      "https://en.wikipedia.org/wiki/Port_Isabel_Detention_Center",
+      "https://www.globaldetentionproject.org/countries/americas/united-states/detention-centres/648/port-isabel-service-processing-center-port-isabel-detention-center"
+    ],
+    "tags": [
+      "ice-owned",
+      "border",
+      "rio-grande-valley",
+      "deportation-hub"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "krome-north-spc",
+    "title": "Krome North Service Processing Center",
+    "layer": "detention",
+    "category": "processing-center",
+    "status": "operational",
+    "lat": 25.755,
+    "lon": -80.482,
+    "city": "Miami",
+    "state": "FL",
+    "date": "1980",
+    "desc": "ICE-operated processing center at the edge of the Everglades, in use since 1980. In March 2025 its population rose 249% over pre-inauguration levels, at times more than triple operational capacity, with detainees sleeping on floors. At least three deaths occurred in 2025; Human Rights Watch documented abusive practices in a July 2025 report.",
+    "actors": [
+      "ice",
+      "dhs",
+      "akima"
+    ],
+    "sources": [
+      "https://www.hrw.org/report/2025/07/21/you-feel-like-your-life-is-over/abusive-practices-at-three-florida-immigration",
+      "https://www.axios.com/local/miami/2025/03/27/miami-ice-facility-overcrowding-poor-conditions",
+      "https://www.snopes.com/news/2025/04/02/miami-ice-facility/"
+    ],
+    "tags": [
+      "overcrowding",
+      "deaths-in-custody",
+      "florida",
+      "processing-center"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eloy-detention-center",
+    "title": "Eloy Detention Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 32.741,
+    "lon": -111.59,
+    "city": "Eloy",
+    "state": "AZ",
+    "date": "1994",
+    "desc": "CoreCivic facility in Pinal County operating since 1994, holding roughly 1,550 men and women for ICE. Historically among the deadliest ICE detention sites, with one of the highest cumulative death tolls including multiple suicides. Part of a cluster of CoreCivic prisons around Eloy that anchors Arizona's detention capacity.",
+    "actors": [
+      "corecivic",
+      "ice"
+    ],
+    "sources": [
+      "https://www.ice.gov/detain/detention-facilities/eloy-detention-center",
+      "https://en.wikipedia.org/wiki/Eloy_Detention_Center"
+    ],
+    "tags": [
+      "corecivic",
+      "deaths-in-custody",
+      "arizona",
+      "long-standing"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "northwest-ice-processing-center",
+    "title": "Northwest ICE Processing Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 47.229,
+    "lon": -122.418,
+    "city": "Tacoma",
+    "state": "WA",
+    "date": "2004",
+    "desc": "GEO Group-operated since 2005, capacity ~1,575, the largest immigration detention site in the Pacific Northwest. Site of repeated detainee hunger strikes over food, medical care, and the $1/day work program. Courts ordered GEO to pay $23.2 million for violating Washington's minimum wage law; state inspectors have been repeatedly denied access.",
+    "actors": [
+      "geo-group",
+      "ice"
+    ],
+    "sources": [
+      "https://www.atg.wa.gov/news/news-releases/profit-operator-northwest-ice-processing-center-must-pay-232-million-result",
+      "https://washingtonstatestandard.com/2025/02/17/push-for-inspections-at-tacoma-immigration-detention-center-reemerges-in-wa-legislature/",
+      "https://en.wikipedia.org/wiki/Northwest_Detention_Center"
+    ],
+    "tags": [
+      "geo-group",
+      "hunger-strikes",
+      "labor-lawsuit",
+      "pacific-northwest"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stewart-detention-center",
+    "title": "Stewart Detention Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "expanding",
+    "lat": 32.046,
+    "lon": -84.804,
+    "city": "Lumpkin",
+    "state": "GA",
+    "date": "2006",
+    "desc": "CoreCivic facility in rural southwest Georgia with official capacity of 1,752; population exceeded 2,300 in spring 2025. One of the deadliest ICE facilities: multiple deaths since 2006, including a May 2025 death in transport and a June 2025 suicide, the facility's third confirmed. Its remote location and an immigration court with very high denial rates draw sustained criticism.",
+    "actors": [
+      "corecivic",
+      "ice"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stewart_Detention_Center",
+      "https://www.detentionwatchnetwork.org/pressroom/releases/2025/third-death-suicide-georgias-ice-detention-center-advocates-call-immediate",
+      "https://www.ice.gov/detain/detention-facilities/stewart-detention-center"
+    ],
+    "tags": [
+      "corecivic",
+      "deaths-in-custody",
+      "overcrowding",
+      "rural-detention",
+      "georgia"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "central-louisiana-ice-processing-center",
+    "title": "Central Louisiana ICE Processing Center (Jena)",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 31.692,
+    "lon": -92.138,
+    "city": "Jena",
+    "state": "LA",
+    "date": "2007",
+    "desc": "GEO Group facility (formerly LaSalle Detention Center) with capacity of 1,160, part of Louisiana's dense rural detention cluster. Gained national attention in 2025 as the site where Columbia activist Mahmoud Khalil and other students detained over pro-Palestinian speech were held far from their attorneys. Long-documented complaints over medical care and conditions.",
+    "actors": [
+      "geo-group",
+      "ice"
+    ],
+    "sources": [
+      "https://www.ice.gov/detain/detention-facilities/central-louisiana-ipc",
+      "https://www.cnn.com/2025/03/26/us/mahmoud-khalil-badar-khan-suri/index.html",
+      "https://theappeal.org/mahmoud-khalil-lasalle-detention-center-louisiana/"
+    ],
+    "tags": [
+      "geo-group",
+      "louisiana",
+      "political-detention",
+      "rural-detention"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "adelanto-ice-processing-center",
+    "title": "Adelanto ICE Processing Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "expanding",
+    "lat": 34.561,
+    "lon": -117.448,
+    "city": "Adelanto",
+    "state": "CA",
+    "date": "2011",
+    "desc": "GEO Group-owned facility, one of the largest in California with roughly 1,900-2,000 beds. Population surged from ~300 in early 2025 to nearly 2,000 by late 2025 after a court settlement limiting its use was lifted. Two detainees died in fall 2025; detainees filed a 2025 federal lawsuit over conditions, isolation, and medical neglect.",
+    "actors": [
+      "geo-group",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.ice.gov/detain/detention-facilities/adelanto-ice-processing-center",
+      "https://publiccounsel.org/press-releases/adelanto-detainees-file-federal-lawsuit-challenging-inhumane-conditions-at-adelanto-ice-processing-center/",
+      "https://www.disabilityrightsca.org/drc-advocacy/investigations/inside-the-adelanto-ice-processing-center"
+    ],
+    "tags": [
+      "private-prison",
+      "geo-group",
+      "deaths-in-custody",
+      "lawsuit",
+      "california"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "otay-mesa-detention-center",
+    "title": "Otay Mesa Detention Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 32.564,
+    "lon": -116.935,
+    "city": "San Diego",
+    "state": "CA",
+    "date": "2015",
+    "desc": "CoreCivic facility near the US-Mexico border with contractual ICE capacity of 1,358, regularly exceeded in 2025 — over 1,600 detainees on some September 2025 days. Site of the first COVID-19 detainee death in 2020. California lawmakers attempting oversight inspections were denied entry in February 2026 despite prior clearance.",
+    "actors": [
+      "corecivic",
+      "ice",
+      "usms"
+    ],
+    "sources": [
+      "https://www.kpbs.org/news/local/2025/07/28/overcrowded-conditions-plague-otay-mesa-and-other-immigrant-detention-facilities",
+      "https://calmatters.org/politics/2026/02/otay-mesa-inspection-lawmakers-denied/",
+      "https://en.wikipedia.org/wiki/Otay_Mesa_Detention_Center"
+    ],
+    "tags": [
+      "corecivic",
+      "border",
+      "overcrowding",
+      "oversight-denied",
+      "california"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "prairieland-detention-center",
+    "title": "Prairieland Detention Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 32.434,
+    "lon": -97.215,
+    "city": "Alvarado",
+    "state": "TX",
+    "date": "2017",
+    "desc": "Privately operated ICE facility south of Fort Worth holding roughly 700 detainees. Site of a July 4, 2025 attack in which an Alvarado police officer was shot during a coordinated incident outside the facility; federal prosecutors charged 18 people and a jury convicted members of a self-described cell of terrorism-related offenses in 2026.",
+    "actors": [
+      "lasalle-corrections",
+      "ice"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2025_Prairieland_ICE_detention_center_incident",
+      "https://www.justice.gov/opa/pr/antifa-cell-members-convicted-prairieland-ice-detention-center-shooting",
+      "https://www.keranews.org/criminal-justice/2025-10-22/alvarado-texas-immigration-ice-detention-center-shooting-18-arrested"
+    ],
+    "tags": [
+      "private-prison",
+      "attack-2025",
+      "texas",
+      "north-texas"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "la-palma-correctional-center",
+    "title": "La Palma Correctional Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 32.723,
+    "lon": -111.572,
+    "city": "Eloy",
+    "state": "AZ",
+    "date": "2019",
+    "desc": "3,060-bed CoreCivic facility in Eloy, built in 2008 for California state prisoners and converted to ICE detention in 2019, making it one of the largest immigration detention sites in the country. A DHS Inspector General inspection found conditions that 'threatened the health, safety, and rights of detainees' and an 'environment of mistreatment and abuse.'",
+    "actors": [
+      "corecivic",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.aclu.org/news/immigrants-rights/ices-watchdog-agency-confirms-dangerous-conditions-in-arizona-immigration-detention-facility",
+      "https://www.globaldetentionproject.org/countries/americas/united-states/detention-centres/2276/la-palma-correctional-center"
+    ],
+    "tags": [
+      "corecivic",
+      "mega-facility",
+      "oig-findings",
+      "arizona"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "moshannon-valley-processing-center",
+    "title": "Moshannon Valley Processing Center",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "operational",
+    "lat": 40.866,
+    "lon": -78.146,
+    "city": "Philipsburg",
+    "state": "PA",
+    "date": "2021",
+    "desc": "Former federal prison converted to ICE detention in 2021, operated by GEO Group via an intergovernmental agreement with Clearfield County. Capacity 1,876, the largest immigration detention facility in the Northeast; population grew to ~1,400 by late 2025. Faces allegations of medical neglect and scrutiny after the hanging death of a Chinese detainee.",
+    "actors": [
+      "geo-group",
+      "ice",
+      "clearfield-county"
+    ],
+    "sources": [
+      "https://www.spotlightpa.org/statecollege/2025/10/moshannon-valley-processing-center-clearfield-county-immigration-ice-local-government/",
+      "https://whyy.org/articles/ice-detention-center-moshannon-medical-neglect/",
+      "https://www.ice.gov/detain/detention-facilities/moshannon-valley-processing-center"
+    ],
+    "tags": [
+      "geo-group",
+      "prison-conversion",
+      "northeast",
+      "medical-neglect"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "leavenworth-midwest-regional-reception",
+    "title": "Midwest Regional Reception Center (Leavenworth)",
+    "layer": "detention",
+    "category": "reopened-prison",
+    "status": "planned",
+    "lat": 39.283,
+    "lon": -94.905,
+    "city": "Leavenworth",
+    "state": "KS",
+    "date": "2025",
+    "desc": "CoreCivic's former Leavenworth Detention Center, renamed and contracted to ICE in 2025 for roughly 1,000 beds. The City of Leavenworth sued in March 2025 over CoreCivic's attempt to reopen without a special use permit; a judge blocked operations in June 2025 and the Kansas Court of Appeals upheld the permit requirement in February 2026.",
+    "actors": [
+      "corecivic",
+      "ice",
+      "doj"
+    ],
+    "sources": [
+      "https://kansasreflector.com/2025/12/11/kansas-residents-ask-leavenworth-to-deny-corecivic-permit-for-ice-prison-based-on-track-record/",
+      "https://www.kcur.org/news/2025-09-24/corecivic-ice-leavenworth-kansas-justice-department",
+      "https://fox4kc.com/news/city-of-leavenworth-files-lawsuit-against-corecivic-for-attempting-to-open-ice-facility-without-permit/"
+    ],
+    "tags": [
+      "corecivic",
+      "blocked-by-court",
+      "permit-fight",
+      "kansas",
+      "reopening"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "guantanamo-migrant-operations",
+    "title": "Guantanamo Bay Migrant Operations (NSGB)",
+    "layer": "detention",
+    "category": "military-base",
+    "status": "operational",
+    "lat": 19.903,
+    "lon": -75.096,
+    "city": "Guantanamo Bay",
+    "state": "Cuba (US Naval Station)",
+    "date": "2025-02",
+    "desc": "Under a January 2025 presidential memo, DHS and DOD expanded the Migrant Operations Center at Naval Station Guantanamo Bay, with first transfer flights on February 4, 2025 and a stated goal of 30,000 beds. Over 700 immigrants have cycled through, though actual capacity is ~400 beds. A federal judge found the operation likely 'impermissibly punitive' in December 2025.",
+    "actors": [
+      "dhs",
+      "ice",
+      "dod",
+      "us-navy"
+    ],
+    "sources": [
+      "https://www.ice.gov/detain/detention-facilities/naval-station-guantanamo-bay",
+      "https://www.cbsnews.com/news/trump-guantanamo-bay-migrants/",
+      "https://immpolicytracking.org/policies/eo-expanding-migrant-operations-center-at-naval-station-guantanamo-bay-to-full-capacity-directs-departments-of-defense-and-homeland-security-to-begin-preparing-guantanamo-bay-for-detention-of-migrants/"
+    ],
+    "tags": [
+      "military-base",
+      "offshore-detention",
+      "litigation",
+      "guantanamo"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "dilley-south-texas-family-residential",
+    "title": "South Texas Family Residential Center (Dilley)",
+    "layer": "detention",
+    "category": "family-detention",
+    "status": "reopened",
+    "lat": 28.66,
+    "lon": -99.18,
+    "city": "Dilley",
+    "state": "TX",
+    "date": "2025-03",
+    "desc": "The largest family detention facility in the US, with capacity for 2,400 people. Closed by ICE in June 2024, it reopened in March 2025 under a 5-year CoreCivic/Target Hospitality contract worth roughly $180 million annually as the administration revived family detention. A June 2025 lawsuit cited inadequate water and medical care for detained children and parents.",
+    "actors": [
+      "corecivic",
+      "target-hospitality",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.texastribune.org/2025/03/06/texas-dilley-immigration-detention-center-families-reopen/",
+      "https://ir.corecivic.com/news-releases/news-release-details/corecivic-announces-resumption-operations-south-texas-family",
+      "https://www.ksat.com/news/texas/2025/03/06/south-texas-immigration-detention-center-with-capacity-for-2400-people-to-reopen/"
+    ],
+    "tags": [
+      "family-detention",
+      "corecivic",
+      "children",
+      "reopened-2025",
+      "texas"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "karnes-county-ipc",
+    "title": "Karnes County Immigration Processing Center",
+    "layer": "detention",
+    "category": "family-detention",
+    "status": "operational",
+    "lat": 28.873,
+    "lon": -97.915,
+    "city": "Karnes City",
+    "state": "TX",
+    "date": "2025-03",
+    "desc": "GEO Group facility with 830 beds that converted back to detaining families with children in March 2025 under an updated ICE contract, becoming a staging ground for expulsions of migrant families. Family detention here was previously ended in 2021. A June 2025 lawsuit cited inadequate access to water and medical treatment for detained families.",
+    "actors": [
+      "geo-group",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.keranews.org/news/2025-03-21/texas-detains-more-migrants-than-any-other-state-families-with-kids-are-now-among-them",
+      "https://www.cbsnews.com/news/ice-migrant-families-expulsion-karnes-city-texas-detention-center/",
+      "https://www.ice.gov/detain/detention-facilities/karnes-county-ipc"
+    ],
+    "tags": [
+      "family-detention",
+      "geo-group",
+      "children",
+      "texas"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "delaney-hall-newark",
+    "title": "Delaney Hall",
+    "layer": "detention",
+    "category": "detention-center",
+    "status": "reopened",
+    "lat": 40.727,
+    "lon": -74.141,
+    "city": "Newark",
+    "state": "NJ",
+    "date": "2025-05",
+    "desc": "GEO Group facility reopened May 2025 under a 15-year, $1 billion ICE contract for 1,000 beds — the largest detention site in the New York area. Site of a May 2025 confrontation involving members of Congress and the arrest of Newark's mayor, a June 2025 detainee uprising, hunger strikes, and a December 2025 death in custody. Newark and New Jersey have sued.",
+    "actors": [
+      "geo-group",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Delaney_Hall",
+      "https://www.cnn.com/2026/06/02/us/delaney-hall-new-jersey-ice-protests-tuesday",
+      "https://www.aclu-nj.org/press-releases/aclu-nj-statement-ice-contracting-delaney-hall-immigration-detention/"
+    ],
+    "tags": [
+      "geo-group",
+      "reopened-2025",
+      "protests",
+      "lawsuit",
+      "northeast"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "north-lake-processing-center",
+    "title": "North Lake Processing Center",
+    "layer": "detention",
+    "category": "reopened-prison",
+    "status": "reopened",
+    "lat": 43.875,
+    "lon": -85.862,
+    "city": "Baldwin",
+    "state": "MI",
+    "date": "2025-06",
+    "desc": "Shuttered GEO Group prison reopened June 16, 2025 as an ICE detention center under a contract worth more than $85 million annually — the largest immigration detention facility in the Midwest, with capacity for 1,800. Holds many people arrested in Chicago-area operations; judges ruled in over 90% of 800+ habeas petitions that detainees were unlawfully held.",
+    "actors": [
+      "geo-group",
+      "ice"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_Lake_Correctional_Facility",
+      "https://www.themarshallproject.org/2025/08/29/michigan-ice-georgia-louisiana-prison",
+      "https://abc7chicago.com/post/largest-midwest-ice-detention-center-opens-geo-north-lake-baldwin-michigan-could-soon-house-people-detained-chicago/16857442/"
+    ],
+    "tags": [
+      "geo-group",
+      "reopened-2025",
+      "prison-conversion",
+      "midwest",
+      "habeas-rulings"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "alligator-alcatraz-everglades",
+    "title": "\"Alligator Alcatraz\" (Everglades Detention Camp)",
+    "layer": "detention",
+    "category": "soft-sided-camp",
+    "status": "operational",
+    "lat": 25.861,
+    "lon": -80.897,
+    "city": "Ochopee",
+    "state": "FL",
+    "date": "2025-07",
+    "desc": "State-built tent and trailer camp at the Dade-Collier airstrip in the Everglades, opened July 3, 2025 by Florida under agreement with DHS. Held up to ~1,500 detainees in chain-link cages of 32; faced environmental and due-process lawsuits, with costs nearing $1 billion. As of mid-2026 it is winding down, with closure expected in June 2026.",
+    "actors": [
+      "florida-dem",
+      "dhs",
+      "ice"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alligator_Alcatraz",
+      "https://www.cbsnews.com/miami/news/florida-alligator-alcatraz-closure-june-2026/",
+      "https://www.npr.org/2026/05/27/nx-s1-5831277-e1/immigration-detention-center-known-as-alligator-alcatraz-may-soon-close"
+    ],
+    "tags": [
+      "tent-camp",
+      "everglades",
+      "state-run",
+      "closing-2026",
+      "florida"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "camp-atterbury-detention",
+    "title": "Camp Atterbury Detention Site",
+    "layer": "detention",
+    "category": "military-base",
+    "status": "planned",
+    "lat": 39.332,
+    "lon": -86.03,
+    "city": "Edinburgh",
+    "state": "IN",
+    "date": "2025-07",
+    "desc": "Indiana National Guard training base about 40 miles south of Indianapolis designated in a July 2025 letter from the Defense Secretary for temporary DHS use to hold up to 1,000 immigration detainees, alongside Joint Base McGuire-Dix-Lakehurst in New Jersey. Part of the military-base detention expansion funded by the July 2025 reconciliation bill's ~$45B appropriation.",
+    "actors": [
+      "dod",
+      "dhs",
+      "ice",
+      "indiana-national-guard"
+    ],
+    "sources": [
+      "https://indianacapitalchronicle.com/2025/07/18/defense-letter-confirms-indianas-camp-atterbury-to-be-used-for-immigrant-detention/",
+      "https://www.npr.org/2025/07/21/nx-s1-5475109/immigrant-detention-military-bases",
+      "https://www.military.com/daily-news/2025/07/18/additional-military-bases-new-jersey-indiana-set-host-migrant-detention-camps.html"
+    ],
+    "tags": [
+      "military-base",
+      "national-guard",
+      "detention-expansion",
+      "indiana"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "camp-east-montana-fort-bliss",
+    "title": "Camp East Montana (Fort Bliss)",
+    "layer": "detention",
+    "category": "soft-sided-camp",
+    "status": "operational",
+    "lat": 31.81,
+    "lon": -106.26,
+    "city": "El Paso",
+    "state": "TX",
+    "date": "2025-08",
+    "desc": "Tent detention camp on Fort Bliss army land, opened August 2025 under a ~$1.2 billion contract, with planned capacity of 5,000 — described by the ACLU as the largest US internment facility. ICE's own oversight found 60+ standards violations in its first 50 days; three detainees died in a 44-day span, one ruled a homicide by asphyxia.",
+    "actors": [
+      "ice",
+      "dhs",
+      "us-army",
+      "acquisition-logistics",
+      "amentum"
+    ],
+    "sources": [
+      "https://elpasomatters.org/2025/08/18/ice-east-montana-detention-center-el-paso-fort-bliss-enhanced-hardened-facility/",
+      "https://www.gao.gov/products/gao-26-108886",
+      "https://www.hrw.org/news/2025/12/08/us-close-fort-bliss-immigration-detention-site"
+    ],
+    "tags": [
+      "military-base",
+      "tent-camp",
+      "deaths-in-custody",
+      "mega-facility",
+      "texas"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "california-city-immigration-processing",
+    "title": "California City Immigration Processing Center",
+    "layer": "detention",
+    "category": "reopened-prison",
+    "status": "reopened",
+    "lat": 35.155,
+    "lon": -118,
+    "city": "California City",
+    "state": "CA",
+    "date": "2025-08",
+    "desc": "Former state prison in the Mojave Desert reopened by CoreCivic as an ICE detention center in August 2025, with capacity for 2,560 — the largest immigration detention facility in California. It began detaining people without local permits, prompting legal challenges; detainees sued in November 2025 over conditions.",
+    "actors": [
+      "corecivic",
+      "ice"
+    ],
+    "sources": [
+      "https://calmatters.org/justice/2025/11/ice-california-city-detainee-lawsuit/",
+      "https://www.kqed.org/news/12054544/californias-newest-immigration-facility-is-also-its-biggest-is-it-operating-legally",
+      "https://www.disabilityrightsca.org/reports/california-city-ice-processing-center-a-dangerous-expansion-of-immigration-detention-in"
+    ],
+    "tags": [
+      "corecivic",
+      "prison-conversion",
+      "reopened-2025",
+      "lawsuit",
+      "california"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "broadview-ice-processing-facility",
+    "title": "Broadview ICE Processing Facility",
+    "layer": "detention",
+    "category": "processing-center",
+    "status": "operational",
+    "lat": 41.864,
+    "lon": -87.853,
+    "city": "Broadview",
+    "state": "IL",
+    "date": "2025-09",
+    "desc": "Suburban Chicago ICE processing site that became a de facto detention center during the September 2025 'Operation Midway Blitz.' An October 2025 class action described ~150 people in cells without beds, showers, or adequate food; a federal judge ordered improvements in November 2025. The site saw months of protests met with tear gas and dozens of arrests.",
+    "actors": [
+      "ice",
+      "dhs",
+      "cbp"
+    ],
+    "sources": [
+      "https://www.pbs.org/newshour/politics/judge-orders-improvements-at-broadview-ice-facility-after-claims-of-inhumane-conditions",
+      "https://blockclubchicago.org/2025/10/31/lawsuit-alleges-horrific-and-inhumane-conditions-at-broadview-ice-facility/",
+      "https://news.wttw.com/2025/11/03/federal-judge-hear-evidence-after-claims-inhumane-and-unlawful-conditions-broadview-ice"
+    ],
+    "tags": [
+      "processing-center",
+      "protests",
+      "lawsuit",
+      "court-order",
+      "chicago"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "palantir-titan-ground-stations",
+    "title": "Palantir TITAN Ground Stations",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 39.47,
+    "lon": -76.12,
+    "city": "Aberdeen Proving Ground",
+    "state": "MD",
+    "date": "2024-03",
+    "desc": "The Army awarded Palantir a $178.4M contract in March 2024 to build 10 TITAN AI-enabled ground stations that fuse space and high-altitude sensor data for targeting. First two systems were delivered in March 2025, with Northrop Grumman and L3Harris as partners — a milestone for a software firm as defense prime.",
+    "actors": [
+      "palantir",
+      "us-army",
+      "northrop-grumman",
+      "l3harris"
+    ],
+    "sources": [
+      "https://defensescoop.com/2024/03/06/palantir-army-titan-ground-station-award-178-million/",
+      "https://www.defensenews.com/land/2025/03/07/palantir-delivers-first-2-next-gen-targeting-systems-to-army/"
+    ],
+    "tags": [
+      "targeting",
+      "military-ai",
+      "sensor-fusion",
+      "army"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "openai-anduril-partnership",
+    "title": "OpenAI-Anduril Defense Partnership",
+    "layer": "corporate",
+    "category": "partnership",
+    "status": "active",
+    "lat": 37.76,
+    "lon": -122.41,
+    "city": "San Francisco",
+    "state": "CA",
+    "date": "2024-12",
+    "desc": "OpenAI and Anduril announced a strategic partnership in December 2024 to integrate frontier AI models with Anduril's Lattice platform for counter-drone defense, training on Anduril's CUAS threat data. The deal marked OpenAI's reversal of its prior ban on military use of its technology.",
+    "actors": [
+      "openai",
+      "anduril",
+      "dod"
+    ],
+    "sources": [
+      "https://breakingdefense.com/2024/12/anduril-openai-enter-strategic-partnership-to-use-ai-against-drones/",
+      "https://www.defensenews.com/pentagon/2024/12/05/anduril-openai-join-to-boost-counter-drone-tech-for-us-bases-troops/"
+    ],
+    "tags": [
+      "ai-weapons",
+      "counter-drone",
+      "big-tech-defense",
+      "partnership"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "anduril-costa-mesa-expansion",
+    "title": "Anduril Costa Mesa HQ Expansion",
+    "layer": "corporate",
+    "category": "hq-expansion",
+    "status": "expanding",
+    "lat": 33.665,
+    "lon": -117.913,
+    "city": "Costa Mesa",
+    "state": "CA",
+    "date": "2025",
+    "desc": "Anduril was Orange County's most active office tenant in 2025, signing nearly 700,000 sq ft of new leases — including the 190,000 sq ft HIVE campus — pushing its local footprint past 1.3M sq ft. The company also announced a $1B Long Beach campus, cementing SoCal as the center of the autonomous-weapons industry.",
+    "actors": [
+      "anduril"
+    ],
+    "sources": [
+      "https://www.ocbj.com/oc-homepage/andurils-latest-push-190k-sf-office-lease/",
+      "https://business.ca.gov/governor-newsom-highlights-anduril-industries-1-billion-expansion-in-southern-california/"
+    ],
+    "tags": [
+      "defense-tech",
+      "hq-expansion",
+      "autonomous-systems",
+      "orange-county"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "flock-safety-hq-alpr-network",
+    "title": "Flock Safety HQ & National ALPR Grid",
+    "layer": "corporate",
+    "category": "hq-expansion",
+    "status": "expanding",
+    "lat": 33.8,
+    "lon": -84.42,
+    "city": "Atlanta",
+    "state": "GA",
+    "date": "2025",
+    "desc": "Atlanta-based Flock Safety operates 100,000+ license plate reader cameras across 6,000 communities and 5,000 police agencies in 49 states, performing roughly 20 billion plate scans monthly. In 2025 it raised $275M at a $7.5B valuation and doubled its Atlanta HQ office as it expands into drones and audio sensors.",
+    "actors": [
+      "flock-safety"
+    ],
+    "sources": [
+      "https://www.bisnow.com/atlanta/news/office/flock-safety-doubling-office-moving-hq-to-the-medici-132994",
+      "https://en.wikipedia.org/wiki/Flock_Safety",
+      "https://stateofsurveillance.org/articles/surveillance/flock-safety-surveillance-network/"
+    ],
+    "tags": [
+      "alpr",
+      "license-plate-readers",
+      "vehicle-tracking",
+      "hq-expansion"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "lexisnexis-ice-accurint",
+    "title": "LexisNexis Accurint ICE Data Pipeline",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 34.07,
+    "lon": -84.28,
+    "city": "Alpharetta",
+    "state": "GA",
+    "date": "2025",
+    "desc": "LexisNexis Risk Solutions (Alpharetta, GA) provides 11,000+ ICE personnel access to Accurint dossiers built from 10,000+ data sources, under contracts worth $22M+ running toward 2028. Privacy and immigrant-rights groups pressed DHS in 2025 not to renew, arguing the data-broker pipeline enables warrantless targeting.",
+    "actors": [
+      "lexisnexis",
+      "relx",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://fedscoop.com/nonprofits-oppose-lexisnexis-contract-renewal/",
+      "https://journals.sagepub.com/doi/10.1177/20539517251351323",
+      "https://prismreports.org/2025/01/30/ice-surveillance-immigrants/"
+    ],
+    "tags": [
+      "data-broker",
+      "ice-contract",
+      "dossiers",
+      "immigration-enforcement"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "babel-street-ice-monitoring",
+    "title": "Babel Street Location & Social Tracking",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 38.95,
+    "lon": -77.34,
+    "city": "Reston",
+    "state": "VA",
+    "date": "2025",
+    "desc": "Reston, VA-based Babel Street sells DHS and ICE its Locate X tool, which tracks phones via commercially purchased ad-tech location data without warrants, and Babel X for persistent social media monitoring. Amnesty International warned in 2025 the tools threaten migrants and student protesters.",
+    "actors": [
+      "babel-street",
+      "ice",
+      "cbp",
+      "dhs"
+    ],
+    "sources": [
+      "https://epic.org/documents/epic-foia-cbp-babel-street-location-tracking-service/",
+      "https://www.amnesty.org/en/latest/news/2025/08/usa-global-tech-made-by-palantir-and-babel-street-pose-surveillance-threats-to-pro-palestine-student-protestors-migrants/"
+    ],
+    "tags": [
+      "location-data",
+      "social-media-monitoring",
+      "data-broker",
+      "warrantless-tracking"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "scale-ai-thunderforge",
+    "title": "Scale AI Thunderforge Pentagon Program",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "expanding",
+    "lat": 37.79,
+    "lon": -122.39,
+    "city": "San Francisco",
+    "state": "CA",
+    "date": "2025-03",
+    "desc": "Scale AI won the DIU prime contract for Thunderforge in March 2025, the Pentagon's flagship program deploying AI agents for military planning and wargaming with partners Anduril and Microsoft. By May 2026 the deal had grown to $500M — a five-fold jump — embedding Scale in Thunderforge, Golden Dome and top-secret AI deployments.",
+    "actors": [
+      "scale-ai",
+      "dod",
+      "diu",
+      "anduril",
+      "microsoft"
+    ],
+    "sources": [
+      "https://www.diu.mil/latest/dius-thunderforge-project-to-integrate-commercial-ai-powered-decision-making",
+      "https://www.upi.com/Top_News/US/2025/03/05/Defense-Department-ScaleAI-artificial-intelligence-contract-Thunderforge/7901741192000/",
+      "https://www.cnbc.com/2025/03/05/scale-ai-announces-multimillion-dollar-defense-military-deal.html"
+    ],
+    "tags": [
+      "military-ai",
+      "ai-agents",
+      "pentagon",
+      "wargaming"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "soundthinking-shotspotter-expansion",
+    "title": "SoundThinking ShotSpotter Expansion",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "expanding",
+    "lat": 37.55,
+    "lon": -121.99,
+    "city": "Fremont",
+    "state": "CA",
+    "date": "2025-03",
+    "desc": "Fremont-based SoundThinking continued expanding its ShotSpotter acoustic gunshot-detection network in 2025, adding Pasadena, Lancaster, Hawaiian Gardens and Lakewood in greater LA and going live in four new cities in Q2 alone. Critics including EFF cite weak crime-solving results; Little Rock canceled its contract in 2025.",
+    "actors": [
+      "soundthinking"
+    ],
+    "sources": [
+      "https://www.globenewswire.com/news-release/2025/03/27/3050551/0/en/Four-Greater-Los-Angeles-Cities-Lead-the-Way-with-ShotSpotter-Deployments-to-Protect-Neighborhoods.html",
+      "https://www.eff.org/deeplinks/2025/02/eff-applauds-little-rock-ak-cancelling-shotspotter-contract"
+    ],
+    "tags": [
+      "gunshot-detection",
+      "acoustic-sensors",
+      "police-tech",
+      "expansion"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "peregrine-series-c",
+    "title": "Peregrine $190M Police-Data Raise",
+    "layer": "corporate",
+    "category": "funding",
+    "status": "expanding",
+    "lat": 37.78,
+    "lon": -122.4,
+    "city": "San Francisco",
+    "state": "CA",
+    "date": "2025-03",
+    "desc": "Peregrine Technologies, founded by Palantir alumni, raised a $190M Series C led by Sequoia in March 2025 at a $2.5B valuation. Its platform fuses body-cam footage, dispatch records, ALPR and other law-enforcement data into real-time intelligence systems, serving agencies covering 80M+ Americans.",
+    "actors": [
+      "peregrine",
+      "sequoia-capital"
+    ],
+    "sources": [
+      "https://peregrine.io/resources/peregrine-technologies-raises-190m-series-c-led-by-sequoia-capital-at-2-5-billion-valuation",
+      "https://www.bloomberg.com/news/articles/2025-03-04/sequoia-leads-190-million-funding-for-law-enforcement-tech"
+    ],
+    "tags": [
+      "data-integration",
+      "police-tech",
+      "venture-capital",
+      "real-time-intelligence"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "palantir-immigrationos-ice",
+    "title": "Palantir ImmigrationOS Contract",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "expanding",
+    "lat": 38.884,
+    "lon": -77.024,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-04",
+    "desc": "ICE awarded Palantir a $30M sole-source contract in April 2025 to build ImmigrationOS, a platform to streamline identification, apprehension and removal of immigrants with near real-time tracking of self-deportations. With the later $29.9M ELITE targeting tool, Palantir received over $60M from ICE in one year.",
+    "actors": [
+      "palantir",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.axios.com/local/denver/2025/05/01/palantir-deportations-ice-immigration-trump",
+      "https://www.americanimmigrationcouncil.org/blog/ice-immigrationos-palantir-ai-track-immigrants/"
+    ],
+    "tags": [
+      "immigration-enforcement",
+      "deportation",
+      "data-integration",
+      "ice-contract"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "palantir-irs-mega-api",
+    "title": "Palantir IRS Mega-API Project",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 38.892,
+    "lon": -77.028,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-04",
+    "desc": "Under a DOGE-driven 2025 initiative, Palantir engineers worked at the IRS to build a 'mega API' unifying access to taxpayer databases — returns, SSNs, employment and bank records — via Foundry. Privacy groups warn it creates a single point of access to sensitive data; contracts drew congressional scrutiny into 2026.",
+    "actors": [
+      "palantir",
+      "irs",
+      "doge",
+      "treasury"
+    ],
+    "sources": [
+      "https://www.taxnotes.com/featured-news/palantir-contracts-under-scrutiny-amid-irs-tax-data-controversy/2026/02/18/7tzns",
+      "https://itmagazine.com/2025/04/12/palantir-partners-with-doge-for-groundbreaking-irs-data-project/"
+    ],
+    "tags": [
+      "taxpayer-data",
+      "data-consolidation",
+      "doge",
+      "privacy"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "flock-dfr-smyrna-manufacturing",
+    "title": "Flock Drone Factory & DFR Push",
+    "layer": "corporate",
+    "category": "manufacturing",
+    "status": "operational",
+    "lat": 33.88,
+    "lon": -84.51,
+    "city": "Smyrna",
+    "state": "GA",
+    "date": "2025-04",
+    "desc": "Flock Safety opened a 97,000 sq ft manufacturing facility in Smyrna, GA in April 2025 — a $10M investment creating ~210 jobs — to build its Drone as First Responder hardware including the US-made Flock Alpha drone. The company is targeting 100 police drone-as-first-responder cities by end of 2026.",
+    "actors": [
+      "flock-safety",
+      "state-of-georgia"
+    ],
+    "sources": [
+      "https://georgia.org/press-releases/2025/georgia-based-flock-safety-opens-new-97000-square-foot-manufacturing-facility",
+      "https://www.flocksafety.com/blog/flock-safety-unveils-alpha-drone-as-first-responder-system",
+      "https://www.eff.org/deeplinks/2025/12/drone-first-responder-programs-2025-review"
+    ],
+    "tags": [
+      "drones",
+      "drone-first-responder",
+      "manufacturing",
+      "police-tech"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "palantir-fannie-mae-fraud",
+    "title": "Palantir-Fannie Mae Fraud Detection",
+    "layer": "corporate",
+    "category": "partnership",
+    "status": "operational",
+    "lat": 38.904,
+    "lon": -77.034,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-05",
+    "desc": "Fannie Mae launched an AI-powered Crime Detection Unit with Palantir in May 2025, applying Palantir software to real-time monitoring of mortgage activity across the US housing market. Executives said the system flagged fraud in seconds that took human investigators months, and signaled possible expansion to Freddie Mac.",
+    "actors": [
+      "palantir",
+      "fannie-mae",
+      "fhfa"
+    ],
+    "sources": [
+      "https://www.cnbc.com/2025/05/28/palantir-teams-up-with-fannie-mae-in-ai-push-to-sniff-out-mortgage-fraud.html",
+      "https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-launches-ai-fraud-detection-technology-partnership-palantir"
+    ],
+    "tags": [
+      "financial-surveillance",
+      "mortgage-data",
+      "ai-monitoring",
+      "gse"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "thomson-reuters-clear-ice",
+    "title": "Thomson Reuters CLEAR-ICE Contracts",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 44.82,
+    "lon": -93.17,
+    "city": "Eagan",
+    "state": "MN",
+    "date": "2025-05",
+    "desc": "Thomson Reuters, with major operations in Eagan, MN, sells ICE its CLEAR platform aggregating billions of records plus license plate reader data — including a ~$5M May 2025 contract for ALPR data for 'arrest, seizure and forfeiture' and a five-year $22.8M DHS database subscription. A 2026 shareholder vote challenged the deals.",
+    "actors": [
+      "thomson-reuters",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.startribune.com/ice-crackdown-thomson-reuters-eagan-license-plate-data-westlaw-clear/601583754",
+      "https://www.npr.org/2026/04/21/nx-s1-5786915/ice-immigration-enforcement-data-thomson-reuters"
+    ],
+    "tags": [
+      "data-broker",
+      "alpr",
+      "ice-contract",
+      "clear"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "anduril-palantir-ngc2",
+    "title": "Army NGC2 Prototype (Anduril/Palantir)",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 38.74,
+    "lon": -104.79,
+    "city": "Colorado Springs",
+    "state": "CO",
+    "date": "2025-07",
+    "desc": "The Army awarded an Anduril-led team a $99.6M OTA in July 2025 to prototype Next-Generation Command and Control (NGC2) for the 4th Infantry Division at Fort Carson. Palantir, Microsoft, Striveworks and others share the work; analysts project Palantir's share could exceed $150M in annual recurring revenue as NGC2 scales.",
+    "actors": [
+      "anduril",
+      "palantir",
+      "us-army",
+      "microsoft"
+    ],
+    "sources": [
+      "https://defensescoop.com/2025/07/21/anduril-army-next-generation-command-and-control-award/",
+      "https://www.defensenews.com/land/2025/07/21/anduril-wins-100m-deal-to-build-us-armys-next-gen-c2-ecosystem/"
+    ],
+    "tags": [
+      "military-ai",
+      "command-and-control",
+      "army-modernization",
+      "defense-tech"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "clearview-ai-ice-contract",
+    "title": "Clearview AI $9.2M ICE Contract",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "active",
+    "lat": 40.74,
+    "lon": -73.99,
+    "city": "New York",
+    "state": "NY",
+    "date": "2025-09",
+    "desc": "ICE Homeland Security Investigations finalized a $9.2M sole-source contract with NYC-based Clearview AI in September 2025 for facial recognition software backed by 50B+ scraped face images, with options through 2029. Reporting found ICE agents using the app with little oversight, including in states where police are barred from it.",
+    "actors": [
+      "clearview-ai",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.biometricupdate.com/202509/ice-awards-clearview-ai-9-2m-facial-recognition-contract",
+      "https://www.wbez.org/immigration/2025/11/02/ice-trump-facial-recognition-clearview-police-oversight"
+    ],
+    "tags": [
+      "facial-recognition",
+      "biometrics",
+      "ice-contract",
+      "scraped-data"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "geo-group-bi-isap",
+    "title": "GEO Group/BI Inc ISAP Monitoring",
+    "layer": "corporate",
+    "category": "contract",
+    "status": "expanding",
+    "lat": 40.02,
+    "lon": -105.25,
+    "city": "Boulder",
+    "state": "CO",
+    "date": "2025-09",
+    "desc": "GEO Group subsidiary BI Inc (Boulder, CO) won a renewed ICE contract worth over $1B in Sept 2025 for the Intensive Supervision Appearance Program — ankle monitors, GPS and the SmartLINK app. GEO projected monitored immigrants could triple to 450,000+ by 2026, turning digital detention into a growth business.",
+    "actors": [
+      "geo-group",
+      "bi-incorporated",
+      "ice"
+    ],
+    "sources": [
+      "https://www.investing.com/news/company-news/geo-group-subsidiary-wins-twoyear-ice-monitoring-contract-renewal-93CH-4264570",
+      "https://www.biometricupdate.com/202507/ices-expanding-use-of-ankle-monitors-ignites-surveillance-privacy-concerns",
+      "https://stateofsurveillance.org/articles/corporate/bi-incorporated-geo-group-digital-detention/"
+    ],
+    "tags": [
+      "electronic-monitoring",
+      "digital-detention",
+      "ice-contract",
+      "ankle-monitors"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "axon-scottsdale-hq-campus",
+    "title": "Axon Scottsdale HQ Campus",
+    "layer": "corporate",
+    "category": "hq-expansion",
+    "status": "planned",
+    "lat": 33.65,
+    "lon": -111.89,
+    "city": "Scottsdale",
+    "state": "AZ",
+    "date": "2025-11",
+    "desc": "Scottsdale's council approved Axon's 76-acre global headquarters campus in November 2025 after contentious negotiations, including an HQ tower, manufacturing facility, hotel and ~1,200 housing units. Axon — maker of Tasers, body cameras and the Fusus real-time crime center platform — anchors the police-tech industry from Arizona.",
+    "actors": [
+      "axon",
+      "city-of-scottsdale"
+    ],
+    "sources": [
+      "https://www.azfamily.com/2025/11/18/scottsdale-city-council-axon-reach-compromise-controversial-development/",
+      "https://www.aztechcouncil.org/axon-headquarters-approved-scottsdale/"
+    ],
+    "tags": [
+      "police-tech",
+      "hq-expansion",
+      "body-cameras",
+      "real-time-crime-centers"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "palantir-hq-miami-move",
+    "title": "Palantir HQ Relocation to Miami",
+    "layer": "corporate",
+    "category": "hq-expansion",
+    "status": "active",
+    "lat": 25.77,
+    "lon": -80.19,
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-02",
+    "desc": "Palantir announced in February 2026 it is moving its corporate headquarters from Denver to Miami, its second HQ move since leaving Palo Alto in 2020. The company employed 4,429 people as of end-2025 and reported $13.7B+ in cumulative federal awards, anchoring a growing defense-tech corridor in Florida.",
+    "actors": [
+      "palantir"
+    ],
+    "sources": [
+      "https://www.cnbc.com/2026/02/17/palantir-headquarters-miami-denver.html",
+      "https://coloradosun.com/2026/02/17/palantir-leaving-denver-moving-miami/"
+    ],
+    "tags": [
+      "palantir",
+      "hq-relocation",
+      "defense-tech",
+      "miami"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "anduril-arsenal-1-ohio",
+    "title": "Anduril Arsenal-1 Mega-Factory",
+    "layer": "corporate",
+    "category": "manufacturing",
+    "status": "operational",
+    "lat": 39.81,
+    "lon": -82.93,
+    "city": "Columbus",
+    "state": "OH",
+    "date": "2026-03",
+    "desc": "Anduril's $1B, 5-million-sq-ft Arsenal-1 hyperscale weapons plant near Rickenbacker Airport south of Columbus opened production lines in March 2026, months ahead of schedule. It will mass-produce autonomous systems including the YFQ-44A 'Fury' drone fighter, with 4,000+ jobs promised by 2035.",
+    "actors": [
+      "anduril",
+      "us-air-force",
+      "state-of-ohio"
+    ],
+    "sources": [
+      "https://www.anduril.com/news/arsenal-1-one-year-in",
+      "https://breakingdefense.com/2025/01/anduril-picks-columbus-for-new-arsenal-factory-targets-july-2026-to-begin-production/",
+      "https://www.axios.com/local/columbus/2026/03/23/anduril-factory-rickenbacker-facility-production"
+    ],
+    "tags": [
+      "autonomous-weapons",
+      "manufacturing",
+      "drones",
+      "defense-industrial-base"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "tsa-facial-recognition-cat2-expansion",
+    "title": "TSA CAT-2 Facial Recognition Expansion",
+    "layer": "federal",
+    "category": "program",
+    "status": "active",
+    "lat": 38.7732,
+    "lon": -77.1795,
+    "city": "Springfield",
+    "state": "VA",
+    "date": "2025-01",
+    "desc": "TSA deployed CAT-2 facial comparison units at roughly 250 airports by early 2025, with plans to reach 400+ federalized airports, linking face scans to ID verification alongside REAL ID. The DHS Inspector General opened an audit in January 2025 after senators questioned the program's privacy safeguards.",
+    "actors": [
+      "tsa",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.tsa.gov/news/press/factsheets/facial-comparison-technology",
+      "https://www.route-fifty.com/digital-government/2025/02/dhs-watchdog-investigating-tsas-use-facial-recognition/402684/"
+    ],
+    "tags": [
+      "facial-recognition",
+      "biometrics",
+      "airports",
+      "surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14156-national-energy-emergency",
+    "title": "EO 14156: Declaring a National Energy Emergency",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8866,
+    "lon": -77.026,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-01-20",
+    "desc": "Declares a national emergency over energy supply, unlocking emergency permitting authorities for generation and transmission on federal lands. Widely invoked to fast-track power buildout for AI data centers; renewed in January 2026. A key energy lever of the compute expansion.",
+    "actors": [
+      "white-house",
+      "doe",
+      "doi"
+    ],
+    "sources": [
+      "https://www.federalregister.gov/documents/2025/01/29/2025-02003/declaring-a-national-energy-emergency",
+      "https://www.federalregister.gov/documents/2026/01/14/2026-00732/continuation-of-the-national-emergency-with-respect-to-energy"
+    ],
+    "tags": [
+      "energy",
+      "emergency-powers",
+      "data-centers",
+      "permitting"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14158-establishing-doge",
+    "title": "EO 14158: Establishing DOGE",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8973,
+    "lon": -77.039,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-01-20",
+    "desc": "Renames the US Digital Service as the US DOGE Service in the Executive Office of the President and embeds DOGE teams in every agency with access to unclassified records and IT systems. Became the institutional vehicle for cross-agency consolidation of Americans' personal data.",
+    "actors": [
+      "white-house",
+      "doge",
+      "usds"
+    ],
+    "sources": [
+      "https://www.federalregister.gov/documents/2025/01/29/2025-02005/establishing-and-implementing-the-presidents-department-of-government-efficiency",
+      "https://www.presidency.ucsb.edu/documents/executive-order-14158-establishing-and-implementing-the-presidents-department-government"
+    ],
+    "tags": [
+      "doge",
+      "data-access",
+      "government-it",
+      "executive-order"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "stargate-white-house-announcement",
+    "title": "Stargate Project Announced at the White House",
+    "layer": "federal",
+    "category": "program",
+    "status": "active",
+    "lat": 38.8979,
+    "lon": -77.0368,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-01-21",
+    "desc": "President Trump announced the Stargate joint venture (OpenAI, SoftBank, Oracle, MGX) at the White House, pledging up to $500B in US AI data centers by 2029. By late 2025 the venture claimed ~7 GW of planned capacity, anchoring the federal push for private hyperscale compute buildout.",
+    "actors": [
+      "white-house",
+      "openai",
+      "softbank",
+      "oracle",
+      "mgx"
+    ],
+    "sources": [
+      "https://openai.com/index/announcing-the-stargate-project/",
+      "https://time.com/7209167/stargate-openai-donald-trump/"
+    ],
+    "tags": [
+      "data-centers",
+      "ai-infrastructure",
+      "public-private",
+      "compute"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14179-removing-barriers-american-ai",
+    "title": "EO 14179: Removing Barriers to American Leadership in AI",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-01-23",
+    "desc": "Revokes the 2023 Biden AI safety order (EO 14110) and directs agencies to rescind policies seen as barriers to AI dominance. Mandates an AI Action Plan within 180 days, setting the deregulatory foundation for the administration's AI infrastructure and governance agenda.",
+    "actors": [
+      "white-house",
+      "ostp"
+    ],
+    "sources": [
+      "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+      "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/"
+    ],
+    "tags": [
+      "ai-policy",
+      "deregulation",
+      "executive-order",
+      "ai-dominance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14243-eliminating-information-silos",
+    "title": "EO 14243: Eliminating Information Silos",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8975,
+    "lon": -77.0362,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-03-20",
+    "desc": "Directs agency heads to give designated federal officials 'full and prompt access' to all unclassified agency records, data, and IT systems and to rescind guidance limiting inter-agency data sharing. Cited as the legal basis for DOGE and Palantir-supported consolidation of federal databases.",
+    "actors": [
+      "white-house",
+      "doge",
+      "omb"
+    ],
+    "sources": [
+      "https://www.federalregister.gov/documents/2025/03/25/2025-05214/stopping-waste-fraud-and-abuse-by-eliminating-information-silos",
+      "https://www.whitehouse.gov/presidential-actions/2025/03/stopping-waste-fraud-and-abuse-by-eliminating-information-silos/"
+    ],
+    "tags": [
+      "data-sharing",
+      "privacy",
+      "doge",
+      "interagency",
+      "surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "irs-ice-data-sharing-mou",
+    "title": "IRS–ICE Taxpayer Data Sharing Agreement",
+    "layer": "federal",
+    "category": "policy",
+    "status": "active",
+    "lat": 38.8926,
+    "lon": -77.0276,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-04-07",
+    "desc": "Memorandum of understanding lets ICE request names, addresses, and tax data of immigrants from confidential IRS records. By August 2025 the IRS disclosed tens of thousands of taxpayer records after ICE requested 1.28M addresses; a federal judge blocked further sharing in November 2025 as likely unlawful.",
+    "actors": [
+      "irs",
+      "ice",
+      "dhs",
+      "treasury"
+    ],
+    "sources": [
+      "https://www.eff.org/deeplinks/2025/04/irs-ice-immigrant-data-sharing-agreement-betrays-data-privacy-and-taxpayers-trust",
+      "https://fedscoop.com/irs-ice-data-sharing-watchdog-report/"
+    ],
+    "tags": [
+      "data-sharing",
+      "immigration-enforcement",
+      "tax-privacy",
+      "litigation"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "doge-palantir-cross-agency-database",
+    "title": "DOGE–Palantir Cross-Agency Data Consolidation",
+    "layer": "federal",
+    "category": "program",
+    "status": "active",
+    "lat": 38.897,
+    "lon": -77.0387,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-05",
+    "desc": "Reported effort, driven by the March 2025 information-silos EO, in which Palantir engineers embedded at the IRS to build a 'mega API' unifying tax data, with Foundry talks at SSA and other agencies. Ten lawmakers warned a shareable governmentwide database on Americans would likely violate the Privacy Act.",
+    "actors": [
+      "doge",
+      "palantir",
+      "irs",
+      "ssa",
+      "dhs",
+      "white-house"
+    ],
+    "sources": [
+      "https://www.finance.senate.gov/ranking-members-news/wyden-ocasio-cortez-demand-answers-from-palantir-about-plans-to-build-irs-mega-database",
+      "https://www.nextgov.com/modernization/2025/06/democrats-press-palantir-about-reported-creation-irs-mega-database/406144/"
+    ],
+    "tags": [
+      "palantir",
+      "doge",
+      "data-consolidation",
+      "privacy-act",
+      "surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "real-id-full-enforcement",
+    "title": "REAL ID Full Enforcement Begins",
+    "layer": "federal",
+    "category": "enforcement",
+    "status": "active",
+    "lat": 38.7726,
+    "lon": -77.181,
+    "city": "Springfield",
+    "state": "VA",
+    "date": "2025-05-07",
+    "desc": "After a January 2025 final rule, TSA stopped accepting non-REAL ID state licenses at airport checkpoints, completing a 20-year federal identity standardization effort. From February 2026 travelers without acceptable ID can pay a $45 fee to use the TSA ConfirmID identity-verification service.",
+    "actors": [
+      "tsa",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.tsa.gov/news/press/releases/2025/04/11/tsa-begins-real-id-full-enforcement-may-7",
+      "https://www.dhs.gov/news/2025/05/07/tsa-begins-real-id-full-enforcement"
+    ],
+    "tags": [
+      "digital-id",
+      "identity",
+      "travel",
+      "enforcement"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "cms-ice-medicaid-data-sharing",
+    "title": "CMS Shares Medicaid Enrollee Data with ICE",
+    "layer": "federal",
+    "category": "policy",
+    "status": "active",
+    "lat": 39.2937,
+    "lon": -76.7549,
+    "city": "Woodlawn",
+    "state": "MD",
+    "date": "2025-07",
+    "desc": "Under a July 2025 agreement, ICE gained access to personal data on the nation's 79 million Medicaid enrollees, including addresses and ethnicities, for immigration enforcement. After 22 states sued, a court in December 2025 limited sharing to a narrow data set on enrollees deemed unlawfully present.",
+    "actors": [
+      "cms",
+      "hhs",
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.statnews.com/2025/07/17/ice-cms-medicaid-recipients-personal-data-immigrants-trump-administration/",
+      "https://www.kff.org/immigrant-health/potential-implications-of-the-new-medicaid-data-sharing-agreement-between-cms-and-ice/",
+      "https://www.federalregister.gov/documents/2025/11/25/2025-20911/notice-of-medicaid-information-sharing-between-the-centers-for-medicare-and-medicaid-services-and"
+    ],
+    "tags": [
+      "data-sharing",
+      "health-data",
+      "immigration-enforcement",
+      "litigation"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14318-data-center-permitting",
+    "title": "EO 14318: Accelerating Data Center Permitting",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8976,
+    "lon": -77.037,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-07-23",
+    "desc": "Fast-tracks permitting for data centers over 100 MW and related grid and semiconductor projects via NEPA categorical exclusions, opens federal lands for siting, and directs Commerce to offer loans, grants, and tax incentives. Revokes the Biden-era AI infrastructure order EO 14141.",
+    "actors": [
+      "white-house",
+      "commerce",
+      "doe",
+      "doi",
+      "epa",
+      "ceq"
+    ],
+    "sources": [
+      "https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/",
+      "https://www.federalregister.gov/documents/2025/07/28/2025-14212/accelerating-federal-permitting-of-data-center-infrastructure"
+    ],
+    "tags": [
+      "data-centers",
+      "permitting",
+      "federal-lands",
+      "ai-infrastructure",
+      "nepa"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "americas-ai-action-plan",
+    "title": "Winning the Race: America's AI Action Plan",
+    "layer": "federal",
+    "category": "policy",
+    "status": "active",
+    "lat": 38.8981,
+    "lon": -77.0364,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-07-23",
+    "desc": "Flagship AI strategy with 90+ federal actions across three pillars: accelerating innovation, building American AI infrastructure, and AI diplomacy/security. Calls for streamlined data center buildout, full-stack AI exports, and removing regulatory barriers; implemented via three same-day executive orders.",
+    "actors": [
+      "white-house",
+      "ostp",
+      "commerce",
+      "state-dept"
+    ],
+    "sources": [
+      "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "https://www.whitehouse.gov/releases/2025/07/white-house-unveils-americas-ai-action-plan/"
+    ],
+    "tags": [
+      "ai-policy",
+      "national-strategy",
+      "ai-infrastructure",
+      "exports"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14319-preventing-woke-ai",
+    "title": "EO 14319: Preventing Woke AI in the Federal Government",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8972,
+    "lon": -77.0385,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-07-23",
+    "desc": "Requires federal agencies to procure only LLMs meeting 'truth-seeking' and 'ideological neutrality' principles, explicitly targeting DEI-influenced models. OMB's December 2025 implementing memo M-26-04 imposes disclosure obligations on AI contractors, leveraging federal purchasing power over model behavior.",
+    "actors": [
+      "white-house",
+      "omb",
+      "gsa"
+    ],
+    "sources": [
+      "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/",
+      "https://www.federalregister.gov/documents/2025/07/28/2025-14217/preventing-woke-ai-in-the-federal-government"
+    ],
+    "tags": [
+      "ai-procurement",
+      "content-control",
+      "federal-contractors",
+      "ai-policy"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "doge-ssa-numident-cloud-upload",
+    "title": "DOGE Upload of SSA Numident Database",
+    "layer": "federal",
+    "category": "program",
+    "status": "active",
+    "lat": 39.2904,
+    "lon": -76.6122,
+    "city": "Baltimore",
+    "state": "MD",
+    "date": "2025-08",
+    "desc": "SSA's chief data officer alleged DOGE copied the Numident database, containing SSNs, birth dates, and parentage for nearly every American, to a private cloud server outside agency security controls. SSA later confirmed improper data sharing; at least 12 Privacy Act lawsuits target DOGE data access.",
+    "actors": [
+      "doge",
+      "ssa"
+    ],
+    "sources": [
+      "https://time.com/7312556/doge-social-security-data-whistleblower-complaint/",
+      "https://www.nbcnews.com/politics/doge/doge-put-social-security-numbers-data-risky-server-whistleblower-alleg-rcna227259"
+    ],
+    "tags": [
+      "doge",
+      "data-security",
+      "privacy-act",
+      "whistleblower",
+      "ssa"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-14333-dc-crime-emergency-national-guard",
+    "title": "EO 14333: DC Crime Emergency & National Guard",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8898,
+    "lon": -76.9905,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-08-11",
+    "desc": "Declared a crime emergency in DC, federalizing the Metropolitan Police and deploying roughly 2,000 National Guard troops despite crime at 30-year lows. A follow-on August 25 order created specialized Guard units for cities; courts ordered the deployment ended, but it was extended into 2026.",
+    "actors": [
+      "white-house",
+      "national-guard",
+      "dod",
+      "mpd"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Executive_Order_14333",
+      "https://www.cnn.com/2025/08/25/politics/trump-executive-order-national-guard-units-crime",
+      "https://www.pbs.org/newshour/politics/federal-judge-orders-trump-administration-to-end-national-guard-deployment-in-dc"
+    ],
+    "tags": [
+      "national-guard",
+      "federalization",
+      "emergency-powers",
+      "policing"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "ice-paragon-spyware-contract",
+    "title": "ICE Reactivates Paragon Graphite Spyware Contract",
+    "layer": "federal",
+    "category": "contract",
+    "status": "rescinded",
+    "lat": 38.8852,
+    "lon": -77.029,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-09",
+    "desc": "ICE lifted a 2024 stop-work order on a $2M contract for Paragon's Graphite spyware, capable of covertly accessing encrypted apps without user interaction, after Paragon's US arm merged into Virginia-based REDLattice. By May 2026 DHS claimed ICE had 'no relationship' with Paragon, leaving access questions open.",
+    "actors": [
+      "ice",
+      "dhs",
+      "paragon-solutions",
+      "redlattice"
+    ],
+    "sources": [
+      "https://www.eff.org/deeplinks/2025/09/eff-statement-ice-use-paragon-solutions-malware",
+      "https://www.accessnow.org/paragon-contract-spyware/",
+      "https://www.npr.org/2026/05/22/nx-s1-5831577/dhs-ice-spyware-paragon"
+    ],
+    "tags": [
+      "spyware",
+      "encryption",
+      "immigration-enforcement",
+      "surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "ice-247-social-media-surveillance",
+    "title": "ICE 24/7 Social Media Surveillance Centers",
+    "layer": "federal",
+    "category": "program",
+    "status": "proposed",
+    "lat": 44.4376,
+    "lon": -73.094,
+    "city": "Williston",
+    "state": "VT",
+    "date": "2025-10",
+    "desc": "ICE planning documents seek contractors for round-the-clock social media monitoring to generate enforcement leads: 12+ analysts at the National Criminal Analysis and Targeting Center in Williston, VT and 16+ at the Pacific Enforcement Response Center in Santa Ana, CA, with work possibly starting May 2026.",
+    "actors": [
+      "ice",
+      "dhs"
+    ],
+    "sources": [
+      "https://vtdigger.org/2025/10/06/ice-plans-to-boost-its-surveillance-on-social-media-using-contractors-in-vermont/",
+      "https://www.engadget.com/social-media/ice-is-planning-to-create-a-surveillance-team-that-hunts-for-leads-on-social-media-163743143.html"
+    ],
+    "tags": [
+      "social-media-monitoring",
+      "targeting",
+      "immigration-enforcement",
+      "surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "cbp-biometric-entry-exit-final-rule",
+    "title": "CBP Biometric Entry/Exit Final Rule",
+    "layer": "federal",
+    "category": "policy",
+    "status": "active",
+    "lat": 38.8937,
+    "lon": -77.0306,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-10-27",
+    "desc": "DHS/CBP final rule requires photographing all non-citizens entering and departing the US for facial recognition matching, removing prior pilot-program limits and age exemptions. Completes the biometric entry/exit system, normalizing face capture at every port of entry and departure.",
+    "actors": [
+      "cbp",
+      "dhs"
+    ],
+    "sources": [
+      "https://www.federalregister.gov/documents/2025/10/27/2025-19655/collection-of-biometric-data-from-aliens-upon-entry-to-and-departure-from-the-united-states",
+      "https://www.boundless.com/blog/cbp-facial-recognition-rule-2025"
+    ],
+    "tags": [
+      "biometrics",
+      "facial-recognition",
+      "border",
+      "entry-exit"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "dhs-uscis-biometrics-expansion-rule",
+    "title": "DHS Proposed USCIS Biometrics Expansion",
+    "layer": "federal",
+    "category": "policy",
+    "status": "proposed",
+    "lat": 38.843,
+    "lon": -76.999,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-11-03",
+    "desc": "Proposed rule would require biometrics from anyone of any age associated with an immigration benefit request, including some US citizens, covering facial imagery, fingerprints, iris, voice, and DNA, and codifying DNA collection and storage. Dramatically widens the federal biometric database population.",
+    "actors": [
+      "dhs",
+      "uscis"
+    ],
+    "sources": [
+      "https://www.federalregister.gov/documents/2025/11/03/2025-19747/collection-and-use-of-biometrics-by-us-citizenship-and-immigration-services",
+      "https://fedscoop.com/dhs-biometrics-collection-us-citizenship-immigration-services/"
+    ],
+    "tags": [
+      "biometrics",
+      "dna-collection",
+      "immigration",
+      "rulemaking"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "genesis-mission-eo",
+    "title": "EO: Launching the Genesis Mission",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8868,
+    "lon": -77.0255,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-11-24",
+    "desc": "Launches a DOE-led, Manhattan Project-scale effort to build an integrated AI discovery platform across the 17 national laboratories, pooling federal scientific data and compute with industry partners. Targets AI-accelerated breakthroughs in nuclear, fusion, grid, quantum, and national security domains.",
+    "actors": [
+      "white-house",
+      "doe",
+      "national-labs",
+      "ostp"
+    ],
+    "sources": [
+      "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+      "https://www.energy.gov/articles/energy-department-launches-genesis-mission-transform-american-science-and-innovation"
+    ],
+    "tags": [
+      "ai-research",
+      "national-labs",
+      "compute",
+      "energy",
+      "science-policy"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "cbp-anduril-tower-expansion",
+    "title": "CBP Doubles Anduril Surveillance Towers ($363M)",
+    "layer": "federal",
+    "category": "contract",
+    "status": "active",
+    "lat": 31.3404,
+    "lon": -110.9343,
+    "city": "Nogales",
+    "state": "AZ",
+    "date": "2025-12",
+    "desc": "CBP awarded Anduril a one-year, $363M order in early FY2026 to more than double AI-powered autonomous sentry towers along the Southwest border, funded partly by $6B+ in border technology money from the July 2025 reconciliation law. Towers use Lattice AI to autonomously detect and track people and vehicles.",
+    "actors": [
+      "cbp",
+      "dhs",
+      "anduril"
+    ],
+    "sources": [
+      "https://fedscoop.com/anduril-sentry-towers-cbp/",
+      "https://orangeslices.ai/anduril-scores-1-year-363m-sbir-phase-iii-autonomous-surveillance-towers-idiq-task-with-dhs-border-patrol/",
+      "https://theintercept.com/2025/07/09/trump-big-beautiful-bill-anduril/"
+    ],
+    "tags": [
+      "border-surveillance",
+      "autonomous-systems",
+      "anduril",
+      "ai-detection"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-national-ai-policy-framework-preemption",
+    "title": "EO: National AI Policy Framework (State Law Preemption)",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8978,
+    "lon": -77.036,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-12-11",
+    "desc": "Directs DOJ to challenge 'onerous' state AI laws, conditions federal broadband funds on state policy alignment, and orders legislative recommendations for a uniform federal AI framework preempting conflicting state laws. Centralizes AI governance in the federal government, curbing state-level oversight.",
+    "actors": [
+      "white-house",
+      "doj",
+      "ftc",
+      "commerce",
+      "ostp"
+    ],
+    "sources": [
+      "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+      "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence"
+    ],
+    "tags": [
+      "preemption",
+      "ai-policy",
+      "federalism",
+      "doj",
+      "regulation"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "ice-surveillance-contract-expansion-2026",
+    "title": "ICE Surveillance Contract Expansion",
+    "layer": "federal",
+    "category": "contract",
+    "status": "active",
+    "lat": 38.8845,
+    "lon": -77.028,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2026-01",
+    "desc": "ICE's 2025-2026 procurement wave spans location tracking, social media monitoring, face recognition, and phone surveillance, including Babel Street's Locate X, which lets analysts follow phones via commercial ad-tech data without warrants. EFF documented the buildout as a 'surveillance shopping spree.'",
+    "actors": [
+      "ice",
+      "dhs",
+      "babel-street"
+    ],
+    "sources": [
+      "https://www.eff.org/deeplinks/2026/01/ice-going-surveillance-shopping-spree",
+      "https://epic.org/documents/epic-v-ice-location-and-social-media-surveillance/"
+    ],
+    "tags": [
+      "location-data",
+      "data-brokers",
+      "warrantless-surveillance",
+      "babel-street"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "eo-promoting-advanced-ai-innovation-security",
+    "title": "EO: Promoting Advanced AI Innovation and Security",
+    "layer": "federal",
+    "category": "executive-order",
+    "status": "signed",
+    "lat": 38.8977,
+    "lon": -77.0358,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2026-06-02",
+    "desc": "Directs agencies to create a classified benchmark for AI cyber capabilities within 60 days and defines 'covered frontier models,' with a voluntary framework giving the government pre-release access to frontier AI up to 30 days before deployment. Ties frontier AI development to national security review.",
+    "actors": [
+      "white-house",
+      "nsa",
+      "cisa",
+      "ostp",
+      "commerce"
+    ],
+    "sources": [
+      "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "https://www.insideprivacy.com/artificial-intelligence/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/"
+    ],
+    "tags": [
+      "frontier-ai",
+      "cybersecurity",
+      "classified-benchmark",
+      "ai-governance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "texas-meta-biometric-settlement",
+    "title": "Texas Wins $1.4B Meta Biometric Settlement",
+    "layer": "legislation",
+    "category": "privacy-law",
+    "status": "victory",
+    "lat": 30.27,
+    "lon": -97.74,
+    "city": "Austin",
+    "state": "TX",
+    "date": "2024-07",
+    "desc": "Texas secured a $1.4 billion settlement from Meta for capturing facial-geometry data of millions of Texans without consent, the first enforcement of the state's Capture or Use of Biometric Identifier Act and the largest single-state privacy settlement. Texas followed with a $1.375B data-privacy settlement with Google in 2025.",
+    "actors": [
+      "texas-attorney-general",
+      "meta",
+      "google"
+    ],
+    "sources": [
+      "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-14-billion-settlement-meta-over-its-unauthorized-capture",
+      "https://www.cnbc.com/2025/05/09/google-texas-data-privacy-settlement-paxton.html"
+    ],
+    "tags": [
+      "biometric-privacy",
+      "facial-recognition",
+      "state-enforcement",
+      "settlement",
+      "cubi"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "virginia-alpr-restrictions-law",
+    "title": "Virginia ALPR Restrictions Law (HB 2724)",
+    "layer": "legislation",
+    "category": "alpr-restriction",
+    "status": "passed",
+    "lat": 37.54,
+    "lon": -77.44,
+    "city": "Richmond",
+    "state": "VA",
+    "date": "2025",
+    "desc": "Virginia enacted HB 2724, limiting license plate reader use to specific criminal investigations, missing-person cases and stolen-vehicle alerts, banning use for immigration or traffic enforcement, requiring data purges within 21 days, and mandating annual public reporting. Most provisions took effect July 1, 2025.",
+    "actors": [
+      "virginia-general-assembly",
+      "glenn-youngkin"
+    ],
+    "sources": [
+      "https://lis.virginia.gov/bill-details/20251/HB2724",
+      "https://www.13newsnow.com/article/news/local/virginia/youngkin-virginia-bill-license-plate-reader-law-enforcement-regulations/291-5368d054-23cf-417f-a000-58c3b22786b8",
+      "https://www.independent.org/article/2025/06/05/virginia-alpr-oversight-bill-privacy-license-plate-reader/"
+    ],
+    "tags": [
+      "alpr",
+      "data-retention",
+      "state-law",
+      "privacy",
+      "police-oversight"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "clearview-bipa-settlement",
+    "title": "Clearview AI BIPA Settlement Approved",
+    "layer": "legislation",
+    "category": "privacy-law",
+    "status": "victory",
+    "lat": 41.88,
+    "lon": -87.63,
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2025-03",
+    "desc": "A federal judge gave final approval to a $51.75M settlement in multidistrict litigation under Illinois' Biometric Information Privacy Act against Clearview AI, which scraped 60 billion face images without consent. Class members received a 23% equity stake; an earlier ACLU settlement already curbed Clearview's sales.",
+    "actors": [
+      "clearview-ai",
+      "aclu-illinois",
+      "loevy-and-loevy"
+    ],
+    "sources": [
+      "https://www.regulatoryoversight.com/2025/04/51-75m-settlement-in-clearview-ai-biometric-privacy-litigation-illustrates-creative-resolution-for-startups-facing-parallel-litigation-and-enforcement-action/",
+      "https://www.aclu-il.org/big-win-settlement-ensures-clearview-ai-complies-groundbreaking-illinois-biometric-privacy-law/"
+    ],
+    "tags": [
+      "bipa",
+      "facial-recognition",
+      "biometric-privacy",
+      "class-action",
+      "settlement"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "maryland-next-gen-energy-act",
+    "title": "Maryland Next Generation Energy Act",
+    "layer": "legislation",
+    "category": "datacenter-regulation",
+    "status": "passed",
+    "lat": 38.97,
+    "lon": -76.49,
+    "city": "Annapolis",
+    "state": "MD",
+    "date": "2025-05",
+    "desc": "Maryland's Next Generation Energy Act, signed by Gov. Moore in May 2025, requires the Public Service Commission to create a separate rate schedule for large data centers so residential customers don't bear grid-expansion costs, alongside $200 million in ratepayer rebates.",
+    "actors": [
+      "maryland-general-assembly",
+      "wes-moore",
+      "maryland-psc"
+    ],
+    "sources": [
+      "https://marylandmatters.org/2025/05/21/moore-signs-two-energy-bills-as-june-rate-hikes-loom/",
+      "https://earthjustice.org/press/2025/maryland-lowers-energy-bills-and-builds-its-clean-energy-future-with-new-laws"
+    ],
+    "tags": [
+      "data-center",
+      "ratepayer-protection",
+      "state-law",
+      "utility-regulation",
+      "energy-affordability"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "virginia-hb1601-vetoed",
+    "title": "Youngkin Vetoes Data Center Impact Bill",
+    "layer": "legislation",
+    "category": "datacenter-regulation",
+    "status": "failed",
+    "lat": 37.54,
+    "lon": -77.44,
+    "city": "Richmond",
+    "state": "VA",
+    "date": "2025-05",
+    "desc": "Gov. Youngkin vetoed bipartisan HB 1601, which would have required data center developers to conduct site assessments of impacts on water, farmland, historic sites and forests, plus noise studies near homes and schools. The veto preserved the status quo in the world's largest data center market.",
+    "actors": [
+      "glenn-youngkin",
+      "virginia-general-assembly",
+      "josh-thomas"
+    ],
+    "sources": [
+      "https://wtop.com/virginia/2025/05/virginia-data-center-reform-bill-vetoed-by-gov-youngkin/",
+      "https://cardinalnews.org/2025/05/06/youngkin-vetoes-bill-that-would-have-required-site-assessments-for-data-centers/"
+    ],
+    "tags": [
+      "data-center",
+      "veto",
+      "impact-assessment",
+      "state-law",
+      "data-center-alley"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "colorado-sb276-data-protections",
+    "title": "Colorado Limits ICE Data Access (SB 25-276)",
+    "layer": "legislation",
+    "category": "privacy-law",
+    "status": "passed",
+    "lat": 39.74,
+    "lon": -104.99,
+    "city": "Denver",
+    "state": "CO",
+    "date": "2025-05",
+    "desc": "Colorado's SB 25-276, signed by Gov. Polis, extends bans on sharing personal data with federal immigration authorities to local governments and the judicial branch absent a valid warrant, and requires judicial warrants for ICE access to non-public areas of schools, hospitals and libraries. Violations carry $50,000 fines.",
+    "actors": [
+      "colorado-legislature",
+      "jared-polis",
+      "colorado-immigrant-rights-coalition",
+      "ice"
+    ],
+    "sources": [
+      "https://leg.colorado.gov/bills/sb25-276",
+      "https://coloradonewsline.com/2025/04/09/colorado-immigrant-protection-bill-ice/"
+    ],
+    "tags": [
+      "data-privacy",
+      "immigration-enforcement",
+      "state-law",
+      "sanctuary-protections",
+      "data-sharing"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "oregon-power-act",
+    "title": "Oregon POWER Act Shields Ratepayers",
+    "layer": "legislation",
+    "category": "datacenter-regulation",
+    "status": "passed",
+    "lat": 44.94,
+    "lon": -123.04,
+    "city": "Salem",
+    "state": "OR",
+    "date": "2025-06",
+    "desc": "Oregon's POWER Act (HB 3546) created a separate utility rate class for data centers and crypto facilities using over 20 MW, requiring 10-year contracts and payment for transmission upgrades so residential ratepayers don't subsidize data center growth. Signed by Gov. Kotek; PGE protections took effect in June 2026.",
+    "actors": [
+      "oregon-legislature",
+      "oregon-cub",
+      "tina-kotek",
+      "pge"
+    ],
+    "sources": [
+      "https://www.opb.org/article/2025/06/05/oregon-data-centers-cryptocurrency-business-environment-power-electricity/",
+      "https://oregoncub.org/news/water-wastewater/victory-for-oregonians-we-passed-the-power-act/3136/"
+    ],
+    "tags": [
+      "data-center",
+      "ratepayer-protection",
+      "energy-costs",
+      "state-law",
+      "utility-regulation"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "minnesota-data-center-law",
+    "title": "Minnesota Data Center Water and Rate Law",
+    "layer": "legislation",
+    "category": "datacenter-regulation",
+    "status": "passed",
+    "lat": 44.95,
+    "lon": -93.09,
+    "city": "St. Paul",
+    "state": "MN",
+    "date": "2025-06",
+    "desc": "In a 2025 special session, Minnesota passed legislation requiring data centers to obtain water-use permits with conservation conditions for consumption over 100 million gallons/year, report usage to the DNR, and be placed in a separate utility rate class so data center power costs aren't passed to other ratepayers.",
+    "actors": [
+      "minnesota-legislature",
+      "citizens-utility-board-mn",
+      "fresh-energy"
+    ],
+    "sources": [
+      "https://www.house.mn.gov/sessiondaily/Story/18838",
+      "https://cubminnesota.org/cub-spearheads-nation-leading-legislation-protect-ratepayers-costs-serve-data-centers",
+      "https://fresh-energy.org/whats-up-with-data-centers-in-minnesota"
+    ],
+    "tags": [
+      "data-center",
+      "water-use",
+      "ratepayer-protection",
+      "state-law",
+      "permitting"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "illinois-flock-audit-enforcement",
+    "title": "Illinois Audit Forces Flock to Halt Federal Data Sharing",
+    "layer": "legislation",
+    "category": "surveillance-oversight",
+    "status": "victory",
+    "lat": 39.8,
+    "lon": -89.64,
+    "city": "Springfield",
+    "state": "IL",
+    "date": "2025-08",
+    "desc": "An Illinois Secretary of State audit found Flock Safety violated state law by letting US Customs and Border Protection access Illinois license plate data through an undisclosed pilot program. Flock paused federal agency pilots nationwide, and a follow-up audit caught Forest Park sharing data with CBP via Motorola tech.",
+    "actors": [
+      "illinois-secretary-of-state",
+      "flock-safety",
+      "cbp",
+      "motorola-solutions"
+    ],
+    "sources": [
+      "https://www.ilsos.gov/news/2025/august-25-2025-giannoulias-audit-finds-license-plate-reader-company-in-violation-of-state-law.html",
+      "https://www.axios.com/local/chicago/2025/08/26/illinois-flock-safety-cbp-license-plate-data-violations",
+      "https://news.wttw.com/2025/08/26/license-plate-camera-company-operating-illinois-halts-cooperation-federal-agencies-amid"
+    ],
+    "tags": [
+      "alpr",
+      "state-enforcement",
+      "data-sharing",
+      "immigration-enforcement",
+      "audit"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "florida-data-center-law-sb484",
+    "title": "Florida Data Center Ratepayer and Water Law",
+    "layer": "legislation",
+    "category": "datacenter-regulation",
+    "status": "passed",
+    "lat": 30.44,
+    "lon": -84.28,
+    "city": "Tallahassee",
+    "state": "FL",
+    "date": "2026",
+    "desc": "Florida enacted SB 484, prohibiting utilities from passing data center infrastructure costs on to residential and small-business ratepayers, requiring large-scale users to bear their full cost of service, and addressing water use and local zoning powers over data center siting.",
+    "actors": [
+      "florida-legislature"
+    ],
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/florida-enacts-data-center-law-covering-ratepayer-protections-water-use-and-local-zoning-powers/"
+    ],
+    "tags": [
+      "data-center",
+      "ratepayer-protection",
+      "water-use",
+      "zoning",
+      "state-law"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "dekalb-county-moratorium",
+    "title": "DeKalb County Extends Data Center Moratorium",
+    "layer": "legislation",
+    "category": "moratorium",
+    "status": "passed",
+    "lat": 33.77,
+    "lon": -84.3,
+    "city": "Decatur",
+    "state": "GA",
+    "date": "2026",
+    "desc": "DeKalb County commissioners voted 5-2 to extend the county's moratorium blocking new data center approvals through September 30 while zoning and infrastructure rules are studied, part of a wave of local pauses in metro Atlanta amid resident concerns over power and water demands.",
+    "actors": [
+      "dekalb-county-commission"
+    ],
+    "sources": [
+      "https://www.fox5atlanta.com/news/data-center-moratorium-dekalb-county-blocks-new-tech-hubs-5-2-vote"
+    ],
+    "tags": [
+      "data-center",
+      "moratorium",
+      "zoning",
+      "county-government",
+      "georgia"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "seattle-data-center-moratorium",
+    "title": "Seattle Passes Data Center Moratorium",
+    "layer": "legislation",
+    "category": "moratorium",
+    "status": "passed",
+    "lat": 47.61,
+    "lon": -122.33,
+    "city": "Seattle",
+    "state": "WA",
+    "date": "2026-06",
+    "desc": "Seattle City Council voted 9-0 for an emergency one-year moratorium on permits for data centers demanding over 20 megavolt-amperes, after five large facilities approached City Light. The pause, extendable six months, lets the city study impacts on the grid, water, utility rates and economy.",
+    "actors": [
+      "seattle-city-council",
+      "seattle-city-light",
+      "equinix"
+    ],
+    "sources": [
+      "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+      "https://www.geekwire.com/2026/this-is-seattles-position-on-ai-city-council-votes-unanimously-to-pause-new-data-centers/"
+    ],
+    "tags": [
+      "data-center",
+      "moratorium",
+      "ai-infrastructure",
+      "city-ordinance",
+      "energy-demand"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "new-york-data-center-moratorium",
+    "title": "New York Passes Statewide Data Center Moratorium",
+    "layer": "legislation",
+    "category": "moratorium",
+    "status": "proposed",
+    "lat": 42.65,
+    "lon": -73.76,
+    "city": "Albany",
+    "state": "NY",
+    "date": "2026-06",
+    "desc": "The New York Legislature passed the Responsible Data Center Development Act, a one-year pause on permits for data centers over 20 MW plus mandatory environmental studies and a separate utility rate class. If signed by Gov. Hochul, it would be the first statewide data center moratorium in the nation.",
+    "actors": [
+      "new-york-legislature",
+      "kristen-gonzalez",
+      "food-and-water-watch",
+      "kathy-hochul"
+    ],
+    "sources": [
+      "https://www.nysenate.gov/newsroom/press-releases/2026/kristen-gonzalez/ny-state-senator-kristen-gonzalez-passes-data-center",
+      "https://insideclimatenews.org/news/04062026/new-york-data-center-moratorium-bill/",
+      "https://www.foodandwaterwatch.org/2026/06/04/ny-gov-hochul-must-sign-one-year-ai-data-center-moratorium-passed-by-legislature/"
+    ],
+    "tags": [
+      "data-center",
+      "moratorium",
+      "state-law",
+      "first-in-nation",
+      "ratepayer-protection"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "memphis-mcap-vs-xai",
+    "title": "South Memphis Fights xAI Colossus Pollution",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "ongoing",
+    "lat": 35.05,
+    "lon": -90.06,
+    "city": "Memphis",
+    "state": "TN",
+    "date": "2024",
+    "desc": "Residents of Boxtown, a majority-Black South Memphis neighborhood, organized against xAI's Colossus supercomputer, which ran roughly 33 unpermitted methane gas turbines emitting smog-forming NOx and formaldehyde. Memphis Community Against Pollution and SELC led town halls, petitions and legal pressure over air quality and water use.",
+    "actors": [
+      "memphis-community-against-pollution",
+      "xai",
+      "southern-environmental-law-center",
+      "naacp"
+    ],
+    "sources": [
+      "https://time.com/7308925/elon-musk-memphis-ai-data-center/",
+      "https://www.selc.org/news/resistance-against-elon-musks-xai-facility-in-south-memphis-gets-stronger/",
+      "https://prismreports.org/2025/04/02/xai-elon-musk-memphis-pollution/"
+    ],
+    "tags": [
+      "data-center",
+      "air-pollution",
+      "environmental-justice",
+      "ai-infrastructure",
+      "gas-turbines"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "chicago-ends-shotspotter",
+    "title": "Chicago Ends ShotSpotter Contract",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 41.88,
+    "lon": -87.63,
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2024-09",
+    "desc": "After years of community campaigning arguing the gunshot-detection system was ineffective and drove over-policing of Black and brown neighborhoods, Chicago decommissioned ShotSpotter in September 2024. A Cook County review found alerts led to arrests in about 1% of cases.",
+    "actors": [
+      "soundthinking",
+      "city-of-chicago",
+      "stop-shotspotter-coalition"
+    ],
+    "sources": [
+      "https://www.npr.org/2024/02/15/1231394334/shotspotter-gunfire-detection-chicago-mayor-dropping",
+      "https://www.thetrace.org/2024/02/chicago-police-shotspotter-gun-violence/"
+    ],
+    "tags": [
+      "shotspotter",
+      "acoustic-surveillance",
+      "police-surveillance",
+      "over-policing",
+      "contract-termination"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "norfolk-flock-fourth-amendment-suit",
+    "title": "Norfolk Flock Cameras Fourth Amendment Suit",
+    "layer": "resistance",
+    "category": "lawsuit",
+    "status": "ongoing",
+    "lat": 36.85,
+    "lon": -76.29,
+    "city": "Norfolk",
+    "state": "VA",
+    "date": "2024-10",
+    "desc": "Residents represented by the Institute for Justice sued Norfolk, arguing its 172-camera Flock ALPR network enables warrantless tracking in violation of the Fourth Amendment. A judge let the case proceed citing Carpenter v. US, but ruled in early 2026 the system was not yet unconstitutional; plaintiffs are appealing.",
+    "actors": [
+      "institute-for-justice",
+      "city-of-norfolk",
+      "flock-safety"
+    ],
+    "sources": [
+      "https://ij.org/case/norfolk-virginia-camera-surveillance/",
+      "https://www.whro.org/business-growth/2026-02-11/a-federal-judge-ruled-norfolks-flock-surveillance-cameras-dont-invade-peoples-privacy-yet"
+    ],
+    "tags": [
+      "alpr",
+      "fourth-amendment",
+      "flock-safety",
+      "lawsuit",
+      "warrantless-surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "san-marcos-flock-ended",
+    "title": "San Marcos Ends Flock Contract",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 29.88,
+    "lon": -97.94,
+    "city": "San Marcos",
+    "state": "TX",
+    "date": "2025",
+    "desc": "After residents pushed back on surveillance and immigration-enforcement concerns, San Marcos City Council denied an expansion of Flock cameras in June 2025 and then directed staff to discontinue the Flock Safety contract. Surrounding Hays County also terminated its ALPR contract in October 2025.",
+    "actors": [
+      "flock-safety",
+      "san-marcos-city-council",
+      "hays-county"
+    ],
+    "sources": [
+      "https://cbsaustin.com/news/local/san-marcos-city-council-ends-flock-safety-contract-seeking-new-options",
+      "https://communityimpact.com/austin/san-marcos-buda-kyle/government/2025/10/15/hays-county-terminates-automatic-license-plate-reader-contract/"
+    ],
+    "tags": [
+      "alpr",
+      "flock-safety",
+      "privacy",
+      "contract-termination",
+      "texas"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "no-tech-for-ice-campaign",
+    "title": "Mijente's No Tech for ICE Campaign",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "ongoing",
+    "lat": 33.45,
+    "lon": -112.07,
+    "city": "Phoenix",
+    "state": "AZ",
+    "date": "2025",
+    "desc": "Mijente's #NoTechForICE campaign exposes contracts between ICE and tech/data-broker firms including Palantir, LexisNexis and Thomson Reuters. FOIA records it obtained showed 1.2 million ICE queries of LexisNexis data in seven months, fueling 2025 organizing against data brokers used to bypass sanctuary laws.",
+    "actors": [
+      "mijente",
+      "just-futures-law",
+      "lexisnexis",
+      "palantir",
+      "ice"
+    ],
+    "sources": [
+      "https://notechforice.com/resources/",
+      "https://prismreports.org/2025/01/30/ice-surveillance-immigrants/",
+      "https://truthout.org/articles/ice-is-using-data-from-lexisnexis-to-skirt-sanctuary-laws-and-deport-immigrants/"
+    ],
+    "tags": [
+      "ice-surveillance",
+      "data-brokers",
+      "no-tech-for-ice",
+      "immigrant-rights",
+      "sanctuary-laws"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "union-del-barrio-community-patrols",
+    "title": "Unión del Barrio Community Self-Defense Patrols",
+    "layer": "resistance",
+    "category": "rapid-response",
+    "status": "ongoing",
+    "lat": 32.7157,
+    "lon": -117.1611,
+    "city": "San Diego",
+    "state": "CA",
+    "date": "2025-01",
+    "desc": "Unión del Barrio, founded in San Diego in 1981, runs daily volunteer patrols that locate ICE staging activity, warn residents by megaphone and radio, and operate a rapid-response hotline across San Diego and Los Angeles. In 2025 it launched a Community Self-Defense Coalition of 60+ organizations, with patrols expanding around LA schools.",
+    "actors": [
+      "union-del-barrio",
+      "ice",
+      "dhs",
+      "community-self-defense-coalition",
+      "volunteers"
+    ],
+    "sources": [
+      "https://boltsmag.org/violent-ice-surges-san-diego-volunteer-patrols-union-del-barrio-california-sanctuary-policy/",
+      "https://uniondelbarrio.org/main/communitypatrols/",
+      "https://lapublicpress.org/2025/08/community-school-ice-patrols/"
+    ],
+    "tags": [
+      "community-patrols",
+      "rapid-response",
+      "hotline",
+      "mutual-aid",
+      "school-defense"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "sanctuary-congregations-v-dhs",
+    "title": "Faith Sanctuary Movement & Lawsuit vs. DHS",
+    "layer": "resistance",
+    "category": "lawsuit",
+    "status": "ongoing",
+    "lat": 38.9072,
+    "lon": -77.0369,
+    "city": "Washington",
+    "state": "DC",
+    "date": "2025-02",
+    "desc": "After the sensitive-locations policy shielding churches and schools was rescinded, more than two dozen Christian and Jewish denominations sued DHS in February 2025, arguing enforcement in houses of worship violates the First Amendment. By May 2026 over 5,000 congregations had publicly declared sanctuary status, reviving the 1980s sanctuary movement.",
+    "actors": [
+      "dhs",
+      "ice",
+      "episcopal-church",
+      "interfaith-coalitions",
+      "sanctuary-congregations"
+    ],
+    "sources": [
+      "https://www.episcopalcitymission.org/ice-protocols",
+      "https://www.washingtontimes.com/news/2026/may/12/5000-churches-claim-sanctuary-status-ice-warrantless-arrests/",
+      "https://religionnews.com/2026/03/23/how-the-sanctuary-movement-became-the-faithfuls-answer-to-ice-raids/"
+    ],
+    "tags": [
+      "sanctuary-movement",
+      "first-amendment",
+      "sensitive-locations",
+      "faith-based",
+      "litigation"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "free-dylan-nyc-student-campaign",
+    "title": "Free Dylan: NYC Student Detention Campaign",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "ongoing",
+    "lat": 40.8448,
+    "lon": -73.8648,
+    "city": "New York",
+    "state": "NY",
+    "date": "2025-05",
+    "desc": "Dylan Lopez Contreras, a Venezuelan student at ELLIS Prep in the Bronx, was detained by ICE in May 2025 after a routine immigration hearing — the first known current NYC public school student detained under the second Trump term. 'Free Dylan' rallies by teachers, students and elected officials followed, and the city filed a legal brief supporting his release.",
+    "actors": [
+      "ice",
+      "nyc-public-schools",
+      "teachers-union",
+      "city-of-new-york",
+      "immigration-attorneys"
+    ],
+    "sources": [
+      "https://www.thecity.nyc/2025/05/30/dylan-bronx-high-school-ice-detained/",
+      "https://www.chalkbeat.org/newyork/2025/05/27/politicians-call-for-release-of-bronx-student-detained-by-ice-immigration-officials/",
+      "https://www.cbsnews.com/newyork/news/nyc-ice-bronx-student-arrest-legal-challenge/"
+    ],
+    "tags": [
+      "student-detention",
+      "courthouse-arrests",
+      "schools",
+      "legal-defense",
+      "free-dylan"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "austin-ends-flock-contract",
+    "title": "Austin Ends Flock ALPR Program",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 30.27,
+    "lon": -97.74,
+    "city": "Austin",
+    "state": "TX",
+    "date": "2025-06",
+    "desc": "Austin's city manager ended the city's Flock Safety license plate reader contract in June 2025 after 30+ community groups organized against it, citing data sharing with immigration enforcement and wrongful-arrest risks. APD later accessed neighboring agencies' Flock data, and Texas DPS installed its own readers in 2026.",
+    "actors": [
+      "flock-safety",
+      "austin-city-council",
+      "austin-police-department",
+      "texas-dps"
+    ],
+    "sources": [
+      "https://www.kvue.com/article/news/local/austin-license-plate-readers-ends-privacy-concerns/269-4dc64690-c6c0-4ace-a009-fd8a13f69113",
+      "https://www.kut.org/crime-justice/2026-02-12/austin-tx-apd-flock-cameras-license-plate-readers",
+      "https://stateofsurveillance.org/articles/surveillance/communities-winning-against-alpr-flock-safety-2025/"
+    ],
+    "tags": [
+      "alpr",
+      "flock-safety",
+      "privacy",
+      "immigration-enforcement",
+      "police-surveillance"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "la-june-2025-anti-ice-uprising",
+    "title": "LA Uprising Against ICE Raids",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ended",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "city": "Los Angeles",
+    "state": "CA",
+    "date": "2025-06",
+    "desc": "Mass protests erupted June 6, 2025 after ICE raids across LA; the administration federalized 4,000 California National Guard troops and deployed 700 Marines over the governor's objection. California sued, and in September a federal judge ruled the deployment violated the Posse Comitatus Act, barring military use for civilian law enforcement in the state.",
+    "actors": [
+      "ice",
+      "national-guard",
+      "us-marines",
+      "lapd",
+      "state-of-california"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/June_2025_Los_Angeles_protests_against_mass_deportation",
+      "https://www.cbsnews.com/news/marines-high-alert-deploy-los-angeles-ice-protests/",
+      "https://www.npr.org/2025/06/11/nx-s1-5429626/a-look-at-the-militarys-role-in-los-angeles-as-protests-against-ice-raids-continue"
+    ],
+    "tags": [
+      "national-guard",
+      "marines",
+      "posse-comitatus",
+      "ice-raids",
+      "federalization"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "purge-palantir-day-of-action",
+    "title": "Purge Palantir Day of Action",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ongoing",
+    "lat": 40.71,
+    "lon": -74.01,
+    "city": "New York",
+    "state": "NY",
+    "date": "2025-07",
+    "desc": "Coordinated protests hit Palantir offices in New York, Palo Alto, Seattle and Denver over the company's ICE deportation contracts, military targeting tools and mass surveillance. About 200 people blocked Palantir's Palo Alto office, 100+ staged a Seattle sit-in, and NYPD arrested at least four protesters in New York.",
+    "actors": [
+      "palantir",
+      "mijente",
+      "ice"
+    ],
+    "sources": [
+      "https://www.democracynow.org/2025/7/15/doge_20",
+      "https://www.paloaltoonline.com/community/2025/07/15/protesters-target-palo-altos-palantir-office/",
+      "https://truthout.org/articles/organizers-are-demanding-palantir-drop-contracts-with-ice-and-israeli-military/"
+    ],
+    "tags": [
+      "palantir",
+      "ice-surveillance",
+      "protest",
+      "deportation-tech",
+      "no-tech-for-ice"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "tucson-rejects-project-blue",
+    "title": "Tucson Rejects Project Blue",
+    "layer": "resistance",
+    "category": "rejection",
+    "status": "victory",
+    "lat": 32.22,
+    "lon": -110.97,
+    "city": "Tucson",
+    "state": "AZ",
+    "date": "2025-08",
+    "desc": "After weeks of community organizing over water use and secrecy, Tucson's City Council voted 7-0 to reject annexation and a development deal for Project Blue, an Amazon-linked hyperscale data center. The city later cut off water access; AWS withdrew, though a modified project continued on county land.",
+    "actors": [
+      "tucson-city-council",
+      "amazon-web-services",
+      "beale-infrastructure"
+    ],
+    "sources": [
+      "https://azluminaria.org/2025/08/06/tucson-city-council-rejects-project-blue-amid-intense-community-pressure/",
+      "https://www.democracynow.org/2025/8/7/headlines/tucson_city_council_votes_unanimously_to_reject_project_blue_a_proposed_data_center_linked_to_amazon",
+      "https://www.kjzz.org/the-show/2025-12-09/rejected-by-tucson-and-abandoned-by-amazon-project-blue-data-center-moves-forward"
+    ],
+    "tags": [
+      "data-center",
+      "water-use",
+      "rejection",
+      "community-organizing",
+      "desert-water"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "evanston-flock-termination",
+    "title": "Evanston Terminates Flock Cameras",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 42.04,
+    "lon": -87.69,
+    "city": "Evanston",
+    "state": "IL",
+    "date": "2025-08",
+    "desc": "Evanston deactivated all 19 Flock license plate cameras and terminated its contract after a state audit found Flock illegally let US Customs and Border Protection access Illinois ALPR data. When Flock reinstalled cameras without authorization, the city issued a cease-and-desist; the last cameras came down in March 2026.",
+    "actors": [
+      "flock-safety",
+      "city-of-evanston",
+      "illinois-secretary-of-state"
+    ],
+    "sources": [
+      "https://evanstonroundtable.com/2025/08/26/evanston-shuts-down-license-plate-cameras-terminates-contract-with-flock-safety/",
+      "https://evanstonroundtable.com/2026/03/27/flock-removes-final-two-license-plate-cameras-from-evanston-after-roundtable-inquiry/"
+    ],
+    "tags": [
+      "alpr",
+      "flock-safety",
+      "data-sharing",
+      "immigration-enforcement",
+      "contract-termination"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "oak-park-flock-termination",
+    "title": "Oak Park Cuts Ties With Flock",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 41.89,
+    "lon": -87.79,
+    "city": "Oak Park",
+    "state": "IL",
+    "date": "2025-08",
+    "desc": "Oak Park ended its contract with Flock Safety amid revelations that the company shared Illinois license plate data with federal agencies in violation of state law. The village acted alongside Evanston as the Illinois Secretary of State's audit found Flock allowed CBP access to Illinois ALPR cameras.",
+    "actors": [
+      "flock-safety",
+      "village-of-oak-park",
+      "illinois-secretary-of-state"
+    ],
+    "sources": [
+      "https://abc7chicago.com/post/evanston-oak-park-end-contracts-flock-safety-license-plate-reader-company-investigation-illinois/17678137/",
+      "https://www.oakpark.com/2025/08/28/state-says-flock-safety-broke-the-law/"
+    ],
+    "tags": [
+      "alpr",
+      "flock-safety",
+      "privacy",
+      "data-sharing",
+      "contract-termination"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "digital-gateway-court-victory",
+    "title": "Court Voids PW Digital Gateway Rezoning",
+    "layer": "resistance",
+    "category": "lawsuit",
+    "status": "victory",
+    "lat": 38.8,
+    "lon": -77.62,
+    "city": "Gainesville",
+    "state": "VA",
+    "date": "2025-08",
+    "desc": "Residents and the Oak Valley HOA sued over the 2,100-acre Digital Gateway, planned as the world's largest data center corridor near Manassas battlefield. In August 2025 a judge declared the rezoning void ab initio for inadequate public notice; the Virginia Court of Appeals upheld the ruling in March 2026.",
+    "actors": [
+      "oak-valley-hoa",
+      "prince-william-county",
+      "qts",
+      "compass-datacenters"
+    ],
+    "sources": [
+      "https://www.princewilliamtimes.com/news/breaking-judge-overturns-prince-william-digital-gateway/article_951d6362-1bbd-416f-89c5-ff322bf49fa8.html",
+      "https://www.washingtonpost.com/dc-md-va/2025/08/14/data-center-prince-william-virginia-digital-gateway/",
+      "https://wtop.com/prince-william-county/2025/08/judge-voids-digital-gateway-rezoning-in-prince-william-county/"
+    ],
+    "tags": [
+      "data-center",
+      "rezoning",
+      "lawsuit",
+      "land-use",
+      "data-center-alley"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "new-orleans-facial-recognition-withdrawn",
+    "title": "New Orleans Facial Recognition Expansion Withdrawn",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 29.95,
+    "lon": -90.07,
+    "city": "New Orleans",
+    "state": "LA",
+    "date": "2025-08",
+    "desc": "A City Council ordinance that would have authorized expanded police use of live facial recognition was withdrawn in August 2025 after months of opposition from the ACLU of Louisiana and community groups, who warned the Project NOLA camera network could be weaponized against immigrants and activists.",
+    "actors": [
+      "new-orleans-city-council",
+      "aclu-louisiana",
+      "project-nola",
+      "nopd"
+    ],
+    "sources": [
+      "https://www.nola.com/gambit/news/politics_elections/oliver-thomas-withdraws-controversial-new-orleans-facial-recognition-ordinance-for-now/article_30b1a03d-1b19-4829-ac77-3e2ad4dd9f63.html",
+      "https://www.axios.com/local/new-orleans/2025/09/24/new-orleans-ai-facial-recognition-decision-rules"
+    ],
+    "tags": [
+      "facial-recognition",
+      "live-surveillance",
+      "civil-rights",
+      "police-surveillance",
+      "ordinance-withdrawn"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "sedona-flock-removal",
+    "title": "Sedona Permanently Ends ALPR Program",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 34.87,
+    "lon": -111.76,
+    "city": "Sedona",
+    "state": "AZ",
+    "date": "2025-09",
+    "desc": "Sedona's City Council voted unanimously to cancel its Flock Safety contract and remove all 11 license plate readers after the company acknowledged US Customs and Border Protection had accessed locally collected vehicle data, contradicting assurances that the city controlled access.",
+    "actors": [
+      "flock-safety",
+      "sedona-city-council",
+      "cbp"
+    ],
+    "sources": [
+      "https://www.redrocknews.com/2025/09/10/sedona-city-council-tells-staff-to-get-the-flock-out-of-town/",
+      "https://www.knau.org/knau-and-arizona-news/2025-09-11/sedona-council-permanently-ends-license-plate-camera-program"
+    ],
+    "tags": [
+      "alpr",
+      "flock-safety",
+      "data-sharing",
+      "camera-removal",
+      "immigration-enforcement"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "broadview-ice-facility-protests",
+    "title": "Broadview ICE Facility Standoff",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ongoing",
+    "lat": 41.8575,
+    "lon": -87.8531,
+    "city": "Broadview",
+    "state": "IL",
+    "date": "2025-09",
+    "desc": "Near-daily protests began September 2025 outside the ICE processing facility where most Operation Midway Blitz detainees were taken. Federal agents repeatedly fired tear gas, pepper balls and rubber bullets at crowds including clergy and journalists, prompting press-freedom lawsuits; by 2026 Broadview's mayor demanded the facility's closure.",
+    "actors": [
+      "ice",
+      "cbp",
+      "dhs",
+      "village-of-broadview",
+      "clergy",
+      "journalists"
+    ],
+    "sources": [
+      "https://wgntv.com/news/operation-midway-blitz/protestors-clash-with-agents-outside-broadview-ice-processing-facility-amid-ongoing-demonstrations/",
+      "https://www.wbez.org/immigration/2026/03/24/broadview-mayor-demands-closure-of-ice-facility-reimbursement-of-village-costs-business-losses-police-fire-congress-trump-detention",
+      "https://www.nbcnews.com/news/us-news/broadview-mayor-limits-hours-protestors-ice-facility-escalating-clashe-rcna235957"
+    ],
+    "tags": [
+      "tear-gas",
+      "detention-facility",
+      "midway-blitz",
+      "press-freedom",
+      "sustained-protest"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "portland-ice-facility-oregon-v-trump",
+    "title": "Portland ICE Facility Protests & Oregon v. Trump",
+    "layer": "resistance",
+    "category": "lawsuit",
+    "status": "victory",
+    "lat": 45.4925,
+    "lon": -122.673,
+    "city": "Portland",
+    "state": "OR",
+    "date": "2025-09",
+    "desc": "Months of mostly small protests outside Portland's South Waterfront ICE facility were used to justify a National Guard deployment in late September 2025. Oregon, Portland and California sued; after the nation's first trial on presidential Guard authority, a federal judge permanently blocked the deployment in November 2025, and the federal appeal was dropped.",
+    "actors": [
+      "ice",
+      "national-guard",
+      "state-of-oregon",
+      "city-of-portland",
+      "state-of-california"
+    ],
+    "sources": [
+      "https://www.opb.org/article/2025/11/07/portland-oregon-national-guard-trump-politics-karin-immergut/",
+      "https://oregoncapitalchronicle.com/2025/11/07/federal-judge-finds-trump-guard-deployment-to-portland-illegal/",
+      "https://www.opb.org/article/2025/10/04/portland-national-guard-deployment-judge-decision/"
+    ],
+    "tags": [
+      "national-guard",
+      "injunction",
+      "ice-facility",
+      "state-sovereignty",
+      "federal-courts"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "nyc-26-federal-plaza-protests",
+    "title": "26 Federal Plaza Protests & Courthouse Arrest Fight",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ongoing",
+    "lat": 40.7156,
+    "lon": -74.004,
+    "city": "New York",
+    "state": "NY",
+    "date": "2025-09",
+    "desc": "Masked ICE agents detaining immigrants at mandatory hearings inside 26 Federal Plaza drew repeated protests; in September 2025, 71 people were arrested including the city comptroller, two state senators and nine Assembly members. A federal judge later restricted ICE courthouse arrests after the agency admitted misrepresenting its legal authority.",
+    "actors": [
+      "ice",
+      "dhs",
+      "nyc-elected-officials",
+      "brad-lander",
+      "immigration-advocates"
+    ],
+    "sources": [
+      "https://abcnews.go.com/US/new-york-officials-arrested-protest-manhattan-ice-office/story?id=125721380",
+      "https://www.courthousenews.com/judge-blocks-broad-ice-arrests-at-immigration-courts-in-manhattan/",
+      "https://prospect.org/2026/03/25/ice-lied-about-its-authority-to-make-courthouse-arrests/"
+    ],
+    "tags": [
+      "courthouse-arrests",
+      "civil-disobedience",
+      "elected-officials",
+      "detention-conditions",
+      "oversight"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "chicago-whistle-networks-rapid-response",
+    "title": "Chicago Whistle Networks & Rapid Response",
+    "layer": "resistance",
+    "category": "rapid-response",
+    "status": "ongoing",
+    "lat": 41.8453,
+    "lon": -87.7056,
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2025-09",
+    "desc": "During Operation Midway Blitz, residents of Little Village, Pilsen, Cicero and other neighborhoods built whistle-alert systems, rapid response teams and ICIRR hotline networks to warn of agents and document arrests. Cyclists organized rides to buy out tamale vendors' carts so they could shelter at home; over 4,500 were arrested in the Chicago area by late December.",
+    "actors": [
+      "ice",
+      "cbp",
+      "icirr",
+      "la-villita-se-defiende",
+      "rapid-response-networks",
+      "street-vendors"
+    ],
+    "sources": [
+      "https://blockclubchicago.org/2025/10/17/chicago-cyclists-are-buying-out-tamale-carts-to-keep-vendors-home-and-safe-from-ice/",
+      "https://www.icirr.org/News/chicagoland-immigrant-community-advocates:-cbp-and-ice-rampage-on-cicero,-il-and-little-village-communities-continues",
+      "https://www.cnn.com/2025/10/24/us/chicago-ice-raids-resistance-efforts"
+    ],
+    "tags": [
+      "whistle-network",
+      "rapid-response",
+      "mutual-aid",
+      "midway-blitz",
+      "street-vendors"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "no-kings-mass-mobilizations-2025",
+    "title": "No Kings Mass Mobilizations",
+    "layer": "resistance",
+    "category": "mass-mobilization",
+    "status": "ended",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "city": "New York",
+    "state": "NY",
+    "date": "2025-10",
+    "desc": "The June 14, 2025 No Kings day drew an estimated 2-5 million people across 2,100+ sites; the Oct. 18 sequel grew to an estimated 5-7 million across some 2,700 locations, among the largest single-day protests in US history. Opposition to ICE raids and military deployments was a central theme; NYPD reported over 100,000 marchers across NYC with zero arrests.",
+    "actors": [
+      "indivisible",
+      "labor-unions",
+      "aclu",
+      "civil-society-coalitions"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/October_2025_No_Kings_protests",
+      "https://www.thecity.nyc/2025/10/18/no-kings-protest-trump-tish-james-ice/",
+      "https://www.npr.org/2025/10/19/nx-s1-5579042/no-kings-protests-takeaways"
+    ],
+    "tags": [
+      "mass-protest",
+      "no-kings",
+      "nationwide",
+      "nonviolent",
+      "historic-turnout"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "little-village-show-of-strength",
+    "title": "Little Village Defiance After Bovino Raids",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ended",
+    "lat": 41.8472,
+    "lon": -87.7235,
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2025-10",
+    "desc": "After Border Patrol chief Gregory Bovino led arrest sweeps through Little Village and Cicero in October 2025, residents and rapid-response volunteers confronted agents in the streets, and elected officials staged a 'show of strength' rally in the neighborhood when Bovino threatened to return. The raids were part of Operation Midway Blitz.",
+    "actors": [
+      "cbp",
+      "ice",
+      "chicago-elected-officials",
+      "la-villita-se-defiende",
+      "berwyn-cicero-rapid-response"
+    ],
+    "sources": [
+      "https://chicago.suntimes.com/immigration/2025/10/22/border-patrol-boss-bovino-little-village-raids-arrests-protest",
+      "https://blockclubchicago.org/2025/11/11/officials-gather-in-little-village-for-show-of-strength-after-border-chiefs-threat-to-return-to-neighborhood/"
+    ],
+    "tags": [
+      "bovino",
+      "street-confrontation",
+      "latino-neighborhoods",
+      "midway-blitz",
+      "elected-officials"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "charlotte-operation-charlottes-web-response",
+    "title": "Charlotte Resists Operation Charlotte's Web",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "victory",
+    "lat": 35.2271,
+    "lon": -80.8431,
+    "city": "Charlotte",
+    "state": "NC",
+    "date": "2025-11",
+    "desc": "After a CBP surge that arrested 425+ people starting Nov. 15, 2025, Charlotte responded with student walkouts (over 56,000 students absent in two days), crowds confronting agents at a Home Depot, and 1,000+ volunteers mobilizing through churches. Border Patrol ended the operation Nov. 20 amid sustained local and state opposition.",
+    "actors": [
+      "cbp",
+      "ice",
+      "dhs",
+      "students",
+      "churches"
+    ],
+    "sources": [
+      "https://www.aljazeera.com/news/2025/11/20/north-carolina-officials-say-us-border-patrol-has-ended-charlotte-operation",
+      "https://www.wbtv.com/2025/12/03/425-arrested-operation-charlottes-web-federal-officials-say/",
+      "https://abcnews.go.com/US/fear-community-charlotte-residents-mayor-rebuke-federal-immigration/story?id=127607921"
+    ],
+    "tags": [
+      "border-patrol-surge",
+      "student-walkouts",
+      "day-laborers",
+      "school-absences",
+      "bovino"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "new-orleans-swamp-sweep-response",
+    "title": "New Orleans Pushback on 'Swamp Sweep'",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ended",
+    "lat": 29.9511,
+    "lon": -90.0715,
+    "city": "New Orleans",
+    "state": "LA",
+    "date": "2025-12",
+    "desc": "Ahead of a roughly 250-agent Border Patrol surge ('Operation Swamp Sweep') targeting 5,000 arrests across Louisiana and Mississippi, residents marched through downtown New Orleans on Dec. 1, 2025 and disrupted a City Council meeting. Council leaders issued Know Your Rights materials and opened a portal to report civil rights abuses.",
+    "actors": [
+      "cbp",
+      "ice",
+      "dhs",
+      "new-orleans-city-council",
+      "community-organizations"
+    ],
+    "sources": [
+      "https://www.wwno.org/immigration/2025-12-01/no-ice-no-fear-dozens-protest-in-new-orleans-ahead-of-louisiana-immigration-sweep",
+      "https://veritenews.org/2025/12/02/border-patrol-ice-protesters-immigration/",
+      "https://www.themarshallproject.org/2025/12/04/trump-ice-new-orleans-immigration"
+    ],
+    "tags": [
+      "border-patrol-surge",
+      "know-your-rights",
+      "city-council",
+      "swamp-sweep",
+      "marches"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "minneapolis-metro-surge-resistance",
+    "title": "Twin Cities Resistance to Operation Metro Surge",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 44.9778,
+    "lon": -93.265,
+    "city": "Minneapolis",
+    "state": "MN",
+    "date": "2026-01",
+    "desc": "DHS sent thousands of agents to the Twin Cities in December 2025 under Operation Metro Surge; after ICE agents fatally shot US citizen Renée Good (Jan. 7) and nurse Alex Pretti (Jan. 24), sustained mass protests grew to tens of thousands despite below-zero cold. A federal judge found ICE violated at least 96 court orders, and most agents withdrew by February 2026.",
+    "actors": [
+      "ice",
+      "cbp",
+      "dhs",
+      "minneapolis-residents",
+      "state-of-minnesota",
+      "federal-courts"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Operation_Metro_Surge",
+      "https://www.nbcnews.com/news/us-news/ice-out-rally-minneapolis-immigration-protest-rcna255631",
+      "https://www.britannica.com/event/2025-26-Minnesota-ICE-Deployment"
+    ],
+    "tags": [
+      "metro-surge",
+      "ice-shootings",
+      "mass-protest",
+      "court-violations",
+      "agent-withdrawal"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "national-shutdown-ice-out-jan-2026",
+    "title": "Jan. 30 'ICE Out' National Shutdown",
+    "layer": "resistance",
+    "category": "mass-mobilization",
+    "status": "ended",
+    "lat": 44.973,
+    "lon": -93.258,
+    "city": "Minneapolis",
+    "state": "MN",
+    "date": "2026-01",
+    "desc": "On Jan. 30, 2026, a national strike and shutdown against expanded ICE operations spread to dozens of cities, with workers staying home, businesses closing and students walking out in solidarity with Minnesota. Organizers estimated around 50,000 joined the Minneapolis demonstration, the largest of the day, with parallel actions from New York to San Francisco.",
+    "actors": [
+      "ice",
+      "labor-unions",
+      "students",
+      "small-businesses",
+      "immigrant-rights-coalitions"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/January_30,_2026_protests_against_ICE",
+      "https://www.npr.org/sections/the-picture-show/2026/01/30/g-s1-108087/photos-thousands-once-again-protest-ice-in-minneapolis-and-across-the-u-s"
+    ],
+    "tags": [
+      "general-strike",
+      "national-shutdown",
+      "walkouts",
+      "business-closures",
+      "solidarity"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "sf-bay-area-ice-out-response",
+    "title": "Bay Area ICE Out Strike & Walkouts",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ended",
+    "lat": 37.7596,
+    "lon": -122.4269,
+    "city": "San Francisco",
+    "state": "CA",
+    "date": "2026-01",
+    "desc": "As DHS expanded its enforcement surge into 2026, thousands of Bay Area students walked out, dozens of businesses closed, and thousands rallied at Mission Dolores Park on Jan. 30 as part of the National Shutdown. Bay Area judges separately ordered ICE to stop courthouse arrests in San Francisco and to improve holding-cell conditions at its field office.",
+    "actors": [
+      "ice",
+      "dhs",
+      "students",
+      "small-businesses",
+      "city-of-san-francisco"
+    ],
+    "sources": [
+      "https://www.kqed.org/news/12071746/thousands-gather-in-san-francisco-businesses-close-as-part-of-nationwide-ice-out-protest",
+      "https://sfstandard.com/2026/01/30/sf-joins-ice-protest-strike/",
+      "https://missionlocal.org/2026/01/sf-ice-out-protest-strike-walkout/"
+    ],
+    "tags": [
+      "student-walkouts",
+      "business-strike",
+      "courthouse-arrests",
+      "ice-out",
+      "bay-area"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "chicago-hyde-park-neighbor-confrontations",
+    "title": "Hyde Park Neighbors Confront ICE Arrests",
+    "layer": "resistance",
+    "category": "protest",
+    "status": "ended",
+    "lat": 41.7995,
+    "lon": -87.6043,
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2026-01",
+    "desc": "Chicago's South Side became a sensitive-locations flashpoint as masked plainclothes agents detained residents near homes and the University of Chicago campus. In a January 2026 Hyde Park incident, agents tased a man three times and pointed a gun at his head as neighbors filmed and intervened. Similar neighbor blockades in Albany Park were met with tear gas.",
+    "actors": [
+      "ice",
+      "cbp",
+      "neighbors",
+      "university-of-chicago-community",
+      "attorneys"
+    ],
+    "sources": [
+      "https://chicagomaroon.com/50191/news/officers-detain-man-in-hyde-park-tasing-him-and-pointing-a-gun-at-his-head/",
+      "https://blockclubchicago.org/2026/01/16/hyde-park-man-detained-by-ice-was-denied-lifesaving-meds-attorneys-working-to-free-him-say/",
+      "https://blockclubchicago.org/2025/10/13/federal-agents-deploy-tear-gas-in-albany-park-as-neighbors-block-immigration-arrest/"
+    ],
+    "tags": [
+      "neighbor-intervention",
+      "documentation",
+      "excessive-force",
+      "sensitive-locations",
+      "south-side"
+    ],
+    "added": "2026-06-10T23:37:14Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "denver-flock-removal",
+    "title": "Denver Removes All 110 Flock Cameras",
+    "layer": "resistance",
+    "category": "campaign",
+    "status": "victory",
+    "lat": 39.74,
+    "lon": -104.99,
+    "city": "Denver",
+    "state": "CO",
+    "date": "2026-02",
+    "desc": "Denver let its Flock Safety contract lapse and removed all 110 license plate reader cameras after public backlash over privacy and revelations that Flock data could reach federal immigration authorities. City Council narrowly approved a smaller 50-camera replacement system from Axon with tighter controls.",
+    "actors": [
+      "flock-safety",
+      "denver-city-council",
+      "axon"
+    ],
+    "sources": [
+      "https://www.9news.com/article/news/local/denver-removes-flock-license-plate-reader-cameras/73-eaf91d0a-3b90-45f5-8338-dbb9f79a8712",
+      "https://www.denvergazette.com/2026/02/24/denver-ends-contract-with-license-plate-camera-vendor-flock/"
+    ],
+    "tags": [
+      "alpr",
+      "flock-safety",
+      "privacy",
+      "immigration-enforcement",
+      "camera-removal"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "naacp-xai-clean-air-lawsuit",
+    "title": "NAACP Sues xAI Over Unpermitted Gas Plant",
+    "layer": "resistance",
+    "category": "lawsuit",
+    "status": "ongoing",
+    "lat": 34.99,
+    "lon": -90,
+    "city": "Southaven",
+    "state": "MS",
+    "date": "2026-04",
+    "desc": "The NAACP, represented by Earthjustice, sued xAI alleging it installed and ran 27 gas turbines without an air permit to power its Colossus 2 data center near Memphis, with potential emissions of 1,700+ tons of NOx yearly. The suit seeks a shutdown until permits and pollution controls are in place, plus civil penalties.",
+    "actors": [
+      "naacp",
+      "earthjustice",
+      "xai"
+    ],
+    "sources": [
+      "https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant",
+      "https://www.cnbc.com/2026/04/14/elon-musk-xai-memphis-data-centers.html",
+      "https://naacp.org/articles/naacp-sues-xai-illegal-pollution-data-center-power-plant"
+    ],
+    "tags": [
+      "clean-air-act",
+      "data-center",
+      "lawsuit",
+      "environmental-justice",
+      "ai-infrastructure"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "nottingham-nh-data-center-withdrawn",
+    "title": "Nottingham NH Data Center Withdrawn",
+    "layer": "resistance",
+    "category": "rejection",
+    "status": "victory",
+    "lat": 43.11,
+    "lon": -71.1,
+    "city": "Nottingham",
+    "state": "NH",
+    "date": "2026-05",
+    "desc": "A proposed data center in rural Nottingham was withdrawn after intense community opposition over impacts to the local watershed and electric grid. More than 20,000 people signed a petition against the project before the applicant pulled its application.",
+    "actors": [
+      "nottingham-residents",
+      "town-of-nottingham"
+    ],
+    "sources": [
+      "https://www.nbcboston.com/news/local/planned-data-center-in-nh-draws-widespread-community-opposition/3955828/",
+      "https://www.datacenterdynamics.com/en/news/proposal-for-data-center-in-nottingham-new-hampshire-withdrawn-after-facing-intense-opposition/"
+    ],
+    "tags": [
+      "data-center",
+      "rejection",
+      "watershed",
+      "petition",
+      "rural-opposition"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "monterey-park-voter-ban",
+    "title": "Monterey Park Voters Ban Data Centers",
+    "layer": "resistance",
+    "category": "rejection",
+    "status": "victory",
+    "lat": 34.06,
+    "lon": -118.12,
+    "city": "Monterey Park",
+    "state": "CA",
+    "date": "2026-06",
+    "desc": "Monterey Park became the first US city to ban data centers by public vote, with roughly 86% of voters approving a permanent prohibition. The measure followed grassroots opposition to a proposed data center project, which the developer withdrew in March 2026 as resistance mounted.",
+    "actors": [
+      "monterey-park-residents",
+      "city-of-monterey-park"
+    ],
+    "sources": [
+      "https://www.governing.com/infrastructure/voters-deliver-a-first-of-its-kind-rejection-of-data-centers",
+      "https://www.datacenterknowledge.com/data-center-construction/california-city-approves-first-voter-enacted-data-center-ban"
+    ],
+    "tags": [
+      "data-center",
+      "ballot-measure",
+      "permanent-ban",
+      "voter-initiative",
+      "first-in-nation"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  },
+  {
+    "id": "coachella-scraps-tech-campus",
+    "title": "Coachella Scraps 400-Acre Data Center Campus",
+    "layer": "resistance",
+    "category": "rejection",
+    "status": "victory",
+    "lat": 33.68,
+    "lon": -116.17,
+    "city": "Coachella",
+    "state": "CA",
+    "date": "2026-06",
+    "desc": "After resident pressure, the Coachella City Council voted to cancel its agreement with Stronghold Power Systems for the 400-plus-acre Coachella Valley Technology Campus, which would have included six data centers, and froze new data center applications pending further study.",
+    "actors": [
+      "coachella-city-council",
+      "stronghold-power-systems",
+      "coachella-residents"
+    ],
+    "sources": [
+      "https://www.thecooldown.com/green-tech/data-center-moratorium-coachella-council-vote/"
+    ],
+    "tags": [
+      "data-center",
+      "rejection",
+      "moratorium",
+      "desert-water",
+      "community-organizing"
+    ],
+    "added": "2026-06-10T23:15:16Z",
+    "updated": "2026-06-10T23:37:14Z"
+  }
+]
