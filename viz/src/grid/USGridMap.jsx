@@ -15,12 +15,87 @@ const stateBorders = mesh(us, us.objects.states, (a, b) => a !== b);
 const nationBorder = mesh(us, us.objects.nation);
 const geoPath = d3.geoPath();
 
+const DC_CENTER = projection([-77.02, 38.895]);
+
+const DC_GROUP_LABELS = {
+  'executive-order': 'Executive Orders',
+  policy: 'Policy & Rules',
+  program: 'Programs',
+  contract: 'Contracts',
+  enforcement: 'Enforcement',
+  corporate: 'Corporate Contracts',
+  surveillance: 'Surveillance',
+  detention: 'Detention',
+  resistance: 'Resistance',
+  legislation: 'Legislation',
+};
+
+function truncate(s, n = 28) {
+  return s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s;
+}
+
 function arcPath(a, b) {
   const dx = b.x - a.x;
   const dy = b.y - a.y;
   const dr = Math.hypot(dx, dy) * 1.4;
-  if (dr < 0.5) return null;
+  if (dr < 0.2) return null;
   return `M${a.x},${a.y}A${dr},${dr} 0 0,1 ${b.x},${b.y}`;
+}
+
+// Lay out Washington DC sites as a thematic board: labeled columns grouped
+// by theme (EOs, policy, programs, contracts…), date-sorted top to bottom.
+// Coordinates are in projected units, so the board reads as a tight cluster
+// on DC at national zoom and resolves into readable columns when zoomed in.
+function layoutDCBoard(dcSites) {
+  if (dcSites.length === 0) return [];
+  const groups = d3.group(dcSites, (d) =>
+    d.layer === 'federal' ? d.category : d.layer
+  );
+  const keys = Array.from(groups.keys()).sort(
+    (a, b) => groups.get(b).length - groups.get(a).length
+  );
+  const COLS = 3;
+  const colW = 3.7;
+  const headerH = 0.55;
+  const itemH = 0.26;
+  const rowGap = 0.8;
+
+  const rows = [];
+  for (let i = 0; i < keys.length; i += COLS) rows.push(keys.slice(i, i + COLS));
+  const rowHeights = rows.map(
+    (row) => Math.max(...row.map((k) => groups.get(k).length)) * itemH + headerH
+  );
+  const totalH =
+    rowHeights.reduce((a, b) => a + b, 0) + rowGap * (rows.length - 1);
+  const totalW = COLS * colW;
+  const x0 = DC_CENTER[0] - totalW / 2 + colW / 2;
+  let y = DC_CENTER[1] - totalH / 2;
+
+  const headers = [];
+  rows.forEach((row, ri) => {
+    row.forEach((key, ci) => {
+      const items = groups
+        .get(key)
+        .slice()
+        .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+      const x = x0 + ci * colW;
+      headers.push({
+        key,
+        label: DC_GROUP_LABELS[key] || key,
+        x,
+        y,
+        count: items.length,
+        color: LAYERS[items[0].layer]?.color || '#9ad8ff',
+      });
+      items.forEach((d, i) => {
+        d.x = x;
+        d.y = y + headerH + i * itemH;
+        d.dc = true;
+      });
+    });
+    y += rowHeights[ri] + rowGap;
+  });
+  return headers;
 }
 
 export default function USGridMap({
@@ -38,6 +113,7 @@ export default function USGridMap({
   const selsRef = useRef({});           // d3 selections for light updates
   const [size, setSize] = useState({ w: 0, h: 0 });
   const [tooltip, setTooltip] = useState(null);
+  const [cursor, setCursor] = useState(null);
 
   // Track container size
   useEffect(() => {
@@ -51,17 +127,20 @@ export default function USGridMap({
     return () => ro.disconnect();
   }, []);
 
-  // Project sites and fan out points that share (or nearly share) a location,
-  // e.g. multiple executive orders anchored to the White House. The fan ring
-  // is sub-pixel at national scale and resolves cleanly when zoomed in.
-  const placed = useMemo(() => {
-    const out = [];
+  // Project sites. DC sites form the thematic board; elsewhere, points that
+  // share (or nearly share) a location fan out in a small ring that is
+  // sub-pixel at national scale and resolves cleanly when zoomed in.
+  const { placed, dcHeaders } = useMemo(() => {
+    const dc = [];
+    const rest = [];
     for (const s of sites) {
       const p = projection([s.lon, s.lat]);
       if (!p) continue;
-      out.push({ ...s, x: p[0], y: p[1] });
+      const d = { ...s, x: p[0], y: p[1] };
+      if (s.state === 'DC') dc.push(d);
+      else rest.push(d);
     }
-    const byKey = d3.group(out, (d) => `${Math.round(d.x * 2)}|${Math.round(d.y * 2)}`);
+    const byKey = d3.group(rest, (d) => `${Math.round(d.x * 2)}|${Math.round(d.y * 2)}`);
     for (const [, arr] of byKey) {
       if (arr.length < 2) continue;
       const cx = d3.mean(arr, (d) => d.x);
@@ -75,7 +154,8 @@ export default function USGridMap({
           d.y = cy + R * Math.sin(a);
         });
     }
-    return out;
+    const dcHeaders = layoutDCBoard(dc);
+    return { placed: [...rest, ...dc], dcHeaders };
   }, [sites]);
 
   const placedById = useMemo(() => new Map(placed.map((d) => [d.id, d])), [placed]);
@@ -142,21 +222,51 @@ export default function USGridMap({
       .attr('class', 'arc')
       .attr('d', (l) => arcPath(placedById.get(l.source), placedById.get(l.target)))
       .attr('stroke', (l) => LINK_STYLES[l.type]?.color || '#888')
-      .attr('stroke-dasharray', (l) => LINK_STYLES[l.type]?.dash || null);
+      .attr('stroke-dasharray', (l) => LINK_STYLES[l.type]?.dash || null)
+      .attr('opacity', 0);
+    arcSel.transition().delay(500).duration(700).attr('opacity', null);
 
-    // --- site markers ---
-    const nodesG = baseG.append('g').attr('class', 'nodes');
-    const applyNodeTransform = (sel, k) =>
-      sel.attr(
+    // --- keep-scale elements: site markers + DC board headers ---
+    const applyKS = (k) => {
+      const f = 1 / (s * k);
+      selsRef.current.nodeSel?.attr(
         'transform',
-        (d) => `translate(${d.x},${d.y}) scale(${1 / (s * k)})`
+        (d) => `translate(${d.x},${d.y}) scale(${f})`
       );
+      selsRef.current.headSel?.attr(
+        'transform',
+        (d) => `translate(${d.x},${d.y}) scale(${f})`
+      );
+    };
 
+    const headSel = baseG
+      .append('g')
+      .attr('class', 'dc-heads')
+      .selectAll('g.dc-head')
+      .data(dcHeaders)
+      .join('g')
+      .attr('class', 'dc-head')
+      .style('color', (d) => d.color);
+    headSel
+      .append('text')
+      .attr('class', 'dc-head-label')
+      .attr('x', -8)
+      .attr('y', 0)
+      .text((d) => `${d.label.toUpperCase()} · ${d.count}`);
+    headSel
+      .append('line')
+      .attr('class', 'dc-head-rule')
+      .attr('x1', -10)
+      .attr('y1', 5)
+      .attr('x2', 120)
+      .attr('y2', 5);
+
+    const nodesG = baseG.append('g').attr('class', 'nodes');
     const nodeSel = nodesG
       .selectAll('g.node')
       .data(placed, (d) => d.id)
       .join('g')
-      .attr('class', (d) => `node layer-${d.layer}`)
+      .attr('class', (d) => `node layer-${d.layer}${d.dc ? ' dc-node' : ''}`)
       .style('color', (d) => LAYERS[d.layer]?.color || '#999');
 
     nodeSel
@@ -182,12 +292,34 @@ export default function USGridMap({
       .attr('class', 'dot')
       .attr('r', 4.2);
 
+    // targeting reticle — visible on selection
+    const reticle = nodeSel.append('g').attr('class', 'reticle');
+    reticle.append('circle').attr('class', 'reticle-ring').attr('r', 11);
+    [0, 90, 180, 270].forEach((a) => {
+      reticle
+        .append('line')
+        .attr('class', 'reticle-tick')
+        .attr('transform', `rotate(${a})`)
+        .attr('x1', 0)
+        .attr('y1', -15)
+        .attr('x2', 0)
+        .attr('y2', -9);
+    });
+
     nodeSel
       .append('text')
       .attr('class', 'site-label')
       .attr('x', 9)
       .attr('y', 3.5)
-      .text((d) => d.title);
+      .text((d) => truncate(d.title));
+
+    // staggered pop-in
+    nodeSel
+      .attr('opacity', 0)
+      .transition()
+      .delay((d, i) => 120 + i * 5)
+      .duration(260)
+      .attr('opacity', 1);
 
     nodeSel
       .on('click', (event, d) => {
@@ -201,7 +333,7 @@ export default function USGridMap({
           y: event.clientY - rect.top,
           site: d,
         });
-        d3.select(this).raise();
+        d3.select(this).raise().classed('hover', true);
       })
       .on('mousemove', (event, d) => {
         const rect = containerRef.current.getBoundingClientRect();
@@ -211,7 +343,12 @@ export default function USGridMap({
           site: d,
         });
       })
-      .on('mouseleave', () => setTooltip(null));
+      .on('mouseleave', function () {
+        setTooltip(null);
+        d3.select(this).classed('hover', false);
+      });
+
+    selsRef.current = { nodeSel, arcSel, headSel };
 
     // --- zoom / pan ---
     const zoom = d3
@@ -224,8 +361,10 @@ export default function USGridMap({
       .on('zoom', (event) => {
         transformRef.current = event.transform;
         zoomG.attr('transform', event.transform);
-        applyNodeTransform(nodeSel, event.transform.k);
-        svg.classed('labels-on', event.transform.k * s >= 9);
+        applyKS(event.transform.k);
+        const eff = event.transform.k * s;
+        svg.classed('labels-on', eff >= 9);
+        svg.classed('dc-labels-on', eff >= 26);
       });
     zoomRef.current = zoom;
     svg.call(zoom).on('dblclick.zoom', null);
@@ -233,9 +372,7 @@ export default function USGridMap({
 
     // restore previous transform across rebuilds
     svg.call(zoom.transform, transformRef.current);
-
-    selsRef.current = { nodeSel, arcSel };
-  }, [placed, visibleLinks, placedById, size, onSelect]);
+  }, [placed, dcHeaders, visibleLinks, placedById, size, onSelect]);
 
   // ---- selection highlighting (light update, no rebuild) ----
   useEffect(() => {
@@ -290,7 +427,7 @@ export default function USGridMap({
     } else if (focus.siteId) {
       const d = placedById.get(focus.siteId);
       if (!d) return;
-      const k = d.state === 'DC' ? 55 : Math.max(transformRef.current.k, 9);
+      const k = d.state === 'DC' ? VIEWS.dc.k : Math.max(transformRef.current.k, 9);
       const bx = s * d.x + tx;
       const by = s * d.y + ty;
       target = d3.zoomIdentity
@@ -307,15 +444,46 @@ export default function USGridMap({
     }
   }, [focus?.nonce]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // ---- cursor crosshair + coordinate readout ----
+  const handleMouseMove = (e) => {
+    const rect = containerRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const t = transformRef.current;
+    const { s, tx, ty } = fitRef.current;
+    const px = ((x - t.x) / t.k - tx) / s;
+    const py = ((y - t.y) / t.k - ty) / s;
+    const ll = projection.invert ? projection.invert([px, py]) : null;
+    setCursor({ x, y, ll });
+  };
+
   return (
-    <div className="gridmap" ref={containerRef}>
+    <div
+      className="gridmap"
+      ref={containerRef}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={() => setCursor(null)}
+    >
       <svg ref={svgRef} width={size.w} height={size.h} />
+
+      {cursor && (
+        <>
+          <div className="crosshair-x" style={{ top: cursor.y }} />
+          <div className="crosshair-y" style={{ left: cursor.x }} />
+          <div className="coord-readout">
+            {cursor.ll
+              ? `${Math.abs(cursor.ll[1]).toFixed(2)}°N  ${Math.abs(cursor.ll[0]).toFixed(2)}°W`
+              : '--.--°N  --.--°W'}
+          </div>
+        </>
+      )}
+
       {tooltip && (
         <div
           className="map-tooltip"
           style={{
-            left: Math.min(tooltip.x + 14, size.w - 230),
-            top: Math.min(tooltip.y + 14, size.h - 80),
+            left: Math.min(tooltip.x + 14, size.w - 240),
+            top: Math.min(tooltip.y + 14, size.h - 90),
           }}
         >
           <span

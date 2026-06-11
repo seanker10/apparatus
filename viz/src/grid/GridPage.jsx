@@ -195,6 +195,12 @@ export default function GridPage() {
         </nav>
 
         <div className="g-actions">
+          <div className="g-readout">
+            <span className="g-live" aria-hidden="true" />
+            <span>{filtered.length}/{sites.length} nodes</span>
+            <span className="g-readout-sep">·</span>
+            <span>{links.length} links</span>
+          </div>
           <button className="g-about-btn" onClick={() => setAboutOpen(true)}>
             About
           </button>
