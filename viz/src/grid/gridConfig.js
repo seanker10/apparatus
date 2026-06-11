@@ -71,5 +71,5 @@ export const LINK_STYLES = {
 export const VIEWS = {
   us:   { label: 'United States', lon: null, lat: null, k: 1 },
   nova: { label: 'Data Center Alley', lon: -77.49, lat: 39.0, k: 22 },
-  dc:   { label: 'Washington, DC', lon: -77.02, lat: 38.895, k: 60 },
+  dc:   { label: 'Washington, DC', lon: -77.02, lat: 38.895, k: 48 },
 };
