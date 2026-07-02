@@ -308,7 +308,23 @@ export default function GridPage() {
             selectedId={selectedId}
             onSelect={setSelectedId}
             focus={focus}
+            viewLabel={VIEWS[view]?.label}
           />
+
+          <div className="g-legend" role="group" aria-label="Layer quick toggles">
+            {Object.entries(LAYERS).map(([k, l]) => (
+              <button
+                key={k}
+                className={`g-chip ${enabledLayers.has(k) ? 'on' : 'off'}`}
+                style={{ '--c': l.color }}
+                title={l.label}
+                onClick={() => toggleLayer(k)}
+              >
+                <span className="dot" />
+                {l.short}
+              </button>
+            ))}
+          </div>
 
           <Timeline
             bounds={yearBounds}

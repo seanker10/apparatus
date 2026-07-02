@@ -73,6 +73,15 @@
   { "source": "palantir-immigrationos-ice", "target": "broadview-ice-processing-facility", "type": "supplies", "note": "targeting platform feeds enforcement operations" },
   { "source": "ice-surveillance-contract-expansion-2026", "target": "camp-east-montana-fort-bliss", "type": "targets", "note": "detention buildout under the same enforcement wave" },
 
+  { "source": "flock-safety-hq-alpr-network", "target": "san-diego-flock-nova", "type": "supplies", "note": "Nova data-fusion platform deployment" },
+  { "source": "cleveland-flock-contract-expires", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "committee voted against renewal" },
+  { "source": "geo-group-bi-isap", "target": "mcfarland-central-valley-annex", "type": "operates", "note": "GEO Group 15-year, $1.5B contract" },
+  { "source": "eo-14243-eliminating-information-silos", "target": "palantir-usda-farm-data", "type": "enables", "note": "cross-agency consolidation extends to farm records" },
+  { "source": "anduril-series-h-61b", "target": "anduril-arsenal-1-ohio", "type": "enables", "note": "$5B raise funds production scale-up" },
+  { "source": "intercept-protester-database-foia-suit", "target": "ice-protester-records-acknowledgment", "type": "opposes", "note": "FOIA suit seeks the protester records" },
+  { "source": "louisiana-datacenter-ratepayer-eo", "target": "meta-hyperion-richland-parish", "type": "restricts", "note": "pre-certified projects may be exempt" },
+  { "source": "fci-dublin-ice-conversion-fight", "target": "california-city-immigration-processing", "type": "opposes", "note": "resisting the prison-to-ICE conversion pattern" },
+
   { "source": "ice-surveillance-contract-expansion-2026", "target": "clearview-ai-ice-contract", "type": "targets", "note": "part of the 2025-26 surveillance procurement wave" },
   { "source": "ice-surveillance-contract-expansion-2026", "target": "geo-group-bi-isap", "type": "targets", "note": "digital detention growth under the same wave" },
   { "source": "eo-national-ai-policy-framework-preemption", "target": "virginia-alpr-restrictions-law", "type": "targets", "note": "federal effort to preempt state tech regulation" }
