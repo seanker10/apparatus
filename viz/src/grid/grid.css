@@ -444,6 +444,19 @@
   );
   mix-blend-mode: screen;
 }
+/* edge vignette to focus the eye */
+.gridmap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: radial-gradient(
+    120% 90% at 50% 45%,
+    transparent 55%,
+    rgba(2, 5, 9, 0.42) 100%
+  );
+}
 .gridmap svg {
   display: block;
   cursor: grab;
@@ -453,12 +466,100 @@
 }
 .gridmap svg:active { cursor: grabbing; }
 
+/* slow radar sweep */
+.radar-sweep {
+  position: absolute;
+  inset: -25%;
+  pointer-events: none;
+  z-index: 1;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 318deg,
+    rgba(79, 217, 255, 0.05) 348deg,
+    rgba(79, 217, 255, 0.11) 358deg,
+    transparent 360deg
+  );
+  border-radius: 50%;
+  animation: g-sweep 16s linear infinite;
+  mix-blend-mode: screen;
+}
+@keyframes g-sweep {
+  to { transform: rotate(360deg); }
+}
+
+/* HUD viewport frame */
+.hud-frame { pointer-events: none; }
+.hud-frame .fc {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  z-index: 3;
+  opacity: 0.75;
+}
+.hud-frame .tl { top: 10px; left: 10px; border-top: 1.5px solid var(--g-accent-dim); border-left: 1.5px solid var(--g-accent-dim); }
+.hud-frame .tr { top: 10px; right: 10px; border-top: 1.5px solid var(--g-accent-dim); border-right: 1.5px solid var(--g-accent-dim); }
+.hud-frame .bl { bottom: 10px; left: 10px; border-bottom: 1.5px solid var(--g-accent-dim); border-left: 1.5px solid var(--g-accent-dim); }
+.hud-frame .br { bottom: 10px; right: 10px; border-bottom: 1.5px solid var(--g-accent-dim); border-right: 1.5px solid var(--g-accent-dim); }
+
+.hud-mode {
+  position: absolute;
+  top: 14px;
+  left: 44px;
+  z-index: 3;
+  pointer-events: none;
+  font-size: 9px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--g-fg-dim);
+}
+.hud-mode::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 8px;
+  background: var(--g-accent);
+  box-shadow: 0 0 7px var(--g-accent);
+  vertical-align: 1px;
+  animation: g-blink 2.2s ease-in-out infinite;
+}
+
+.boot-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  font-size: 11px;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--g-accent);
+  text-shadow: 0 0 16px var(--g-glow);
+  animation: g-boot-text 1.7s ease-in-out forwards;
+}
+@keyframes g-boot-text {
+  0% { opacity: 0; }
+  18% { opacity: 1; }
+  70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 .gridmap .state {
   fill: var(--g-land);
   stroke: none;
   transition: fill 0.2s;
 }
 .gridmap .state:hover { fill: var(--g-land-hi); }
+.gridmap .graticule {
+  fill: none;
+  stroke: rgba(79, 217, 255, 0.07);
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
 .gridmap .state-borders {
   fill: none;
   stroke: var(--g-line);
@@ -470,7 +571,13 @@
   stroke: var(--g-line-hi);
   stroke-width: 1;
   vector-effect: non-scaling-stroke;
-  filter: drop-shadow(0 0 6px rgba(79, 217, 255, 0.18));
+  filter: drop-shadow(0 0 6px rgba(79, 217, 255, 0.22));
+  stroke-dasharray: 1;
+  animation: g-draw 1.5s ease-out;
+}
+@keyframes g-draw {
+  from { stroke-dashoffset: 1; }
+  to   { stroke-dashoffset: 0; }
 }
 
 .gridmap .arc {
@@ -500,6 +607,23 @@
   stroke-width: 1.2;
   filter: drop-shadow(0 0 5px currentColor);
   transition: opacity 0.25s;
+}
+.gridmap .node .core {
+  fill: #eaffff;
+  opacity: 0.9;
+  pointer-events: none;
+}
+.gridmap .node .ping { display: none; pointer-events: none; }
+.gridmap .node.hover .ping {
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  animation: g-ping 0.65s ease-out;
+  opacity: 0;
+}
+@keyframes g-ping {
+  0%   { r: 5;  opacity: 0.8; stroke-width: 1.6; }
+  100% { r: 17; opacity: 0; stroke-width: 0.6; }
 }
 .gridmap .node.hover .dot {
   filter: drop-shadow(0 0 9px currentColor);
@@ -576,7 +700,17 @@
 .gridmap .node.related .site-label { display: block; }
 .gridmap .node.dim .site-label { display: none; }
 
-/* DC thematic board headers */
+/* DC thematic board headers + holo cards */
+.gridmap .dc-panel { display: none; pointer-events: none; }
+.gridmap svg.dc-labels-on .dc-panel {
+  display: block;
+  fill: currentColor;
+  fill-opacity: 0.045;
+  stroke: currentColor;
+  stroke-opacity: 0.28;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
 .gridmap .dc-head { display: none; pointer-events: none; }
 .gridmap svg.dc-labels-on .dc-head { display: block; }
 .gridmap .dc-head-label {
@@ -607,8 +741,8 @@
 .crosshair-y { top: 0; bottom: 0; width: 1px; }
 .coord-readout {
   position: absolute;
-  right: 14px;
-  bottom: 12px;
+  right: 40px;
+  bottom: 14px;
   pointer-events: none;
   font-size: 10px;
   letter-spacing: 0.16em;
@@ -670,8 +804,8 @@
 
 .map-hint {
   position: absolute;
-  left: 14px;
-  bottom: 12px;
+  left: 44px;
+  bottom: 14px;
   font-size: 9px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -679,6 +813,45 @@
   pointer-events: none;
   z-index: 3;
 }
+
+/* quick layer toggle chips over the map */
+.g-legend {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  display: flex;
+  gap: 6px;
+  z-index: 25;
+  background: rgba(4, 8, 12, 0.6);
+  border: 1px solid var(--g-line);
+  border-radius: 3px;
+  padding: 4px 6px;
+  backdrop-filter: blur(6px);
+}
+.g-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 3px 9px;
+  font-size: 9.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--g-fg-dim);
+}
+.g-chip .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 6px var(--c);
+}
+.g-chip.on { color: var(--g-fg); border-color: var(--g-line); }
+.g-chip.on:hover { border-color: var(--c); }
+.g-chip.off { opacity: 0.45; }
+.g-chip.off .dot { background: transparent; border: 1px solid var(--c); box-shadow: none; }
 
 /* ---------- timeline ---------- */
 .g-timeline {
@@ -999,7 +1172,14 @@
   .g-brand h1 { font-size: 19px; }
   .g-search { flex: 1 1 auto; max-width: none; }
   .g-about-btn, .g-back { display: none; }
-  .crosshair-x, .crosshair-y, .coord-readout { display: none; }
+  .crosshair-x, .crosshair-y, .coord-readout, .hud-mode, .radar-sweep { display: none; }
+  .g-legend {
+    max-width: calc(100vw - 20px);
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 6px;
+  }
+  .g-chip { padding: 3px 6px; font-size: 8.5px; }
 
   .g-rail {
     position: fixed;

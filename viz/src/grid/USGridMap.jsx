@@ -13,7 +13,10 @@ const projection = d3.geoAlbersUsa().scale(1300).translate([W / 2, H / 2]);
 const statesFeature = feature(us, us.objects.states);
 const stateBorders = mesh(us, us.objects.states, (a, b) => a !== b);
 const nationBorder = mesh(us, us.objects.nation);
+const nationFeature = feature(us, us.objects.nation);
 const geoPath = d3.geoPath();
+const projPath = d3.geoPath(projection);
+const graticule = d3.geoGraticule().step([10, 10]);
 
 const DC_CENTER = projection([-77.02, 38.895]);
 
@@ -86,6 +89,11 @@ function layoutDCBoard(dcSites) {
         y,
         count: items.length,
         color: LAYERS[items[0].layer]?.color || '#9ad8ff',
+        // holo card behind the column, in projected units
+        px: x - 0.55,
+        py: y - 0.42,
+        pw: colW - 0.28,
+        ph: headerH + items.length * itemH + 0.34,
       });
       items.forEach((d, i) => {
         d.x = x;
@@ -104,6 +112,7 @@ export default function USGridMap({
   selectedId,
   onSelect,
   focus,        // { nonce, view? , siteId? } — imperative fly-to requests
+  viewLabel,    // active view name for the HUD mode readout
 }) {
   const containerRef = useRef(null);
   const svgRef = useRef(null);
@@ -114,6 +123,12 @@ export default function USGridMap({
   const [size, setSize] = useState({ w: 0, h: 0 });
   const [tooltip, setTooltip] = useState(null);
   const [cursor, setCursor] = useState(null);
+  const [booting, setBooting] = useState(true);
+
+  useEffect(() => {
+    const t = setTimeout(() => setBooting(false), 1700);
+    return () => clearTimeout(t);
+  }, []);
 
   // Track container size
   useEffect(() => {
@@ -197,6 +212,13 @@ export default function USGridMap({
       .attr('transform', `translate(${tx},${ty}) scale(${s})`);
 
     // --- terrain ---
+    const defs = svg.append('defs');
+    defs
+      .append('clipPath')
+      .attr('id', 'nation-clip')
+      .append('path')
+      .attr('d', geoPath(nationFeature));
+
     const mapG = baseG.append('g').attr('class', 'terrain');
     mapG
       .selectAll('path.state')
@@ -204,6 +226,12 @@ export default function USGridMap({
       .join('path')
       .attr('class', 'state')
       .attr('d', geoPath);
+    // lat/lon graticule clipped to the nation — cartographic HUD texture
+    mapG
+      .append('path')
+      .attr('class', 'graticule')
+      .attr('clip-path', 'url(#nation-clip)')
+      .attr('d', projPath(graticule()));
     mapG
       .append('path')
       .attr('class', 'state-borders')
@@ -211,6 +239,7 @@ export default function USGridMap({
     mapG
       .append('path')
       .attr('class', 'nation-border')
+      .attr('pathLength', 1)
       .attr('d', geoPath(nationBorder));
 
     // --- connection arcs ---
@@ -239,9 +268,19 @@ export default function USGridMap({
       );
     };
 
-    const headSel = baseG
-      .append('g')
-      .attr('class', 'dc-heads')
+    const headsG = baseG.append('g').attr('class', 'dc-heads');
+    headsG
+      .selectAll('rect.dc-panel')
+      .data(dcHeaders)
+      .join('rect')
+      .attr('class', 'dc-panel')
+      .attr('x', (d) => d.px)
+      .attr('y', (d) => d.py)
+      .attr('width', (d) => d.pw)
+      .attr('height', (d) => d.ph)
+      .attr('rx', 0.12)
+      .style('color', (d) => d.color);
+    const headSel = headsG
       .selectAll('g.dc-head')
       .data(dcHeaders)
       .join('g')
@@ -289,8 +328,18 @@ export default function USGridMap({
 
     nodeSel
       .append('circle')
+      .attr('class', 'ping')
+      .attr('r', 5);
+
+    nodeSel
+      .append('circle')
       .attr('class', 'dot')
       .attr('r', 4.2);
+
+    nodeSel
+      .append('circle')
+      .attr('class', 'core')
+      .attr('r', 1.5);
 
     // targeting reticle — visible on selection
     const reticle = nodeSel.append('g').attr('class', 'reticle');
@@ -454,7 +503,7 @@ export default function USGridMap({
     const px = ((x - t.x) / t.k - tx) / s;
     const py = ((y - t.y) / t.k - ty) / s;
     const ll = projection.invert ? projection.invert([px, py]) : null;
-    setCursor({ x, y, ll });
+    setCursor({ x, y, ll, k: t.k });
   };
 
   return (
@@ -466,6 +515,21 @@ export default function USGridMap({
     >
       <svg ref={svgRef} width={size.w} height={size.h} />
 
+      <div className="radar-sweep" aria-hidden="true" />
+      <div className="hud-frame" aria-hidden="true">
+        <span className="fc tl" /><span className="fc tr" />
+        <span className="fc bl" /><span className="fc br" />
+      </div>
+      <div className="hud-mode">
+        overwatch // {(viewLabel || 'united states').toUpperCase()}
+      </div>
+
+      {booting && (
+        <div className="boot-overlay" aria-hidden="true">
+          <span>initializing the grid //</span>
+        </div>
+      )}
+
       {cursor && (
         <>
           <div className="crosshair-x" style={{ top: cursor.y }} />
@@ -474,6 +538,8 @@ export default function USGridMap({
             {cursor.ll
               ? `${Math.abs(cursor.ll[1]).toFixed(2)}°N  ${Math.abs(cursor.ll[0]).toFixed(2)}°W`
               : '--.--°N  --.--°W'}
+            {'  ·  ×'}
+            {cursor.k >= 10 ? Math.round(cursor.k) : cursor.k.toFixed(1)}
           </div>
         </>
       )}
