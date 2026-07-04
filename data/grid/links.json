@@ -73,6 +73,9 @@
   { "source": "palantir-immigrationos-ice", "target": "broadview-ice-processing-facility", "type": "supplies", "note": "targeting platform feeds enforcement operations" },
   { "source": "ice-surveillance-contract-expansion-2026", "target": "camp-east-montana-fort-bliss", "type": "targets", "note": "detention buildout under the same enforcement wave" },
 
+  { "source": "pjm-heat-emergency-2026", "target": "data-center-alley-loudoun", "type": "restricts", "note": "NoVA's data center load sits at the heart of PJM's record demand; 50 MW+ sites ordered to backup power" },
+  { "source": "eo-14156-national-energy-emergency", "target": "pjm-heat-emergency-2026", "type": "enables", "note": "EO directs DOE to wield FPA §202(c) emergency authorities" },
+
   { "source": "flock-safety-hq-alpr-network", "target": "san-diego-flock-nova", "type": "supplies", "note": "Nova data-fusion platform deployment" },
   { "source": "cleveland-flock-contract-expires", "target": "flock-safety-hq-alpr-network", "type": "opposes", "note": "committee voted against renewal" },
   { "source": "geo-group-bi-isap", "target": "mcfarland-central-valley-annex", "type": "operates", "note": "GEO Group 15-year, $1.5B contract" },
