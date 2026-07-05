@@ -22,6 +22,8 @@
   { "source": "babel-street-ice-monitoring", "target": "ice-surveillance-contract-expansion-2026", "type": "supplies", "note": "Locate X warrantless phone tracking" },
 
   { "source": "real-id-full-enforcement", "target": "tsa-facial-recognition-cat2-expansion", "type": "enables", "note": "identity standardization underpins biometric checkpoints" },
+  { "source": "real-id-full-enforcement", "target": "state-dept-facial-id-passport-pipeline", "type": "enables", "note": "the federal identity stack expands from checkpoints into passport issuance" },
+  { "source": "tsa-facial-recognition-cat2-expansion", "target": "state-dept-facial-id-passport-pipeline", "type": "enables", "note": "same face-verification model, new document pipeline" },
   { "source": "tsa-facial-recognition-cat2-expansion", "target": "tsa-facial-recognition-atl", "type": "enables", "note": "CAT-2 rollout site" },
   { "source": "tsa-facial-recognition-cat2-expansion", "target": "tsa-facial-recognition-lax", "type": "enables", "note": "CAT-2 rollout site" },
   { "source": "tsa-facial-recognition-cat2-expansion", "target": "tsa-facial-recognition-dfw", "type": "enables", "note": "CAT-2 rollout site" },
