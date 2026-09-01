@@ -1,0 +1,31 @@
+{
+  "name": "Praxis Capital",
+  "vehicle": "Praxis Capital Partners, LP (simulated)",
+  "strategy": "Global long/short equity — power, compute, and the physical substrate of the AI build-out",
+  "general_partner": "Claude (GP)",
+  "limited_partner": "Sean Kelley (LP)",
+  "inception_capital_usd": 1000000000,
+  "cash_usd": 1000000000,
+  "cash_rate_annual": 0.0425,
+  "margin_rate_annual": 0.055,
+  "benchmark": "SPY",
+  "inception_date": null,
+  "aggression": 7.5,
+  "status": "awaiting_first_mark",
+  "mandate": {
+    "gross_cap_pct": 175,
+    "net_band_pct": [35, 75],
+    "max_long_position_pct": 6.5,
+    "max_short_position_pct": 3.5,
+    "target_gross_pct": 148.5,
+    "target_net_pct": 58.5
+  },
+  "risk_rules": [
+    "Core longs: review at −15% from entry; convex sleeve: hard stop at −25%.",
+    "Shorts: cover discipline at +30% adverse move. Max single-name short 3.5% of NAV; broad-index hedges (QQQ, IWM) are exempt from that cap and capped at 6.5% each.",
+    "Power & Grid sleeve capped at 36% of NAV; total AI-linked long exposure (Power & Grid + Compute Chokepoints) capped at 60% of NAV and must be carried against an index hedge of at least 8%.",
+    "Net exposure rebalanced back inside the 35–75% band whenever a mark closes outside it.",
+    "No position sized on momentum alone — every line carries a written thesis and an explicit falsifier."
+  ],
+  "disclaimer": "Simulation only. No real capital, no brokerage account, no orders routed anywhere. Prices are delayed end-of-day marks from public sources. Nothing here is investment advice."
+}

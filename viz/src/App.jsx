@@ -45,6 +45,9 @@ export default function App() {
         <Link className="grid-link" to="/grid" title="The Grid — US map">
           US Grid →
         </Link>
+        <Link className="grid-link" to="/fund" title="Praxis Capital — simulated fund">
+          Fund →
+        </Link>
       </header>
 
       <ApparatusMap

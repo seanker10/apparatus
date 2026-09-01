@@ -1,0 +1,18 @@
+{
+  "as_of": null,
+  "generated_at": null,
+  "status": "awaiting_first_mark",
+  "nav": 1000000000,
+  "cash": 1000000000,
+  "capital": 1000000000,
+  "total_return_pct": 0,
+  "total_pnl": 0,
+  "day_pnl": 0,
+  "long_mv": 0,
+  "short_mv": 0,
+  "gross_pct": 0,
+  "net_pct": 0,
+  "positions": [],
+  "signals": [],
+  "stale_tickers": []
+}
