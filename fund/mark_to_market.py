@@ -228,7 +228,9 @@ def main():
         else:
             short_mv += gross
 
-        if q["d1"] is not None:
+        # On inception day the book did not exist through that session's move,
+        # so day P&L is zero by definition rather than a phantom mark.
+        if q["d1"] is not None and not first_run:
             prev = price / (1 + q["d1"] / 100.0)
             day_pnl += (price - prev) * shares * direction
 
