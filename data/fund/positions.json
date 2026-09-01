@@ -10,7 +10,9 @@
     "thesis": "The largest carbon-free generation fleet in the US at the exact moment hyperscalers will pay almost anything for firm, 24/7, behind-the-meter power. Nuclear capacity cannot be built on an AI timeline, so the existing fleet is a scarcity asset being repriced from commodity power to contracted infrastructure.",
     "catalyst": "Data center PPA pipeline and the reopening of retired nuclear capacity; record PJM summer demand underlines how tight firm generation has become.",
     "falsifier": "A visible break in hyperscaler capex, or regulatory action forcing nuclear output back into merchant pools at commodity pricing.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 274.77,
+    "shares": 236561.5
   },
   {
     "id": "gev",
@@ -23,7 +25,9 @@
     "thesis": "Owns the gas turbine and grid equipment bottleneck. Heavy-duty turbine slots are effectively sold out for years, which converts a cyclical industrial into a backlog-visible business with pricing power it has never had before.",
     "catalyst": "Turbine backlog and grid equipment orders tied to data center interconnection queues; electrification capex accelerating faster than supply can respond.",
     "falsifier": "Turbine slot cancellations, or margin erosion showing the backlog was booked at bad prices.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 898.53,
+    "shares": 66775.73
   },
   {
     "id": "vst",
@@ -36,7 +40,9 @@
     "thesis": "Merchant generation with nuclear and gas in the two tightest markets (ERCOT, PJM), run by a management team that treats the share count as a variable to be shrunk. Cash-flow leverage to rising capacity prices is enormous.",
     "catalyst": "PJM capacity auction clearing prices and record summer load; aggressive buyback cadence.",
     "falsifier": "Political intervention capping capacity market prices, or a mild demand year that collapses spark spreads.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 137.37,
+    "shares": 400378.55
   },
   {
     "id": "vrt",
@@ -49,7 +55,9 @@
     "thesis": "Picks-and-shovels on rack density. As chips move past 100kW per rack, air cooling stops working and liquid cooling plus power distribution become mandatory — Vertiv sells both, into every hyperscaler regardless of which chip wins.",
     "catalyst": "Liquid-cooling attach rates on next-gen accelerator deployments; backlog conversion.",
     "falsifier": "Hyperscalers in-sourcing thermal design, or a pause in rack deployments compressing the order book.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 258.72,
+    "shares": 193259.12
   },
   {
     "id": "pwr",
@@ -62,7 +70,9 @@
     "thesis": "The binding constraint on transmission is not steel or permits, it is skilled linemen — and Quanta owns the largest trained craft workforce in North America. Labor scarcity converts a contractor into a toll road on grid expansion.",
     "catalyst": "Transmission awards tied to interconnection backlogs; utility capex guidance revisions moving up.",
     "falsifier": "Fixed-price contract losses, or utilities deferring transmission spend under rate-case pressure.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 607.09,
+    "shares": 74124.1
   },
   {
     "id": "tln",
@@ -75,7 +85,9 @@
     "thesis": "Susquehanna nuclear co-located with a hyperscale campus is the cleanest expression of the behind-the-meter trade. Post-bankruptcy capital structure, small float, and a management team returning capital hard.",
     "catalyst": "Nuclear PPA economics and FERC treatment of co-located load; PJM scarcity pricing.",
     "falsifier": "An adverse FERC ruling on behind-the-meter co-location that breaks the premium-pricing model.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 295.76,
+    "shares": 118339.19
   },
   {
     "id": "etn",
@@ -88,7 +100,9 @@
     "thesis": "Electrical components — switchgear, busway, breakers — with lead times that have stretched from weeks to quarters. Quality compounder giving the sleeve a lower-beta anchor without leaving the theme.",
     "catalyst": "Data center segment growth and electrical backlog; reshoring capex layered on top.",
     "falsifier": "Lead times normalizing, which would signal supply caught up and pricing power is over.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 401.88,
+    "shares": 74649.15
   },
   {
     "id": "mu",
@@ -101,7 +115,9 @@
     "thesis": "High-bandwidth memory is the real constraint on accelerator shipments, and HBM capacity consumes wafer supply that would otherwise make commodity DRAM — so the AI cycle tightens the conventional cycle at the same time. Still trades at a low multiple of mid-cycle earnings because the market refuses to believe memory can be structurally better.",
     "catalyst": "HBM sold out well forward with pricing locked; conventional DRAM tightening as capacity is diverted.",
     "falsifier": "A capacity war restarting, or HBM competition compressing the pricing premium faster than volumes grow.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 958.73,
+    "shares": 62582.79
   },
   {
     "id": "avgo",
@@ -114,7 +130,9 @@
     "thesis": "Owns the custom-silicon franchise for the hyperscalers that most want to escape merchant GPU pricing. Every dollar of accelerator budget that moves in-house still lands here, plus networking silicon attached to the same racks — a hedge on which chip wins rather than a bet.",
     "catalyst": "Custom accelerator program ramps at multiple hyperscalers; AI networking share gains.",
     "falsifier": "A major customer pulling a custom program back to merchant silicon, or software/VMware attrition offsetting semis.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 370.34,
+    "shares": 148512.18
   },
   {
     "id": "tsm",
@@ -127,7 +145,9 @@
     "thesis": "Every accelerator in the world is fabricated here, yet it trades at a persistent discount to its own customers because of geopolitical risk. Owning the monopolist at a discount to the people who depend on it is the single best risk-adjusted line in the compute sleeve.",
     "catalyst": "Advanced-node and packaging capacity sold out; pricing increases passed through with no volume loss.",
     "falsifier": "A genuine Taiwan Strait escalation — the reason for the discount and the reason to size it below conviction.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 415.32,
+    "shares": 120389.1
   },
   {
     "id": "anet",
@@ -140,7 +160,9 @@
     "thesis": "AI back-end networks are becoming as expensive as the compute they connect, and Ethernet is winning that build-out over proprietary fabrics. Arista is the merchant winner of that standards fight.",
     "catalyst": "800G port ramps in AI clusters; Ethernet displacing InfiniBand in new designs.",
     "falsifier": "Hyperscalers standardizing on white-box switching and cutting Arista out of the back end.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 195.69,
+    "shares": 153303.69
   },
   {
     "id": "crdo",
@@ -153,7 +175,9 @@
     "thesis": "Active electrical cables solve a boring, unavoidable problem: moving signal across a rack without burning power. Small enough that a single design win moves the P&L — deliberately the highest-beta line in the compute sleeve.",
     "catalyst": "AEC design wins at additional hyperscalers as rack power budgets tighten.",
     "falsifier": "Optics getting cheap enough to displace copper at rack scale, or customer concentration biting.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 226.19,
+    "shares": 88421.24
   },
   {
     "id": "mck",
@@ -166,7 +190,9 @@
     "thesis": "A three-company oligopoly moving essentially every pill in America, earning a spread on volume rather than drug price. GLP-1 volumes flow straight through the distribution network, and the multiple still reflects opioid-litigation scar tissue that is now largely settled.",
     "catalyst": "Specialty and GLP-1 distribution volume growth; steady buyback.",
     "falsifier": "Manufacturers disintermediating distributors with direct-to-patient channels at scale.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 885.32,
+    "shares": 50829.08
   },
   {
     "id": "ci",
@@ -179,7 +205,9 @@
     "thesis": "Managed care has been repriced for a medical-cost shock and PBM political risk, leaving a cash-generative business at a low-double-digit multiple. Cigna carries less Medicare Advantage exposure than peers — the market is applying the sector's pain to the company least exposed to it.",
     "catalyst": "Cost-trend stabilization and PBM reform landing softer than the bear case assumed.",
     "falsifier": "Federal PBM legislation that structurally breaks the rebate economics.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 276.08,
+    "shares": 144885.55
   },
   {
     "id": "brkb",
@@ -192,7 +220,9 @@
     "thesis": "Held as structural ballast, not for alpha. An enormous T-bill position inside an operating conglomerate means it gets stronger, not weaker, if the market breaks — the closest thing to owning optionality on someone else's forced selling.",
     "catalyst": "Cash balance earning short rates; deployment optionality if credit or equity markets dislocate.",
     "falsifier": "Nothing thesis-breaking — this line exists to lose less when the book is wrong.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 504.03,
+    "shares": 79360.36
   },
   {
     "id": "lng",
@@ -205,7 +235,9 @@
     "thesis": "Contracted, take-or-pay export capacity that gets paid on volume rather than commodity price — and domestic gas demand now has a second engine in data center generation. Long-dated contracts with investment-grade counterparties, priced like a commodity stock.",
     "catalyst": "Train expansions and long-term SPAs; structural gas demand growth from power generation.",
     "falsifier": "Export permit reversals, or a global LNG supply glut compressing new contract pricing.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 291.69,
+    "shares": 137131.89
   },
   {
     "id": "ccj",
@@ -218,7 +250,9 @@
     "thesis": "If the nuclear thesis behind CEG, VST and TLN is right, it has to show up in fuel. Western utilities are re-contracting after decades of running down inventories, and primary supply cannot respond quickly. Cameco also owns a stake in the reactor vendor, so it monetizes both fuel and new build.",
     "catalyst": "Long-term uranium contracting cycle; reactor life extensions and restarts.",
     "falsifier": "Supply discipline breaking, or a nuclear safety event resetting political appetite.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 98.76,
+    "shares": 405022.27
   },
   {
     "id": "cb",
@@ -231,7 +265,9 @@
     "thesis": "Best-in-class P&C underwriter with a float that earns more as rates stay higher for longer. Climate-driven loss trends are painful for bad underwriters and a pricing tailwind for disciplined ones — this is the disciplined one.",
     "catalyst": "Commercial P&C pricing holding above loss-cost trend; investment income compounding.",
     "falsifier": "A soft-market turn in commercial pricing, or a catastrophe year that overwhelms reinsurance.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 338.6,
+    "shares": 103366.8
   },
   {
     "id": "gld",
@@ -244,7 +280,9 @@
     "thesis": "The hedge against the thing no equity position can hedge: fiscal dominance. Persistent deficits, an administration applying pressure to monetary policy, and central banks diversifying reserves away from Treasuries all point the same direction. Also the only line in the book that is not correlated to AI capex.",
     "catalyst": "Central bank reserve accumulation; real-rate and fiscal-credibility repricing.",
     "falsifier": "A genuine fiscal consolidation, or real rates rising sharply with a firm dollar.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 408.42,
+    "shares": 110180.69
   },
   {
     "id": "nem",
@@ -257,7 +295,9 @@
     "thesis": "Operating leverage on the gold position. Miner margins expand faster than the metal when costs are flat, and the sector spent a decade being disciplined about capex after the last cycle destroyed it.",
     "catalyst": "All-in sustaining costs flat against a rising gold price; free cash flow returned to holders.",
     "falsifier": "Cost inflation eating the margin expansion — the classic way gold miners disappoint.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 126.06,
+    "shares": 277645.57
   },
   {
     "id": "fcx",
@@ -270,7 +310,9 @@
     "thesis": "Every transformer, cable and switchgear line in the power sleeve is made of copper, and no meaningful new supply arrives this decade. This is the commodity expression of the same electrification thesis the equity sleeve expresses through manufacturers.",
     "catalyst": "Grid and data center copper intensity meeting a thin project pipeline; smelter and mine disruptions.",
     "falsifier": "A China-led industrial slowdown overwhelming electrification demand.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 75.74,
+    "shares": 462107.22
   },
   {
     "id": "be",
@@ -283,7 +325,9 @@
     "thesis": "Fuel cells deliver on-site power in months when a utility interconnection takes years — and after this summer's grid emergencies, 'I can energize without the grid' is worth a premium. Real revenue attached to a story that can re-rate violently.",
     "catalyst": "Data center orders for behind-the-meter fuel cell capacity as interconnection queues stretch.",
     "falsifier": "Gross margins failing to scale with volume, which has been the perennial problem here.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 206.3,
+    "shares": 145419.29
   },
   {
     "id": "nbis",
@@ -296,7 +340,9 @@
     "thesis": "A neocloud with a real balance sheet and European footprint at a fraction of the enterprise value of its US-listed peers. Deliberately paired against the CoreWeave short: same industry, opposite capital structure quality.",
     "catalyst": "Contracted capacity ramps and disclosed ARR growth; sovereign AI demand in Europe.",
     "falsifier": "GPU rental pricing deflating faster than the depreciation schedule assumes.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 206.32,
+    "shares": 121170.99
   },
   {
     "id": "stx",
@@ -309,7 +355,9 @@
     "thesis": "Everyone models the compute cost of AI and nobody models where the output gets stored. Nearline HDD is a rational duopoly with no new entrants, running tight after years of underinvestment, and HAMR raises areal density right as demand inflects.",
     "catalyst": "Nearline exabyte demand from AI data retention; HAMR qualification at hyperscalers.",
     "falsifier": "NAND pricing falling far enough to invade the nearline tier earlier than expected.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 828.38,
+    "shares": 30179.39
   },
   {
     "id": "oklo",
@@ -322,7 +370,9 @@
     "thesis": "A pre-revenue option on small modular reactors reaching commercial deployment. Sized as a lottery ticket, not an investment — the entire position can go to zero without damaging the book, and it pays multiples if federal permitting support turns into an operating fleet.",
     "catalyst": "NRC licensing progress and DOE site access under the federal push for firm clean power.",
     "falsifier": "Licensing delays or a capital raise on punitive terms — both entirely plausible.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 40.57,
+    "shares": 369731.33
   },
   {
     "id": "smr",
@@ -335,7 +385,9 @@
     "thesis": "The second ticket in a two-name SMR basket. Only design with NRC certification in hand, which matters if the sector transitions from story to schedule. Held as a basket precisely because picking the single winner here is not a skill anyone has.",
     "catalyst": "Order conversion from the certified design; utility and data center interest in firm clean capacity.",
     "falsifier": "Cost overruns repeating the history that killed its first flagship project.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 9.27,
+    "shares": 1618122.9
   },
   {
     "id": "cifr",
@@ -348,7 +400,9 @@
     "thesis": "Owns the one thing that cannot be manufactured quickly: energized substation capacity. The crypto-to-AI conversion turns a bad business into a landlord for hyperscalers, and the market is still repricing these from miner multiples to infrastructure multiples.",
     "catalyst": "Long-term AI hosting leases signed against existing powered sites.",
     "falsifier": "Financing costs on the buildout outrunning lease economics, or counterparty credit disappointing.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 15.5,
+    "shares": 967741.94
   },
   {
     "id": "qqq",
@@ -361,7 +415,9 @@
     "thesis": "The core beta hedge. The long book is deliberately concentrated in one macro theme, so a short against the index that expresses that theme most richly converts the portfolio from a directional bet on AI into a bet on owning the right part of it.",
     "catalyst": "Index concentration at historic extremes; hedge sized to blunt a broad multiple compression.",
     "falsifier": "A melt-up where the index outruns the long book — the accepted cost of carrying insurance.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 716.76,
+    "shares": 83710.03
   },
   {
     "id": "iwm",
@@ -374,7 +430,9 @@
     "thesis": "Small caps carry floating-rate debt, thin margins and a meaningful share of unprofitable constituents. If higher-for-longer rates persist alongside rising industrial electricity costs, this is where the damage compounds first.",
     "catalyst": "Refinancing walls at elevated rates; margin pressure from energy and labor costs.",
     "falsifier": "An aggressive easing cycle, which would send this cohort up hardest.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 293.93,
+    "shares": 136086.83
   },
   {
     "id": "epam",
@@ -387,7 +445,9 @@
     "thesis": "The business is billable engineering hours priced on labor arbitrage. Code generation attacks the numerator and the pricing model simultaneously — clients who need 30% fewer engineers do not renew at flat rates. A rare short where the disruptor and the disrupted are the same technology I am long elsewhere.",
     "catalyst": "Bill-rate and utilization pressure as clients internalize AI-assisted development.",
     "falsifier": "Successful repositioning into AI implementation work at higher rates rather than lower volume.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 117.83,
+    "shares": 212170.07
   },
   {
     "id": "it",
@@ -400,7 +460,9 @@
     "thesis": "Sells subscription access to synthesized research — precisely the product a competent model now produces on demand. Contract value growth has been decelerating, and subscription businesses unwind slowly and then all at once when renewal logic breaks.",
     "catalyst": "Contract value growth deceleration; enterprise research budgets meeting AI substitutes.",
     "falsifier": "Renewal rates holding, proving the moat is the analyst relationship rather than the document.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 198.11,
+    "shares": 126192.52
   },
   {
     "id": "cnxc",
@@ -413,7 +475,9 @@
     "thesis": "Customer-experience outsourcing is the single most automatable large-scale labor pool in the enterprise, and it is levered. Every credible voice-agent deployment removes seats from exactly this business while the debt stays fixed.",
     "catalyst": "Seat-count deflation as AI agents absorb tier-one support volume; leverage against declining EBITDA.",
     "falsifier": "Successfully reselling AI agents at similar revenue per client, converting the threat into the product.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 30.1,
+    "shares": 664451.82
   },
   {
     "id": "pltr",
@@ -426,7 +490,9 @@
     "thesis": "An excellent business at a valuation that requires flawless execution for a decade. The government revenue that drives the narrative is also the revenue most exposed to appropriations politics. Sized deliberately below maximum because momentum has punished this short repeatedly — the discipline is position size, not conviction.",
     "catalyst": "Multiple compression risk on any deceleration in commercial growth or a federal budget disruption.",
     "falsifier": "Sustained triple-digit commercial growth genuinely earning the multiple — cover on a decisive break higher.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 186.38,
+    "shares": 187788.38
   },
   {
     "id": "crwv",
@@ -439,7 +505,9 @@
     "thesis": "Debt-funded purchases of rapidly depreciating GPUs, leased to a handful of concentrated counterparties. The economics only work if rental pricing holds for the life of the asset — but every new accelerator generation cuts the earning power of the installed base. Paired against the Nebius long.",
     "catalyst": "GPU rental price deflation against a fixed depreciation and interest schedule; customer concentration risk.",
     "falsifier": "Compute demand staying so far ahead of supply that older GPUs hold rental pricing.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 84.89,
+    "shares": 353398.52
   },
   {
     "id": "mstr",
@@ -452,7 +520,9 @@
     "thesis": "A levered bitcoin holding company trading above the value of its coins. The premium exists only while it can keep issuing equity accretively — a reflexive loop that runs in reverse when the premium compresses. Shorting the premium, not the asset.",
     "catalyst": "Premium-to-NAV compression as issuance capacity saturates; convertible maturities ahead.",
     "falsifier": "A bitcoin melt-up that re-inflates the premium faster than dilution erodes it.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 132.94,
+    "shares": 188054.76
   },
   {
     "id": "itb",
@@ -465,7 +535,9 @@
     "thesis": "Affordability is broken at both ends: mortgage rates lock out buyers while insurance and now electricity costs raise the true cost of ownership. Builders have been buying volume with rate incentives, which is margin destruction disguised as demand.",
     "catalyst": "Incentive-driven gross margin compression; rising carrying costs from insurance and utility bills.",
     "falsifier": "A sharp decline in long rates unlocking pent-up demand.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 94.69,
+    "shares": 316823.31
   },
   {
     "id": "bfh",
@@ -478,7 +550,9 @@
     "thesis": "Private-label card credit to the subprime end of the consumer, which is where deterioration always shows up first. Thin capital cushion against rising loss rates, and the retail partners themselves are under pressure.",
     "catalyst": "Net charge-off trends at the low end of the credit spectrum; delinquency migration.",
     "falsifier": "Real wage growth at the low end outrunning debt service costs.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 104.47,
+    "shares": 239303.15
   },
   {
     "id": "w",
@@ -491,7 +565,9 @@
     "thesis": "Big-ticket discretionary purchases tied to home turnover, sold at structurally thin margins with negative book value. It is a leveraged bet on a housing transaction recovery that higher-for-longer rates keep deferring.",
     "catalyst": "Existing home sales stagnation feeding directly into furniture demand; no margin cushion.",
     "falsifier": "A genuine housing turnover recovery, or cost cuts producing durable positive free cash flow.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 99.27,
+    "shares": 251838.43
   },
   {
     "id": "tsla",
@@ -504,7 +580,9 @@
     "thesis": "Priced as though autonomy and robotics are already solved while the actual business — selling cars into a competitive, subsidy-reduced market — faces compressing margins. The narrative premium is enormous relative to delivered fundamentals.",
     "catalyst": "Automotive gross margin pressure and share loss in China and Europe against a valuation demanding perfection.",
     "falsifier": "A genuine unsupervised autonomy milestone at scale — the one outcome that justifies the multiple. Squeeze-prone; size accordingly.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 367.95,
+    "shares": 95121.62
   },
   {
     "id": "smci",
@@ -517,7 +595,9 @@
     "thesis": "The commodity assembler in the AI stack — integrating other people's silicon at low single-digit operating margins while competing with the ODMs the hyperscalers prefer. The natural pair against being long the actual chokepoints: own scarcity, short assembly. Prior accounting and filing issues raise the discount rate on trusting the numbers.",
     "catalyst": "Gross margin compression from ODM competition; working capital strain funding inventory.",
     "falsifier": "Liquid-cooled rack-scale integration proving to be a durable moat rather than a commodity service.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 37.28,
+    "shares": 804721.06
   },
   {
     "id": "hood",
@@ -530,7 +610,9 @@
     "thesis": "Earnings are levered to retail speculation — options volume, crypto trading and margin balances all peak together and fall together. This is the cleanest single-name expression of late-cycle retail risk appetite, held as a hedge against the froth the convex sleeve is exposed to.",
     "catalyst": "Retail engagement and crypto volumes normalizing from cycle highs; rate cuts compressing net interest revenue.",
     "falsifier": "Durable diversification into retirement and advisory revenue that de-links earnings from speculation.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 104.81,
+    "shares": 238526.86
   },
   {
     "id": "lulu",
@@ -543,6 +625,8 @@
     "thesis": "A premium brand losing its heat in a category with no barriers to entry, still priced for reacceleration. Brand deceleration in apparel is rarely a one-quarter problem, and discounting to defend share destroys the margin that justified the multiple.",
     "catalyst": "North American comparable sales deceleration and markdown pressure from newer competitors.",
     "falsifier": "International growth genuinely offsetting domestic maturity, particularly in China.",
-    "entry_date": null, "entry_price": null, "shares": null
+    "entry_date": "2026-08-31",
+    "entry_price": 120.26,
+    "shares": 166306.33
   }
 ]

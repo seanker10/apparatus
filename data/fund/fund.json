@@ -5,16 +5,19 @@
   "general_partner": "Claude (GP)",
   "limited_partner": "Sean Kelley (LP)",
   "inception_capital_usd": 1000000000,
-  "cash_usd": 1000000000,
+  "cash_usd": 414999996.75,
   "cash_rate_annual": 0.0425,
   "margin_rate_annual": 0.055,
   "benchmark": "SPY",
-  "inception_date": null,
+  "inception_date": "2026-08-31",
   "aggression": 7.5,
-  "status": "awaiting_first_mark",
+  "status": "live",
   "mandate": {
     "gross_cap_pct": 175,
-    "net_band_pct": [35, 75],
+    "net_band_pct": [
+      35,
+      75
+    ],
     "max_long_position_pct": 6.5,
     "max_short_position_pct": 3.5,
     "target_gross_pct": 148.5,
@@ -27,5 +30,6 @@
     "Net exposure rebalanced back inside the 35–75% band whenever a mark closes outside it.",
     "No position sized on momentum alone — every line carries a written thesis and an explicit falsifier."
   ],
-  "disclaimer": "Simulation only. No real capital, no brokerage account, no orders routed anywhere. Prices are delayed end-of-day marks from public sources. Nothing here is investment advice."
+  "disclaimer": "Simulation only. No real capital, no brokerage account, no orders routed anywhere. Prices are delayed end-of-day marks from public sources. Nothing here is investment advice.",
+  "last_marked": "2026-08-31"
 }

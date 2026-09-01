@@ -1,1 +1,422 @@
-[]
+[
+  {
+    "date": "2026-08-31",
+    "ticker": "CEG",
+    "action": "BUY",
+    "shares": 236561.5,
+    "price": 274.77,
+    "notional": 65000000.76,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "GEV",
+    "action": "BUY",
+    "shares": 66775.73,
+    "price": 898.53,
+    "notional": 59999998.63,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "VST",
+    "action": "BUY",
+    "shares": 400378.55,
+    "price": 137.37,
+    "notional": 54999999.46,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "VRT",
+    "action": "BUY",
+    "shares": 193259.12,
+    "price": 258.72,
+    "notional": 49999999.76,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "PWR",
+    "action": "BUY",
+    "shares": 74124.1,
+    "price": 607.09,
+    "notional": 45000001.86,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "TLN",
+    "action": "BUY",
+    "shares": 118339.19,
+    "price": 295.76,
+    "notional": 34999999.99,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "ETN",
+    "action": "BUY",
+    "shares": 74649.15,
+    "price": 401.88,
+    "notional": 30000000.77,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "MU",
+    "action": "BUY",
+    "shares": 62582.79,
+    "price": 958.73,
+    "notional": 59999997.03,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "AVGO",
+    "action": "BUY",
+    "shares": 148512.18,
+    "price": 370.34,
+    "notional": 55000000.2,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "TSM",
+    "action": "BUY",
+    "shares": 120389.1,
+    "price": 415.32,
+    "notional": 50000001.89,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "ANET",
+    "action": "BUY",
+    "shares": 153303.69,
+    "price": 195.69,
+    "notional": 29999999.47,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CRDO",
+    "action": "BUY",
+    "shares": 88421.24,
+    "price": 226.19,
+    "notional": 20000000.49,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "MCK",
+    "action": "BUY",
+    "shares": 50829.08,
+    "price": 885.32,
+    "notional": 45000001.48,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CI",
+    "action": "BUY",
+    "shares": 144885.55,
+    "price": 276.08,
+    "notional": 40000000.7,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "BRK.B",
+    "action": "BUY",
+    "shares": 79360.36,
+    "price": 504.03,
+    "notional": 40000002.15,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "LNG",
+    "action": "BUY",
+    "shares": 137131.89,
+    "price": 291.69,
+    "notional": 40000001.33,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CCJ",
+    "action": "BUY",
+    "shares": 405022.27,
+    "price": 98.76,
+    "notional": 40000000.25,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CB",
+    "action": "BUY",
+    "shares": 103366.8,
+    "price": 338.6,
+    "notional": 34999999.11,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "GLD",
+    "action": "BUY",
+    "shares": 110180.69,
+    "price": 408.42,
+    "notional": 44999998.89,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "NEM",
+    "action": "BUY",
+    "shares": 277645.57,
+    "price": 126.06,
+    "notional": 34999999.88,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "FCX",
+    "action": "BUY",
+    "shares": 462107.22,
+    "price": 75.74,
+    "notional": 34999999.86,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "BE",
+    "action": "BUY",
+    "shares": 145419.29,
+    "price": 206.3,
+    "notional": 29999999.97,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "NBIS",
+    "action": "BUY",
+    "shares": 121170.99,
+    "price": 206.32,
+    "notional": 24999999.54,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "STX",
+    "action": "BUY",
+    "shares": 30179.39,
+    "price": 828.38,
+    "notional": 25000003.24,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "OKLO",
+    "action": "BUY",
+    "shares": 369731.33,
+    "price": 40.57,
+    "notional": 14999999.95,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "SMR",
+    "action": "BUY",
+    "shares": 1618122.9,
+    "price": 9.27,
+    "notional": 15000000.02,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CIFR",
+    "action": "BUY",
+    "shares": 967741.94,
+    "price": 15.5,
+    "notional": 15000000.07,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "QQQ",
+    "action": "SELL SHORT",
+    "shares": 83710.03,
+    "price": 716.76,
+    "notional": 60000001.92,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "IWM",
+    "action": "SELL SHORT",
+    "shares": 136086.83,
+    "price": 293.93,
+    "notional": 40000000.95,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "EPAM",
+    "action": "SELL SHORT",
+    "shares": 212170.07,
+    "price": 117.83,
+    "notional": 24999999.74,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "IT",
+    "action": "SELL SHORT",
+    "shares": 126192.52,
+    "price": 198.11,
+    "notional": 25000000.21,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CNXC",
+    "action": "SELL SHORT",
+    "shares": 664451.82,
+    "price": 30.1,
+    "notional": 20000000.04,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "PLTR",
+    "action": "SELL SHORT",
+    "shares": 187788.38,
+    "price": 186.38,
+    "notional": 34999999.18,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CRWV",
+    "action": "SELL SHORT",
+    "shares": 353398.52,
+    "price": 84.89,
+    "notional": 30000000.15,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "MSTR",
+    "action": "SELL SHORT",
+    "shares": 188054.76,
+    "price": 132.94,
+    "notional": 25000000.25,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "ITB",
+    "action": "SELL SHORT",
+    "shares": 316823.31,
+    "price": 94.69,
+    "notional": 30000000.0,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "BFH",
+    "action": "SELL SHORT",
+    "shares": 239303.15,
+    "price": 104.47,
+    "notional": 25000000.37,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "W",
+    "action": "SELL SHORT",
+    "shares": 251838.43,
+    "price": 99.27,
+    "notional": 25000000.1,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "TSLA",
+    "action": "SELL SHORT",
+    "shares": 95121.62,
+    "price": 367.95,
+    "notional": 35000001.24,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "SMCI",
+    "action": "SELL SHORT",
+    "shares": 804721.06,
+    "price": 37.28,
+    "notional": 30000000.13,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "HOOD",
+    "action": "SELL SHORT",
+    "shares": 238526.86,
+    "price": 104.81,
+    "notional": 24999999.61,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "LULU",
+    "action": "SELL SHORT",
+    "shares": 166306.33,
+    "price": 120.26,
+    "notional": 19999999.6,
+    "rationale": "Inception — book established at target weights.",
+    "logged_at": "2026-09-01T13:18:28+00:00"
+  }
+]
