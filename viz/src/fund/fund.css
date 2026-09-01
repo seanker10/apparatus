@@ -253,6 +253,28 @@
 }
 .f-detail li strong { color: var(--f-accent); font-weight: 500; letter-spacing: 0.04em; }
 .f-detail .f-falsifier strong { color: var(--f-down); }
+.f-detail .f-clock strong { color: #ffc46b; }
+.f-horizon {
+  margin-left: auto;
+  border: 1px solid var(--f-line-hi);
+  border-radius: 2px;
+  padding: 2px 8px;
+  color: #ffc46b;
+  letter-spacing: 0.1em;
+}
+
+/* short-clock taxonomy */
+.f-clock-intro { font-size: 12px; color: var(--f-fg-dim); margin: -4px 0 14px; line-height: 1.6; }
+.f-clockgroup { margin-bottom: 13px; padding-bottom: 11px; border-bottom: 1px dotted var(--f-line); }
+.f-clockgroup:last-child { border-bottom: none; }
+.f-clockgroup-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.f-clock-badge {
+  font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: #ffc46b; border: 1px solid rgba(255, 196, 107, 0.35);
+  border-radius: 2px; padding: 2px 8px; white-space: nowrap;
+}
+.f-clockgroup-names { font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.f-clockgroup-why { margin: 6px 0 0; font-size: 11.5px; line-height: 1.6; color: var(--f-fg-dim); }
 .f-swatch { width: 8px; height: 8px; border-radius: 50%; display: inline-block; box-shadow: 0 0 6px currentColor; }
 
 /* ---------- performance ---------- */

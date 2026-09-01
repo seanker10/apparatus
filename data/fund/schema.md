@@ -36,6 +36,8 @@ Simulated long/short equity fund. LP provides notional capital, GP (Claude) rese
   "thesis": "why we own it — surfaced in the UI",
   "catalyst": "what is moving it now — surfaced in the UI",
   "falsifier": "what would prove the thesis wrong",
+  "horizon": "2–5 years",        // expected time to payoff; every line has one
+  "horizon_note": "...",         // shorts only: what actually resolves the trade
   "entry_date": null,             // stamped by first mark
   "entry_price": null,            // stamped by first mark — never invented
   "shares": null                  // derived: target_weight × capital ÷ entry_price
@@ -43,6 +45,22 @@ Simulated long/short equity fund. LP provides notional capital, GP (Claude) rese
 ```
 
 **Sleeves.** Longs: `Power & Grid`, `Compute Chokepoints`, `Value & Ballast`, `Hard Assets`, `Convex`. Shorts: `Index Hedge`, `AI Disruption Victims`, `Valuation & Crowding`, `Consumer & Rate Stress`.
+
+**Horizons.** Shorts do not share a clock, and the difference drives how each is managed. Fastest to slowest:
+
+| Clock | Lines | What resolves it |
+|---|---|---|
+| `3–9 months` | BFH | Monthly charge-off and delinquency data |
+| `2–4 quarters` | SMCI, W, LULU | Quarterly margin and comp prints |
+| `6–18 months` | MSTR | Bitcoin cycle plus convertible maturities |
+| `12–24 months` | CRWV, ITB | Mechanical depreciation, debt maturities, housing cycle |
+| `12–30 months` | CNXC | Leverage compressing equity ahead of revenue |
+| `18–36 months` | EPAM, IT | Annual enterprise renewal cycles |
+| `Cycle-dependent` | HOOD | Retail risk appetite; instant in a drawdown |
+| `Catalyst-dependent` | PLTR, TSLA | Nothing forces it — size is the only control |
+| `Continuous` | QQQ, IWM | Insurance, not a bet; no payoff date |
+
+Catalyst-dependent shorts carry the tightest size discipline precisely because the clock is not ours.
 
 ## `trades.json` — immutable blotter
 

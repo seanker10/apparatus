@@ -32,9 +32,9 @@
       "week_pct": 0.69,
       "month_pct": 4.25,
       "target_weight_pct": 6.5,
-      "thesis": "The largest carbon-free generation fleet in the US at the exact moment hyperscalers will pay almost anything for firm, 24/7, behind-the-meter power. Nuclear capacity cannot be built on an AI timeline, so the existing fleet is a scarcity asset being repriced from commodity power to contracted infrastructure.",
-      "catalyst": "Data center PPA pipeline and the reopening of retired nuclear capacity; record PJM summer demand underlines how tight firm generation has become.",
-      "falsifier": "A visible break in hyperscaler capex, or regulatory action forcing nuclear output back into merchant pools at commodity pricing.",
+      "thesis": "Biggest carbon-free fleet in America. Hyperscalers need firm 24/7 power and can't build it in time. That turns an existing nuclear fleet into a scarcity asset — repriced from commodity power to contracted infrastructure.",
+      "catalyst": "Data center PPAs stacking up. Retired nuclear capacity coming back online. Record PJM summer demand proved how tight firm supply has become.",
+      "falsifier": "Hyperscaler capex visibly breaks, or regulators force nuclear output back into merchant pools.",
       "sparkline": [
         253.5,
         262.22,
@@ -68,7 +68,9 @@
         274.77
       ],
       "source": "yahoo",
-      "weight_pct": 6.5
+      "weight_pct": 6.5,
+      "horizon": "2–5 years",
+      "horizon_note": null
     },
     {
       "id": "gev",
@@ -89,9 +91,9 @@
       "week_pct": -6.09,
       "month_pct": -8.5,
       "target_weight_pct": 6.0,
-      "thesis": "Owns the gas turbine and grid equipment bottleneck. Heavy-duty turbine slots are effectively sold out for years, which converts a cyclical industrial into a backlog-visible business with pricing power it has never had before.",
-      "catalyst": "Turbine backlog and grid equipment orders tied to data center interconnection queues; electrification capex accelerating faster than supply can respond.",
-      "falsifier": "Turbine slot cancellations, or margin erosion showing the backlog was booked at bad prices.",
+      "thesis": "Owns the gas turbine bottleneck. Slots are sold out for years. A cyclical industrial just became a backlog business with pricing power it never had.",
+      "catalyst": "Turbine and grid orders tracking data center interconnection queues. Electrification capex outrunning supply.",
+      "falsifier": "Slot cancellations, or margins revealing the backlog was booked cheap.",
       "sparkline": [
         1079.1801,
         1078.8101,
@@ -125,7 +127,9 @@
         898.53
       ],
       "source": "yahoo",
-      "weight_pct": 6.0
+      "weight_pct": 6.0,
+      "horizon": "2–4 years",
+      "horizon_note": null
     },
     {
       "id": "vst",
@@ -146,9 +150,9 @@
       "week_pct": 1.26,
       "month_pct": -7.3,
       "target_weight_pct": 5.5,
-      "thesis": "Merchant generation with nuclear and gas in the two tightest markets (ERCOT, PJM), run by a management team that treats the share count as a variable to be shrunk. Cash-flow leverage to rising capacity prices is enormous.",
-      "catalyst": "PJM capacity auction clearing prices and record summer load; aggressive buyback cadence.",
-      "falsifier": "Political intervention capping capacity market prices, or a mild demand year that collapses spark spreads.",
+      "thesis": "Nuclear and gas in the two tightest power markets: ERCOT and PJM. Management shrinks the share count relentlessly. Cash-flow leverage to capacity prices is enormous.",
+      "catalyst": "PJM capacity auction clearing prices. Record summer load. Buybacks running hard.",
+      "falsifier": "Politicians cap capacity prices, or a mild year collapses spark spreads.",
       "sparkline": [
         162.33,
         166.74,
@@ -182,7 +186,9 @@
         137.37
       ],
       "source": "yahoo",
-      "weight_pct": 5.5
+      "weight_pct": 5.5,
+      "horizon": "1–3 years",
+      "horizon_note": null
     },
     {
       "id": "vrt",
@@ -203,9 +209,9 @@
       "week_pct": -1.23,
       "month_pct": 13.72,
       "target_weight_pct": 5.0,
-      "thesis": "Picks-and-shovels on rack density. As chips move past 100kW per rack, air cooling stops working and liquid cooling plus power distribution become mandatory — Vertiv sells both, into every hyperscaler regardless of which chip wins.",
-      "catalyst": "Liquid-cooling attach rates on next-gen accelerator deployments; backlog conversion.",
-      "falsifier": "Hyperscalers in-sourcing thermal design, or a pause in rack deployments compressing the order book.",
+      "thesis": "Picks and shovels on rack density. Past 100kW per rack, air cooling stops working. Liquid cooling and power distribution become mandatory — Vertiv sells both, to everyone, whichever chip wins.",
+      "catalyst": "Liquid-cooling attach rates on next-gen accelerators. Backlog converting to revenue.",
+      "falsifier": "Hyperscalers in-source thermal design, or rack deployments pause.",
       "sparkline": [
         291.67,
         304.5,
@@ -239,7 +245,9 @@
         258.72
       ],
       "source": "yahoo",
-      "weight_pct": 5.0
+      "weight_pct": 5.0,
+      "horizon": "1–3 years",
+      "horizon_note": null
     },
     {
       "id": "pwr",
@@ -260,9 +268,9 @@
       "week_pct": -5.04,
       "month_pct": -7.73,
       "target_weight_pct": 4.5,
-      "thesis": "The binding constraint on transmission is not steel or permits, it is skilled linemen — and Quanta owns the largest trained craft workforce in North America. Labor scarcity converts a contractor into a toll road on grid expansion.",
-      "catalyst": "Transmission awards tied to interconnection backlogs; utility capex guidance revisions moving up.",
-      "falsifier": "Fixed-price contract losses, or utilities deferring transmission spend under rate-case pressure.",
+      "thesis": "The constraint on transmission isn't steel or permits. It's linemen. Quanta has the largest trained craft workforce in North America. Labor scarcity turns a contractor into a toll road.",
+      "catalyst": "Transmission awards tied to interconnection backlogs. Utility capex guidance moving up.",
+      "falsifier": "Fixed-price contract losses, or utilities deferring transmission under rate pressure.",
       "sparkline": [
         632.56,
         639.2,
@@ -296,7 +304,9 @@
         607.09
       ],
       "source": "yahoo",
-      "weight_pct": 4.5
+      "weight_pct": 4.5,
+      "horizon": "2–4 years",
+      "horizon_note": null
     },
     {
       "id": "tln",
@@ -317,9 +327,9 @@
       "week_pct": -5.95,
       "month_pct": -11.06,
       "target_weight_pct": 3.5,
-      "thesis": "Susquehanna nuclear co-located with a hyperscale campus is the cleanest expression of the behind-the-meter trade. Post-bankruptcy capital structure, small float, and a management team returning capital hard.",
-      "catalyst": "Nuclear PPA economics and FERC treatment of co-located load; PJM scarcity pricing.",
-      "falsifier": "An adverse FERC ruling on behind-the-meter co-location that breaks the premium-pricing model.",
+      "thesis": "Susquehanna nuclear sits next to a hyperscale campus. That's the cleanest behind-the-meter trade available. Small float, clean post-bankruptcy balance sheet, aggressive capital returns.",
+      "catalyst": "Nuclear PPA economics and FERC's treatment of co-located load. PJM scarcity pricing.",
+      "falsifier": "FERC rules against behind-the-meter co-location and breaks the premium.",
       "sparkline": [
         360.32,
         366.14,
@@ -353,7 +363,9 @@
         295.76
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.5,
+      "horizon": "1–3 years",
+      "horizon_note": null
     },
     {
       "id": "etn",
@@ -374,9 +386,9 @@
       "week_pct": -4.13,
       "month_pct": 3.87,
       "target_weight_pct": 3.0,
-      "thesis": "Electrical components — switchgear, busway, breakers — with lead times that have stretched from weeks to quarters. Quality compounder giving the sleeve a lower-beta anchor without leaving the theme.",
-      "catalyst": "Data center segment growth and electrical backlog; reshoring capex layered on top.",
-      "falsifier": "Lead times normalizing, which would signal supply caught up and pricing power is over.",
+      "thesis": "Switchgear, busway, breakers. Lead times went from weeks to quarters. A quality compounder that anchors the sleeve without leaving the theme.",
+      "catalyst": "Data center segment growth. Reshoring capex layered on top.",
+      "falsifier": "Lead times normalize — the tell that supply caught up and pricing power is over.",
       "sparkline": [
         401.41,
         402.95,
@@ -410,7 +422,9 @@
         401.88
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 3.0,
+      "horizon": "2–5 years",
+      "horizon_note": null
     },
     {
       "id": "mu",
@@ -431,9 +445,9 @@
       "week_pct": 5.31,
       "month_pct": 16.49,
       "target_weight_pct": 6.0,
-      "thesis": "High-bandwidth memory is the real constraint on accelerator shipments, and HBM capacity consumes wafer supply that would otherwise make commodity DRAM — so the AI cycle tightens the conventional cycle at the same time. Still trades at a low multiple of mid-cycle earnings because the market refuses to believe memory can be structurally better.",
-      "catalyst": "HBM sold out well forward with pricing locked; conventional DRAM tightening as capacity is diverted.",
-      "falsifier": "A capacity war restarting, or HBM competition compressing the pricing premium faster than volumes grow.",
+      "thesis": "HBM is the real limit on accelerator shipments. Making it eats wafers that would otherwise make commodity DRAM. So the AI cycle tightens the ordinary cycle at the same time. Still cheap on mid-cycle earnings because the market won't believe memory changed.",
+      "catalyst": "HBM sold out forward with pricing locked. Conventional DRAM tightening as capacity diverts.",
+      "falsifier": "A capacity war restarts, or HBM rivals crush the pricing premium.",
       "sparkline": [
         970.82,
         959.48,
@@ -467,7 +481,9 @@
         958.73
       ],
       "source": "yahoo",
-      "weight_pct": 6.0
+      "weight_pct": 6.0,
+      "horizon": "12–24 months",
+      "horizon_note": null
     },
     {
       "id": "avgo",
@@ -488,9 +504,9 @@
       "week_pct": 3.23,
       "month_pct": -4.87,
       "target_weight_pct": 5.5,
-      "thesis": "Owns the custom-silicon franchise for the hyperscalers that most want to escape merchant GPU pricing. Every dollar of accelerator budget that moves in-house still lands here, plus networking silicon attached to the same racks — a hedge on which chip wins rather than a bet.",
-      "catalyst": "Custom accelerator program ramps at multiple hyperscalers; AI networking share gains.",
-      "falsifier": "A major customer pulling a custom program back to merchant silicon, or software/VMware attrition offsetting semis.",
+      "thesis": "Owns the custom silicon franchise for hyperscalers trying to escape merchant GPU pricing. Budget that moves in-house still lands here. Plus networking silicon in the same racks. A hedge on which chip wins, not a bet.",
+      "catalyst": "Custom accelerator ramps at multiple hyperscalers. AI networking share gains.",
+      "falsifier": "A major customer pulls its custom program back to merchant silicon.",
       "sparkline": [
         386.5,
         396.81,
@@ -524,7 +540,9 @@
         370.34
       ],
       "source": "yahoo",
-      "weight_pct": 5.5
+      "weight_pct": 5.5,
+      "horizon": "2–4 years",
+      "horizon_note": null
     },
     {
       "id": "tsm",
@@ -545,9 +563,9 @@
       "week_pct": 1.27,
       "month_pct": 2.74,
       "target_weight_pct": 5.0,
-      "thesis": "Every accelerator in the world is fabricated here, yet it trades at a persistent discount to its own customers because of geopolitical risk. Owning the monopolist at a discount to the people who depend on it is the single best risk-adjusted line in the compute sleeve.",
-      "catalyst": "Advanced-node and packaging capacity sold out; pricing increases passed through with no volume loss.",
-      "falsifier": "A genuine Taiwan Strait escalation — the reason for the discount and the reason to size it below conviction.",
+      "thesis": "Every accelerator on earth is made here. It trades at a discount to its own customers because of Taiwan risk. Owning the monopolist cheaper than the companies depending on it is the best risk-adjusted line in the sleeve.",
+      "catalyst": "Advanced nodes and packaging sold out. Price increases passing through with no volume loss.",
+      "falsifier": "Real escalation in the Taiwan Strait — the reason for the discount, and the reason to size below conviction.",
       "sparkline": [
         424.61,
         421.21,
@@ -581,7 +599,9 @@
         415.32
       ],
       "source": "yahoo",
-      "weight_pct": 5.0
+      "weight_pct": 5.0,
+      "horizon": "2–5 years",
+      "horizon_note": null
     },
     {
       "id": "anet",
@@ -602,9 +622,9 @@
       "week_pct": 3.73,
       "month_pct": 14.43,
       "target_weight_pct": 3.0,
-      "thesis": "AI back-end networks are becoming as expensive as the compute they connect, and Ethernet is winning that build-out over proprietary fabrics. Arista is the merchant winner of that standards fight.",
-      "catalyst": "800G port ramps in AI clusters; Ethernet displacing InfiniBand in new designs.",
-      "falsifier": "Hyperscalers standardizing on white-box switching and cutting Arista out of the back end.",
+      "thesis": "AI back-end networks now cost as much as the compute they connect. Ethernet is winning that build-out over proprietary fabrics. Arista is the merchant winner of that standards fight.",
+      "catalyst": "800G ports ramping in AI clusters. Ethernet displacing InfiniBand in new designs.",
+      "falsifier": "Hyperscalers standardize on white-box switching and cut Arista out of the back end.",
       "sparkline": [
         169.35,
         174.58,
@@ -638,7 +658,9 @@
         195.69
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 3.0,
+      "horizon": "1–3 years",
+      "horizon_note": null
     },
     {
       "id": "crdo",
@@ -659,9 +681,9 @@
       "week_pct": -1.9,
       "month_pct": 12.49,
       "target_weight_pct": 2.0,
-      "thesis": "Active electrical cables solve a boring, unavoidable problem: moving signal across a rack without burning power. Small enough that a single design win moves the P&L — deliberately the highest-beta line in the compute sleeve.",
-      "catalyst": "AEC design wins at additional hyperscalers as rack power budgets tighten.",
-      "falsifier": "Optics getting cheap enough to displace copper at rack scale, or customer concentration biting.",
+      "thesis": "Active electrical cables solve a boring problem: moving signal across a rack without burning power. Small enough that one design win moves the P&L. Deliberately the highest-beta line in the sleeve.",
+      "catalyst": "AEC design wins at more hyperscalers as rack power budgets tighten.",
+      "falsifier": "Optics get cheap enough to displace copper at rack scale.",
       "sparkline": [
         212.07,
         223.87,
@@ -695,7 +717,9 @@
         226.19
       ],
       "source": "yahoo",
-      "weight_pct": 2.0
+      "weight_pct": 2.0,
+      "horizon": "12–24 months",
+      "horizon_note": null
     },
     {
       "id": "mck",
@@ -716,9 +740,9 @@
       "week_pct": 3.08,
       "month_pct": 2.29,
       "target_weight_pct": 4.5,
-      "thesis": "A three-company oligopoly moving essentially every pill in America, earning a spread on volume rather than drug price. GLP-1 volumes flow straight through the distribution network, and the multiple still reflects opioid-litigation scar tissue that is now largely settled.",
-      "catalyst": "Specialty and GLP-1 distribution volume growth; steady buyback.",
-      "falsifier": "Manufacturers disintermediating distributors with direct-to-patient channels at scale.",
+      "thesis": "A three-company oligopoly moves nearly every pill in America. It earns a spread on volume, not on drug price. GLP-1 volumes flow straight through. The multiple still carries opioid-litigation scar tissue that's largely settled.",
+      "catalyst": "Specialty and GLP-1 distribution volume. Steady buyback.",
+      "falsifier": "Manufacturers go direct-to-patient at scale and cut distributors out.",
       "sparkline": [
         831.46,
         828.84,
@@ -752,7 +776,9 @@
         885.32
       ],
       "source": "yahoo",
-      "weight_pct": 4.5
+      "weight_pct": 4.5,
+      "horizon": "2–4 years",
+      "horizon_note": null
     },
     {
       "id": "ci",
@@ -773,9 +799,9 @@
       "week_pct": -0.52,
       "month_pct": -4.03,
       "target_weight_pct": 4.0,
-      "thesis": "Managed care has been repriced for a medical-cost shock and PBM political risk, leaving a cash-generative business at a low-double-digit multiple. Cigna carries less Medicare Advantage exposure than peers — the market is applying the sector's pain to the company least exposed to it.",
-      "catalyst": "Cost-trend stabilization and PBM reform landing softer than the bear case assumed.",
-      "falsifier": "Federal PBM legislation that structurally breaks the rebate economics.",
+      "thesis": "Managed care got repriced for a medical-cost shock and PBM politics. Cigna carries the least Medicare Advantage exposure of the group. The market applied the sector's pain to the company least exposed to it.",
+      "catalyst": "Cost trend stabilizing. PBM reform landing softer than the bear case assumed.",
+      "falsifier": "Federal PBM legislation that breaks rebate economics outright.",
       "sparkline": [
         283.94,
         290.49,
@@ -809,7 +835,9 @@
         276.08
       ],
       "source": "yahoo",
-      "weight_pct": 4.0
+      "weight_pct": 4.0,
+      "horizon": "12–30 months",
+      "horizon_note": null
     },
     {
       "id": "brkb",
@@ -830,9 +858,9 @@
       "week_pct": 1.66,
       "month_pct": -1.11,
       "target_weight_pct": 4.0,
-      "thesis": "Held as structural ballast, not for alpha. An enormous T-bill position inside an operating conglomerate means it gets stronger, not weaker, if the market breaks — the closest thing to owning optionality on someone else's forced selling.",
-      "catalyst": "Cash balance earning short rates; deployment optionality if credit or equity markets dislocate.",
-      "falsifier": "Nothing thesis-breaking — this line exists to lose less when the book is wrong.",
+      "thesis": "Ballast, not alpha. A giant T-bill pile inside an operating conglomerate. It gets stronger when markets break. The closest thing to owning optionality on someone else's forced selling.",
+      "catalyst": "Cash earning short rates. Deployment optionality if credit or equities dislocate.",
+      "falsifier": "Nothing thesis-breaking. This line exists to lose less when the book is wrong.",
       "sparkline": [
         491.25,
         489.65,
@@ -866,7 +894,9 @@
         504.03
       ],
       "source": "yahoo",
-      "weight_pct": 4.0
+      "weight_pct": 4.0,
+      "horizon": "Indefinite",
+      "horizon_note": null
     },
     {
       "id": "lng",
@@ -887,9 +917,9 @@
       "week_pct": 5.11,
       "month_pct": 13.03,
       "target_weight_pct": 4.0,
-      "thesis": "Contracted, take-or-pay export capacity that gets paid on volume rather than commodity price — and domestic gas demand now has a second engine in data center generation. Long-dated contracts with investment-grade counterparties, priced like a commodity stock.",
-      "catalyst": "Train expansions and long-term SPAs; structural gas demand growth from power generation.",
-      "falsifier": "Export permit reversals, or a global LNG supply glut compressing new contract pricing.",
+      "thesis": "Take-or-pay export capacity paid on volume, not commodity price. Domestic gas demand now has a second engine in data center generation. Long contracts with investment-grade counterparties, priced like a commodity stock.",
+      "catalyst": "Train expansions and new long-term contracts. Structural gas demand from power generation.",
+      "falsifier": "Export permit reversals, or a global LNG glut compressing new contract pricing.",
       "sparkline": [
         264.95,
         262.59,
@@ -923,7 +953,9 @@
         291.69
       ],
       "source": "yahoo",
-      "weight_pct": 4.0
+      "weight_pct": 4.0,
+      "horizon": "2–5 years",
+      "horizon_note": null
     },
     {
       "id": "ccj",
@@ -944,9 +976,9 @@
       "week_pct": -3.66,
       "month_pct": 11.93,
       "target_weight_pct": 4.0,
-      "thesis": "If the nuclear thesis behind CEG, VST and TLN is right, it has to show up in fuel. Western utilities are re-contracting after decades of running down inventories, and primary supply cannot respond quickly. Cameco also owns a stake in the reactor vendor, so it monetizes both fuel and new build.",
-      "catalyst": "Long-term uranium contracting cycle; reactor life extensions and restarts.",
-      "falsifier": "Supply discipline breaking, or a nuclear safety event resetting political appetite.",
+      "thesis": "If the nuclear thesis behind CEG, VST and TLN is right, it has to show up in fuel. Utilities are re-contracting after running inventories down for decades. Primary supply can't respond quickly. Cameco also owns a piece of the reactor vendor.",
+      "catalyst": "Long-term uranium contracting cycle. Reactor life extensions and restarts.",
+      "falsifier": "Supply discipline breaks, or a safety event resets political appetite.",
       "sparkline": [
         84.85,
         88.68,
@@ -980,7 +1012,9 @@
         98.76
       ],
       "source": "yahoo",
-      "weight_pct": 4.0
+      "weight_pct": 4.0,
+      "horizon": "2–5 years",
+      "horizon_note": null
     },
     {
       "id": "cb",
@@ -1001,9 +1035,9 @@
       "week_pct": -0.7,
       "month_pct": -3.3,
       "target_weight_pct": 3.5,
-      "thesis": "Best-in-class P&C underwriter with a float that earns more as rates stay higher for longer. Climate-driven loss trends are painful for bad underwriters and a pricing tailwind for disciplined ones — this is the disciplined one.",
-      "catalyst": "Commercial P&C pricing holding above loss-cost trend; investment income compounding.",
-      "falsifier": "A soft-market turn in commercial pricing, or a catastrophe year that overwhelms reinsurance.",
+      "thesis": "Best-in-class P&C underwriter with float that earns more while rates stay high. Climate loss trends punish sloppy underwriters and hand pricing power to disciplined ones. This is the disciplined one.",
+      "catalyst": "Commercial P&C pricing holding above loss-cost trend. Investment income compounding.",
+      "falsifier": "Commercial pricing turns soft, or a catastrophe year overwhelms reinsurance.",
       "sparkline": [
         352.53,
         354.8,
@@ -1037,7 +1071,9 @@
         338.6
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.5,
+      "horizon": "2–4 years",
+      "horizon_note": null
     },
     {
       "id": "gld",
@@ -1058,9 +1094,9 @@
       "week_pct": -4.28,
       "month_pct": 9.93,
       "target_weight_pct": 4.5,
-      "thesis": "The hedge against the thing no equity position can hedge: fiscal dominance. Persistent deficits, an administration applying pressure to monetary policy, and central banks diversifying reserves away from Treasuries all point the same direction. Also the only line in the book that is not correlated to AI capex.",
-      "catalyst": "Central bank reserve accumulation; real-rate and fiscal-credibility repricing.",
-      "falsifier": "A genuine fiscal consolidation, or real rates rising sharply with a firm dollar.",
+      "thesis": "The hedge against the one thing no equity can hedge: fiscal dominance. Deficits keep running. Political pressure on the Fed is real. Central banks keep diversifying out of Treasuries. It's also the only line in the book uncorrelated to AI capex.",
+      "catalyst": "Central bank reserve buying. Real-rate and fiscal-credibility repricing.",
+      "falsifier": "Genuine fiscal consolidation, or real rates spiking alongside a firm dollar.",
       "sparkline": [
         374.81,
         379.12,
@@ -1094,7 +1130,9 @@
         408.42
       ],
       "source": "yahoo",
-      "weight_pct": 4.5
+      "weight_pct": 4.5,
+      "horizon": "Indefinite",
+      "horizon_note": null
     },
     {
       "id": "nem",
@@ -1115,9 +1153,9 @@
       "week_pct": -4.2,
       "month_pct": 31.64,
       "target_weight_pct": 3.5,
-      "thesis": "Operating leverage on the gold position. Miner margins expand faster than the metal when costs are flat, and the sector spent a decade being disciplined about capex after the last cycle destroyed it.",
-      "catalyst": "All-in sustaining costs flat against a rising gold price; free cash flow returned to holders.",
-      "falsifier": "Cost inflation eating the margin expansion — the classic way gold miners disappoint.",
+      "thesis": "Operating leverage on the gold position. Miner margins expand faster than the metal when costs stay flat. The sector spent a decade being disciplined after the last cycle destroyed it.",
+      "catalyst": "All-in costs flat against a rising gold price. Free cash flow going back to holders.",
+      "falsifier": "Cost inflation eats the margin expansion — the classic way gold miners disappoint.",
       "sparkline": [
         89.2,
         92.49,
@@ -1151,7 +1189,9 @@
         126.06
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.5,
+      "horizon": "1–3 years",
+      "horizon_note": null
     },
     {
       "id": "fcx",
@@ -1172,8 +1212,8 @@
       "week_pct": -1.2,
       "month_pct": 19.39,
       "target_weight_pct": 3.5,
-      "thesis": "Every transformer, cable and switchgear line in the power sleeve is made of copper, and no meaningful new supply arrives this decade. This is the commodity expression of the same electrification thesis the equity sleeve expresses through manufacturers.",
-      "catalyst": "Grid and data center copper intensity meeting a thin project pipeline; smelter and mine disruptions.",
+      "thesis": "Every transformer, cable and switchgear line in the power sleeve is made of copper. No meaningful new supply arrives this decade. This is the commodity version of the same electrification thesis.",
+      "catalyst": "Grid and data center copper intensity meeting a thin project pipeline. Mine and smelter disruptions.",
       "falsifier": "A China-led industrial slowdown overwhelming electrification demand.",
       "sparkline": [
         58.79,
@@ -1208,7 +1248,9 @@
         75.74
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.5,
+      "horizon": "2–5 years",
+      "horizon_note": null
     },
     {
       "id": "be",
@@ -1229,9 +1271,9 @@
       "week_pct": 1.12,
       "month_pct": 0.24,
       "target_weight_pct": 3.0,
-      "thesis": "Fuel cells deliver on-site power in months when a utility interconnection takes years — and after this summer's grid emergencies, 'I can energize without the grid' is worth a premium. Real revenue attached to a story that can re-rate violently.",
-      "catalyst": "Data center orders for behind-the-meter fuel cell capacity as interconnection queues stretch.",
-      "falsifier": "Gross margins failing to scale with volume, which has been the perennial problem here.",
+      "thesis": "Fuel cells deliver on-site power in months. A utility interconnection takes years. After this summer's grid emergencies, 'I can energize without the grid' carries a premium. Real revenue attached to a story that can re-rate violently.",
+      "catalyst": "Data center orders for behind-the-meter fuel cells as interconnection queues stretch.",
+      "falsifier": "Gross margins fail to scale with volume — the perennial problem here.",
       "sparkline": [
         226.26,
         218.22,
@@ -1265,7 +1307,9 @@
         206.3
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 3.0,
+      "horizon": "12–24 months",
+      "horizon_note": null
     },
     {
       "id": "nbis",
@@ -1286,9 +1330,9 @@
       "week_pct": -2.18,
       "month_pct": 8.36,
       "target_weight_pct": 2.5,
-      "thesis": "A neocloud with a real balance sheet and European footprint at a fraction of the enterprise value of its US-listed peers. Deliberately paired against the CoreWeave short: same industry, opposite capital structure quality.",
-      "catalyst": "Contracted capacity ramps and disclosed ARR growth; sovereign AI demand in Europe.",
-      "falsifier": "GPU rental pricing deflating faster than the depreciation schedule assumes.",
+      "thesis": "A neocloud with a real balance sheet and a European footprint, at a fraction of its US-listed peers' valuation. Deliberately paired against the CoreWeave short: same industry, opposite capital structure.",
+      "catalyst": "Contracted capacity ramps and disclosed ARR growth. Sovereign AI demand in Europe.",
+      "falsifier": "GPU rental pricing deflates faster than the depreciation schedule assumes.",
       "sparkline": [
         216.92,
         218.16,
@@ -1322,7 +1366,9 @@
         206.32
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "12–24 months",
+      "horizon_note": null
     },
     {
       "id": "stx",
@@ -1343,9 +1389,9 @@
       "week_pct": -2.54,
       "month_pct": -2.74,
       "target_weight_pct": 2.5,
-      "thesis": "Everyone models the compute cost of AI and nobody models where the output gets stored. Nearline HDD is a rational duopoly with no new entrants, running tight after years of underinvestment, and HAMR raises areal density right as demand inflects.",
-      "catalyst": "Nearline exabyte demand from AI data retention; HAMR qualification at hyperscalers.",
-      "falsifier": "NAND pricing falling far enough to invade the nearline tier earlier than expected.",
+      "thesis": "Everyone models the compute cost of AI. Nobody models where the output gets stored. Nearline drives are a rational duopoly with no new entrants, running tight after years of underinvestment. HAMR lifts density right as demand inflects.",
+      "catalyst": "Nearline exabyte demand from AI data retention. HAMR qualifying at hyperscalers.",
+      "falsifier": "NAND gets cheap enough to invade the nearline tier early.",
       "sparkline": [
         802.45,
         891.83,
@@ -1379,7 +1425,9 @@
         828.38
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "12–24 months",
+      "horizon_note": null
     },
     {
       "id": "oklo",
@@ -1400,9 +1448,9 @@
       "week_pct": 2.22,
       "month_pct": 4.48,
       "target_weight_pct": 1.5,
-      "thesis": "A pre-revenue option on small modular reactors reaching commercial deployment. Sized as a lottery ticket, not an investment — the entire position can go to zero without damaging the book, and it pays multiples if federal permitting support turns into an operating fleet.",
+      "thesis": "A pre-revenue option on small modular reactors reaching deployment. Sized as a lottery ticket, not an investment. The whole position can go to zero without hurting the book — and pays multiples if federal permitting turns into an operating fleet.",
       "catalyst": "NRC licensing progress and DOE site access under the federal push for firm clean power.",
-      "falsifier": "Licensing delays or a capital raise on punitive terms — both entirely plausible.",
+      "falsifier": "Licensing delays or a punitive capital raise. Both entirely plausible.",
       "sparkline": [
         44.13,
         44.5,
@@ -1436,7 +1484,9 @@
         40.57
       ],
       "source": "yahoo",
-      "weight_pct": 1.5
+      "weight_pct": 1.5,
+      "horizon": "3–7 years",
+      "horizon_note": null
     },
     {
       "id": "smr",
@@ -1457,8 +1507,8 @@
       "week_pct": 2.43,
       "month_pct": 10.1,
       "target_weight_pct": 1.5,
-      "thesis": "The second ticket in a two-name SMR basket. Only design with NRC certification in hand, which matters if the sector transitions from story to schedule. Held as a basket precisely because picking the single winner here is not a skill anyone has.",
-      "catalyst": "Order conversion from the certified design; utility and data center interest in firm clean capacity.",
+      "thesis": "The second ticket in a two-name SMR basket. Only design with NRC certification in hand — which matters if the sector moves from story to schedule. Held as a basket because nobody can pick the single winner here.",
+      "catalyst": "Order conversion from the certified design. Utility and data center interest in firm clean capacity.",
       "falsifier": "Cost overruns repeating the history that killed its first flagship project.",
       "sparkline": [
         8.71,
@@ -1493,7 +1543,9 @@
         9.27
       ],
       "source": "yahoo",
-      "weight_pct": 1.5
+      "weight_pct": 1.5,
+      "horizon": "3–7 years",
+      "horizon_note": null
     },
     {
       "id": "cifr",
@@ -1514,9 +1566,9 @@
       "week_pct": 0.91,
       "month_pct": -30.56,
       "target_weight_pct": 1.5,
-      "thesis": "Owns the one thing that cannot be manufactured quickly: energized substation capacity. The crypto-to-AI conversion turns a bad business into a landlord for hyperscalers, and the market is still repricing these from miner multiples to infrastructure multiples.",
-      "catalyst": "Long-term AI hosting leases signed against existing powered sites.",
-      "falsifier": "Financing costs on the buildout outrunning lease economics, or counterparty credit disappointing.",
+      "thesis": "Owns the one thing you can't manufacture quickly: energized substation capacity. The crypto-to-AI conversion turns a bad business into a landlord for hyperscalers. The market is still repricing these from miner multiples to infrastructure multiples.",
+      "catalyst": "Long-term AI hosting leases signed against already-powered sites.",
+      "falsifier": "Financing costs outrun lease economics, or counterparty credit disappoints.",
       "sparkline": [
         22.89,
         24.46,
@@ -1550,7 +1602,9 @@
         15.5
       ],
       "source": "yahoo",
-      "weight_pct": 1.5
+      "weight_pct": 1.5,
+      "horizon": "12–30 months",
+      "horizon_note": null
     },
     {
       "id": "qqq",
@@ -1571,9 +1625,9 @@
       "week_pct": 1.48,
       "month_pct": 4.18,
       "target_weight_pct": 6.0,
-      "thesis": "The core beta hedge. The long book is deliberately concentrated in one macro theme, so a short against the index that expresses that theme most richly converts the portfolio from a directional bet on AI into a bet on owning the right part of it.",
-      "catalyst": "Index concentration at historic extremes; hedge sized to blunt a broad multiple compression.",
-      "falsifier": "A melt-up where the index outruns the long book — the accepted cost of carrying insurance.",
+      "thesis": "The core beta hedge. The long book is concentrated in one macro theme. Shorting the index that expresses that theme most richly turns a directional AI bet into a bet on owning the right part of it.",
+      "catalyst": "Index concentration near historic extremes. Sized to blunt a broad multiple compression.",
+      "falsifier": "A melt-up where the index outruns the long book. That's the cost of insurance.",
       "sparkline": [
         708.97,
         705.35,
@@ -1607,7 +1661,9 @@
         716.76
       ],
       "source": "yahoo",
-      "weight_pct": 6.0
+      "weight_pct": 6.0,
+      "horizon": "Continuous",
+      "horizon_note": "No payoff date, by design. This is insurance, not a bet: it pays only in drawdowns and costs carry in rising markets. Held as long as the long book stays concentrated."
     },
     {
       "id": "iwm",
@@ -1628,9 +1684,9 @@
       "week_pct": -2.01,
       "month_pct": 0.46,
       "target_weight_pct": 4.0,
-      "thesis": "Small caps carry floating-rate debt, thin margins and a meaningful share of unprofitable constituents. If higher-for-longer rates persist alongside rising industrial electricity costs, this is where the damage compounds first.",
-      "catalyst": "Refinancing walls at elevated rates; margin pressure from energy and labor costs.",
-      "falsifier": "An aggressive easing cycle, which would send this cohort up hardest.",
+      "thesis": "Small caps carry floating-rate debt, thin margins and a lot of unprofitable constituents. If rates stay high while industrial power costs rise, this is where the damage compounds first.",
+      "catalyst": "Refinancing walls at elevated rates. Margin pressure from energy and labor.",
+      "falsifier": "An aggressive easing cycle — this cohort would rip hardest.",
       "sparkline": [
         292.31,
         296.54,
@@ -1664,7 +1720,9 @@
         293.93
       ],
       "source": "yahoo",
-      "weight_pct": 4.0
+      "weight_pct": 4.0,
+      "horizon": "Continuous",
+      "horizon_note": "Same insurance logic as QQQ with a cyclical tilt. Pays fastest in a credit-driven selloff; bleeds steadily in a soft-landing rally."
     },
     {
       "id": "epam",
@@ -1685,9 +1743,9 @@
       "week_pct": 6.79,
       "month_pct": 13.67,
       "target_weight_pct": 2.5,
-      "thesis": "The business is billable engineering hours priced on labor arbitrage. Code generation attacks the numerator and the pricing model simultaneously — clients who need 30% fewer engineers do not renew at flat rates. A rare short where the disruptor and the disrupted are the same technology I am long elsewhere.",
+      "thesis": "The product is billable engineering hours priced on labor arbitrage. Code generation attacks the hours and the pricing model at once. A client needing 30% fewer engineers does not renew flat.",
       "catalyst": "Bill-rate and utilization pressure as clients internalize AI-assisted development.",
-      "falsifier": "Successful repositioning into AI implementation work at higher rates rather than lower volume.",
+      "falsifier": "It repositions into AI implementation work at higher rates instead of lower volume.",
       "sparkline": [
         89.4,
         89.22,
@@ -1721,7 +1779,9 @@
         117.83
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "18–36 months",
+      "horizon_note": "Slowest short in the book. Erosion only surfaces through annual renewal cycles, so it takes four to eight quarters of contract resets to reach the P&L. The risk of waiting is that it screens cheap and attracts a takeover bid."
     },
     {
       "id": "it",
@@ -1742,9 +1802,9 @@
       "week_pct": 1.13,
       "month_pct": 29.55,
       "target_weight_pct": 2.5,
-      "thesis": "Sells subscription access to synthesized research — precisely the product a competent model now produces on demand. Contract value growth has been decelerating, and subscription businesses unwind slowly and then all at once when renewal logic breaks.",
-      "catalyst": "Contract value growth deceleration; enterprise research budgets meeting AI substitutes.",
-      "falsifier": "Renewal rates holding, proving the moat is the analyst relationship rather than the document.",
+      "thesis": "Sells subscription access to synthesized research — exactly what a competent model now produces on demand. Contract value growth has been decelerating. Subscription businesses unwind slowly, then all at once.",
+      "catalyst": "Contract value deceleration. Enterprise research budgets meeting AI substitutes.",
+      "falsifier": "Renewals hold, proving the moat is the analyst relationship rather than the document.",
       "sparkline": [
         141.06,
         134.77,
@@ -1778,7 +1838,9 @@
         198.11
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "18–36 months",
+      "horizon_note": "Same renewal-cycle clock as EPAM. Contract value is disclosed quarterly and is the true leading indicator — watch that number, not the share price."
     },
     {
       "id": "cnxc",
@@ -1799,9 +1861,9 @@
       "week_pct": 18.5,
       "month_pct": 20.88,
       "target_weight_pct": 2.0,
-      "thesis": "Customer-experience outsourcing is the single most automatable large-scale labor pool in the enterprise, and it is levered. Every credible voice-agent deployment removes seats from exactly this business while the debt stays fixed.",
-      "catalyst": "Seat-count deflation as AI agents absorb tier-one support volume; leverage against declining EBITDA.",
-      "falsifier": "Successfully reselling AI agents at similar revenue per client, converting the threat into the product.",
+      "thesis": "Customer-experience outsourcing is the most automatable large labor pool in the enterprise. And it's levered. Every credible voice-agent deployment removes seats while the debt stays fixed.",
+      "catalyst": "Seat-count deflation as AI agents absorb tier-one support. Leverage working against falling EBITDA.",
+      "falsifier": "It resells AI agents at similar revenue per client, turning the threat into the product.",
       "sparkline": [
         24.24,
         23.79,
@@ -1835,7 +1897,9 @@
         30.1
       ],
       "source": "yahoo",
-      "weight_pct": 2.0
+      "weight_pct": 2.0,
+      "horizon": "12–30 months",
+      "horizon_note": "Faster than the other disruption shorts because leverage compresses equity value well before revenue fully rolls over. Debt maturities are the accelerant."
     },
     {
       "id": "pltr",
@@ -1856,9 +1920,9 @@
       "week_pct": 5.96,
       "month_pct": 51.45,
       "target_weight_pct": 3.5,
-      "thesis": "An excellent business at a valuation that requires flawless execution for a decade. The government revenue that drives the narrative is also the revenue most exposed to appropriations politics. Sized deliberately below maximum because momentum has punished this short repeatedly — the discipline is position size, not conviction.",
-      "catalyst": "Multiple compression risk on any deceleration in commercial growth or a federal budget disruption.",
-      "falsifier": "Sustained triple-digit commercial growth genuinely earning the multiple — cover on a decisive break higher.",
+      "thesis": "An excellent business at a price demanding flawless execution for a decade. The government revenue driving the narrative is also the revenue most exposed to appropriations politics. Sized below maximum because momentum has punished this short before — the discipline is size, not conviction.",
+      "catalyst": "Multiple compression risk on any commercial deceleration or federal budget disruption.",
+      "falsifier": "Sustained triple-digit commercial growth genuinely earning the multiple. Cover on a decisive break higher.",
       "sparkline": [
         132.66,
         124.57,
@@ -1892,7 +1956,9 @@
         186.38
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.5,
+      "horizon": "Catalyst-dependent",
+      "horizon_note": "No clock at all. Valuation alone never forces a re-rating — it needs a trigger, and that may take quarters or never arrive. Highest squeeze risk in the book, which is why it is 3.5% with a hard cover rule rather than a larger position."
     },
     {
       "id": "crwv",
@@ -1913,9 +1979,9 @@
       "week_pct": -1.58,
       "month_pct": 18.28,
       "target_weight_pct": 3.0,
-      "thesis": "Debt-funded purchases of rapidly depreciating GPUs, leased to a handful of concentrated counterparties. The economics only work if rental pricing holds for the life of the asset — but every new accelerator generation cuts the earning power of the installed base. Paired against the Nebius long.",
-      "catalyst": "GPU rental price deflation against a fixed depreciation and interest schedule; customer concentration risk.",
-      "falsifier": "Compute demand staying so far ahead of supply that older GPUs hold rental pricing.",
+      "thesis": "Debt-funded purchases of fast-depreciating GPUs, leased to a handful of concentrated counterparties. It only works if rental pricing holds for the asset's life. Every new accelerator generation cuts what the installed base can earn.",
+      "catalyst": "GPU rental deflation against a fixed depreciation and interest schedule. Customer concentration.",
+      "falsifier": "Compute demand stays so far ahead of supply that older GPUs hold their rental pricing.",
       "sparkline": [
         79.58,
         82.64,
@@ -1949,7 +2015,9 @@
         84.89
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 3.0,
+      "horizon": "12–24 months",
+      "horizon_note": "The one valuation short with a real clock. Depreciation schedules and debt maturities are mechanical — they arrive whether or not sentiment shifts. That makes it the highest-quality short in the sleeve."
     },
     {
       "id": "mstr",
@@ -1970,8 +2038,8 @@
       "week_pct": 8.41,
       "month_pct": 42.52,
       "target_weight_pct": 2.5,
-      "thesis": "A levered bitcoin holding company trading above the value of its coins. The premium exists only while it can keep issuing equity accretively — a reflexive loop that runs in reverse when the premium compresses. Shorting the premium, not the asset.",
-      "catalyst": "Premium-to-NAV compression as issuance capacity saturates; convertible maturities ahead.",
+      "thesis": "A levered bitcoin holding company trading above the value of its coins. The premium survives only while it can keep issuing equity accretively. That loop runs in reverse when the premium compresses. Shorting the premium, not the asset.",
+      "catalyst": "Premium-to-NAV compression as issuance capacity saturates. Convertible maturities ahead.",
       "falsifier": "A bitcoin melt-up that re-inflates the premium faster than dilution erodes it.",
       "sparkline": [
         101.95,
@@ -2006,7 +2074,9 @@
         132.94
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "6–18 months",
+      "horizon_note": "Clock is set by the bitcoin cycle and convertible maturities, not by fundamentals. Reflexive in both directions — it can pay very fast, and it can hurt very fast."
     },
     {
       "id": "itb",
@@ -2027,9 +2097,9 @@
       "week_pct": -2.87,
       "month_pct": -0.82,
       "target_weight_pct": 3.0,
-      "thesis": "Affordability is broken at both ends: mortgage rates lock out buyers while insurance and now electricity costs raise the true cost of ownership. Builders have been buying volume with rate incentives, which is margin destruction disguised as demand.",
-      "catalyst": "Incentive-driven gross margin compression; rising carrying costs from insurance and utility bills.",
-      "falsifier": "A sharp decline in long rates unlocking pent-up demand.",
+      "thesis": "Affordability is broken at both ends. Mortgage rates lock buyers out while insurance and now electricity raise the true cost of ownership. Builders bought volume with rate incentives — margin destruction dressed up as demand.",
+      "catalyst": "Incentive-driven gross margin compression. Rising carrying costs from insurance and utility bills.",
+      "falsifier": "A sharp drop in long rates unlocking pent-up demand.",
       "sparkline": [
         95.41,
         94.93,
@@ -2063,7 +2133,9 @@
         94.69
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 3.0,
+      "horizon": "12–24 months",
+      "horizon_note": "Housing is a slow cycle. Margin compression shows quarterly, but the full thesis needs several quarters of incentive data. Rate-cut headlines cause violent counter-rallies long before fundamentals confirm."
     },
     {
       "id": "bfh",
@@ -2084,8 +2156,8 @@
       "week_pct": -1.36,
       "month_pct": -5.56,
       "target_weight_pct": 2.5,
-      "thesis": "Private-label card credit to the subprime end of the consumer, which is where deterioration always shows up first. Thin capital cushion against rising loss rates, and the retail partners themselves are under pressure.",
-      "catalyst": "Net charge-off trends at the low end of the credit spectrum; delinquency migration.",
+      "thesis": "Private-label card credit to the subprime consumer — where deterioration always shows first. Thin capital cushion against rising losses. The retail partners are under pressure too.",
+      "catalyst": "Net charge-off trends at the low end of the credit spectrum. Delinquency migration.",
       "falsifier": "Real wage growth at the low end outrunning debt service costs.",
       "sparkline": [
         99.48,
@@ -2120,7 +2192,9 @@
         104.47
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "3–9 months",
+      "horizon_note": "Fastest-feedback short in the book. Credit card trusts report charge-offs and delinquencies monthly, so the thesis gets confirmed or killed in weeks rather than years."
     },
     {
       "id": "w",
@@ -2141,9 +2215,9 @@
       "week_pct": -2.22,
       "month_pct": 10.57,
       "target_weight_pct": 2.5,
-      "thesis": "Big-ticket discretionary purchases tied to home turnover, sold at structurally thin margins with negative book value. It is a leveraged bet on a housing transaction recovery that higher-for-longer rates keep deferring.",
-      "catalyst": "Existing home sales stagnation feeding directly into furniture demand; no margin cushion.",
-      "falsifier": "A genuine housing turnover recovery, or cost cuts producing durable positive free cash flow.",
+      "thesis": "Big-ticket discretionary tied to home turnover, sold at structurally thin margins with negative book value. A levered bet on a housing transaction recovery that high rates keep deferring.",
+      "catalyst": "Existing home sales stagnation feeding straight into furniture demand. No margin cushion.",
+      "falsifier": "A real housing turnover recovery, or cost cuts producing durable positive free cash flow.",
       "sparkline": [
         87.76,
         84.81,
@@ -2177,7 +2251,9 @@
         99.27
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "2–4 quarters",
+      "horizon_note": "Quarterly comps are the scoreboard. Faster than the homebuilder short because there is no balance sheet cushion — one bad quarter moves the equity hard."
     },
     {
       "id": "tsla",
@@ -2198,9 +2274,9 @@
       "week_pct": 5.44,
       "month_pct": 18.23,
       "target_weight_pct": 3.5,
-      "thesis": "Priced as though autonomy and robotics are already solved while the actual business — selling cars into a competitive, subsidy-reduced market — faces compressing margins. The narrative premium is enormous relative to delivered fundamentals.",
-      "catalyst": "Automotive gross margin pressure and share loss in China and Europe against a valuation demanding perfection.",
-      "falsifier": "A genuine unsupervised autonomy milestone at scale — the one outcome that justifies the multiple. Squeeze-prone; size accordingly.",
+      "thesis": "Priced as if autonomy and robotics are already solved. The actual business sells cars into a competitive, subsidy-reduced market with compressing margins. The narrative premium is enormous relative to delivered fundamentals.",
+      "catalyst": "Auto gross margin pressure and share loss in China and Europe, against a valuation demanding perfection.",
+      "falsifier": "A genuine unsupervised autonomy milestone at scale — the one outcome that justifies the multiple.",
       "sparkline": [
         378.93,
         374.01,
@@ -2234,7 +2310,9 @@
         367.95
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.5,
+      "horizon": "Catalyst-dependent",
+      "horizon_note": "Like Palantir, no clock and heavy squeeze risk. Retail flows and narrative can override fundamentals for years. Position size is the entire risk control here."
     },
     {
       "id": "smci",
@@ -2255,9 +2333,9 @@
       "week_pct": 6.0,
       "month_pct": 31.27,
       "target_weight_pct": 3.0,
-      "thesis": "The commodity assembler in the AI stack — integrating other people's silicon at low single-digit operating margins while competing with the ODMs the hyperscalers prefer. The natural pair against being long the actual chokepoints: own scarcity, short assembly. Prior accounting and filing issues raise the discount rate on trusting the numbers.",
-      "catalyst": "Gross margin compression from ODM competition; working capital strain funding inventory.",
-      "falsifier": "Liquid-cooled rack-scale integration proving to be a durable moat rather than a commodity service.",
+      "thesis": "The commodity assembler in the AI stack. It integrates other people's silicon at low single-digit margins while competing with the ODMs hyperscalers prefer. The natural pair to owning the chokepoints: own scarcity, short assembly. Prior accounting and filing issues raise the discount rate on trusting the numbers.",
+      "catalyst": "Gross margin compression from ODM competition. Working capital strain funding inventory.",
+      "falsifier": "Liquid-cooled rack integration proves a durable moat rather than a commodity service.",
       "sparkline": [
         25.5,
         30.56,
@@ -2291,7 +2369,9 @@
         37.28
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 3.0,
+      "horizon": "2–4 quarters",
+      "horizon_note": "Fastest of the valuation shorts. Margins print every quarter, so the thesis gets tested four times a year instead of waiting on a narrative break."
     },
     {
       "id": "hood",
@@ -2312,8 +2392,8 @@
       "week_pct": 1.15,
       "month_pct": 21.08,
       "target_weight_pct": 2.5,
-      "thesis": "Earnings are levered to retail speculation — options volume, crypto trading and margin balances all peak together and fall together. This is the cleanest single-name expression of late-cycle retail risk appetite, held as a hedge against the froth the convex sleeve is exposed to.",
-      "catalyst": "Retail engagement and crypto volumes normalizing from cycle highs; rate cuts compressing net interest revenue.",
+      "thesis": "Earnings are levered to retail speculation. Options volume, crypto trading and margin balances peak together and fall together. The cleanest single-name expression of late-cycle retail risk appetite — held against the froth in the convex sleeve.",
+      "catalyst": "Retail engagement and crypto volumes normalizing from cycle highs. Rate cuts compressing net interest revenue.",
       "falsifier": "Durable diversification into retirement and advisory revenue that de-links earnings from speculation.",
       "sparkline": [
         106.36,
@@ -2348,7 +2428,9 @@
         104.81
       ],
       "source": "yahoo",
-      "weight_pct": 2.5
+      "weight_pct": 2.5,
+      "horizon": "Cycle-dependent",
+      "horizon_note": "Pays faster than any other short in a genuine risk-off event, because monthly volume data turns immediately. But it can compound upward for years while the cycle runs. A hedge with a trigger, not a timeline."
     },
     {
       "id": "lulu",
@@ -2369,9 +2451,9 @@
       "week_pct": -2.05,
       "month_pct": 1.17,
       "target_weight_pct": 2.0,
-      "thesis": "A premium brand losing its heat in a category with no barriers to entry, still priced for reacceleration. Brand deceleration in apparel is rarely a one-quarter problem, and discounting to defend share destroys the margin that justified the multiple.",
-      "catalyst": "North American comparable sales deceleration and markdown pressure from newer competitors.",
-      "falsifier": "International growth genuinely offsetting domestic maturity, particularly in China.",
+      "thesis": "A premium brand losing heat in a category with no barriers to entry, still priced for reacceleration. Brand deceleration in apparel is rarely a one-quarter problem. Discounting to defend share destroys the margin that justified the multiple.",
+      "catalyst": "North American comp deceleration and markdown pressure from newer competitors.",
+      "falsifier": "International growth genuinely offsetting domestic maturity, especially in China.",
       "sparkline": [
         116.63,
         113.37,
@@ -2405,7 +2487,9 @@
         120.26
       ],
       "source": "yahoo",
-      "weight_pct": 2.0
+      "weight_pct": 2.0,
+      "horizon": "2–4 quarters",
+      "horizon_note": "Quarterly comps and gross margin are the tell. Retail theses resolve on earnings dates — four discrete tests a year, not a slow drift."
     }
   ],
   "signals": [],

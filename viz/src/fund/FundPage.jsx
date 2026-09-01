@@ -15,6 +15,25 @@ const SLEEVE_COLORS = {
   'Consumer & Rate Stress': '#ff8a65',
 };
 
+// Why each clock runs at the speed it does — the thing that actually resolves
+// the trade, ordered fastest to slowest.
+const CLOCK_LOGIC = {
+  '3–9 months': 'Monthly data. Credit trusts publish charge-offs and delinquencies every month, so the thesis is confirmed or killed in weeks.',
+  '2–4 quarters': 'Earnings dates. Margins and comps print quarterly, giving four discrete tests a year rather than a slow drift.',
+  '6–18 months': 'Reflexive loop. Tied to the crypto cycle and convertible maturities — pays fast when it works, hurts fast when it does not.',
+  '12–24 months': 'Mechanical schedules. Depreciation, debt maturities and housing cycles arrive on their own timetable regardless of sentiment.',
+  '12–30 months': 'Leverage first. Debt compresses equity value well before revenue fully rolls over.',
+  '18–36 months': 'Renewal cycles. Enterprise contracts reset annually, so secular erosion needs four to eight quarters to reach the P&L.',
+  'Cycle-dependent': 'Risk appetite. Turns immediately in a genuine risk-off event, but can compound against you for years while the cycle runs.',
+  'Catalyst-dependent': 'No clock. Valuation alone never forces a re-rating — it needs a trigger that may take quarters or never come. Size is the risk control.',
+  Continuous: 'No payoff date. Insurance rather than a bet: pays only in drawdowns, costs carry in rising markets.',
+};
+
+const CLOCK_ORDER = [
+  '3–9 months', '2–4 quarters', '6–18 months', '12–24 months', '12–30 months',
+  '18–36 months', 'Cycle-dependent', 'Catalyst-dependent', 'Continuous',
+];
+
 const money = (n, digits = 1) => {
   if (n == null || Number.isNaN(n)) return '—';
   const abs = Math.abs(n);
@@ -67,6 +86,18 @@ export default function FundPage() {
       m.set(p.sleeve, cur);
     }
     return [...m.values()].sort((a, b) => b.mv - a.mv);
+  }, [marks.positions]);
+
+  const shortClocks = useMemo(() => {
+    const m = new Map();
+    for (const p of marks.positions) {
+      if (p.side !== 'short' || !p.horizon) continue;
+      if (!m.has(p.horizon)) m.set(p.horizon, []);
+      m.get(p.horizon).push(p);
+    }
+    return [...m.entries()].sort(
+      (a, b) => CLOCK_ORDER.indexOf(a[0]) - CLOCK_ORDER.indexOf(b[0])
+    );
   }, [marks.positions]);
 
   const toggleSort = (key) =>
@@ -224,6 +255,25 @@ export default function FundPage() {
               </section>
 
               <section className="f-card">
+                <h3>Short clocks — when each thesis should pay</h3>
+                <p className="f-clock-intro">
+                  Shorts do not share a timeframe. Grouped by what actually resolves them.
+                </p>
+                {shortClocks.length === 0 && <p className="f-empty">Populates after the first mark.</p>}
+                {shortClocks.map(([horizon, group]) => (
+                  <div key={horizon} className="f-clockgroup">
+                    <div className="f-clockgroup-head">
+                      <span className="f-clock-badge">{horizon}</span>
+                      <span className="f-clockgroup-names">
+                        {group.map((p) => p.ticker).join(' · ')}
+                      </span>
+                    </div>
+                    <p className="f-clockgroup-why">{CLOCK_LOGIC[horizon]}</p>
+                  </div>
+                ))}
+              </section>
+
+              <section className="f-card">
                 <h3>Contribution</h3>
                 {winners.length === 0 && <p className="f-empty">Populates after the first mark.</p>}
                 {winners.length > 0 && (
@@ -343,6 +393,7 @@ function PositionRow({ p, open, onToggle }) {
               <div className="f-detail-head">
                 <span className="f-swatch" style={{ background: SLEEVE_COLORS[p.sleeve] }} />
                 {p.sleeve} · {p.shares?.toLocaleString()} shares · entered {p.entry_date} at ${p.entry_price?.toFixed(2)}
+                {p.horizon && <span className="f-horizon">⏱ {p.horizon}</span>}
               </div>
               <ul>
                 <li>
@@ -352,6 +403,11 @@ function PositionRow({ p, open, onToggle }) {
                 <li>
                   <strong>Why we own it.</strong> {p.thesis}
                 </li>
+                {p.horizon_note && (
+                  <li className="f-clock">
+                    <strong>Clock.</strong> {p.horizon_note}
+                  </li>
+                )}
                 {p.falsifier && (
                   <li className="f-falsifier">
                     <strong>What would prove this wrong.</strong> {p.falsifier}

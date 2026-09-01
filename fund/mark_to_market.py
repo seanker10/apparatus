@@ -256,6 +256,8 @@ def main():
             "thesis": pos["thesis"],
             "catalyst": pos["catalyst"],
             "falsifier": pos.get("falsifier"),
+            "horizon": pos.get("horizon"),
+            "horizon_note": pos.get("horizon_note"),
             "sparkline": [round(c, 4) for _, c in q["series"][-30:]],
             "source": q["source"],
         })
