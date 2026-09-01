@@ -1,0 +1,42 @@
+name: Praxis Capital — daily mark
+
+on:
+  schedule:
+    # 21:10 UTC Mon–Fri. That is 5:10pm ET in summer (EDT) and 4:10pm ET in
+    # winter (EST) — after the 4pm close in both, with settle time for the feeds.
+    - cron: "10 21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fund-mark
+  cancel-in-progress: false
+
+jobs:
+  mark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Mark the book to market
+        run: python fund/mark_to_market.py
+
+      - name: Commit marks
+        run: |
+          git config user.name  "praxis-mark-bot"
+          git config user.email "actions@github.com"
+          git add data/fund/
+          if git diff --staged --quiet; then
+            echo "no change — market likely closed or feeds unchanged"
+            exit 0
+          fi
+          ASOF=$(python -c "import json;print(json.load(open('data/fund/marks.json'))['as_of'])")
+          NAV=$(python -c "import json;m=json.load(open('data/fund/marks.json'));print(f\"\${m['nav']:,.0f} ({m['total_return_pct']:+.2f}%)\")")
+          git commit -m "mark: ${ASOF} — NAV ${NAV}"
+          git push

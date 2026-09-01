@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.jsx';
 import GridPage from './grid/GridPage.jsx';
+import FundPage from './fund/FundPage.jsx';
 import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/grid" element={<GridPage />} />
+        <Route path="/fund" element={<FundPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

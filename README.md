@@ -42,6 +42,19 @@ Data lives in [`data/grid/sites.json`](data/grid/sites.json) and [`data/grid/lin
 
 ---
 
+## Praxis Capital (`/fund`)
+
+A simulated long/short equity fund on the same Vercel project. The LP commits $1B notional; the GP (Claude) researches, allocates and writes the thesis for every line. No real capital, no brokerage, no orders — it is a thinking instrument for tracking investment reasoning against real prices.
+
+- **42 positions** — 27 long (103.5% of NAV) against 15 short (45.0%), for 148.5% gross and 58.5% net. Sleeves: Power & Grid, Compute Chokepoints, Value & Ballast, Hard Assets, Convex; shorts across Index Hedge, AI Disruption Victims, Valuation & Crowding, Consumer & Rate Stress.
+- **Every line carries three bullets** in the UI: what moved it, why we own it, and what would prove the thesis wrong.
+- **Daily mark** via [`fund/mark_to_market.py`](fund/mark_to_market.py) on a weekday cron ([`.github/workflows/fund-mark.yml`](.github/workflows/fund-mark.yml)) — prices the book from Stooq (Yahoo fallback), rolls cash, appends a NAV snapshot, raises risk signals, and commits the ledger back to `main`. Stdlib only, no API keys.
+- **The job never trades.** It marks. Position changes are research decisions made by the GP on review, logged to the blotter with a rationale.
+
+Ledger and schema in [`data/fund/`](data/fund/schema.md).
+
+---
+
 ## Project structure
 
 ```
@@ -52,10 +65,19 @@ apparatus/
 │   ├── nodes.json       # typed nodes
 │   ├── edges.json       # typed directed edges
 │   ├── schema.md        # full schema reference
-│   └── grid/
-│       ├── sites.json   # geocoded sites for The Grid (/grid)
-│       ├── links.json   # connections between sites
-│       └── schema.md    # grid schema reference
+│   ├── grid/
+│   │   ├── sites.json   # geocoded sites for The Grid (/grid)
+│   │   ├── links.json   # connections between sites
+│   │   └── schema.md    # grid schema reference
+│   └── fund/
+│       ├── fund.json    # Praxis Capital mandate + cash state
+│       ├── positions.json  # the book (thesis, catalyst, falsifier per line)
+│       ├── trades.json  # immutable blotter
+│       ├── nav_history.json # daily equity curve
+│       ├── marks.json   # latest marks, written by the cron job
+│       └── schema.md    # fund schema reference
+├── fund/
+│   └── mark_to_market.py   # daily mark engine (stdlib only)
 ├── skill/
 │   ├── SKILL.md         # categorization instructions for the model
 │   ├── handlers.py      # intent routing
@@ -78,12 +100,16 @@ apparatus/
         ├── ApparatusMap.jsx
         ├── hooks/useGraphData.js
         ├── styles.css
-        └── grid/            # The Grid (/grid) — US map page
-            ├── GridPage.jsx
-            ├── USGridMap.jsx
-            ├── gridConfig.js
-            ├── useGridData.js
-            └── grid.css
+        ├── grid/            # The Grid (/grid) — US map page
+        │   ├── GridPage.jsx
+        │   ├── USGridMap.jsx
+        │   ├── gridConfig.js
+        │   ├── useGridData.js
+        │   └── grid.css
+        └── fund/            # Praxis Capital (/fund) — simulated fund
+            ├── FundPage.jsx
+            ├── useFundData.js
+            └── fund.css
 ```
 
 ---

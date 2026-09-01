@@ -205,6 +205,7 @@ export default function GridPage() {
             About
           </button>
           <Link className="g-back" to="/">← The Apparatus</Link>
+          <Link className="g-back" to="/fund">Fund</Link>
         </div>
       </header>
 
