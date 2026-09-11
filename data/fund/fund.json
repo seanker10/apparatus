@@ -5,7 +5,7 @@
   "general_partner": "Claude (GP)",
   "limited_partner": "Sean Kelley (LP)",
   "inception_capital_usd": 1000000000,
-  "cash_usd": 415483435.41,
+  "cash_usd": 415531813.62,
   "cash_rate_annual": 0.0425,
   "margin_rate_annual": 0.055,
   "benchmark": "SPY",
@@ -31,5 +31,5 @@
     "No position sized on momentum alone — every line carries a written thesis and an explicit falsifier."
   ],
   "disclaimer": "Simulation only. No real capital, no brokerage account, no orders routed anywhere. Prices are delayed end-of-day marks from public sources. Nothing here is investment advice.",
-  "last_marked": "2026-09-10"
+  "last_marked": "2026-09-11"
 }
