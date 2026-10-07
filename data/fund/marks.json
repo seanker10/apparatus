@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-10-05",
-  "generated_at": "2026-10-06T01:44:22+00:00",
-  "run_date": "2026-10-06",
-  "nav": 1028362774.7,
-  "cash": 416694480.39,
+  "as_of": "2026-10-06",
+  "generated_at": "2026-10-07T00:37:36+00:00",
+  "run_date": "2026-10-07",
+  "nav": 1033619588.29,
+  "cash": 416742999.61,
   "capital": 1000000000.0,
-  "total_return_pct": 2.8363,
-  "total_pnl": 28362774.7,
-  "day_pnl": 5732941.69,
-  "long_mv": 1066095611.3,
-  "short_mv": 454427316.99,
-  "gross_pct": 147.86,
-  "net_pct": 59.48,
+  "total_return_pct": 3.362,
+  "total_pnl": 33619588.29,
+  "day_pnl": 6856629.39,
+  "long_mv": 1071631840.98,
+  "short_mv": 454755252.29,
+  "gross_pct": 147.67,
+  "net_pct": 59.68,
   "positions": [
     {
       "id": "ceg",
@@ -68,7 +68,7 @@
         267.62
       ],
       "source": "yahoo",
-      "weight_pct": 6.16
+      "weight_pct": 6.12
     },
     {
       "id": "gev",
@@ -125,7 +125,7 @@
         990.0
       ],
       "source": "yahoo",
-      "weight_pct": 6.43
+      "weight_pct": 6.4
     },
     {
       "id": "vst",
@@ -182,7 +182,7 @@
         144.89
       ],
       "source": "yahoo",
-      "weight_pct": 5.64
+      "weight_pct": 5.61
     },
     {
       "id": "vrt",
@@ -239,7 +239,7 @@
         253.62
       ],
       "source": "yahoo",
-      "weight_pct": 4.77
+      "weight_pct": 4.74
     },
     {
       "id": "pwr",
@@ -250,21 +250,20 @@
       "shares": 74124.1,
       "entry_price": 607.09,
       "entry_date": "2026-08-31",
-      "price": 683.42,
-      "asof": "2026-10-05",
-      "market_value": 50657891.16,
+      "price": 719.56,
+      "asof": "2026-10-06",
+      "market_value": 53336737.22,
       "cost_basis": 44999999.87,
-      "unrealized_pnl": 5657891.29,
-      "return_pct": 12.57,
-      "day_pct": 1.01,
-      "week_pct": 6.06,
-      "month_pct": 10.22,
+      "unrealized_pnl": 8336737.35,
+      "return_pct": 18.53,
+      "day_pct": 5.29,
+      "week_pct": 10.4,
+      "month_pct": 15.24,
       "target_weight_pct": 4.5,
       "thesis": "The binding constraint on transmission is not steel or permits, it is skilled linemen — and Quanta owns the largest trained craft workforce in North America. Labor scarcity converts a contractor into a toll road on grid expansion.",
       "catalyst": "Transmission awards tied to interconnection backlogs; utility capex guidance revisions moving up.",
       "falsifier": "Fixed-price contract losses, or utilities deferring transmission spend under rate-case pressure.",
       "sparkline": [
-        616.78,
         603.78,
         616.73,
         621.83,
@@ -293,10 +292,11 @@
         642.51,
         662.6,
         676.56,
-        683.42
+        683.42,
+        719.56
       ],
       "source": "yahoo",
-      "weight_pct": 4.93
+      "weight_pct": 5.16
     },
     {
       "id": "tln",
@@ -353,7 +353,7 @@
         331.87
       ],
       "source": "yahoo",
-      "weight_pct": 3.82
+      "weight_pct": 3.8
     },
     {
       "id": "etn",
@@ -364,21 +364,20 @@
       "shares": 74649.15,
       "entry_price": 401.88,
       "entry_date": "2026-08-31",
-      "price": 432.6,
-      "asof": "2026-10-05",
-      "market_value": 32293222.75,
+      "price": 445.09,
+      "asof": "2026-10-06",
+      "market_value": 33225589.9,
       "cost_basis": 30000000.4,
-      "unrealized_pnl": 2293222.34,
-      "return_pct": 7.64,
-      "day_pct": -0.8,
-      "week_pct": 0.28,
-      "month_pct": 8.93,
+      "unrealized_pnl": 3225589.5,
+      "return_pct": 10.75,
+      "day_pct": 2.89,
+      "week_pct": 2.73,
+      "month_pct": 8.33,
       "target_weight_pct": 3.0,
       "thesis": "Electrical components — switchgear, busway, breakers — with lead times that have stretched from weeks to quarters. Quality compounder giving the sleeve a lower-beta anchor without leaving the theme.",
       "catalyst": "Data center segment growth and electrical backlog; reshoring capex layered on top.",
       "falsifier": "Lead times normalizing, which would signal supply caught up and pricing power is over.",
       "sparkline": [
-        408.67,
         409.2,
         419.44,
         416.04,
@@ -407,10 +406,11 @@
         429.71,
         437.28,
         436.11,
-        432.6
+        432.6,
+        445.09
       ],
       "source": "yahoo",
-      "weight_pct": 3.14
+      "weight_pct": 3.21
     },
     {
       "id": "mu",
@@ -421,21 +421,20 @@
       "shares": 62582.79,
       "entry_price": 958.73,
       "entry_date": "2026-08-31",
-      "price": 1063.96,
-      "asof": "2026-10-05",
-      "market_value": 66585582.8,
+      "price": 1045.5601,
+      "asof": "2026-10-06",
+      "market_value": 65434065.58,
       "cost_basis": 59999998.26,
-      "unrealized_pnl": 6585584.55,
-      "return_pct": 10.98,
-      "day_pct": -1.02,
-      "week_pct": 0.95,
-      "month_pct": 11.04,
+      "unrealized_pnl": 5434067.32,
+      "return_pct": 9.06,
+      "day_pct": -1.73,
+      "week_pct": -1.83,
+      "month_pct": 2.85,
       "target_weight_pct": 6.0,
       "thesis": "High-bandwidth memory is the real constraint on accelerator shipments, and HBM capacity consumes wafer supply that would otherwise make commodity DRAM — so the AI cycle tightens the conventional cycle at the same time. Still trades at a low multiple of mid-cycle earnings because the market refuses to believe memory can be structurally better.",
       "catalyst": "HBM sold out well forward with pricing locked; conventional DRAM tightening as capacity is diverted.",
       "falsifier": "A capacity war restarting, or HBM competition compressing the pricing premium faster than volumes grow.",
       "sparkline": [
-        910.43,
         932.97,
         938.4,
         935.39,
@@ -464,10 +463,11 @@
         1065.11,
         1097.39,
         1074.89,
-        1063.96
+        1063.96,
+        1045.5601
       ],
       "source": "yahoo",
-      "weight_pct": 6.47
+      "weight_pct": 6.33
     },
     {
       "id": "avgo",
@@ -478,21 +478,20 @@
       "shares": 148512.18,
       "entry_price": 370.34,
       "entry_date": "2026-08-31",
-      "price": 362.51,
-      "asof": "2026-10-05",
-      "market_value": 53837151.82,
+      "price": 375.81,
+      "asof": "2026-10-06",
+      "market_value": 55812362.0,
       "cost_basis": 55000000.74,
-      "unrealized_pnl": -1162848.92,
-      "return_pct": -2.11,
-      "day_pct": 2.08,
-      "week_pct": 3.7,
-      "month_pct": 1.5,
+      "unrealized_pnl": 812361.26,
+      "return_pct": 1.48,
+      "day_pct": 3.67,
+      "week_pct": 5.83,
+      "month_pct": 5.0,
       "target_weight_pct": 5.5,
       "thesis": "Owns the custom-silicon franchise for the hyperscalers that most want to escape merchant GPU pricing. Every dollar of accelerator budget that moves in-house still lands here, plus networking silicon attached to the same racks — a hedge on which chip wins rather than a bet.",
       "catalyst": "Custom accelerator program ramps at multiple hyperscalers; AI networking share gains.",
       "falsifier": "A major customer pulling a custom program back to merchant silicon, or software/VMware attrition offsetting semis.",
       "sparkline": [
-        358.76,
         356.74,
         355.59,
         371.54,
@@ -521,10 +520,11 @@
         351.19,
         343.64,
         355.14,
-        362.51
+        362.51,
+        375.81
       ],
       "source": "yahoo",
-      "weight_pct": 5.24
+      "weight_pct": 5.4
     },
     {
       "id": "tsm",
@@ -535,21 +535,20 @@
       "shares": 120389.1,
       "entry_price": 415.32,
       "entry_date": "2026-08-31",
-      "price": 485.8,
-      "asof": "2026-10-05",
-      "market_value": 58485023.31,
+      "price": 482.3,
+      "asof": "2026-10-06",
+      "market_value": 58063661.46,
       "cost_basis": 50000001.01,
-      "unrealized_pnl": 8485022.3,
-      "return_pct": 16.97,
-      "day_pct": 2.75,
-      "week_pct": 7.27,
-      "month_pct": 16.5,
+      "unrealized_pnl": 8063660.45,
+      "return_pct": 16.13,
+      "day_pct": -0.72,
+      "week_pct": 5.55,
+      "month_pct": 12.45,
       "target_weight_pct": 5.0,
       "thesis": "Every accelerator in the world is fabricated here, yet it trades at a persistent discount to its own customers because of geopolitical risk. Owning the monopolist at a discount to the people who depend on it is the single best risk-adjusted line in the compute sleeve.",
       "catalyst": "Advanced-node and packaging capacity sold out; pricing increases passed through with no volume loss.",
       "falsifier": "A genuine Taiwan Strait escalation — the reason for the discount and the reason to size it below conviction.",
       "sparkline": [
-        410.12,
         417.41,
         417.69,
         427.3,
@@ -578,10 +577,11 @@
         456.19,
         459.2,
         472.78,
-        485.8
+        485.8,
+        482.3
       ],
       "source": "yahoo",
-      "weight_pct": 5.69
+      "weight_pct": 5.62
     },
     {
       "id": "anet",
@@ -638,7 +638,7 @@
         206.9
       ],
       "source": "yahoo",
-      "weight_pct": 3.08
+      "weight_pct": 3.07
     },
     {
       "id": "crdo",
@@ -695,7 +695,7 @@
         212.48
       ],
       "source": "yahoo",
-      "weight_pct": 1.83
+      "weight_pct": 1.82
     },
     {
       "id": "mck",
@@ -706,21 +706,20 @@
       "shares": 50829.08,
       "entry_price": 885.32,
       "entry_date": "2026-08-31",
-      "price": 915.45,
-      "asof": "2026-10-05",
-      "market_value": 46531481.91,
+      "price": 921.67,
+      "asof": "2026-10-06",
+      "market_value": 46847637.29,
       "cost_basis": 45000001.11,
-      "unrealized_pnl": 1531480.8,
-      "return_pct": 3.4,
-      "day_pct": 1.46,
-      "week_pct": 6.91,
-      "month_pct": -0.64,
+      "unrealized_pnl": 1847636.19,
+      "return_pct": 4.11,
+      "day_pct": 0.68,
+      "week_pct": 6.57,
+      "month_pct": 1.51,
       "target_weight_pct": 4.5,
       "thesis": "A three-company oligopoly moving essentially every pill in America, earning a spread on volume rather than drug price. GLP-1 volumes flow straight through the distribution network, and the multiple still reflects opioid-litigation scar tissue that is now largely settled.",
       "catalyst": "Specialty and GLP-1 distribution volume growth; steady buyback.",
       "falsifier": "Manufacturers disintermediating distributors with direct-to-patient channels at scale.",
       "sparkline": [
-        873.79,
         905.09,
         896.65,
         890.51,
@@ -749,10 +748,11 @@
         853.81,
         898.82,
         902.28,
-        915.45
+        915.45,
+        921.67
       ],
       "source": "yahoo",
-      "weight_pct": 4.52
+      "weight_pct": 4.53
     },
     {
       "id": "ci",
@@ -763,21 +763,20 @@
       "shares": 144885.55,
       "entry_price": 276.08,
       "entry_date": "2026-08-31",
-      "price": 271.29,
-      "asof": "2026-10-05",
-      "market_value": 39306002.1,
+      "price": 274.37,
+      "asof": "2026-10-06",
+      "market_value": 39752247.65,
       "cost_basis": 40000002.64,
-      "unrealized_pnl": -694000.55,
-      "return_pct": -1.74,
-      "day_pct": 0.28,
-      "week_pct": -0.2,
-      "month_pct": -5.23,
+      "unrealized_pnl": -247755.0,
+      "return_pct": -0.62,
+      "day_pct": 1.14,
+      "week_pct": -0.32,
+      "month_pct": -2.88,
       "target_weight_pct": 4.0,
       "thesis": "Managed care has been repriced for a medical-cost shock and PBM political risk, leaving a cash-generative business at a low-double-digit multiple. Cigna carries less Medicare Advantage exposure than peers — the market is applying the sector's pain to the company least exposed to it.",
       "catalyst": "Cost-trend stabilization and PBM reform landing softer than the bear case assumed.",
       "falsifier": "Federal PBM legislation that structurally breaks the rebate economics.",
       "sparkline": [
-        280.45,
         279.32,
         280.87,
         277.67,
@@ -806,10 +805,11 @@
         271.83,
         267.96,
         270.53,
-        271.29
+        271.29,
+        274.37
       ],
       "source": "yahoo",
-      "weight_pct": 3.82
+      "weight_pct": 3.85
     },
     {
       "id": "brkb",
@@ -820,21 +820,20 @@
       "shares": 79360.36,
       "entry_price": 504.03,
       "entry_date": "2026-08-31",
-      "price": 504.26,
-      "asof": "2026-10-05",
-      "market_value": 40018255.91,
+      "price": 505.54,
+      "asof": "2026-10-06",
+      "market_value": 40119837.07,
       "cost_basis": 40000002.25,
-      "unrealized_pnl": 18253.66,
-      "return_pct": 0.05,
-      "day_pct": 0.32,
-      "week_pct": 0.23,
-      "month_pct": -0.76,
+      "unrealized_pnl": 119834.82,
+      "return_pct": 0.3,
+      "day_pct": 0.25,
+      "week_pct": 0.64,
+      "month_pct": -0.1,
       "target_weight_pct": 4.0,
       "thesis": "Held as structural ballast, not for alpha. An enormous T-bill position inside an operating conglomerate means it gets stronger, not weaker, if the market breaks — the closest thing to owning optionality on someone else's forced selling.",
       "catalyst": "Cash balance earning short rates; deployment optionality if credit or equity markets dislocate.",
       "falsifier": "Nothing thesis-breaking — this line exists to lose less when the book is wrong.",
       "sparkline": [
-        504.32,
         504.32,
         504.91,
         503.7,
@@ -863,10 +862,11 @@
         497.95,
         500.5,
         502.65,
-        504.26
+        504.26,
+        505.54
       ],
       "source": "yahoo",
-      "weight_pct": 3.89
+      "weight_pct": 3.88
     },
     {
       "id": "lng",
@@ -877,21 +877,20 @@
       "shares": 137131.89,
       "entry_price": 291.69,
       "entry_date": "2026-08-31",
-      "price": 274.93,
-      "asof": "2026-10-05",
-      "market_value": 37701669.51,
+      "price": 275.26,
+      "asof": "2026-10-06",
+      "market_value": 37746925.38,
       "cost_basis": 40000000.99,
-      "unrealized_pnl": -2298331.48,
-      "return_pct": -5.75,
-      "day_pct": 1.84,
-      "week_pct": 1.96,
-      "month_pct": -5.47,
+      "unrealized_pnl": -2253075.61,
+      "return_pct": -5.63,
+      "day_pct": 0.12,
+      "week_pct": 2.98,
+      "month_pct": -5.73,
       "target_weight_pct": 4.0,
       "thesis": "Contracted, take-or-pay export capacity that gets paid on volume rather than commodity price — and domestic gas demand now has a second engine in data center generation. Long-dated contracts with investment-grade counterparties, priced like a commodity stock.",
       "catalyst": "Train expansions and long-term SPAs; structural gas demand growth from power generation.",
       "falsifier": "Export permit reversals, or a global LNG supply glut compressing new contract pricing.",
       "sparkline": [
-        280.79,
         278.8,
         284.08,
         280.8,
@@ -920,10 +919,11 @@
         269.03,
         272.4,
         269.95,
-        274.93
+        274.93,
+        275.26
       ],
       "source": "yahoo",
-      "weight_pct": 3.67
+      "weight_pct": 3.65
     },
     {
       "id": "ccj",
@@ -934,21 +934,20 @@
       "shares": 405022.27,
       "entry_price": 98.76,
       "entry_date": "2026-08-31",
-      "price": 87.47,
-      "asof": "2026-10-05",
-      "market_value": 35427298.45,
+      "price": 93.02,
+      "asof": "2026-10-06",
+      "market_value": 37675170.2,
       "cost_basis": 39999999.39,
-      "unrealized_pnl": -4572700.93,
-      "return_pct": -11.43,
-      "day_pct": 2.69,
-      "week_pct": 0.49,
-      "month_pct": -13.07,
+      "unrealized_pnl": -2324829.19,
+      "return_pct": -5.81,
+      "day_pct": 6.35,
+      "week_pct": 7.07,
+      "month_pct": -7.66,
       "target_weight_pct": 4.0,
       "thesis": "If the nuclear thesis behind CEG, VST and TLN is right, it has to show up in fuel. Western utilities are re-contracting after decades of running down inventories, and primary supply cannot respond quickly. Cameco also owns a stake in the reactor vendor, so it monetizes both fuel and new build.",
       "catalyst": "Long-term uranium contracting cycle; reactor life extensions and restarts.",
       "falsifier": "Supply discipline breaking, or a nuclear safety event resetting political appetite.",
       "sparkline": [
-        102.27,
         106.96,
         107.36,
         106.33,
@@ -977,10 +976,11 @@
         86.67,
         85.69,
         85.18,
-        87.47
+        87.47,
+        93.02
       ],
       "source": "yahoo",
-      "weight_pct": 3.45
+      "weight_pct": 3.64
     },
     {
       "id": "cb",
@@ -991,21 +991,20 @@
       "shares": 103366.8,
       "entry_price": 338.6,
       "entry_date": "2026-08-31",
-      "price": 330.49,
-      "asof": "2026-10-05",
-      "market_value": 34161692.72,
+      "price": 334.21,
+      "asof": "2026-10-06",
+      "market_value": 34546217.34,
       "cost_basis": 34999998.48,
-      "unrealized_pnl": -838305.76,
-      "return_pct": -2.4,
-      "day_pct": -0.12,
-      "week_pct": -0.27,
-      "month_pct": -5.1,
+      "unrealized_pnl": -453781.14,
+      "return_pct": -1.3,
+      "day_pct": 1.13,
+      "week_pct": 0.64,
+      "month_pct": -2.16,
       "target_weight_pct": 3.5,
       "thesis": "Best-in-class P&C underwriter with a float that earns more as rates stay higher for longer. Climate-driven loss trends are painful for bad underwriters and a pricing tailwind for disciplined ones — this is the disciplined one.",
       "catalyst": "Commercial P&C pricing holding above loss-cost trend; investment income compounding.",
       "falsifier": "A soft-market turn in commercial pricing, or a catastrophe year that overwhelms reinsurance.",
       "sparkline": [
-        345.83,
         343.11,
         343.77,
         338.31,
@@ -1034,10 +1033,11 @@
         325.25,
         331.3,
         330.89,
-        330.49
+        330.49,
+        334.21
       ],
       "source": "yahoo",
-      "weight_pct": 3.32
+      "weight_pct": 3.34
     },
     {
       "id": "gld",
@@ -1048,21 +1048,20 @@
       "shares": 110180.69,
       "entry_price": 408.42,
       "entry_date": "2026-08-31",
-      "price": 379.55,
-      "asof": "2026-10-05",
-      "market_value": 41819079.54,
+      "price": 382.27,
+      "asof": "2026-10-06",
+      "market_value": 42118771.16,
       "cost_basis": 44999997.41,
-      "unrealized_pnl": -3180917.87,
-      "return_pct": -7.07,
-      "day_pct": -0.16,
-      "week_pct": 0.43,
-      "month_pct": -7.48,
+      "unrealized_pnl": -2881226.25,
+      "return_pct": -6.4,
+      "day_pct": 0.72,
+      "week_pct": -0.16,
+      "month_pct": -6.02,
       "target_weight_pct": 4.5,
       "thesis": "The hedge against the thing no equity position can hedge: fiscal dominance. Persistent deficits, an administration applying pressure to monetary policy, and central banks diversifying reserves away from Treasuries all point the same direction. Also the only line in the book that is not correlated to AI capex.",
       "catalyst": "Central bank reserve accumulation; real-rate and fiscal-credibility repricing.",
       "falsifier": "A genuine fiscal consolidation, or real rates rising sharply with a firm dollar.",
       "sparkline": [
-        426.69,
         428.07,
         421.32,
         422.6,
@@ -1091,7 +1090,8 @@
         380.84,
         382.76,
         380.14,
-        379.55
+        379.55,
+        382.27
       ],
       "source": "yahoo",
       "weight_pct": 4.07
@@ -1105,21 +1105,20 @@
       "shares": 277645.57,
       "entry_price": 126.06,
       "entry_date": "2026-08-31",
-      "price": 115.82,
-      "asof": "2026-10-05",
-      "market_value": 32156909.83,
+      "price": 116.39,
+      "asof": "2026-10-06",
+      "market_value": 32315167.72,
       "cost_basis": 35000000.55,
-      "unrealized_pnl": -2843090.72,
-      "return_pct": -8.12,
-      "day_pct": 0.22,
-      "week_pct": -0.2,
-      "month_pct": -11.2,
+      "unrealized_pnl": -2684832.83,
+      "return_pct": -7.67,
+      "day_pct": 0.49,
+      "week_pct": -0.6,
+      "month_pct": -9.13,
       "target_weight_pct": 3.5,
       "thesis": "Operating leverage on the gold position. Miner margins expand faster than the metal when costs are flat, and the sector spent a decade being disciplined about capex after the last cycle destroyed it.",
       "catalyst": "All-in sustaining costs flat against a rising gold price; free cash flow returned to holders.",
       "falsifier": "Cost inflation eating the margin expansion — the classic way gold miners disappoint.",
       "sparkline": [
-        131.84,
         135.14,
         131.6,
         132.29,
@@ -1148,7 +1147,8 @@
         115.34,
         114.67,
         115.56,
-        115.82
+        115.82,
+        116.39
       ],
       "source": "yahoo",
       "weight_pct": 3.13
@@ -1162,21 +1162,20 @@
       "shares": 462107.22,
       "entry_price": 75.74,
       "entry_date": "2026-08-31",
-      "price": 72.6,
-      "asof": "2026-10-05",
-      "market_value": 33548983.47,
+      "price": 72.56,
+      "asof": "2026-10-06",
+      "market_value": 33530498.76,
       "cost_basis": 35000000.84,
-      "unrealized_pnl": -1451017.38,
-      "return_pct": -4.15,
-      "day_pct": 0.78,
-      "week_pct": 0.89,
-      "month_pct": 0.06,
+      "unrealized_pnl": -1469502.09,
+      "return_pct": -4.2,
+      "day_pct": -0.06,
+      "week_pct": 2.5,
+      "month_pct": -0.23,
       "target_weight_pct": 3.5,
       "thesis": "Every transformer, cable and switchgear line in the power sleeve is made of copper, and no meaningful new supply arrives this decade. This is the commodity expression of the same electrification thesis the equity sleeve expresses through manufacturers.",
       "catalyst": "Grid and data center copper intensity meeting a thin project pipeline; smelter and mine disruptions.",
       "falsifier": "A China-led industrial slowdown overwhelming electrification demand.",
       "sparkline": [
-        77.8,
         79.91,
         79.0,
         78.42,
@@ -1205,10 +1204,11 @@
         70.0,
         69.28,
         72.04,
-        72.6
+        72.6,
+        72.56
       ],
       "source": "yahoo",
-      "weight_pct": 3.26
+      "weight_pct": 3.24
     },
     {
       "id": "be",
@@ -1265,7 +1265,7 @@
         286.65
       ],
       "source": "yahoo",
-      "weight_pct": 4.05
+      "weight_pct": 4.03
     },
     {
       "id": "nbis",
@@ -1322,7 +1322,7 @@
         232.57
       ],
       "source": "yahoo",
-      "weight_pct": 2.74
+      "weight_pct": 2.73
     },
     {
       "id": "stx",
@@ -1333,21 +1333,20 @@
       "shares": 30179.39,
       "entry_price": 828.38,
       "entry_date": "2026-08-31",
-      "price": 887.09,
-      "asof": "2026-10-05",
-      "market_value": 26771835.89,
+      "price": 805.63,
+      "asof": "2026-10-06",
+      "market_value": 24313422.11,
       "cost_basis": 25000003.09,
-      "unrealized_pnl": 1771832.8,
-      "return_pct": 7.09,
-      "day_pct": 4.49,
-      "week_pct": -3.74,
-      "month_pct": 11.08,
+      "unrealized_pnl": -686580.98,
+      "return_pct": -2.75,
+      "day_pct": -9.18,
+      "week_pct": -11.8,
+      "month_pct": -5.14,
       "target_weight_pct": 2.5,
       "thesis": "Everyone models the compute cost of AI and nobody models where the output gets stored. Nearline HDD is a rational duopoly with no new entrants, running tight after years of underinvestment, and HAMR raises areal density right as demand inflects.",
       "catalyst": "Nearline exabyte demand from AI data retention; HAMR qualification at hyperscalers.",
       "falsifier": "NAND pricing falling far enough to invade the nearline tier earlier than expected.",
       "sparkline": [
-        794.65,
         821.67,
         846.37,
         847.2,
@@ -1376,10 +1375,11 @@
         922.34,
         945.57,
         848.99,
-        887.09
+        887.09,
+        805.63
       ],
       "source": "yahoo",
-      "weight_pct": 2.6
+      "weight_pct": 2.35
     },
     {
       "id": "oklo",
@@ -1493,7 +1493,7 @@
         7.68
       ],
       "source": "yahoo",
-      "weight_pct": 1.21
+      "weight_pct": 1.2
     },
     {
       "id": "cifr",
@@ -1550,7 +1550,7 @@
         15.48
       ],
       "source": "yahoo",
-      "weight_pct": 1.46
+      "weight_pct": 1.45
     },
     {
       "id": "qqq",
@@ -1561,21 +1561,20 @@
       "shares": 83710.03,
       "entry_price": 716.76,
       "entry_date": "2026-08-31",
-      "price": 756.2,
-      "asof": "2026-10-05",
-      "market_value": 63301525.71,
+      "price": 759.66,
+      "asof": "2026-10-06",
+      "market_value": 63591159.14,
       "cost_basis": 60000001.1,
-      "unrealized_pnl": -3301524.61,
-      "return_pct": -5.5,
-      "day_pct": 0.88,
-      "week_pct": 2.67,
-      "month_pct": 5.37,
+      "unrealized_pnl": -3591158.04,
+      "return_pct": -5.99,
+      "day_pct": 0.46,
+      "week_pct": 2.94,
+      "month_pct": 5.66,
       "target_weight_pct": 6.0,
       "thesis": "The core beta hedge. The long book is deliberately concentrated in one macro theme, so a short against the index that expresses that theme most richly converts the portfolio from a directional bet on AI into a bet on owning the right part of it.",
       "catalyst": "Index concentration at historic extremes; hedge sized to blunt a broad multiple compression.",
       "falsifier": "A melt-up where the index outruns the long book — the accepted cost of carrying insurance.",
       "sparkline": [
-        706.32,
         710.72,
         711.37,
         721.11,
@@ -1604,10 +1603,11 @@
         739.77,
         742.03,
         749.58,
-        756.2
+        756.2,
+        759.66
       ],
       "source": "yahoo",
-      "weight_pct": 6.16
+      "weight_pct": 6.15
     },
     {
       "id": "iwm",
@@ -1618,21 +1618,20 @@
       "shares": 136086.83,
       "entry_price": 293.93,
       "entry_date": "2026-08-31",
-      "price": 283.38,
-      "asof": "2026-10-05",
-      "market_value": 38564286.55,
+      "price": 281.34,
+      "asof": "2026-10-06",
+      "market_value": 38286668.25,
       "cost_basis": 40000001.94,
-      "unrealized_pnl": 1435715.39,
-      "return_pct": 3.59,
-      "day_pct": 0.66,
-      "week_pct": 1.2,
-      "month_pct": -4.0,
+      "unrealized_pnl": 1713333.69,
+      "return_pct": 4.28,
+      "day_pct": -0.72,
+      "week_pct": 0.84,
+      "month_pct": -4.96,
       "target_weight_pct": 4.0,
       "thesis": "Small caps carry floating-rate debt, thin margins and a meaningful share of unprofitable constituents. If higher-for-longer rates persist alongside rising industrial electricity costs, this is where the damage compounds first.",
       "catalyst": "Refinancing walls at elevated rates; margin pressure from energy and labor costs.",
       "falsifier": "An aggressive easing cycle, which would send this cohort up hardest.",
       "sparkline": [
-        297.97,
         299.23,
         298.93,
         299.81,
@@ -1661,10 +1660,11 @@
         277.89,
         279.02,
         281.52,
-        283.38
+        283.38,
+        281.34
       ],
       "source": "yahoo",
-      "weight_pct": 3.75
+      "weight_pct": 3.7
     },
     {
       "id": "epam",
@@ -1721,7 +1721,7 @@
         109.95
       ],
       "source": "yahoo",
-      "weight_pct": 2.27
+      "weight_pct": 2.26
     },
     {
       "id": "it",
@@ -1732,21 +1732,20 @@
       "shares": 126192.52,
       "entry_price": 198.11,
       "entry_date": "2026-08-31",
-      "price": 187.76,
-      "asof": "2026-10-05",
-      "market_value": 23693906.86,
+      "price": 184.92,
+      "asof": "2026-10-06",
+      "market_value": 23335520.57,
       "cost_basis": 25000000.14,
-      "unrealized_pnl": 1306093.28,
-      "return_pct": 5.22,
-      "day_pct": 1.6,
-      "week_pct": 1.09,
-      "month_pct": -3.94,
+      "unrealized_pnl": 1664479.57,
+      "return_pct": 6.66,
+      "day_pct": -1.51,
+      "week_pct": -0.5,
+      "month_pct": -0.8,
       "target_weight_pct": 2.5,
       "thesis": "Sells subscription access to synthesized research — precisely the product a competent model now produces on demand. Contract value growth has been decelerating, and subscription businesses unwind slowly and then all at once when renewal logic breaks.",
       "catalyst": "Contract value growth deceleration; enterprise research budgets meeting AI substitutes.",
       "falsifier": "Renewal rates holding, proving the moat is the analyst relationship rather than the document.",
       "sparkline": [
-        202.78,
         195.79,
         192.96,
         196.6,
@@ -1775,10 +1774,11 @@
         186.54,
         192.8,
         184.8,
-        187.76
+        187.76,
+        184.92
       ],
       "source": "yahoo",
-      "weight_pct": 2.3
+      "weight_pct": 2.26
     },
     {
       "id": "cnxc",
@@ -1835,7 +1835,7 @@
         25.87
       ],
       "source": "yahoo",
-      "weight_pct": 1.67
+      "weight_pct": 1.66
     },
     {
       "id": "pltr",
@@ -1892,7 +1892,7 @@
         189.4
       ],
       "source": "yahoo",
-      "weight_pct": 3.46
+      "weight_pct": 3.44
     },
     {
       "id": "crwv",
@@ -1949,7 +1949,7 @@
         87.39
       ],
       "source": "yahoo",
-      "weight_pct": 3.0
+      "weight_pct": 2.99
     },
     {
       "id": "mstr",
@@ -1960,21 +1960,20 @@
       "shares": 188054.76,
       "entry_price": 132.94,
       "entry_date": "2026-08-31",
-      "price": 164.43,
-      "asof": "2026-10-05",
-      "market_value": 30921842.81,
+      "price": 164.55,
+      "asof": "2026-10-06",
+      "market_value": 30944411.33,
       "cost_basis": 24999999.79,
-      "unrealized_pnl": -5921843.02,
-      "return_pct": -23.69,
-      "day_pct": 2.76,
-      "week_pct": 4.64,
-      "month_pct": 13.54,
+      "unrealized_pnl": -5944411.54,
+      "return_pct": -23.78,
+      "day_pct": 0.07,
+      "week_pct": 6.39,
+      "month_pct": 15.23,
       "target_weight_pct": 2.5,
       "thesis": "A levered bitcoin holding company trading above the value of its coins. The premium exists only while it can keep issuing equity accretively — a reflexive loop that runs in reverse when the premium compresses. Shorting the premium, not the asset.",
       "catalyst": "Premium-to-NAV compression as issuance capacity saturates; convertible maturities ahead.",
       "falsifier": "A bitcoin melt-up that re-inflates the premium faster than dilution erodes it.",
       "sparkline": [
-        122.63,
         126.83,
         123.19,
         137.4,
@@ -2003,10 +2002,11 @@
         153.09,
         160.5,
         160.01,
-        164.43
+        164.43,
+        164.55
       ],
       "source": "yahoo",
-      "weight_pct": 3.01
+      "weight_pct": 2.99
     },
     {
       "id": "itb",
@@ -2017,21 +2017,20 @@
       "shares": 316823.31,
       "entry_price": 94.69,
       "entry_date": "2026-08-31",
-      "price": 85.58,
-      "asof": "2026-10-05",
-      "market_value": 27113739.45,
+      "price": 86.95,
+      "asof": "2026-10-06",
+      "market_value": 27547785.84,
       "cost_basis": 29999999.22,
-      "unrealized_pnl": 2886259.77,
-      "return_pct": 9.62,
-      "day_pct": -1.22,
-      "week_pct": -3.57,
-      "month_pct": -8.59,
+      "unrealized_pnl": 2452213.39,
+      "return_pct": 8.17,
+      "day_pct": 1.6,
+      "week_pct": -1.62,
+      "month_pct": -7.41,
       "target_weight_pct": 3.0,
       "thesis": "Affordability is broken at both ends: mortgage rates lock out buyers while insurance and now electricity costs raise the true cost of ownership. Builders have been buying volume with rate incentives, which is margin destruction disguised as demand.",
       "catalyst": "Incentive-driven gross margin compression; rising carrying costs from insurance and utility bills.",
       "falsifier": "A sharp decline in long rates unlocking pent-up demand.",
       "sparkline": [
-        97.81,
         98.16,
         97.31,
         95.63,
@@ -2060,10 +2059,11 @@
         87.02,
         87.37,
         86.64,
-        85.58
+        85.58,
+        86.95
       ],
       "source": "yahoo",
-      "weight_pct": 2.64
+      "weight_pct": 2.67
     },
     {
       "id": "bfh",
@@ -2074,21 +2074,20 @@
       "shares": 239303.15,
       "entry_price": 104.47,
       "entry_date": "2026-08-31",
-      "price": 98.9,
-      "asof": "2026-10-05",
-      "market_value": 23667081.9,
+      "price": 97.8,
+      "asof": "2026-10-06",
+      "market_value": 23403848.8,
       "cost_basis": 25000000.08,
-      "unrealized_pnl": 1332918.18,
-      "return_pct": 5.33,
-      "day_pct": 0.87,
-      "week_pct": -2.32,
-      "month_pct": -9.09,
+      "unrealized_pnl": 1596151.28,
+      "return_pct": 6.38,
+      "day_pct": -1.11,
+      "week_pct": -2.27,
+      "month_pct": -11.79,
       "target_weight_pct": 2.5,
       "thesis": "Private-label card credit to the subprime end of the consumer, which is where deterioration always shows up first. Thin capital cushion against rising loss rates, and the retail partners themselves are under pressure.",
       "catalyst": "Net charge-off trends at the low end of the credit spectrum; delinquency migration.",
       "falsifier": "Real wage growth at the low end outrunning debt service costs.",
       "sparkline": [
-        105.19,
         107.63,
         107.56,
         108.03,
@@ -2117,10 +2116,11 @@
         97.75,
         96.94,
         98.05,
-        98.9
+        98.9,
+        97.8
       ],
       "source": "yahoo",
-      "weight_pct": 2.3
+      "weight_pct": 2.26
     },
     {
       "id": "w",
@@ -2177,7 +2177,7 @@
         106.05
       ],
       "source": "yahoo",
-      "weight_pct": 2.6
+      "weight_pct": 2.58
     },
     {
       "id": "tsla",
@@ -2188,21 +2188,20 @@
       "shares": 95121.62,
       "entry_price": 367.95,
       "entry_date": "2026-08-31",
-      "price": 378.73,
-      "asof": "2026-10-05",
-      "market_value": 36025412.19,
+      "price": 380.68,
+      "asof": "2026-10-06",
+      "market_value": 36210897.6,
       "cost_basis": 35000000.08,
-      "unrealized_pnl": -1025412.11,
-      "return_pct": -2.93,
-      "day_pct": 2.2,
-      "week_pct": 5.95,
-      "month_pct": 0.63,
+      "unrealized_pnl": -1210897.53,
+      "return_pct": -3.46,
+      "day_pct": 0.51,
+      "week_pct": 7.89,
+      "month_pct": 7.51,
       "target_weight_pct": 3.5,
       "thesis": "Priced as though autonomy and robotics are already solved while the actual business — selling cars into a competitive, subsidy-reduced market — faces compressing margins. The narrative premium is enormous relative to delivered fundamentals.",
       "catalyst": "Automotive gross margin pressure and share loss in China and Europe against a valuation demanding perfection.",
       "falsifier": "A genuine unsupervised autonomy milestone at scale — the one outcome that justifies the multiple. Squeeze-prone; size accordingly.",
       "sparkline": [
-        348.95,
         350.25,
         345.82,
         354.81,
@@ -2231,7 +2230,8 @@
         354.81,
         354.11,
         370.59,
-        378.73
+        378.73,
+        380.68
       ],
       "source": "yahoo",
       "weight_pct": 3.5
@@ -2245,21 +2245,20 @@
       "shares": 804721.06,
       "entry_price": 37.28,
       "entry_date": "2026-08-31",
-      "price": 43.19,
-      "asof": "2026-10-05",
-      "market_value": 34755901.48,
+      "price": 43.46,
+      "asof": "2026-10-06",
+      "market_value": 34973176.53,
       "cost_basis": 30000001.12,
-      "unrealized_pnl": -4755900.36,
-      "return_pct": -15.85,
-      "day_pct": -1.14,
-      "week_pct": 3.37,
-      "month_pct": 14.05,
+      "unrealized_pnl": -4973175.41,
+      "return_pct": -16.58,
+      "day_pct": 0.63,
+      "week_pct": 5.95,
+      "month_pct": 9.78,
       "target_weight_pct": 3.0,
       "thesis": "The commodity assembler in the AI stack — integrating other people's silicon at low single-digit operating margins while competing with the ODMs the hyperscalers prefer. The natural pair against being long the actual chokepoints: own scarcity, short assembly. Prior accounting and filing issues raise the discount rate on trusting the numbers.",
       "catalyst": "Gross margin compression from ODM competition; working capital strain funding inventory.",
       "falsifier": "Liquid-cooled rack-scale integration proving to be a durable moat rather than a commodity service.",
       "sparkline": [
-        35.17,
         38.46,
         37.39,
         38.46,
@@ -2288,7 +2287,8 @@
         41.07,
         41.92,
         43.69,
-        43.19
+        43.19,
+        43.46
       ],
       "source": "yahoo",
       "weight_pct": 3.38
@@ -2348,7 +2348,7 @@
         114.11
       ],
       "source": "yahoo",
-      "weight_pct": 2.65
+      "weight_pct": 2.63
     },
     {
       "id": "lulu",
@@ -2359,21 +2359,20 @@
       "shares": 166306.33,
       "entry_price": 120.26,
       "entry_date": "2026-08-31",
-      "price": 93.14,
-      "asof": "2026-10-05",
-      "market_value": 15489771.47,
+      "price": 93.61,
+      "asof": "2026-10-06",
+      "market_value": 15567935.65,
       "cost_basis": 19999999.25,
-      "unrealized_pnl": 4510227.77,
-      "return_pct": 22.55,
-      "day_pct": -1.4,
-      "week_pct": -7.4,
-      "month_pct": -23.51,
+      "unrealized_pnl": 4432063.59,
+      "return_pct": 22.16,
+      "day_pct": 0.5,
+      "week_pct": -3.37,
+      "month_pct": -6.96,
       "target_weight_pct": 2.0,
       "thesis": "A premium brand losing its heat in a category with no barriers to entry, still priced for reacceleration. Brand deceleration in apparel is rarely a one-quarter problem, and discounting to defend share destroys the margin that justified the multiple.",
       "catalyst": "North American comparable sales deceleration and markdown pressure from newer competitors.",
       "falsifier": "International growth genuinely offsetting domestic maturity, particularly in China.",
       "sparkline": [
-        122.78,
         118.33,
         116.35,
         115.0,
@@ -2402,7 +2401,8 @@
         96.19,
         95.86,
         94.46,
-        93.14
+        93.14,
+        93.61
       ],
       "source": "yahoo",
       "weight_pct": 1.51
