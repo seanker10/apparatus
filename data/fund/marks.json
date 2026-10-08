@@ -1,17 +1,17 @@
 {
   "as_of": "2026-10-06",
-  "generated_at": "2026-10-07T00:37:36+00:00",
-  "run_date": "2026-10-07",
-  "nav": 1033619588.29,
+  "generated_at": "2026-10-08T00:56:26+00:00",
+  "run_date": "2026-10-08",
+  "nav": 1061455385.66,
   "cash": 416742999.61,
   "capital": 1000000000.0,
-  "total_return_pct": 3.362,
-  "total_pnl": 33619588.29,
-  "day_pnl": 6856629.39,
-  "long_mv": 1071631840.98,
-  "short_mv": 454755252.29,
-  "gross_pct": 147.67,
-  "net_pct": 59.68,
+  "total_return_pct": 6.1455,
+  "total_pnl": 61455385.66,
+  "day_pnl": 33044091.74,
+  "long_mv": 1100024681.12,
+  "short_mv": 455312295.07,
+  "gross_pct": 146.53,
+  "net_pct": 60.74,
   "positions": [
     {
       "id": "ceg",
@@ -22,21 +22,20 @@
       "shares": 236561.5,
       "entry_price": 274.77,
       "entry_date": "2026-08-31",
-      "price": 267.62,
-      "asof": "2026-10-05",
-      "market_value": 63308587.47,
+      "price": 300.4,
+      "asof": "2026-10-06",
+      "market_value": 71063073.16,
       "cost_basis": 65000003.35,
-      "unrealized_pnl": -1691415.88,
-      "return_pct": -2.6,
-      "day_pct": 3.93,
-      "week_pct": 2.76,
-      "month_pct": -6.11,
+      "unrealized_pnl": 6063069.8,
+      "return_pct": 9.33,
+      "day_pct": 12.25,
+      "week_pct": 13.54,
+      "month_pct": 0.48,
       "target_weight_pct": 6.5,
       "thesis": "The largest carbon-free generation fleet in the US at the exact moment hyperscalers will pay almost anything for firm, 24/7, behind-the-meter power. Nuclear capacity cannot be built on an AI timeline, so the existing fleet is a scarcity asset being repriced from commodity power to contracted infrastructure.",
       "catalyst": "Data center PPA pipeline and the reopening of retired nuclear capacity; record PJM summer demand underlines how tight firm generation has become.",
       "falsifier": "A visible break in hyperscaler capex, or regulatory action forcing nuclear output back into merchant pools at commodity pricing.",
       "sparkline": [
-        273.43,
         278.42,
         279.52,
         282.41,
@@ -65,10 +64,11 @@
         254.02,
         258.92,
         257.49,
-        267.62
+        267.62,
+        300.4
       ],
       "source": "yahoo",
-      "weight_pct": 6.12
+      "weight_pct": 6.69
     },
     {
       "id": "gev",
@@ -79,21 +79,20 @@
       "shares": 66775.73,
       "entry_price": 898.53,
       "entry_date": "2026-08-31",
-      "price": 990.0,
-      "asof": "2026-10-05",
-      "market_value": 66107972.7,
+      "price": 1029.21,
+      "asof": "2026-10-06",
+      "market_value": 68726246.46,
       "cost_basis": 59999996.68,
-      "unrealized_pnl": 6107976.02,
-      "return_pct": 10.18,
-      "day_pct": 0.13,
-      "week_pct": 4.24,
-      "month_pct": 5.11,
+      "unrealized_pnl": 8726249.79,
+      "return_pct": 14.54,
+      "day_pct": 3.96,
+      "week_pct": 6.93,
+      "month_pct": 9.26,
       "target_weight_pct": 6.0,
       "thesis": "Owns the gas turbine and grid equipment bottleneck. Heavy-duty turbine slots are effectively sold out for years, which converts a cyclical industrial into a backlog-visible business with pricing power it has never had before.",
       "catalyst": "Turbine backlog and grid equipment orders tied to data center interconnection queues; electrification capex accelerating faster than supply can respond.",
       "falsifier": "Turbine slot cancellations, or margin erosion showing the backlog was booked at bad prices.",
       "sparkline": [
-        942.1,
         926.73,
         953.09,
         953.83,
@@ -122,10 +121,11 @@
         950.49,
         987.45,
         988.7,
-        990.0
+        990.0,
+        1029.21
       ],
       "source": "yahoo",
-      "weight_pct": 6.4
+      "weight_pct": 6.47
     },
     {
       "id": "vst",
@@ -136,21 +136,20 @@
       "shares": 400378.55,
       "entry_price": 137.37,
       "entry_date": "2026-08-31",
-      "price": 144.89,
-      "asof": "2026-10-05",
-      "market_value": 58010847.87,
+      "price": 160.5,
+      "asof": "2026-10-06",
+      "market_value": 64260757.27,
       "cost_basis": 55000001.41,
-      "unrealized_pnl": 3010846.45,
-      "return_pct": 5.47,
-      "day_pct": 3.48,
-      "week_pct": 4.98,
-      "month_pct": 0.46,
+      "unrealized_pnl": 9260755.86,
+      "return_pct": 16.84,
+      "day_pct": 10.77,
+      "week_pct": 13.97,
+      "month_pct": 7.5,
       "target_weight_pct": 5.5,
       "thesis": "Merchant generation with nuclear and gas in the two tightest markets (ERCOT, PJM), run by a management team that treats the share count as a variable to be shrunk. Cash-flow leverage to rising capacity prices is enormous.",
       "catalyst": "PJM capacity auction clearing prices and record summer load; aggressive buyback cadence.",
       "falsifier": "Political intervention capping capacity market prices, or a mild demand year that collapses spark spreads.",
       "sparkline": [
-        135.66,
         139.03,
         140.03,
         139.81,
@@ -179,10 +178,11 @@
         138.35,
         139.75,
         140.02,
-        144.89
+        144.89,
+        160.5
       ],
       "source": "yahoo",
-      "weight_pct": 5.61
+      "weight_pct": 6.05
     },
     {
       "id": "vrt",
@@ -193,21 +193,20 @@
       "shares": 193259.12,
       "entry_price": 258.72,
       "entry_date": "2026-08-31",
-      "price": 253.62,
-      "asof": "2026-10-05",
-      "market_value": 49014377.07,
+      "price": 253.14,
+      "asof": "2026-10-06",
+      "market_value": 48921613.52,
       "cost_basis": 49999999.53,
-      "unrealized_pnl": -985622.46,
-      "return_pct": -1.97,
-      "day_pct": 0.57,
-      "week_pct": 3.93,
-      "month_pct": -5.66,
+      "unrealized_pnl": -1078386.01,
+      "return_pct": -2.16,
+      "day_pct": -0.19,
+      "week_pct": 1.93,
+      "month_pct": -9.76,
       "target_weight_pct": 5.0,
       "thesis": "Picks-and-shovels on rack density. As chips move past 100kW per rack, air cooling stops working and liquid cooling plus power distribution become mandatory — Vertiv sells both, into every hyperscaler regardless of which chip wins.",
       "catalyst": "Liquid-cooling attach rates on next-gen accelerator deployments; backlog conversion.",
       "falsifier": "Hyperscalers in-sourcing thermal design, or a pause in rack deployments compressing the order book.",
       "sparkline": [
-        254.97,
         255.75,
         263.81,
         269.28,
@@ -236,10 +235,11 @@
         241.31,
         246.12,
         252.18,
-        253.62
+        253.62,
+        253.14
       ],
       "source": "yahoo",
-      "weight_pct": 4.74
+      "weight_pct": 4.61
     },
     {
       "id": "pwr",
@@ -296,7 +296,7 @@
         719.56
       ],
       "source": "yahoo",
-      "weight_pct": 5.16
+      "weight_pct": 5.02
     },
     {
       "id": "tln",
@@ -307,21 +307,20 @@
       "shares": 118339.19,
       "entry_price": 295.76,
       "entry_date": "2026-08-31",
-      "price": 331.87,
-      "asof": "2026-10-05",
-      "market_value": 39273226.41,
+      "price": 373.11,
+      "asof": "2026-10-06",
+      "market_value": 44153533.45,
       "cost_basis": 34999998.83,
-      "unrealized_pnl": 4273227.57,
-      "return_pct": 12.21,
-      "day_pct": 3.46,
-      "week_pct": 9.35,
-      "month_pct": 8.62,
+      "unrealized_pnl": 9153534.61,
+      "return_pct": 26.15,
+      "day_pct": 12.43,
+      "week_pct": 18.51,
+      "month_pct": 17.7,
       "target_weight_pct": 3.5,
       "thesis": "Susquehanna nuclear co-located with a hyperscale campus is the cleanest expression of the behind-the-meter trade. Post-bankruptcy capital structure, small float, and a management team returning capital hard.",
       "catalyst": "Nuclear PPA economics and FERC treatment of co-located load; PJM scarcity pricing.",
       "falsifier": "An adverse FERC ruling on behind-the-meter co-location that breaks the premium-pricing model.",
       "sparkline": [
-        305.535,
         307.67,
         306.29,
         304.58,
@@ -350,10 +349,11 @@
         312.69,
         323.09,
         320.77,
-        331.87
+        331.87,
+        373.11
       ],
       "source": "yahoo",
-      "weight_pct": 3.8
+      "weight_pct": 4.16
     },
     {
       "id": "etn",
@@ -410,7 +410,7 @@
         445.09
       ],
       "source": "yahoo",
-      "weight_pct": 3.21
+      "weight_pct": 3.13
     },
     {
       "id": "mu",
@@ -467,7 +467,7 @@
         1045.5601
       ],
       "source": "yahoo",
-      "weight_pct": 6.33
+      "weight_pct": 6.16
     },
     {
       "id": "avgo",
@@ -524,7 +524,7 @@
         375.81
       ],
       "source": "yahoo",
-      "weight_pct": 5.4
+      "weight_pct": 5.26
     },
     {
       "id": "tsm",
@@ -581,7 +581,7 @@
         482.3
       ],
       "source": "yahoo",
-      "weight_pct": 5.62
+      "weight_pct": 5.47
     },
     {
       "id": "anet",
@@ -592,21 +592,20 @@
       "shares": 153303.69,
       "entry_price": 195.69,
       "entry_date": "2026-08-31",
-      "price": 206.9,
-      "asof": "2026-10-05",
-      "market_value": 31718532.53,
+      "price": 215.36,
+      "asof": "2026-10-06",
+      "market_value": 33015482.77,
       "cost_basis": 29999999.1,
-      "unrealized_pnl": 1718533.43,
-      "return_pct": 5.73,
-      "day_pct": -0.22,
-      "week_pct": 0.97,
-      "month_pct": 8.08,
+      "unrealized_pnl": 3015483.68,
+      "return_pct": 10.05,
+      "day_pct": 4.09,
+      "week_pct": 6.16,
+      "month_pct": 11.14,
       "target_weight_pct": 3.0,
       "thesis": "AI back-end networks are becoming as expensive as the compute they connect, and Ethernet is winning that build-out over proprietary fabrics. Arista is the merchant winner of that standards fight.",
       "catalyst": "800G port ramps in AI clusters; Ethernet displacing InfiniBand in new designs.",
       "falsifier": "Hyperscalers standardizing on white-box switching and cutting Arista out of the back end.",
       "sparkline": [
-        188.15,
         190.94,
         202.25,
         201.09,
@@ -635,10 +634,11 @@
         203.59,
         204.49,
         207.35,
-        206.9
+        206.9,
+        215.36
       ],
       "source": "yahoo",
-      "weight_pct": 3.07
+      "weight_pct": 3.11
     },
     {
       "id": "crdo",
@@ -649,21 +649,20 @@
       "shares": 88421.24,
       "entry_price": 226.19,
       "entry_date": "2026-08-31",
-      "price": 212.48,
-      "asof": "2026-10-05",
-      "market_value": 18787744.7,
+      "price": 220.83,
+      "asof": "2026-10-06",
+      "market_value": 19526062.59,
       "cost_basis": 20000000.28,
-      "unrealized_pnl": -1212255.58,
-      "return_pct": -6.06,
-      "day_pct": -2.82,
-      "week_pct": 10.28,
-      "month_pct": 29.43,
+      "unrealized_pnl": -473937.68,
+      "return_pct": -2.37,
+      "day_pct": 3.93,
+      "week_pct": 14.81,
+      "month_pct": 29.47,
       "target_weight_pct": 2.0,
       "thesis": "Active electrical cables solve a boring, unavoidable problem: moving signal across a rack without burning power. Small enough that a single design win moves the P&L — deliberately the highest-beta line in the compute sleeve.",
       "catalyst": "AEC design wins at additional hyperscalers as rack power budgets tighten.",
       "falsifier": "Optics getting cheap enough to displace copper at rack scale, or customer concentration biting.",
       "sparkline": [
-        222.61,
         226.51,
         226.49,
         240.24,
@@ -692,10 +691,11 @@
         194.79,
         210.17,
         218.64,
-        212.48
+        212.48,
+        220.83
       ],
       "source": "yahoo",
-      "weight_pct": 1.82
+      "weight_pct": 1.84
     },
     {
       "id": "mck",
@@ -752,7 +752,7 @@
         921.67
       ],
       "source": "yahoo",
-      "weight_pct": 4.53
+      "weight_pct": 4.41
     },
     {
       "id": "ci",
@@ -809,7 +809,7 @@
         274.37
       ],
       "source": "yahoo",
-      "weight_pct": 3.85
+      "weight_pct": 3.75
     },
     {
       "id": "brkb",
@@ -866,7 +866,7 @@
         505.54
       ],
       "source": "yahoo",
-      "weight_pct": 3.88
+      "weight_pct": 3.78
     },
     {
       "id": "lng",
@@ -923,7 +923,7 @@
         275.26
       ],
       "source": "yahoo",
-      "weight_pct": 3.65
+      "weight_pct": 3.56
     },
     {
       "id": "ccj",
@@ -980,7 +980,7 @@
         93.02
       ],
       "source": "yahoo",
-      "weight_pct": 3.64
+      "weight_pct": 3.55
     },
     {
       "id": "cb",
@@ -1037,7 +1037,7 @@
         334.21
       ],
       "source": "yahoo",
-      "weight_pct": 3.34
+      "weight_pct": 3.25
     },
     {
       "id": "gld",
@@ -1094,7 +1094,7 @@
         382.27
       ],
       "source": "yahoo",
-      "weight_pct": 4.07
+      "weight_pct": 3.97
     },
     {
       "id": "nem",
@@ -1151,7 +1151,7 @@
         116.39
       ],
       "source": "yahoo",
-      "weight_pct": 3.13
+      "weight_pct": 3.04
     },
     {
       "id": "fcx",
@@ -1208,7 +1208,7 @@
         72.56
       ],
       "source": "yahoo",
-      "weight_pct": 3.24
+      "weight_pct": 3.16
     },
     {
       "id": "be",
@@ -1219,21 +1219,20 @@
       "shares": 145419.29,
       "entry_price": 206.3,
       "entry_date": "2026-08-31",
-      "price": 286.65,
-      "asof": "2026-10-05",
-      "market_value": 41684438.59,
+      "price": 295.78,
+      "asof": "2026-10-06",
+      "market_value": 43012117.42,
       "cost_basis": 29999999.53,
-      "unrealized_pnl": 11684439.06,
-      "return_pct": 38.95,
-      "day_pct": -0.86,
-      "week_pct": 9.05,
-      "month_pct": 21.69,
+      "unrealized_pnl": 13012117.89,
+      "return_pct": 43.37,
+      "day_pct": 3.19,
+      "week_pct": 1.56,
+      "month_pct": 16.97,
       "target_weight_pct": 3.0,
       "thesis": "Fuel cells deliver on-site power in months when a utility interconnection takes years — and after this summer's grid emergencies, 'I can energize without the grid' is worth a premium. Real revenue attached to a story that can re-rate violently.",
       "catalyst": "Data center orders for behind-the-meter fuel cell capacity as interconnection queues stretch.",
       "falsifier": "Gross margins failing to scale with volume, which has been the perennial problem here.",
       "sparkline": [
-        204.02,
         217.45,
         218.21,
         217.83,
@@ -1262,10 +1261,11 @@
         276.98,
         277.58,
         289.15,
-        286.65
+        286.65,
+        295.78
       ],
       "source": "yahoo",
-      "weight_pct": 4.03
+      "weight_pct": 4.05
     },
     {
       "id": "nbis",
@@ -1276,21 +1276,20 @@
       "shares": 121170.99,
       "entry_price": 206.32,
       "entry_date": "2026-08-31",
-      "price": 232.57,
-      "asof": "2026-10-05",
-      "market_value": 28180738.03,
+      "price": 249.87,
+      "asof": "2026-10-06",
+      "market_value": 30276994.68,
       "cost_basis": 24999998.66,
-      "unrealized_pnl": 3180739.37,
-      "return_pct": 12.72,
-      "day_pct": -4.22,
-      "week_pct": 0.3,
-      "month_pct": 10.42,
+      "unrealized_pnl": 5276996.02,
+      "return_pct": 21.11,
+      "day_pct": 7.44,
+      "week_pct": 5.27,
+      "month_pct": 10.37,
       "target_weight_pct": 2.5,
       "thesis": "A neocloud with a real balance sheet and European footprint at a fraction of the enterprise value of its US-listed peers. Deliberately paired against the CoreWeave short: same industry, opposite capital structure quality.",
       "catalyst": "Contracted capacity ramps and disclosed ARR growth; sovereign AI demand in Europe.",
       "falsifier": "GPU rental pricing deflating faster than the depreciation schedule assumes.",
       "sparkline": [
-        210.91,
         221.97,
         213.93,
         218.48,
@@ -1319,10 +1318,11 @@
         235.88,
         232.28,
         242.81,
-        232.57
+        232.57,
+        249.87
       ],
       "source": "yahoo",
-      "weight_pct": 2.73
+      "weight_pct": 2.85
     },
     {
       "id": "stx",
@@ -1379,7 +1379,7 @@
         805.63
       ],
       "source": "yahoo",
-      "weight_pct": 2.35
+      "weight_pct": 2.29
     },
     {
       "id": "oklo",
@@ -1390,21 +1390,20 @@
       "shares": 369731.33,
       "entry_price": 40.57,
       "entry_date": "2026-08-31",
-      "price": 35.97,
-      "asof": "2026-10-05",
-      "market_value": 13299236.39,
+      "price": 38.55,
+      "asof": "2026-10-06",
+      "market_value": 14253142.49,
       "cost_basis": 15000000.06,
-      "unrealized_pnl": -1700763.67,
-      "return_pct": -11.34,
-      "day_pct": 0.28,
-      "week_pct": -3.07,
-      "month_pct": -9.71,
+      "unrealized_pnl": -746857.57,
+      "return_pct": -4.98,
+      "day_pct": 7.17,
+      "week_pct": 3.88,
+      "month_pct": -6.59,
       "target_weight_pct": 1.5,
       "thesis": "A pre-revenue option on small modular reactors reaching commercial deployment. Sized as a lottery ticket, not an investment — the entire position can go to zero without damaging the book, and it pays multiples if federal permitting support turns into an operating fleet.",
       "catalyst": "NRC licensing progress and DOE site access under the federal push for firm clean power.",
       "falsifier": "Licensing delays or a capital raise on punitive terms — both entirely plausible.",
       "sparkline": [
-        39.69,
         44.27,
         41.6,
         42.53,
@@ -1433,10 +1432,11 @@
         37.02,
         36.14,
         35.87,
-        35.97
+        35.97,
+        38.55
       ],
       "source": "yahoo",
-      "weight_pct": 1.29
+      "weight_pct": 1.34
     },
     {
       "id": "smr",
@@ -1447,21 +1447,20 @@
       "shares": 1618122.9,
       "entry_price": 9.27,
       "entry_date": "2026-08-31",
-      "price": 7.68,
-      "asof": "2026-10-05",
-      "market_value": 12427183.59,
+      "price": 8.02,
+      "asof": "2026-10-06",
+      "market_value": 12977346.4,
       "cost_basis": 14999999.28,
-      "unrealized_pnl": -2572815.69,
-      "return_pct": -17.15,
-      "day_pct": -0.9,
-      "week_pct": -2.91,
-      "month_pct": -21.23,
+      "unrealized_pnl": -2022652.88,
+      "return_pct": -13.48,
+      "day_pct": 4.43,
+      "week_pct": 3.35,
+      "month_pct": -17.32,
       "target_weight_pct": 1.5,
       "thesis": "The second ticket in a two-name SMR basket. Only design with NRC certification in hand, which matters if the sector transitions from story to schedule. Held as a basket precisely because picking the single winner here is not a skill anyone has.",
       "catalyst": "Order conversion from the certified design; utility and data center interest in firm clean capacity.",
       "falsifier": "Cost overruns repeating the history that killed its first flagship project.",
       "sparkline": [
-        9.05,
         9.81,
         9.27,
         9.74,
@@ -1490,10 +1489,11 @@
         7.9,
         7.79,
         7.75,
-        7.68
+        7.68,
+        8.02
       ],
       "source": "yahoo",
-      "weight_pct": 1.2
+      "weight_pct": 1.22
     },
     {
       "id": "cifr",
@@ -1504,21 +1504,20 @@
       "shares": 967741.94,
       "entry_price": 15.5,
       "entry_date": "2026-08-31",
-      "price": 15.48,
-      "asof": "2026-10-05",
-      "market_value": 14980644.79,
+      "price": 15.5,
+      "asof": "2026-10-06",
+      "market_value": 15000000.07,
       "cost_basis": 15000000.07,
-      "unrealized_pnl": -19355.28,
-      "return_pct": -0.13,
-      "day_pct": -1.46,
-      "week_pct": -7.53,
-      "month_pct": -10.88,
+      "unrealized_pnl": 0.0,
+      "return_pct": 0.0,
+      "day_pct": 0.13,
+      "week_pct": -6.12,
+      "month_pct": -12.63,
       "target_weight_pct": 1.5,
       "thesis": "Owns the one thing that cannot be manufactured quickly: energized substation capacity. The crypto-to-AI conversion turns a bad business into a landlord for hyperscalers, and the market is still repricing these from miner multiples to infrastructure multiples.",
       "catalyst": "Long-term AI hosting leases signed against existing powered sites.",
       "falsifier": "Financing costs on the buildout outrunning lease economics, or counterparty credit disappointing.",
       "sparkline": [
-        15.36,
         16.31,
         16.02,
         16.77,
@@ -1547,10 +1546,11 @@
         15.825,
         15.46,
         15.71,
-        15.48
+        15.48,
+        15.5
       ],
       "source": "yahoo",
-      "weight_pct": 1.45
+      "weight_pct": 1.41
     },
     {
       "id": "qqq",
@@ -1607,7 +1607,7 @@
         759.66
       ],
       "source": "yahoo",
-      "weight_pct": 6.15
+      "weight_pct": 5.99
     },
     {
       "id": "iwm",
@@ -1664,7 +1664,7 @@
         281.34
       ],
       "source": "yahoo",
-      "weight_pct": 3.7
+      "weight_pct": 3.61
     },
     {
       "id": "epam",
@@ -1675,21 +1675,20 @@
       "shares": 212170.07,
       "entry_price": 117.83,
       "entry_date": "2026-08-31",
-      "price": 109.95,
-      "asof": "2026-10-05",
-      "market_value": 23328098.55,
+      "price": 109.31,
+      "asof": "2026-10-06",
+      "market_value": 23192309.83,
       "cost_basis": 24999999.35,
-      "unrealized_pnl": 1671900.8,
-      "return_pct": 6.69,
-      "day_pct": 1.53,
-      "week_pct": 2.23,
-      "month_pct": -8.28,
+      "unrealized_pnl": 1807689.51,
+      "return_pct": 7.23,
+      "day_pct": -0.58,
+      "week_pct": 2.03,
+      "month_pct": -6.6,
       "target_weight_pct": 2.5,
       "thesis": "The business is billable engineering hours priced on labor arbitrage. Code generation attacks the numerator and the pricing model simultaneously — clients who need 30% fewer engineers do not renew at flat rates. A rare short where the disruptor and the disrupted are the same technology I am long elsewhere.",
       "catalyst": "Bill-rate and utilization pressure as clients internalize AI-assisted development.",
       "falsifier": "Successful repositioning into AI implementation work at higher rates rather than lower volume.",
       "sparkline": [
-        111.26,
         111.85,
         109.36,
         112.77,
@@ -1718,10 +1717,11 @@
         108.36,
         114.35,
         108.29,
-        109.95
+        109.95,
+        109.31
       ],
       "source": "yahoo",
-      "weight_pct": 2.26
+      "weight_pct": 2.18
     },
     {
       "id": "it",
@@ -1778,7 +1778,7 @@
         184.92
       ],
       "source": "yahoo",
-      "weight_pct": 2.26
+      "weight_pct": 2.2
     },
     {
       "id": "cnxc",
@@ -1789,21 +1789,20 @@
       "shares": 664451.82,
       "entry_price": 30.1,
       "entry_date": "2026-08-31",
-      "price": 25.87,
-      "asof": "2026-10-05",
-      "market_value": 17189369.14,
+      "price": 24.84,
+      "asof": "2026-10-06",
+      "market_value": 16504983.31,
       "cost_basis": 19999999.78,
-      "unrealized_pnl": 2810630.64,
-      "return_pct": 14.05,
-      "day_pct": 3.85,
-      "week_pct": 1.65,
-      "month_pct": -21.25,
+      "unrealized_pnl": 3495016.47,
+      "return_pct": 17.48,
+      "day_pct": -3.98,
+      "week_pct": -0.16,
+      "month_pct": -22.76,
       "target_weight_pct": 2.0,
       "thesis": "Customer-experience outsourcing is the single most automatable large-scale labor pool in the enterprise, and it is levered. Every credible voice-agent deployment removes seats from exactly this business while the debt stays fixed.",
       "catalyst": "Seat-count deflation as AI agents absorb tier-one support volume; leverage against declining EBITDA.",
       "falsifier": "Successfully reselling AI agents at similar revenue per client, converting the threat into the product.",
       "sparkline": [
-        26.03,
         26.87,
         27.86,
         28.13,
@@ -1832,10 +1831,11 @@
         24.95,
         27.01,
         24.91,
-        25.87
+        25.87,
+        24.84
       ],
       "source": "yahoo",
-      "weight_pct": 1.66
+      "weight_pct": 1.55
     },
     {
       "id": "pltr",
@@ -1846,21 +1846,20 @@
       "shares": 187788.38,
       "entry_price": 186.38,
       "entry_date": "2026-08-31",
-      "price": 189.4,
-      "asof": "2026-10-05",
-      "market_value": 35567118.03,
+      "price": 192.07,
+      "asof": "2026-10-06",
+      "market_value": 36068515.52,
       "cost_basis": 34999998.26,
-      "unrealized_pnl": -567119.76,
-      "return_pct": -1.62,
-      "day_pct": 0.34,
-      "week_pct": 1.02,
-      "month_pct": 3.76,
+      "unrealized_pnl": -1068517.26,
+      "return_pct": -3.05,
+      "day_pct": 1.41,
+      "week_pct": 2.73,
+      "month_pct": 10.18,
       "target_weight_pct": 3.5,
       "thesis": "An excellent business at a valuation that requires flawless execution for a decade. The government revenue that drives the narrative is also the revenue most exposed to appropriations politics. Sized deliberately below maximum because momentum has punished this short repeatedly — the discipline is position size, not conviction.",
       "catalyst": "Multiple compression risk on any deceleration in commercial growth or a federal budget disruption.",
       "falsifier": "Sustained triple-digit commercial growth genuinely earning the multiple — cover on a decisive break higher.",
       "sparkline": [
-        175.89,
         172.73,
         177.5,
         185.93,
@@ -1889,10 +1888,11 @@
         187.05,
         190.04,
         188.75,
-        189.4
+        189.4,
+        192.07
       ],
       "source": "yahoo",
-      "weight_pct": 3.44
+      "weight_pct": 3.4
     },
     {
       "id": "crwv",
@@ -1903,21 +1903,20 @@
       "shares": 353398.52,
       "entry_price": 84.89,
       "entry_date": "2026-08-31",
-      "price": 87.39,
-      "asof": "2026-10-05",
-      "market_value": 30883496.45,
+      "price": 91.72,
+      "asof": "2026-10-06",
+      "market_value": 32413712.69,
       "cost_basis": 30000000.36,
-      "unrealized_pnl": -883496.08,
-      "return_pct": -2.94,
-      "day_pct": -2.49,
-      "week_pct": 2.73,
-      "month_pct": 3.35,
+      "unrealized_pnl": -2413712.32,
+      "return_pct": -8.05,
+      "day_pct": 4.95,
+      "week_pct": 6.74,
+      "month_pct": 2.64,
       "target_weight_pct": 3.0,
       "thesis": "Debt-funded purchases of rapidly depreciating GPUs, leased to a handful of concentrated counterparties. The economics only work if rental pricing holds for the life of the asset — but every new accelerator generation cuts the earning power of the installed base. Paired against the Nebius long.",
       "catalyst": "GPU rental price deflation against a fixed depreciation and interest schedule; customer concentration risk.",
       "falsifier": "Compute demand staying so far ahead of supply that older GPUs hold rental pricing.",
       "sparkline": [
-        86.25,
         88.04,
         88.01,
         86.8,
@@ -1946,10 +1945,11 @@
         87.12,
         88.57,
         89.62,
-        87.39
+        87.39,
+        91.72
       ],
       "source": "yahoo",
-      "weight_pct": 2.99
+      "weight_pct": 3.05
     },
     {
       "id": "mstr",
@@ -2006,7 +2006,7 @@
         164.55
       ],
       "source": "yahoo",
-      "weight_pct": 2.99
+      "weight_pct": 2.92
     },
     {
       "id": "itb",
@@ -2063,7 +2063,7 @@
         86.95
       ],
       "source": "yahoo",
-      "weight_pct": 2.67
+      "weight_pct": 2.6
     },
     {
       "id": "bfh",
@@ -2120,7 +2120,7 @@
         97.8
       ],
       "source": "yahoo",
-      "weight_pct": 2.26
+      "weight_pct": 2.2
     },
     {
       "id": "w",
@@ -2131,21 +2131,20 @@
       "shares": 251838.43,
       "entry_price": 99.27,
       "entry_date": "2026-08-31",
-      "price": 106.05,
-      "asof": "2026-10-05",
-      "market_value": 26707466.27,
+      "price": 105.45,
+      "asof": "2026-10-06",
+      "market_value": 26556361.67,
       "cost_basis": 25000000.95,
-      "unrealized_pnl": -1707465.32,
-      "return_pct": -6.83,
-      "day_pct": 4.74,
-      "week_pct": 7.52,
-      "month_pct": 9.35,
+      "unrealized_pnl": -1556360.73,
+      "return_pct": -6.23,
+      "day_pct": -0.57,
+      "week_pct": 3.43,
+      "month_pct": 6.05,
       "target_weight_pct": 2.5,
       "thesis": "Big-ticket discretionary purchases tied to home turnover, sold at structurally thin margins with negative book value. It is a leveraged bet on a housing transaction recovery that higher-for-longer rates keep deferring.",
       "catalyst": "Existing home sales stagnation feeding directly into furniture demand; no margin cushion.",
       "falsifier": "A genuine housing turnover recovery, or cost cuts producing durable positive free cash flow.",
       "sparkline": [
-        103.19,
         104.53,
         104.0,
         105.01,
@@ -2174,10 +2173,11 @@
         102.56,
         101.37,
         101.25,
-        106.05
+        106.05,
+        105.45
       ],
       "source": "yahoo",
-      "weight_pct": 2.58
+      "weight_pct": 2.5
     },
     {
       "id": "tsla",
@@ -2234,7 +2234,7 @@
         380.68
       ],
       "source": "yahoo",
-      "weight_pct": 3.5
+      "weight_pct": 3.41
     },
     {
       "id": "smci",
@@ -2291,7 +2291,7 @@
         43.46
       ],
       "source": "yahoo",
-      "weight_pct": 3.38
+      "weight_pct": 3.29
     },
     {
       "id": "hood",
@@ -2302,21 +2302,20 @@
       "shares": 238526.86,
       "entry_price": 104.81,
       "entry_date": "2026-08-31",
-      "price": 114.11,
-      "asof": "2026-10-05",
-      "market_value": 27218300.14,
+      "price": 112.0,
+      "asof": "2026-10-06",
+      "market_value": 26715008.32,
       "cost_basis": 25000000.2,
-      "unrealized_pnl": -2218299.94,
-      "return_pct": -8.87,
-      "day_pct": 1.22,
-      "week_pct": -2.02,
-      "month_pct": -8.51,
+      "unrealized_pnl": -1715008.12,
+      "return_pct": -6.86,
+      "day_pct": -1.85,
+      "week_pct": -3.63,
+      "month_pct": -8.28,
       "target_weight_pct": 2.5,
       "thesis": "Earnings are levered to retail speculation — options volume, crypto trading and margin balances all peak together and fall together. This is the cleanest single-name expression of late-cycle retail risk appetite, held as a hedge against the froth the convex sleeve is exposed to.",
       "catalyst": "Retail engagement and crypto volumes normalizing from cycle highs; rate cuts compressing net interest revenue.",
       "falsifier": "Durable diversification into retirement and advisory revenue that de-links earnings from speculation.",
       "sparkline": [
-        103.62,
         112.09,
         108.54,
         109.76,
@@ -2345,10 +2344,11 @@
         112.5,
         111.15,
         112.74,
-        114.11
+        114.11,
+        112.0
       ],
       "source": "yahoo",
-      "weight_pct": 2.63
+      "weight_pct": 2.52
     },
     {
       "id": "lulu",
@@ -2405,7 +2405,7 @@
         93.61
       ],
       "source": "yahoo",
-      "weight_pct": 1.51
+      "weight_pct": 1.47
     }
   ],
   "signals": [],
